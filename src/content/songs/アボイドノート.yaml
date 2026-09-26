@@ -4,17 +4,23 @@ phase: phase1
 works:
   - title: "5"
     type: アルバム
-tieups:
-  - type: タイアップ
-    work: 新曲
-    sources:
-      - um-upch-20549
-status: basic
+tieups: []
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20549
+background:
+  - kind: secondary
+    text: 曲名の「アボイドノート」は音楽用語で、コードの機能を邪魔してしまう扱いづらい音を指す言葉であり、歌詞では「見栄」「嫉妬」「プライド」といった人間の醜い部分がこの音にたとえられていると考察されている。
+    sources: [salute-avoidnote]
+    evidence: "本楽曲の歌詞では「見栄」「嫉妬」「プライド」などといった人間の醜い部分を、自らを滅ぼす（邪魔する）アボイドノートだと比喩して"
 sources:
   - id: um-upch-20549
     title: 5（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
     date: 2020-07-08
+  - id: salute-avoidnote
+    title: 【Mrs. GREEN APPLE／アボイドノート】歌詞の意味を徹底解釈！描かれるは人間の闇…？
+    media: 脳MUSIC 脳LIFE
+    url: https://saluteproject.com/2020/05/27/aboidonote/

@@ -5,12 +5,22 @@ works:
   - title: Love me, Love you
     type: シングル
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-80487
+background:
+  - kind: secondary
+    text: タイトルの「春愁」は、春という明るい季節の中でなぜか感じてしまう寂しさや物憂さを意味する言葉だと紹介されている。
+    sources: [note-apt-crow-shunshuu]
+    evidence: "春という明るい季節の中で、なぜか感じてしまう寂しさや物憂さ"
 sources:
   - id: um-upch-80487
     title: Love me, Love you（シングル）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80487/
     date: 2018-02-14
+  - id: note-apt-crow-shunshuu
+    title: Mrs. GREEN APPLE「春愁」歌詞考察｜“それでいいや”に込められた優しさと、明日への小さな希望
+    media: note（ヒカル）
+    url: https://note.com/apt_crow7500/n/n2944ec173fcd

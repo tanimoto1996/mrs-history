@@ -5,7 +5,8 @@ works:
   - title: Mrs. GREEN APPLE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20443
 sources:
@@ -14,3 +15,19 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20443/
     date: 2017-01-11
+  - id: sec-arai-zesseiseibutsu
+    title: Mrs. GREEN APPLE『絶世生物』歌詞【意味＆考察】生きることの美しさと脆さを同時に抱きしめる
+    media: arai no HIKIDASHI（個人ブログ）
+    url: https://takahiroarai.me/mrsgreenapple-zesseiseibutsu/
+    date: 2017-01-11
+background:
+  - kind: secondary
+    text: 「生きる意味とは何か」「自分に価値があるのか」という誰もが抱く揺らぎを見つめた内省的な作品だとファンブログで解釈されている。
+    sources:
+      - sec-arai-zesseiseibutsu
+    evidence: 誰もが心のどこかで感じる揺らぎを、真正面から見つめた内省的な作品
+  - kind: secondary
+    text: 自分の価値が他人に壊されたとしても「零からやり直せる」と自分に言い聞かせるような、回復への希望を歌った曲だと紹介されている。
+    sources:
+      - sec-arai-zesseiseibutsu
+    evidence: 「零からやり直せる」という言葉。たとえ自分の価値が他人に壊されたとしても

@@ -5,7 +5,8 @@ works:
   - title: TWELVE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20411
 sources:
@@ -14,3 +15,29 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20411/
     date: 2016-01-13
+  - id: sec-arai-misukasazu
+    title: Mrs. GREEN APPLE『ミスカサズ』歌詞【意味＆解釈】｜全てを見透かせれば安心できるのに
+    media: arai no HIKIDASHI（個人ブログ）
+    url: https://takahiroarai.me/mrsgreenapple-misukasazu/
+    date: 2016-01-13
+  - id: sec-salute-misukasazu
+    title: 【Mrs. GREEN APPLE／ミスカサズ】歌詞の意味を徹底解釈！最もダークな楽曲に込められた想いとは？
+    media: 脳MUSIC 脳LIFE（個人ブログ）
+    url: https://saluteproject.com/2018/09/09/post-1291/
+    date: 2018-09-09
+background:
+  - kind: secondary
+    text: 大森が当時のインタビューで「全てに対して気持ち悪いロックを作りたかった」と語ったと紹介されており、収録アルバム『TWELVE』全8曲の中で最もダークな楽曲として話題になったとされる。
+    sources:
+      - sec-arai-misukasazu
+    evidence: 「全てに対して気持ち悪いロックを作りたかった」と語っています
+  - kind: secondary
+    text: 誰かと心から繋がりたいと願う自分と、その願いは叶わないと諦める自分という相反する感情を描いた曲だとファンブログで解釈されている。
+    sources:
+      - sec-arai-misukasazu
+    evidence: 孤独な世界から連れ出してくれる誰かに出会いたいと願う主人公と、そんな願いは叶うはずないと諦める主人公
+  - kind: secondary
+    text: MVは「やりきれない思いの中にほのかな希望が滲み出る楽曲の世界観」というテーマで制作されたと紹介されている。
+    sources:
+      - sec-salute-misukasazu
+    evidence: やりきれない思いの中にほのかな希望が滲み出る楽曲の世界観

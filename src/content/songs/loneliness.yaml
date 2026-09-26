@@ -5,7 +5,8 @@ works:
   - title: ANTENNA
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-pron-1061
 sources:
@@ -14,3 +15,19 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/pron-1061/
     date: 2023-07-05
+  - id: sec-note-loneliness
+    title: "\"Loneliness\" 歌詞考察｜⌇"
+    media: note（個人ブログ）
+    url: https://note.com/tuzuri_/n/n6a48f273a982
+    date: 2023-07-05
+background:
+  - kind: secondary
+    text: 「孤独」を単なる寂しさではなく、愛の形を誤解したまま彷徨う人間の本質として描いた曲だとファンブログで考察されている。
+    sources:
+      - sec-note-loneliness
+    evidence: 愛の形を誤解したまま彷徨う人間の本質として描いているように感じました
+  - kind: secondary
+    text: 歌詞に描かれる愛し方は相手を思いやる愛ではなく自分の心の空白を埋めるための依存的な愛であり、愛せば愛するほど孤独が増幅するという矛盾（パラドックス）を抱えていると解釈されている。
+    sources:
+      - sec-note-loneliness
+    evidence: 愛せば愛すほど孤独を増幅させるという点から、自己保存本能の落とし穴

@@ -5,12 +5,22 @@ works:
   - title: TWELVE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20411
+background:
+  - kind: secondary
+    text: この間奏曲は、目覚まし音や鳥の声のような直接的な音ではなく、時計の音や布団の音、カーテンを開ける音など生活音だけで「朝」の情景を表現していると紹介されている。
+    sources: [note-soisk0325-twelve]
+    evidence: "時計の音、布団をもぞもぞする音、布団をまくって起き上がる音、カーテンを開ける音"
 sources:
   - id: um-upch-20411
     title: TWELVE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20411/
     date: 2016-01-13
+  - id: note-soisk0325-twelve
+    title: Mrs. GREEN APPLE「TWELVE」の感想文
+    media: note（サカキバラ）
+    url: https://note.com/soisk0325/n/n9c2e5fafbb4e

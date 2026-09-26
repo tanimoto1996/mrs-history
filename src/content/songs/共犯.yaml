@@ -5,10 +5,16 @@ works:
   - title: POPS
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-dsku-16186
   - am-6808172946
+background:
+  - kind: official
+    text: 大森元貴は、MAJ（2年連続でアーティスト賞を受賞）の日に「2曲書きたい」と思い立ち、帰宅後にこの「共犯」と「禁じた遊び」の2曲を同じ夜に書き上げたと語っている。
+    sources: [mdpr-kyouhan]
+    evidence: "MAJの日に『やばい。2曲書きたい書かなきゃ』って思って、あの日帰った後に2曲作りました。その2曲っていうのが『共犯』という曲と『禁じた遊び』という曲なんですね"
 sources:
   - id: um-dsku-16186
     title: POPS（アルバム）
@@ -20,3 +26,7 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/6808172946
     date: 2026-09-30
+  - id: mdpr-kyouhan
+    title: Mrs. GREEN APPLE 大森元貴、「共犯」「禁じた遊び」制作秘話（モデルプレス）
+    media: モデルプレス
+    url: https://mdpr.jp/music/detail/4842190

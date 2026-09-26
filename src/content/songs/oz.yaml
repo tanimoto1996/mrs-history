@@ -5,12 +5,22 @@ works:
   - title: In the Morning
     type: シングル
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-80451
+background:
+  - kind: secondary
+    text: この曲は、1900年に出版された児童文学『オズの魔法使い』からインスピレーションを得た寓話的な一曲として紹介されており、歌詞全体が一つの寓話として成立していると考察されている。
+    sources: [arai-oz]
+    evidence: "この曲『Oz』は、1900年にアメリカで出版された児童文学『オズの魔法使い』からインスピレーションを得て書かれた一曲"
 sources:
   - id: um-upch-80451
     title: In the Morning（シングル）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80451/
     date: 2016-11-02
+  - id: arai-oz
+    title: Mrs. GREEN APPLE『Oz』歌詞【意味考察】｜『オズの魔法使い』の世界が凝縮された寓話的名曲（ミセス）
+    media: arai no HIKIDASHI
+    url: https://takahiroarai.me/mrsgreenapple-oz/

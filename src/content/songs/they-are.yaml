@@ -5,12 +5,27 @@ works:
   - title: ENSEMBLE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20483
+background:
+  - kind: secondary
+    text: 大森元貴はENSEMBLE TOURの中で、この曲が自身の実体験に基づく、一番思い入れのある楽曲だと明かしたと紹介されている。
+    sources: [utaten-theyare]
+    evidence: "『They are』が自身の実体験に基づくものであり、一番思い入れのある楽曲"
+  - kind: secondary
+    text: 恋人との別れの中で、自分は相手を本当に愛せていたのかを問い続ける失恋ソングとして考察されている。
+    sources: [utaten-theyare]
+    evidence: "君を愛せていたか解らない"
 sources:
   - id: um-upch-20483
     title: ENSEMBLE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20483/
     date: 2018-04-18
+  - id: utaten-theyare
+    title: Mrs.GREEN APPLE「They are」歌詞の意味を考察！実体験から生まれた切ない失恋ソング
+    media: UtaTen
+    url: https://utaten.com/specialArticle/index/9650
+    date: 2025-11-19

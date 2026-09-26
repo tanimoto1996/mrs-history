@@ -5,7 +5,8 @@ works:
   - title: Progressive
     type: ミニアルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - am-1440794725
 sources:
@@ -14,3 +15,18 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1440794725
     date: 2015-02-18
+  - id: ameblo-mrsfanmiko-anzenpai
+    title: "『アンゼンパイ』無難に生きること…安全牌をポイッと手放してみたら(ミセスグリーンアップル)意味"
+    media: "みこ / Mrs.GREEN APPLEファンの大人JAM'S（アメーバブログ）"
+    url: https://ameblo.jp/mrsfanmiko/entry-12891659542.html
+background:
+  - kind: secondary
+    text: "タイトルの「アンゼンパイ」は麻雀用語の安全牌に由来し、安全で無難な選択を手放して自分の信じた道に挑戦していこうと呼びかける曲だとファンブログで紹介されている。"
+    sources:
+      - ameblo-mrsfanmiko-anzenpai
+    evidence: "安全な選択とか無難な選択はポイッと捨てて、自分の信じた道に行こう"
+  - kind: secondary
+    text: "不安は消えなくても「思いやる愛」に気づくことで、それを乗り越える力が生まれるという解釈が紹介されている。"
+    sources:
+      - ameblo-mrsfanmiko-anzenpai
+    evidence: "『思いやる愛』に気が付くことで、不安を乗り越える力や支えになるものに気付く"

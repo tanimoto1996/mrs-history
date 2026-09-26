@@ -5,7 +5,8 @@ works:
   - title: Attitude
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20531
 sources:
@@ -14,3 +15,19 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
     date: 2019-10-02
+  - id: sec-arai-soup
+    title: Mrs. GREEN APPLE『Soup』歌詞【意味＆解釈】｜この僕の気持ちもいつかは冷めてしまうの？
+    media: arai no HIKIDASHI（個人ブログ）
+    url: https://takahiroarai.me/mrsgreenapple-soup/
+    date: 2019-10-02
+background:
+  - kind: secondary
+    text: 温かいスープがいつか冷めるように、大切な人への熱い思いもいつか冷めてしまうのではという不安を歌った曲だと紹介されている。
+    sources:
+      - sec-arai-soup
+    evidence: どんなに温かいスープもいつかは冷めてしまうように、この僕の思いもいつかは冷めてしまうのかな？
+  - kind: secondary
+    text: 一方で「スープ」には、相手が冷え切ったときにそっと温める存在でありたいという前向きな願いも込められていると解釈されている。
+    sources:
+      - sec-arai-soup
+    evidence: 温かいスープのようにそっと君を温め癒やすことが出来るような存在になりたい

@@ -5,12 +5,27 @@ works:
   - title: TWELVE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20411
+background:
+  - kind: secondary
+    text: 歌詞考察サイトでは、他人からの評価に揺れる心を皮肉や強い言葉で描いた楽曲とされ、認められたい気持ちが誰かを大切にしたいという願いへ変化していく歌詞として紹介されている。
+    sources: [jam03-no7]
+    evidence: "評価に振り回される自分自身にも、どこかうんざりしているように感じられます。"
+  - kind: secondary
+    text: 終盤に登場する「日本脳」という言葉は、周囲に判断を委ねる態度への社会風刺として読めると解釈されている。
+    sources: [jam03-no7]
+    evidence: "人任せや自信のなさ、無関心への指摘と合わせて読むと"
 sources:
   - id: um-upch-20411
     title: TWELVE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20411/
     date: 2016-01-13
+  - id: jam03-no7
+    title: 「No.7」歌詞の意味を考察｜他人の評価と、自分らしい幸せの間で
+    media: jam03.com
+    url: https://www.jam03.com/mrs-green-apple-no-7/
+    date: 2025-11-19

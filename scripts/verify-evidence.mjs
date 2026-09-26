@@ -29,7 +29,7 @@ for (const file of files) {
   const d = parse(readFileSync(file, 'utf8'));
   if (d.status !== 'reviewed') continue;
   for (const b of d.background ?? []) {
-    if (b.kind !== 'official' || !b.evidence) continue;
+    if (b.kind === 'interpretation' || !b.evidence) continue;
     const urls = b.sources.map((id) => d.sources.find((s) => s.id === id)?.url).filter(Boolean);
     const texts = await Promise.all(urls.map(page));
     if (texts.every((t) => t === null)) { unreachable++; console.log(`取得できず  ${file}: ${urls.join(' ')}`); continue; }

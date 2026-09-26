@@ -5,10 +5,16 @@ works:
   - title: POPS
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-dsku-16186
   - am-6808172946
+background:
+  - kind: secondary
+    text: 音楽メディアの記事では、「シンデレラ」はアルバム『POPS』に収録される9曲の書き下ろし新曲の一つとして紹介されている（2026年9月30日発売時点で楽曲の内容は未確認）。
+    sources: [tower-pops-title]
+    evidence: "“共犯”、“シンデレラ”、“本と彗星”、“ア・ポステリオリ”"
 sources:
   - id: um-dsku-16186
     title: POPS（アルバム）
@@ -20,3 +26,8 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/6808172946
     date: 2026-09-30
+  - id: tower-pops-title
+    title: Mrs. GREEN APPLE、9月30日発売の6thオリジナル・フル・アルバムのタイトルは「POPS」。カバー・アート＆特設サイト公開
+    media: TOWER RECORDS ONLINE
+    url: https://tower.jp/article/news/2026/09/09/tg008
+    date: 2026-09-09

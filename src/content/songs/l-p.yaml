@@ -5,12 +5,28 @@ works:
   - title: Variety
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20396
+background:
+  - kind: secondary
+    text: タイトルの「L.P」は"Love Person"の頭文字からとされ、攻撃的でロックな曲調の中に愛する人を失うことへの寂しさや恐怖が描かれていると紹介されている。
+    sources:
+      - arai-lp
+    evidence: 攻撃的でロックな楽曲ですが、歌われるのはどこか寂しさを感じる
+  - kind: secondary
+    text: 曲中の「死ぬ」という状態は、愛する人の記憶の中から自分という存在が消えてしまうことを指すとファンの間で解釈されている。
+    sources:
+      - arai-lp
+    evidence: 愛する人の頭（記憶）の中から自分という存在が消えてしまったとき
 sources:
   - id: um-upch-20396
     title: Variety（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20396/
     date: 2015-07-08
+  - id: arai-lp
+    title: Mrs. GREEN APPLE『L.P』歌詞【意味＆考察】
+    media: arai no HIKIDASHI
+    url: https://takahiroarai.me/mrsgreenapple-lp/

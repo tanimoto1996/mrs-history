@@ -5,7 +5,8 @@ works:
   - title: ANTENNA
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-pron-1061
 sources:
@@ -14,3 +15,23 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/pron-1061/
     date: 2023-07-05
+  - id: arai-hikidashi-bff
+    title: "Mrs. GREEN APPLE『BFF』歌詞【意味＆考察】日常にある永遠を歌う、今日を抱きしめる曲（ミセス）"
+    media: arai no HIKIDASHI
+    url: https://takahiroarai.me/mrsgreenapple-bff/
+    date: 2025-08-30
+  - id: utaten-bff
+    title: "Mrs. GREEN APPLE『BFF』歌詞の意味を考察。ままならない世界でつながりを慈しむ"
+    media: UtaTen
+    url: https://utaten.com/specialArticle/index/10072
+background:
+  - kind: secondary
+    text: "タイトルの「BFF」は「Best Friends Forever」の略とされ、日々ふつうに一緒に過ごす今日が続くこと自体を「永遠」として描いた曲だと紹介されている。"
+    sources:
+      - arai-hikidashi-bff
+    evidence: "つまり、永遠とは非現実的なものではなく、「毎日、ふつうに一緒に過ごす今日」が続いていく"
+  - kind: secondary
+    text: "1番はメンバーの若井滉斗、2番は藤澤涼架へ向けたメッセージとして読むファンの声もあるが、公式な明言はないと紹介されている。"
+    sources:
+      - arai-hikidashi-bff
+    evidence: "ファンの間では1番＝若井滉斗、2番＝藤澤涼架へ向けたメッセージとして読む声もあります"

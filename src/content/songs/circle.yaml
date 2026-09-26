@@ -5,12 +5,28 @@ works:
   - title: Attitude
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20531
+background:
+  - kind: secondary
+    text: 「Circle」というタイトルは円や環を意味し、一日のはじまりと終わりが一生のはじまりと終わりのように重なっていく様子を描いた曲だとファンサイトで紹介されている。
+    sources:
+      - seeek-circle
+    evidence: 一日のはじまりと終わりが、まるで一生のはじまりと終わりのように重なってゆく
+  - kind: secondary
+    text: ピアノと歌だけで構成されたシンプルな編成は、Mrs. GREEN APPLEの「引き算の美学」を象徴する一曲と紹介されている。
+    sources:
+      - seeek-circle
+    evidence: ピアノと歌だけで紡がれたこの楽曲は、Mrs. GREEN APPLEの引き算の美学を象徴する一曲
 sources:
   - id: um-upch-20531
     title: Attitude（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
     date: 2019-10-02
+  - id: seeek-circle
+    title: Circle【Mrs. GREEN APPLE】歌詞の意味を考察！
+    media: SEEEK
+    url: https://seeek.world/artists/mrs-green-apple/meanings/circle/

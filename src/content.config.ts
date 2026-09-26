@@ -17,7 +17,7 @@ const source = z.object({
 });
 
 const statement = z.object({
-  kind: z.enum(['official', 'interpretation']),
+  kind: z.enum(['official', 'interpretation', 'secondary']),
   text: z.string(),
   sources: z.array(z.string()).default([]),
   evidence: z.string().optional(),

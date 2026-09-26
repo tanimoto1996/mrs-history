@@ -5,12 +5,28 @@ works:
   - title: Mrs. GREEN APPLE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20443
+background:
+  - kind: secondary
+    text: ライオンは本来「百獣の王」のイメージを持たれがちだが、実際は群れで支え合って生きる動物であり、この曲は誰かに頼ることを弱さと感じてしまう世界でも支え合って生きたいと願う歌だとファンブログで解釈されている。
+    sources:
+      - ameblo-mrsfanmiko-lion
+    evidence: 実際のライオンは、群れで生きる動物。狩りも、子育ても、すべて一頭ではできない
+  - kind: secondary
+    text: 自分の弱さを認めることこそが本当の強さであり、見栄やプライドを脱ぎ捨てて弱さを受け入れる勇気を描いた曲だと紹介されている。
+    sources:
+      - ameblo-mrsfanmiko-lion
+    evidence: 本当の強さって、自分が弱いことを知っている
 sources:
   - id: um-upch-20443
     title: Mrs. GREEN APPLE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20443/
     date: 2017-01-11
+  - id: ameblo-mrsfanmiko-lion
+    title: 『Lion』"弱さを知る強さ"というライオンの本当の姿
+    media: みこ / Mrs.GREEN APPLEファンの大人JAM'S（アメーバブログ）
+    url: https://ameblo.jp/mrsfanmiko/entry-12893619965.html
