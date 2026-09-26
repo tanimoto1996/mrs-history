@@ -32,3 +32,14 @@ sources:
     media: UtaTen
     url: https://utaten.com/specialArticle/index/9650
     date: 2025-11-19
+  - id: am-song-1360524265
+    title: They are - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1360524265
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1360524265
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 中西亮輔（ストリングアレンジャー、ホルンアレンジャー）"

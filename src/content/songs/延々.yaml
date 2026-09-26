@@ -16,8 +16,7 @@ basicSources:
   - um-upch-20620
 background:
   - kind: secondary
-    text: 「延々と愛すには
-      君がいない」という一節について、単なる不在の悲しみではなく、君がいないことでしか叶えられなかった永遠への願いという矛盾を描いているとファンの考察noteで紹介されている。
+    text: 「延々と愛すには 君がいない」という一節について、単なる不在の悲しみではなく、君がいないことでしか叶えられなかった永遠への願いという矛盾を描いているとファンの考察noteで紹介されている。
     sources:
       - note-kao407-enen
     evidence: 永遠を願ったのに、“君がいない”ことでしか叶えられなかった矛盾
@@ -36,3 +35,14 @@ sources:
     title: “延々と愛すには 君がいない”——引っかかったこの一行の意味に気づいたとき、私は震えた。Mrs. GREEN APPLE『延々』考察
     media: note（ミセス考察）
     url: https://note.com/kao407/n/n3d81a8d21768
+  - id: am-song-1675599100
+    title: 延々 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1675599100
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、花井諒
+  sources:
+    - am-song-1675599100
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 花井諒（アレンジャー）"

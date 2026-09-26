@@ -27,3 +27,13 @@ sources:
     media: ダルマブログ
     url: https://darumano-kuni.com/mrs-green-apple-1st-twelve-part1/
     date: 2024-04-08
+  - id: am-song-1440788121
+    title: 藍(あお) - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440788121
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  sources:
+    - am-song-1440788121
+  evidence: "作詞 作曲: 大森元貴（ソングライター）"

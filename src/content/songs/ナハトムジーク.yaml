@@ -18,8 +18,7 @@ status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
-    text: 映画「サイレントラブ」の主題歌決定にあたり、Mrs. GREEN
-      APPLEは「人を思うとは、過去を背負うとは、幸せを描くとは、とても普遍的な綺麗事ではない題材を抱えた作品だ」とコメントしている。
+    text: 映画「サイレントラブ」の主題歌決定にあたり、Mrs. GREEN APPLEは「人を思うとは、過去を背負うとは、幸せを描くとは、とても普遍的な綺麗事ではない題材を抱えた作品だ」とコメントしている。
     sources:
       - otocoto-2023-silentlove
     evidence: 人を思うとは、過去を背負うとは、幸せを描くとは、とても普遍的な綺麗事ではない題材を抱えた作品だ
@@ -46,3 +45,14 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1823814178
     date: 2025-07-07
+  - id: am-song-1823814196
+    title: ナハトムジーク - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1823814196
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1823814196
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 伊藤 賢（ホルンアレンジャー、ストリングアレンジャー）"

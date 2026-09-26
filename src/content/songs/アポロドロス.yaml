@@ -37,8 +37,7 @@ background:
       - natalie-2026-apollodoros-bts
     evidence: 後半部は2015年に大森元貴（Vo, G）がオリンピックをテーマにして書いた楽曲「命の花」が用いられた
   - kind: official
-    text: 「アポロドロス ～2026 winter
-      version～」は、パリ2024オリンピックに続き、ミラノ・コルティナ2026冬季オリンピックのテレビ朝日系列スポーツ応援ソングにも選ばれ、冬季五輪向けに新たなアレンジが施された。
+    text: 「アポロドロス ～2026 winter version～」は、パリ2024オリンピックに続き、ミラノ・コルティナ2026冬季オリンピックのテレビ朝日系列スポーツ応援ソングにも選ばれ、冬季五輪向けに新たなアレンジが施された。
     sources:
       - natalie-2026-apollodoros-bts
     evidence: 冬季五輪のために新たなアレンジを施された「アポロドロス ～2026 winter version～」
@@ -70,3 +69,14 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1823814178
     date: 2025-07-07
+  - id: am-song-1823814200
+    title: アポロドロス - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1823814200
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1823814200
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 久保田 真悟（ストリングアレンジャー） / 室屋光一郎（ストリングアレンジャー）"

@@ -27,3 +27,14 @@ sources:
     media: Skream!
     url: https://skream.jp/interview/2019/10/mrs_green_apple.php
     date: 2019-10-01
+  - id: am-song-1606369361
+    title: Viking - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1606369361
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1606369361
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

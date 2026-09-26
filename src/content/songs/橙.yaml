@@ -31,3 +31,14 @@ sources:
     media: 音楽ナタリー
     url: https://natalie.mu/music/news/586855
     date: 2024-08-16
+  - id: am-song-1691229819
+    title: 橙 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1691229819
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、花井諒
+  sources:
+    - am-song-1691229819
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 花井諒（アレンジャー）"

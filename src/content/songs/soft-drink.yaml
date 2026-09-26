@@ -41,3 +41,14 @@ sources:
     media: BARKS
     url: https://www.barks.jp/news/?id=1000137854
     date: 2017-02-03
+  - id: am-song-1440883424
+    title: soFt-dRink - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440883424
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1440883424
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

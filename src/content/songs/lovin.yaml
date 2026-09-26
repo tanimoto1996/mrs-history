@@ -31,3 +31,14 @@ sources:
     media: 音楽ナタリー
     url: https://natalie.mu/music/news/337627
     date: 2019-06-29
+  - id: am-song-1475233708
+    title: lovin' - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1475233708
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1475233708
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

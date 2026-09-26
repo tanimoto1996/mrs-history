@@ -27,3 +27,14 @@ sources:
     media: TOKYO FM+（SCHOOL OF LOCK! ミセスLOCKS!）
     url: https://news.audee.jp/news/meem0g60du.html
     date: 2023-07-18
+  - id: am-song-1691229811
+    title: Blizzard - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1691229811
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、陶山隼
+  sources:
+    - am-song-1691229811
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 陶山隼（アレンジャー）"

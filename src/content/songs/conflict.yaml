@@ -27,3 +27,13 @@ sources:
     media: Skream!
     url: https://skream.jp/interview/2015/02/mrs_green_apple.php
     date: 2015-02-03
+  - id: am-song-1440794976
+    title: CONFLICT - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440794976
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  sources:
+    - am-song-1440794976
+  evidence: "作詞 作曲: 大森元貴（ソングライター）"

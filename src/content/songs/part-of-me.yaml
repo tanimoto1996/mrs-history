@@ -10,8 +10,7 @@ status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
-    text: 大森元貴は「Part of
-      me」について、言い回しや表現が正しいか自問自答を繰り返し、歌詞をかなり熟考して書いたと語っている。バンド結成10年目前にして初めて、曲が書けずレコーディングスケジュールを飛ばした曲でもあるという。
+    text: 大森元貴は「Part of me」について、言い回しや表現が正しいか自問自答を繰り返し、歌詞をかなり熟考して書いたと語っている。バンド結成10年目前にして初めて、曲が書けずレコーディングスケジュールを飛ばした曲でもあるという。
     sources:
       - fashionpress-2022-mga
     evidence: 自問自答を繰り返して、歌詞を書くのもかなり熟考しました
@@ -38,3 +37,14 @@ sources:
     media: Real Sound
     url: https://realsound.jp/2022/12/post-1204572_2.html
     date: 2022-12-09
+  - id: am-song-1627629634
+    title: Part of me - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1627629634
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、花井諒
+  sources:
+    - am-song-1627629634
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 花井諒（アレンジャー）"

@@ -28,8 +28,7 @@ background:
       - realsound-2025-goodday
     evidence: 本当に楽しくて。その時の最高の雰囲気がそのままCMになりました
   - kind: official
-    text: 「GOOD
-      DAY」はキリンビールの新ブランド「キリングッドエール」のために書き下ろされた楽曲で、大森元貴は同ブランドの2番目のブランドリーダーに就任した。同曲を使用した新CMは2025年10月6日より全国で順次放映予定と発表された。
+    text: 「GOOD DAY」はキリンビールの新ブランド「キリングッドエール」のために書き下ろされた楽曲で、大森元貴は同ブランドの2番目のブランドリーダーに就任した。同曲を使用した新CMは2025年10月6日より全国で順次放映予定と発表された。
     sources:
       - mga-news-21893
     evidence: 新曲「GOOD DAY」がキリンビール新ブランド「キリングッドエール」CMソングに起用決定
@@ -58,3 +57,14 @@ sources:
     media: Real Sound
     url: https://realsound.jp/2025/10/post-2181288.html
     date: 2025-10-07
+  - id: am-song-1841344390
+    title: GOOD DAY - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1841344390
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1841344390
+  evidence: "作詞 作曲: 大森元貴（作曲者、アレンジャー、歌詞） / 久保田 真悟（ストリングアレンジャー、ホルンアレンジャー、キーボードアレンジャー） / 三國茉莉（ストリングアレンジャー） / 半田信英（ホルンアレンジャー） / 兼松 衆（キーボードアレンジャー）"

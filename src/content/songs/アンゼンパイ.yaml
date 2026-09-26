@@ -20,6 +20,10 @@ sources:
     title: 『アンゼンパイ』無難に生きること…安全牌をポイッと手放してみたら(ミセスグリーンアップル)意味
     media: みこ / Mrs.GREEN APPLEファンの大人JAM'S（アメーバブログ）
     url: https://ameblo.jp/mrsfanmiko/entry-12891659542.html
+  - id: am-song-1440794980
+    title: アンゼンパイ - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440794980
 background:
   - kind: secondary
     text: タイトルの「アンゼンパイ」は麻雀用語の安全牌に由来し、安全で無難な選択を手放して自分の信じた道に挑戦していこうと呼びかける曲だとファンブログで紹介されている。
@@ -31,3 +35,9 @@ background:
     sources:
       - ameblo-mrsfanmiko-anzenpai
     evidence: 『思いやる愛』に気が付くことで、不安を乗り越える力や支えになるものに気付く
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  sources:
+    - am-song-1440794980
+  evidence: "作詞 作曲: 大森元貴（ソングライター）"

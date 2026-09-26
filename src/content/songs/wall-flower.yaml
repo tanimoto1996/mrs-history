@@ -27,3 +27,13 @@ sources:
     media: HMV ONLINE
     url: https://www.hmv.co.jp/news/article/1502130058/
     date: 2015-02-17
+  - id: am-song-1440795112
+    title: WaLL FloWeR - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440795112
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  sources:
+    - am-song-1440795112
+  evidence: "作詞 作曲: 大森元貴（ソングライター）"

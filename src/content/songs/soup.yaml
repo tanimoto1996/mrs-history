@@ -21,6 +21,10 @@ sources:
     media: arai no HIKIDASHI（個人ブログ）
     url: https://takahiroarai.me/mrsgreenapple-soup/
     date: 2019-10-02
+  - id: am-song-1606370365
+    title: Soup - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1606370365
 background:
   - kind: secondary
     text: 温かいスープがいつか冷めるように、大切な人への熱い思いもいつか冷めてしまうのではという不安を歌った曲だと紹介されている。
@@ -32,3 +36,10 @@ background:
     sources:
       - sec-arai-soup
     evidence: 温かいスープのようにそっと君を温め癒やすことが出来るような存在になりたい
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1606370365
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

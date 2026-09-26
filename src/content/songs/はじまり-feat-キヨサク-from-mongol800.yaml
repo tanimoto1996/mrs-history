@@ -32,3 +32,14 @@ sources:
     media: Skream!
     url: https://skream.jp/news/2018/04/mrs_green_apple_hajimari_mv.php
     date: 2018-04-27
+  - id: am-song-1360524262
+    title: はじまり feat. キヨサク from MONGOL800 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1360524262
+credits:
+  lyrics: KIYOSAKU、大森元貴
+  music: KIYOSAKU、大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1360524262
+  evidence: "作詞 作曲: KIYOSAKU（ソングライター） / 大森元貴（アレンジャー、ソングライター）"

@@ -26,3 +26,12 @@ sources:
     title: Mrs. GREEN APPLE「TWELVE」の感想文
     media: note（サカキバラ）
     url: https://note.com/soisk0325/n/n9c2e5fafbb4e
+  - id: am-song-1440788454
+    title: InTerLuDe ~白い朝~ - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440788454
+credits:
+  music: 大森元貴
+  sources:
+    - am-song-1440788454
+  evidence: "作詞 作曲: 大森元貴（作曲者）"

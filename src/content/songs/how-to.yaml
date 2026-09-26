@@ -45,3 +45,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
     date: 2019-10-02
+  - id: am-song-1475233728
+    title: How-to - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1475233728
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1475233728
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

@@ -13,8 +13,7 @@ tieups:
       - natalie-2022-blueambience
 background:
   - kind: official
-    text: この曲はMrs. GREEN
-      APPLEが活動再開後3曲目として書き下ろした新曲で、シンガーソングライターのasmiをフィーチャリングしている。ABEMAオリジナル恋愛番組「今日、好きになりました。初虹編」の主題歌として発表された。
+    text: この曲はMrs. GREEN APPLEが活動再開後3曲目として書き下ろした新曲で、シンガーソングライターのasmiをフィーチャリングしている。ABEMAオリジナル恋愛番組「今日、好きになりました。初虹編」の主題歌として発表された。
     sources:
       - natalie-2022-blueambience
     evidence: ABEMAオリジナル恋愛番組「今日、好きになりました。初虹編」の主題歌として新曲「ブルーアンビエンス（feat. asmi）」を書き下ろした。
@@ -33,3 +32,14 @@ sources:
     media: 音楽ナタリー
     url: https://natalie.mu/music/news/471654
     date: 2022-03-29
+  - id: am-song-1627629624
+    title: ブルーアンビエンス (feat. asmi) - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1627629624
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、山下洋介
+  sources:
+    - am-song-1627629624
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 山下洋介（アレンジャー）"

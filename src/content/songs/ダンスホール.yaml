@@ -16,8 +16,7 @@ tieups:
       - barks-2022-mezamashi8
 background:
   - kind: official
-    text: 「ダンスホール」はフジテレビ系『めざまし8』のために書き下ろされた曲で、番組側からは「朝だから爽やかに」という指示とともに過去曲「Love me,
-      Love you」がリファレンスとして提示された。
+    text: 「ダンスホール」はフジテレビ系『めざまし8』のために書き下ろされた曲で、番組側からは「朝だから爽やかに」という指示とともに過去曲「Love me, Love you」がリファレンスとして提示された。
     sources:
       - barks-2022-unity-interview
     evidence: 「朝だから爽やかに」
@@ -73,3 +72,14 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1823814178
     date: 2025-07-07
+  - id: am-song-1823814183
+    title: ダンスホール - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1823814183
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、久保田 真悟
+  sources:
+    - am-song-1823814183
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 久保田 真悟（アレンジャー）"

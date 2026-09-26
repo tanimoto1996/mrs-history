@@ -32,3 +32,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://sp.universal-music.co.jp/mrsgreenapple/bestalbum5/interview01.html
     date: 2020-07-08
+  - id: am-song-1509923628
+    title: スターダム - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1509923628
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1509923628
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

@@ -26,3 +26,14 @@ sources:
     title: umbrella ~Mrs. Green Apple~ | 歌詞を考察
     media: Ameba blog（loveryubi）
     url: https://ameblo.jp/loveryubi/entry-12869930493.html
+  - id: am-song-1445294673
+    title: umbrella - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1445294673
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1445294673
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

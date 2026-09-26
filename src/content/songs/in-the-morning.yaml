@@ -21,8 +21,7 @@ status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
-    text: 大森元貴は、20歳を迎える節目に自分たちのやりたいことを見つめ直す気持ちで「In the
-      Morning」を制作したと語っている。バンドをストーリーとして描いていきたいという意識から、20歳になったら音楽性が一度振り出しに戻るだろうと結成当時から考えていたという。
+    text: 大森元貴は、20歳を迎える節目に自分たちのやりたいことを見つめ直す気持ちで「In the Morning」を制作したと語っている。バンドをストーリーとして描いていきたいという意識から、20歳になったら音楽性が一度振り出しに戻るだろうと結成当時から考えていたという。
     sources:
       - musica-2016-inthemorning
     evidence: 二十歳をきっかけにもう一度自分らのやりたいことを見返してみたというか
@@ -37,8 +36,7 @@ basicSources:
   - um-upch-20549
 sources:
   - id: musica-2016-inthemorning
-    title: Mrs. GREEN APPLE、自身の音楽をより自由に開花させた シングル『In the Morning』発表！
-      ティーンポップを打ち鳴らしていく決意を大森元貴が語る
+    title: Mrs. GREEN APPLE、自身の音楽をより自由に開花させた シングル『In the Morning』発表！ ティーンポップを打ち鳴らしていく決意を大森元貴が語る
     media: MUSICA
     url: http://musica-net.jp/articles/preview/5848/
     date: 2016-11-17
@@ -57,3 +55,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
     date: 2020-07-08
+  - id: am-song-1444867227
+    title: In the Morning - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1444867227
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1444867227
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

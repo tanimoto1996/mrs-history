@@ -27,3 +27,14 @@ sources:
     media: Skream! (en.skream.jp)
     url: https://en.skream.jp/interview/2019/10/mrs_green_apple.php
     date: 2019-10-01
+  - id: am-song-1606368932
+    title: InsPirATioN - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1606368932
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1606368932
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

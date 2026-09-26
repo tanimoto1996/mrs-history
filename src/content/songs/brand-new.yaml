@@ -15,8 +15,7 @@ status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
-    text: 大森元貴は書き下ろし楽曲「Brand
-      New」について、映画ファン・MCUファンとして日本版主題歌の意義と愛を伝えたいという思いで参加したと述べている。
+    text: 大森元貴は書き下ろし楽曲「Brand New」について、映画ファン・MCUファンとして日本版主題歌の意義と愛を伝えたいという思いで参加したと述べている。
     sources:
       - tower-2026-brand-new
     evidence: 日本版主題歌の存在意義を、愛を、しっかりと伝えたい
@@ -47,3 +46,14 @@ sources:
     title: Mrs. GREEN APPLE・大森元貴が楽曲制作のための打ち合わせを回顧「どういう世界線なんだろう？」
     media: WEBザテレビジョン
     url: https://thetv.jp/news/detail/1428926/
+  - id: am-song-6788211810
+    title: Brand New - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/6788211810
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、兼松 衆
+  sources:
+    - am-song-6788211810
+  evidence: "作詞 作曲: 大森元貴（作曲者、アレンジャー、歌詞） / 兼松 衆（アレンジャー）"

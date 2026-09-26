@@ -27,3 +27,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/d2cn-1510/
     date: 2019-04-03
+  - id: am-song-1454643223
+    title: 月とアネモネ - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1454643223
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、山下洋輔
+  sources:
+    - am-song-1454643223
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 山下洋輔（アレンジャー）"

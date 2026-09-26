@@ -21,9 +21,20 @@ sources:
     media: Yahoo!知恵袋
     url: https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10230153175
     date: 2020-08-16
+  - id: am-song-1440788506
+    title: HeLLo - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440788506
 background:
   - kind: secondary
     text: 大森が「自分をまず、愛して下さい」という意味だと語ったという話がファンの間で紹介されており、歌詞の肯定的な言葉が自己肯定をうながす曲だと解釈されている。
     sources:
       - sec-chiebukuro-hello
     evidence: 「自分をまず、愛して下さい」という意味らしいです！
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1440788506
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

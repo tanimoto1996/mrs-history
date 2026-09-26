@@ -36,3 +36,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20483/
     date: 2018-04-18
+  - id: am-song-1360524270
+    title: SPLASH!!! - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1360524270
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1360524270
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

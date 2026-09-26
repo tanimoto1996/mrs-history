@@ -26,14 +26,12 @@ background:
       - tokyofm-2025-natsunokage-1
     evidence: 作って、納品して『ここからはもう飛行機乗るので無理です！』って言って
   - kind: official
-    text: 「夏の影」は、Snow Manの目黒蓮と俳優の中条あやみが出演する「キリン
-      午後の紅茶」CM「夏の影」編のために書き下ろされた曲で、メンバーはラジオ番組でこのCMについて語り合っている。
+    text: 「夏の影」は、Snow Manの目黒蓮と俳優の中条あやみが出演する「キリン 午後の紅茶」CM「夏の影」編のために書き下ろされた曲で、メンバーはラジオ番組でこのCMについて語り合っている。
     sources:
       - tokyofm-2025-natsunokage-2
     evidence: 「キリン 午後の紅茶」のCM「夏の影」編のために書き下ろした新曲「夏の影」について語りました
   - kind: official
-    text: MVは「MGA MAGICAL 10 YEARS ANNIVERSARY LIVE
-      ～FJORD～」終了後すぐに撮影されたもので、大森元貴は都心を離れた小旅行のようなコンセプトだったと説明している。
+    text: MVは「MGA MAGICAL 10 YEARS ANNIVERSARY LIVE ～FJORD～」終了後すぐに撮影されたもので、大森元貴は都心を離れた小旅行のようなコンセプトだったと説明している。
     sources:
       - tokyofm-2025-natsunokage-3
     evidence: ちょっと都心を離れて。夏休みというか、小旅行しよう！っていう、そんなMVが公開されました！
@@ -63,3 +61,14 @@ sources:
     media: TOKYO FM+
     url: https://news.audee.jp/news/5kAtu3Yvkz.html
     date: 2025-08-18
+  - id: am-song-1831207784
+    title: 夏の影 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1831207784
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、兼松 衆
+  sources:
+    - am-song-1831207784
+  evidence: "作詞 作曲: 大森元貴（作曲者、アレンジャー、歌詞） / 兼松 衆（アレンジャー）"

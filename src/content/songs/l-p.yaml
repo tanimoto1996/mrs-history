@@ -12,8 +12,7 @@ basicSources:
   - um-upch-20396
 background:
   - kind: secondary
-    text: タイトルの「L.P」は"Love
-      Person"の頭文字からとされ、攻撃的でロックな曲調の中に愛する人を失うことへの寂しさや恐怖が描かれていると紹介されている。
+    text: タイトルの「L.P」は"Love Person"の頭文字からとされ、攻撃的でロックな曲調の中に愛する人を失うことへの寂しさや恐怖が描かれていると紹介されている。
     sources:
       - arai-lp
     evidence: 攻撃的でロックな楽曲ですが、歌われるのはどこか寂しさを感じる
@@ -32,3 +31,13 @@ sources:
     title: Mrs. GREEN APPLE『L.P』歌詞【意味＆考察】
     media: arai no HIKIDASHI
     url: https://takahiroarai.me/mrsgreenapple-lp/
+  - id: am-song-1440745449
+    title: L.P - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440745449
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  sources:
+    - am-song-1440745449
+  evidence: "作詞 作曲: 大森元貴（ソングライター）"

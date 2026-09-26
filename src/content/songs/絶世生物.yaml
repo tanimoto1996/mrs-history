@@ -21,6 +21,10 @@ sources:
     media: arai no HIKIDASHI（個人ブログ）
     url: https://takahiroarai.me/mrsgreenapple-zesseiseibutsu/
     date: 2017-01-11
+  - id: am-song-1440883180
+    title: 絶世生物 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440883180
 background:
   - kind: secondary
     text: 「生きる意味とは何か」「自分に価値があるのか」という誰もが抱く揺らぎを見つめた内省的な作品だとファンブログで解釈されている。
@@ -32,3 +36,10 @@ background:
     sources:
       - sec-arai-zesseiseibutsu
     evidence: 「零からやり直せる」という言葉。たとえ自分の価値が他人に壊されたとしても
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1440883180
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

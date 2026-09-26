@@ -27,3 +27,14 @@ sources:
     media: Real Sound
     url: https://realsound.jp/2023/07/post-1368324.html
     date: 2023-07-06
+  - id: am-song-1691229817
+    title: norn - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1691229817
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、花井諒
+  sources:
+    - am-song-1691229817
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 花井諒（アレンジャー） / Marcus Lindberg（翻訳）"

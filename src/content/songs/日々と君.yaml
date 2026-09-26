@@ -37,3 +37,14 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1440794725
     date: 2015-02-18
+  - id: am-song-1440795104
+    title: 日々と君 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440795104
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1440795104
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

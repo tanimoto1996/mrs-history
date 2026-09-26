@@ -12,8 +12,7 @@ basicSources:
   - um-upch-20531
 background:
   - kind: official
-    text: 大森元貴は、Mrs. GREEN
-      APPLEにはもともと2ビートの曲がなく、この曲の制作は大変だったと振り返っている。ドラムの山中綾華は、当初はなぜこれほど速いのかわからないところから始まり、リズム自体を好きになることでその格好良さを発見していったと語っている。
+    text: 大森元貴は、Mrs. GREEN APPLEにはもともと2ビートの曲がなく、この曲の制作は大変だったと振り返っている。ドラムの山中綾華は、当初はなぜこれほど速いのかわからないところから始まり、リズム自体を好きになることでその格好良さを発見していったと語っている。
     sources:
       - skream-2019-attitude
     evidence: はい。大変だったよね？ そもそも自分らに2ビートの曲がないので。
@@ -28,3 +27,14 @@ sources:
     media: Skream!
     url: https://skream.jp/interview/2019/10/mrs_green_apple.php
     date: 2019-10-01
+  - id: am-song-1606369685
+    title: Ke-Mo Sah-Bee - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1606369685
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1606369685
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

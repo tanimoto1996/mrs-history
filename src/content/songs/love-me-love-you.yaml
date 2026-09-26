@@ -17,8 +17,7 @@ basicSources:
   - um-upch-20549
 background:
   - kind: official
-    text: 大森元貴は、アルバム『ENSEMBLE』収録版の「Love me, Love
-      you」がこの曲の完成形であり、シングル・カットのためにはむしろ編集を加えたくらいの感覚だったと語っている。
+    text: 大森元貴は、アルバム『ENSEMBLE』収録版の「Love me, Love you」がこの曲の完成形であり、シングル・カットのためにはむしろ編集を加えたくらいの感覚だったと語っている。
     sources:
       - skream-2018-04-mga
     evidence: アルバムに入った「Love me, Love you」は、これが完成形みたいな感じで、むしろシングル・カットするために編集を加えたぐらいの感じなんです
@@ -48,3 +47,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://sp.universal-music.co.jp/mrsgreenapple/bestalbum5/interview11.html
     date: 2020-07-08
+  - id: am-song-1441018140
+    title: Love me, Love you - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1441018140
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1441018140
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

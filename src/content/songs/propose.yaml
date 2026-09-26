@@ -21,6 +21,10 @@ sources:
     media: arai no HIKIDASHI
     url: https://takahiroarai.me/mrsgreenapple-propose/
     date: 2025-08-13
+  - id: am-song-1606369381
+    title: ProPose - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1606369381
 background:
   - kind: secondary
     text: 魅力を感じていなかったはずの相手に恋をしてしまい、その理由が分からないまま思いを告げられずにいる主人公の戸惑いを描いた曲だと紹介されている。
@@ -32,3 +36,10 @@ background:
     sources:
       - arai-hikidashi-propose
     evidence: 結局独りで寂しい自分が居るという事実だけなのです
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1606369381
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

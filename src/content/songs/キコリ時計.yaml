@@ -21,6 +21,10 @@ sources:
     media: arai no HIKIDASHI（個人ブログ）
     url: https://takahiroarai.me/mrsgreenapple-kikoridokei/
     date: 2016-01-13
+  - id: am-song-1440788129
+    title: キコリ時計 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440788129
 background:
   - kind: secondary
     text: 作詞を手掛けた大森が中学3年生〜高校1年生の頃に書いた曲で、アルバム収録にあたり新たにリアレンジされたと紹介されている。
@@ -32,3 +36,10 @@ background:
     sources:
       - sec-arai-kikoridokei
     evidence: 目の前にあるものはもちろん大事だけれども、もう少し先をみて生きてみてもいいんじゃない？
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1440788129
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

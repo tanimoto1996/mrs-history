@@ -41,8 +41,17 @@ sources:
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
   - id: tfmplus-2025-carrying
-    title: Mrs. GREEN APPLE大森元貴「やっぱりディズニーファンは気づいてくれるんだ！」新曲「Carrying
-      Happiness」に込めた“小ネタ”を解説
+    title: Mrs. GREEN APPLE大森元貴「やっぱりディズニーファンは気づいてくれるんだ！」新曲「Carrying Happiness」に込めた“小ネタ”を解説
     media: TOKYO FM+（AuDee）
     url: https://news.audee.jp/news/mmYEwVswy3.html
     date: 2025-08-05
+  - id: am-song-1826924334
+    title: Carrying Happiness - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1826924334
+credits:
+  music: 大森元貴
+  arrangement: 大森元貴、山下洋介
+  sources:
+    - am-song-1826924334
+  evidence: "作詞 作曲: 大森元貴（作曲者、アレンジャー） / 山下洋介（アレンジャー）"

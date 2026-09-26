@@ -25,10 +25,13 @@ sources:
     title: Mrs. GREEN APPLE『BFF』歌詞の意味を考察。ままならない世界でつながりを慈しむ
     media: UtaTen
     url: https://utaten.com/specialArticle/index/10072
+  - id: am-song-1691230122
+    title: BFF - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1691230122
 background:
   - kind: secondary
-    text: タイトルの「BFF」は「Best Friends
-      Forever」の略とされ、日々ふつうに一緒に過ごす今日が続くこと自体を「永遠」として描いた曲だと紹介されている。
+    text: タイトルの「BFF」は「Best Friends Forever」の略とされ、日々ふつうに一緒に過ごす今日が続くこと自体を「永遠」として描いた曲だと紹介されている。
     sources:
       - arai-hikidashi-bff
     evidence: つまり、永遠とは非現実的なものではなく、「毎日、ふつうに一緒に過ごす今日」が続いていく
@@ -37,3 +40,10 @@ background:
     sources:
       - arai-hikidashi-bff
     evidence: ファンの間では1番＝若井滉斗、2番＝藤澤涼架へ向けたメッセージとして読む声もあります
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、山下洋輔
+  sources:
+    - am-song-1691230122
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 山下洋輔（アレンジャー）"

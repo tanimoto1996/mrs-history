@@ -21,9 +21,20 @@ sources:
     media: one-thoughtのブログ（アメブロ）
     url: https://ameblo.jp/one-thought/entry-12963515290.html
     date: 2026-04-27
+  - id: am-song-1445311508
+    title: 恋と吟(うた) - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1445311508
 background:
   - kind: secondary
     text: 好きな相手が自分以外の誰かと幸せになることを素直に喜べない身勝手な心情が歌われており、それでも相手を大事にする曲だとファンブログで紹介されている。
     sources:
       - sec-ameblo-koitouta
     evidence: 相手を深く思って相手を大事にする為の我慢でしょ
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1445311508
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"
