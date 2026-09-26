@@ -1,11 +1,10 @@
-date: "2013"
+date: "2013-04"
 title: 結成
-description: Mrs. GREEN APPLEが結成される。
+kind: milestone
+description: 2013年4月、それまでひとりで弾き語りをしていた大森元貴が若井滉斗、山中綾華、藤澤涼架を誘ってバンドを結成した。ベースの髙野清宗は2014年10月にオーディションを経て加入し、5人編成となった。
 phase: phase1
 relatedSongs: []
 evidence: 2013年結成。
 sources:
-  - id: profile
-    title: PROFILE
-    media: Mrs. GREEN APPLE OFFICIAL SITE
-    url: https://mrsgreenapple.com/feature/profile
+  - { id: profile, title: PROFILE, media: Mrs. GREEN APPLE OFFICIAL SITE, url: "https://mrsgreenapple.com/feature/profile" }
+  - { id: skream-2015-02, title: Mrs. GREEN APPLE インタビュー（『Progressive』）, media: Skream!, url: "https://skream.jp/interview/2015/02/mrs_green_apple.php", date: "2015-02" }

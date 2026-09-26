@@ -1,0 +1,9 @@
+date: "2017-12-12"
+title: ファンクラブツアー『RINGO JAM TOUR ～東と名と阪～』
+kind: live
+description: 自身初のファンクラブツアーとして、2017年12月12日に大阪、13日に名古屋、20日に東京で公演を行った。同じ時期、「JOURNEY」がWebドラマ『片想い送信中』の主題歌になった。
+phase: phase1
+relatedSongs: [journey]
+evidence: RINGO JAM TOUR ～東と名と阪～
+sources:
+  - { id: skream-journey, title: Mrs. GREEN APPLE、楽曲「JOURNEY」がWEBドラマ"片想い送信中"主題歌に決定, media: Skream!, url: "https://skream.jp/news/2017/11/mga_journey_theme-song.php", date: "2017-11" }

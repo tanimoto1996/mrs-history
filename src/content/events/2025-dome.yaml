@@ -1,12 +1,11 @@
-date: 2025-10
-title: 5大ドームツアー“BABEL no TOH”
-description: 10月から12月にかけて、自身最大規模の5大ドームツアー『Mrs. GREEN APPLE DOME TOUR 2025 "BABEL
-  no TOH"』を開催した。
+date: "2025-10-25"
+title: 初の5大ドームツアー“BABEL no TOH”で55万人
+kind: live
+description: 10月から12月にかけて、名古屋・札幌・福岡・大阪で2日ずつ、東京ドームで4日、5都市12公演のドームツアー「Mrs. GREEN APPLE DOME TOUR 2025 “BABEL no TOH”」を開き、約55万人を集めた。「EDEN no SONO」「NOAH no HAKOBUNE」「Atlantis」に続く、聖書や神話を題材にした“ストーリーライン”の新作で、バベルの塔の物語を描いた。12月20日の東京ドーム最終公演の終わりには、続編「ELYSIUM」を予告する映像が流れた。
 phase: phase2
-relatedSongs: []
-evidence: 10月から12月にかけては、12公演で55万人を動員した自身最大規模となる5大ドームツアー
+relatedSongs: [love-me-love-you, 絶世生物, ke-mo-sah-bee, ア-プリオリ, ダーリン, 天国]
+evidence: 「Mrs. GREEN APPLE DOME TOUR 2025 “BABEL no TOH”」はミセスが5都市で全12公演を行い、約55万人を動員したドームツアー。
 sources:
-  - id: profile
-    title: PROFILE
-    media: Mrs. GREEN APPLE OFFICIAL SITE
-    url: https://mrsgreenapple.com/feature/profile
+  - { id: natalie-654272, title: Mrs. GREEN APPLEが初の5大ドームツアーで55万人を動員、バベルの塔を巡る壮大な物語（ライブレポート / 写真23枚）, media: 音楽ナタリー, url: "https://natalie.mu/music/news/654272", date: "2025-12-28" }
+  - { id: official-22807, title: 映画「Mrs. GREEN APPLE DOME TOUR 2025 “BABEL no TOH”」を楽しみにしてくださっている皆さまへ, media: Mrs. GREEN APPLE OFFICIAL SITE, url: "https://mrsgreenapple.com/news/detail/22807", date: "2026-07-28" }
+  - { id: profile, title: PROFILE, media: Mrs. GREEN APPLE OFFICIAL SITE, url: "https://mrsgreenapple.com/feature/profile" }

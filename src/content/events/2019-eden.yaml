@@ -1,11 +1,12 @@
-date: 2019-12
+date: "2019-12"
 title: 初の全国アリーナツアー『エデンの園』
-description: 2019年12月から初の全国アリーナツアー『エデンの園』を開催し、東名阪公演は即日ソールドアウトとなった。
+kind: live
+description: 2019年12月から初の全国アリーナツアー「ARENA TOUR / エデンの園」を行い、東名阪公演は即日ソールドアウトとなった。2019年10月に大阪城ホール（2020年2月10日）と国立代々木競技場第一体育館（2月15日・16日）の追加公演が発表された。横浜アリーナ、ドルフィンズアリーナ、大阪城ホール、代々木第一体育館の4カ所7公演で、計8万人を動員した。12月8日の横浜アリーナ公演は、2020年7月に映像作品として出た。
 phase: phase1
 relatedSongs: []
 evidence: 2019年12月から行われた初の全国アリーナツアー『エデンの園』は東名阪公演を即日ソールドアウト。
 sources:
-  - id: profile
-    title: PROFILE
-    media: Mrs. GREEN APPLE OFFICIAL SITE
-    url: https://mrsgreenapple.com/feature/profile
+  - { id: profile, title: PROFILE, media: Mrs. GREEN APPLE OFFICIAL SITE, url: "https://mrsgreenapple.com/feature/profile" }
+  - { id: history, title: HISTORY OF PHASE1 2013-2020, media: Mrs. GREEN APPLE OFFICIAL SITE, url: "https://mrsgreenapple.com/feature/history" }
+  - { id: skream-eden-add, title: Mrs. GREEN APPLE、初アリーナ・ツアー"エデンの園"追加公演を東京、大阪で開催, media: Skream!, url: "https://skream.jp/news/2019/10/mrs_green_apple_tour_add.php", date: "2019-10-28" }
+  - { id: natalie-367630, title: Mrs. GREEN APPLE第1章の集大成、初のアリーナツアー終幕（ライブレポート / 写真32枚）, media: 音楽ナタリー, url: "https://natalie.mu/music/news/367630", date: "2020-02-18" }

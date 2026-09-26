@@ -47,6 +47,7 @@ const events = defineCollection({
   schema: z.object({
     date: dateStr(partial),
     title: z.string(),
+    kind: z.enum(['live', 'milestone', 'award', 'media', 'release']).default('milestone'),
     description: z.string(),
     phase: z.string(),
     relatedSongs: z.array(z.string()).default([]),

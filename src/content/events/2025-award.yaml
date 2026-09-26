@@ -1,12 +1,10 @@
-date: 2025-12-31
-title: レコード大賞3連覇、紅白で白組トリ
-description: 「ダーリン」でレコード大賞3連覇。3年連続出場の紅白歌合戦で白組のトリを務め、12月31日でフェーズ2を完結した。
+date: "2025-12-30"
+title: 「ダーリン」で日本レコード大賞3年連続受賞
+kind: award
+description: 12月30日、「ダーリン」が「第67回 輝く！日本レコード大賞」を受賞し、2023年・2024年に続く3年連続の大賞となった。大森元貴は「3連覇という意味をすごく考えます」とコメントした。翌31日には紅白歌合戦に出て、同日でフェーズ2を完結した。
 phase: phase2
-relatedSongs:
-  - ダーリン
-evidence: 「ダーリン」でレコード大賞3連覇を果たし、3年連続で出場したNHK紅白歌合戦では白組のトリを務め、12月31日で「フェーズ2」を完結した。
+relatedSongs: [ダーリン]
+evidence: Mrs. GREEN APPLEが同賞を受賞するのは、2023年、2024年に続きこれが3度目。
 sources:
-  - id: profile
-    title: PROFILE
-    media: Mrs. GREEN APPLE OFFICIAL SITE
-    url: https://mrsgreenapple.com/feature/profile
+  - { id: natalie-654571, title: Mrs. GREEN APPLEが「日本レコード大賞」受賞、3年連続受賞の快挙達成, media: 音楽ナタリー, url: "https://natalie.mu/music/news/654571", date: "2025-12-30" }
+  - { id: profile, title: PROFILE, media: Mrs. GREEN APPLE OFFICIAL SITE, url: "https://mrsgreenapple.com/feature/profile" }

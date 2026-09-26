@@ -1,0 +1,33 @@
+date: '2023-07-08'
+title: 約3年半ぶりのアリーナツアー『NOAH no HAKOBUNE』
+kind: live
+description: 7月8日のさいたまスーパーアリーナから8月4日のAichi Sky Expoまで、3会場6公演のアリーナツアーを開催した。巨大な船の甲板を模したステージで、1公演約2万人を前に「Viking」から始め、アンコールは『ANTENNA』の最後の曲「Feeling」だった。物語は翌週の初ドームライブ『Atlantis』へ続いた。
+phase: phase2
+relatedSongs:
+- viking
+- アウフヘーベン
+- cheers
+- 私は最強
+- vip
+- blizzard
+- hug
+- 私
+- start
+- feeling
+evidence: ヴァイキングの故郷である北欧の音楽を想起させる「Viking」からライブはスタート。
+sources:
+- id: noahreport
+  title: ARENA TOUR 2023 “NOAH no HAKOBUNE” OFFICIAL LIVE REPORT
+  media: Universal Music Japan（公式特設サイト）
+  url: https://sp.universal-music.co.jp/mrsgreenapple/noahnohakobune/report/
+  date: '2023-08-04'
+- id: news880
+  title: 「Mrs. GREEN APPLE ARENA TOUR 2023」詳細発表！
+  media: Mrs. GREEN APPLE OFFICIAL SITE
+  url: https://mrsgreenapple.com/news/detail/880
+  date: '2023-01-23'
+- id: news920
+  title: アリーナツアータイトル公開！
+  media: Mrs. GREEN APPLE OFFICIAL SITE
+  url: https://mrsgreenapple.com/news/detail/920
+  date: '2023-03-31'
