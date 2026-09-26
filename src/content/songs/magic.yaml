@@ -4,8 +4,22 @@ phase: phase2
 works:
   - title: ANTENNA
     type: アルバム
-tieups: []
-status: basic
+tieups:
+  - type: CMソング
+    work: コカ・コーラ「Coke STUDIO Magic」篇
+    sources:
+      - rockinon-2023-magic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は「Magic」というタイトルについて、自分の気持ち次第で日常を彩ることができるという意味を込め、コカ・コーラを飲んだときのスカッとした気持ちを「小さなMagic」として音で表現しようとしたと説明している。
+    sources: [rockinon-2023-magic]
+    evidence: "『コカ･コーラ』を飲んだ時の気持ちがスカッとする感じは小さなMagicだと思うので、それを音で表現できるように作っていきました。"
+  - kind: official
+    text: CM撮影はファンとの距離が近いライブのような雰囲気で行われ、大森元貴は普段にない近さで歌うことにドキドキしたと振り返っている。
+    sources: [rockinon-2023-magic]
+    evidence: "CM撮影中は本当のライブのような雰囲気で撮影しました。ファンの方と近づいて歌うことは普段ないのでドキドキしました。"
 basicSources:
   - um-pron-1061
 sources:
@@ -14,3 +28,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/pron-1061/
     date: 2023-07-05
+  - id: rockinon-2023-magic
+    title: Mrs. GREEN APPLE、新曲"Magic"を「コカ･コーラ」新TVCMに書き下ろし。6/13配信リリース
+    media: rockinon.com
+    url: https://rockinon.com/news/detail/206403
+    date: 2023-05-30

@@ -5,9 +5,15 @@ works:
   - title: Mrs. GREEN APPLE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20443
+background:
+  - kind: official
+    text: 「うブ」は前年末のライブから披露されファンにはお馴染みとなっていたダンスチューンで、本作アルバムで待望の初収録となった。
+    sources: [um-upch-20443]
+    evidence: "昨年末のライブから披露されファンにはお馴染みとなっているダンスチューン「うブ」が待望の初収録"
 sources:
   - id: um-upch-20443
     title: Mrs. GREEN APPLE（アルバム）

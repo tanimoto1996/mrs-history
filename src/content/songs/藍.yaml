@@ -6,6 +6,7 @@ works:
     type: アルバム
 tieups: []
 status: basic
+background: []
 basicSources:
   - um-upch-20411
 sources:

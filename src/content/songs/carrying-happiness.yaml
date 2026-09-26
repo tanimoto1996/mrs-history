@@ -9,9 +9,23 @@ tieups:
     work: サマー・クールオフ at Tokyo Disney Resort
     sources:
       - profile
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-uu1as-02499
+background:
+  - kind: official
+    text: 大森元貴は、この曲に東京ディズニーランド・ディズニーシーの周年楽曲などの要素を「小ネタ」として多く仕込んだと語っている。
+    sources: [tfmplus-2025-carrying]
+    evidence: "私、実は小ネタをこの曲でたっくさん仕込んでまして"
+  - kind: official
+    text: 具体的には、ディズニーランドやディズニーシーのこれまでの周年楽曲の要素を曲中に取り入れたという。
+    sources: [tfmplus-2025-carrying]
+    evidence: "周年の、ディズニーの今までのランドだったり、シーとかの楽曲とかの要素をちょっと実は入れてたりする"
+  - kind: official
+    text: ディズニーで色々な世界を旅する気持ちになれるように、楽曲の中でも様々な場所へ行けるようなフレーズを意識して作ったと説明している。
+    sources: [tfmplus-2025-carrying]
+    evidence: "楽曲のなかでもいろんなところに行けたらいいな、と思ってああいうフレーズを作りました"
 sources:
   - id: um-uu1as-02499
     title: Carrying Happiness（配信）
@@ -22,3 +36,8 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
+  - id: tfmplus-2025-carrying
+    title: Mrs. GREEN APPLE大森元貴「やっぱりディズニーファンは気づいてくれるんだ！」新曲「Carrying Happiness」に込めた“小ネタ”を解説
+    media: TOKYO FM+（AuDee）
+    url: https://news.audee.jp/news/mmYEwVswy3.html
+    date: 2025-08-05

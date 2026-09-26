@@ -5,7 +5,25 @@ works:
   - title: コロンブス
     type: 配信
 tieups: []
-status: basic
+background:
+  - kind: official
+    text: 「コロンブス」のミュージックビデオは2024年6月12日に公開されたが、コロンブスら歴史上の人物と類人猿が登場する内容がSNSで「差別的である」との意見を招き、所属レーベル・事務所は翌13日にMVの公開を停止した。
+    sources: [natalie-2024-columbus]
+    evidence: "歴史認識や文化的な背景への理解に欠ける表現が含まれていたことを認め、本日13日にMVの公開を停止した"
+  - kind: official
+    text: MVのプランニングディレクターを務めた大森元貴は、類人猿の登場は差別的な意図によるものではなく、年代の異なる生命がホームパーティーをするイメージだったと説明した。
+    sources: [natalie-2024-columbus]
+    evidence: "類人猿を人に見立てたなどの意図は全く無く、ただただ年代の異なる生命がホームパーティーをする"
+  - kind: official
+    text: 大森は、意図と異なる形で受け取られる可能性への配慮が不足していたことを認め、不快な思いをした人々に深く謝罪した。
+    sources: [natalie-2024-columbus]
+    evidence: "別軸の案まで至らなかった我々の配慮不足が何よりの原因です"
+  - kind: official
+    text: 大森は「コロンブスの卵」という言葉から着想して制作を進めたが、前向きでワクワクできる映像にしたいという思いがリスクへの配慮をあやふやにしてしまったと振り返っている。
+    sources: [natalie-2024-columbus]
+    evidence: "『コロンブスの卵』というキーワードから制作に取り掛かり、前向きにワクワクできる映像にしたい"
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-uu1as-02056
 sources:
@@ -14,3 +32,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02056/
     date: 2024-06-12
+  - id: natalie-2024-columbus
+    title: Mrs. GREEN APPLE大森元貴、新曲「コロンブス」ミュージックビデオの制作経緯を説明
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/577609
+    date: 2024-06-13

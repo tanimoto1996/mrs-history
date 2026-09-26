@@ -4,8 +4,18 @@ phase: phase1
 works:
   - title: Attitude
     type: アルバム
-tieups: []
-status: basic
+tieups:
+  - type: CMソング
+    work: 森永製菓「受験に inゼリー」テレビCM
+    sources:
+      - natalie-2020-cheers-cm
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、小さい頃から当たり前のように飲んでいたinゼリーのCMソングに「CHEERS」が使われたことを喜び、自身もキンキンに冷やして飲むのが好きだと話している。
+    sources: [natalie-2020-cheers-cm]
+    evidence: "当たり前のように小さい頃から飲んでいたinゼリー"
 basicSources:
   - um-upch-20531
 sources:
@@ -14,3 +24,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
     date: 2019-10-02
+  - id: natalie-2020-cheers-cm
+    title: Mrs. GREEN APPLE「CHEERS」が受験生を応援するCMソングに決定（コメントあり）
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/362647
+    date: 2020-01-10

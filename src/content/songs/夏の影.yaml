@@ -9,9 +9,34 @@ tieups:
     work: 「キリン 午後の紅茶」
     sources:
       - profile
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-uu1as-02502
+background:
+  - kind: official
+    text: 大森元貴は、5月にキリン「淡麗グリーンラベル」のCM撮影でハンガリーへ渡航する飛行機に乗る直前まで「夏の影」を制作していたと、ラジオ番組で明かしている。
+    sources:
+      - tokyofm-2025-natsunokage-1
+    evidence: その飛行機に乗るギリギリまで作ってたので
+  - kind: official
+    text: 大森元貴は、曲を作って納品した直後に「ここからはもう飛行機乗るので無理です！」と伝えたという、締め切りぎりぎりの制作エピソードを語っている。
+    sources:
+      - tokyofm-2025-natsunokage-1
+    evidence: 作って、納品して『ここからはもう飛行機乗るので無理です！』って言って
+  - kind: official
+    text: 「夏の影」は、Snow Manの目黒蓮と俳優の中条あやみが出演する「キリン
+      午後の紅茶」CM「夏の影」編のために書き下ろされた曲で、メンバーはラジオ番組でこのCMについて語り合っている。
+    sources:
+      - tokyofm-2025-natsunokage-2
+    evidence: 「キリン 午後の紅茶」のCM「夏の影」編のために書き下ろした新曲「夏の影」について語りました
+  - kind: official
+    text: MVは「MGA MAGICAL 10 YEARS ANNIVERSARY LIVE
+      ～FJORD～」終了後すぐに撮影されたもので、大森元貴は都心を離れた小旅行のようなコンセプトだったと説明している。
+    sources:
+      - tokyofm-2025-natsunokage-3
+    evidence: ちょっと都心を離れて。夏休みというか、小旅行しよう！っていう、そんなMVが公開されました！
+mv: https://www.youtube.com/watch?v=-p3O35mfSB4
 sources:
   - id: um-uu1as-02502
     title: 夏の影（配信）
@@ -22,3 +47,18 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
+  - id: tokyofm-2025-natsunokage-1
+    title: Mrs. GREEN APPLE大森元貴「飛行機に乗るギリギリまで作ってた」新曲『夏の影』多忙すぎる制作裏話
+    media: TOKYO FM+
+    url: https://news.audee.jp/news/GAK1o24Eew.html
+    date: 2025-08-18
+  - id: tokyofm-2025-natsunokage-2
+    title: Mrs. GREEN APPLE大森元貴「めめかっこいい！」ミセスの書き下ろし新曲が起用された「キリン 午後の紅茶」CMを語り合う
+    media: TOKYO FM+
+    url: https://news.audee.jp/news/h3PZ5UeNG5.html
+    date: 2025-08-18
+  - id: tokyofm-2025-natsunokage-3
+    title: Mrs. GREEN APPLE大森元貴「ちょっと都心を離れて。夏休みというか、小旅行しよう！っていう…」新曲『夏の影』のMVを語る
+    media: TOKYO FM+
+    url: https://news.audee.jp/news/5kAtu3Yvkz.html
+    date: 2025-08-18

@@ -9,7 +9,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "check": "node scripts/check-content.mjs && astro sync"
+    "check": "node scripts/check-content.mjs && astro sync",
+    "verify-evidence": "node scripts/verify-evidence.mjs"
   },
   "repository": {
     "type": "git",

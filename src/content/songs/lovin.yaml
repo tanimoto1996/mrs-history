@@ -4,13 +4,28 @@ phase: phase1
 works:
   - title: Attitude
     type: アルバム
-tieups: []
-status: basic
+tieups:
+  - type: タイアップ
+    work: フジテレビ系「めざましどようび」テーマソング
+    sources:
+      - natalie-2019-lovin
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20531
+background:
+  - kind: official
+    text: 「lovin'」はフジテレビ系「めざましどようび」のテーマソングとして書き下ろされ、大森元貴が“どようびの朝”“ワクワクする週末”といった番組のイメージを反映させた楽曲だと紹介されている。
+    sources: [natalie-2019-lovin]
+    evidence: "大森元貴（Vo, G）が“どようびの朝”“ワクワクする週末”といった番組のイメージを反映させた楽曲"
 sources:
   - id: um-upch-20531
     title: Attitude（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
     date: 2019-10-02
+  - id: natalie-2019-lovin
+    title: Mrs. GREEN APPLE「めざましどようび」テーマソング担当
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/337627
+    date: 2019-06-29

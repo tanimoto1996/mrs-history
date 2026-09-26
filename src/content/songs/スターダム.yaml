@@ -5,12 +5,27 @@ works:
   - title: "5"
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20549
+background:
+  - kind: official
+    text: 「スターダム」は2014年に自主盤としてリリースされたファーストミニアルバム『Introduction』収録曲を、ベストアルバム「5」に際して改めて録音し直した楽曲。メンバーは、当時聴き直した原曲について「荒削りながらも初期衝動に満ちていた」と語っている。
+    sources: [um-bestalbum5-liner01]
+    evidence: "荒削りながらも初期衝動に満ちていた"
+  - kind: interpretation
+    text: 歌詞の「失くしたくないから／僕はずっとこうやってるの」という一節は、『Introduction』のコンセプトである「形あるものはいつか必ずなくなる」という無常観と重なり、生と喪失の中で意味を掴み取ろうとする歌として読める。
+    basis: 歌詞の該当箇所と、um-bestalbum5-liner01に記された『Introduction』のコンセプト説明
+    sources: [um-bestalbum5-liner01]
 sources:
   - id: um-upch-20549
     title: 5（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08
+  - id: um-bestalbum5-liner01
+    title: 01.スターダム オフィシャル・ライナーノーツ｜Mrs. GREEN APPLE『5』スペシャルサイト
+    media: ユニバーサル ミュージック
+    url: https://sp.universal-music.co.jp/mrsgreenapple/bestalbum5/interview01.html
     date: 2020-07-08

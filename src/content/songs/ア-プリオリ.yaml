@@ -5,7 +5,14 @@ works:
   - title: 青と夏
     type: シングル
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森は、この曲ができたときも「またすごいことを言ってしまった」という感覚があったと述べている。
+    sources:
+      - spice-198912
+    evidence: 『うわあ、またすごいこと言っちゃったなあ』みたいな感じでしたね。
 basicSources:
   - um-upch-80493
 sources:
@@ -13,4 +20,9 @@ sources:
     title: 青と夏（シングル）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80493/
+    date: 2018-08-01
+  - id: spice-198912
+    title: Mrs. GREEN APPLEインタビュー 新譜「青と夏」を紐解いたら見えてきた、原点と核心
+    media: SPICE
+    url: https://spice.eplus.jp/articles/198912
     date: 2018-08-01

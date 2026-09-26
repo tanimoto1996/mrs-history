@@ -9,7 +9,25 @@ tieups:
     work: TVアニメ『忘却バッテリー』
     sources:
       - profile
-status: basic
+      - billboard-2024-lilac-tieup
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、TVアニメ『忘却バッテリー』のタイアップ・オファーを受けて、眩しい青春とその裏にある影の両方を「奇しくも愛すべきもの」だと考えたと語り、主人公たちの"青"をしっかり見つめたいという思いを明かしている。
+    sources:
+      - billboard-2024-lilac-tieup
+    evidence: 眩しい青春。の裏には必ず長く伸びてる影があります。疎ましい青春。
+  - kind: official
+    text: 大森元貴は「大人が思う青春」を書きたいと考え、ライラックの花の色を「青と夏」よりも渋みの加わった青紫にたとえながら、この曲を「青と夏」のアンサーソングに近い感覚で作ったと説明している。
+    sources:
+      - billboard-2024-interview
+    evidence: 「青と夏」がピカピカの青だとすれば、ちょっと年齢が上がっているんだけど
+  - kind: official
+    text: 大森元貴は、楽曲のスケール感が大きくなり続け、説教くさくなるのが嫌だったことから、ワクワクしながらギターをかき鳴らすような曲を作ろうとしたことが「ライラック」の始まりだったと述べている。
+    sources:
+      - billboard-2024-interview
+    evidence: 僕らがワクワクしながらギターを持って、かき鳴らすというのをやろうよ、みたいなところが「ライラック」の始まりだった
 basicSources:
   - um-uu1as-01979
 sources:
@@ -22,3 +40,14 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
+  - id: billboard-2024-lilac-tieup
+    title: Mrs. GREEN APPLE、新曲「ライラック」がアニメ『忘却バッテリー』OPテーマ決定
+    media: Billboard JAPAN
+    url: https://www.billboard-japan.com/d_news/detail/135259/2
+    date: 2024-03-04
+  - id: billboard-2024-interview
+    title: ＜インタビュー＞進化と深化を重ねていくMrs. GREEN
+      APPLEの美学――大森元貴が語る曲作りの原点とバンド結成11年目以降のヴィジョン【MONTHLY FEATURE】
+    media: Billboard JAPAN
+    url: https://www.billboard-japan.com/special/detail/4296
+    date: 2024-01-17

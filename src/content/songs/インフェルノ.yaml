@@ -9,7 +9,13 @@ works:
   - title: "5"
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、歌詞の「永遠は無いんだと」というフレーズが自身の音楽活動の出発点にある考えだと語っている。すべてがいつか終わるという事実の苦しさに向き合いながらも、そこで「でもね」と言う強さを持たなければ生きていけないと述べている。
+    sources: [um-5-liner-16]
+    evidence: "そもそもの僕の音楽の起源がそこなんです"
 basicSources:
   - um-uu1as-00765
   - um-upch-20531
@@ -30,3 +36,7 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
     date: 2020-07-08
+  - id: um-5-liner-16
+    title: 16. インフェルノ オフィシャル・ライナーノーツ
+    media: Mrs. GREEN APPLE『5』スペシャルサイト（ユニバーサル ミュージック）
+    url: https://sp.universal-music.co.jp/mrsgreenapple/bestalbum5/interview16.html

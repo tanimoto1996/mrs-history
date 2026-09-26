@@ -5,7 +5,17 @@ works:
   - title: ENSEMBLE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: MONGOL800は大森元貴が音楽活動を始めるきっかけとなったバンドで、実兄が聴いていたことをきっかけに夢中になり、小学校の謝恩祭では自作曲とともにMONGOL800の楽曲をカバーしたという。
+    sources: [skream-2018-hajimari-mv]
+    evidence: "初めて人前でパフォーマンスをした小学校の謝恩祭では、オリジナル曲に加えてMONGOL800の楽曲をカバーした"
+  - kind: official
+    text: この曲は大森元貴とキヨサク（MONGOL800）の共作で、フル・コーラス版には大森が小学生の頃に作ったオリジナルのフレーズも引用されているという。
+    sources: [skream-2018-hajimari-mv]
+    evidence: "小学生の当時オリジナルで作ったフレーズも引用されているという"
 basicSources:
   - um-upch-20483
 sources:
@@ -14,3 +24,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20483/
     date: 2018-04-18
+  - id: skream-2018-hajimari-mv
+    title: Mrs. GREEN APPLE – はじまり feat. キヨサク from MONGOL800 フルMV公開
+    media: Skream!
+    url: https://skream.jp/news/2018/04/mrs_green_apple_hajimari_mv.php
+    date: 2018-04-27

@@ -9,7 +9,13 @@ tieups:
     work: NHK「ニュース シブ5時」「4時も！ シブ5時」テーマソング
     sources:
       - um-upch-80467
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: シングル「どこかで日は昇る」の収録曲はすべて書き下ろしで、「SwitCh」も含め、映画やドラマの監督、番組サイドとそれぞれ打ち合わせを重ねて一から作り上げられた。
+    sources: [um-upch-80467]
+    evidence: "楽曲はすべて書き下ろしで、映画やドラマの監督、番組サイドとそれぞれ打ち合わせを重ねて一から作り上げた"
 basicSources:
   - um-upch-80467
 sources:

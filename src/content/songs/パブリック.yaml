@@ -7,7 +7,17 @@ works:
   - title: "5"
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 「パブリック」は大森元貴が高校2年生の時に書いた曲で、2015年のレコーディングを経てファーストアルバム『TWELVE』に収録された。
+    sources: [um-bestalbum5-05]
+    evidence: "楽曲自体は大森が高校2年生の時に書いた曲だが"
+  - kind: interpretation
+    text: 高校生のときの作品でありながら、人間の愚かさや争いを見つめながらも「優しさを精一杯に愛そうと」と歌うラストには、当時から一貫する大森元貴の視点が表れていると読める。
+    basis: 歌詞の「優しさを精一杯に愛そうと／醜さも精一杯に愛そうと」と、um-bestalbum5-05のライナーノーツにある楽曲解説
+    sources: [um-bestalbum5-05]
 basicSources:
   - um-upch-20411
   - um-upch-20549
@@ -21,4 +31,9 @@ sources:
     title: 5（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08
+  - id: um-bestalbum5-05
+    title: 05. パブリック オフィシャル・ライナーノーツ｜Mrs. GREEN APPLE『5』スペシャルサイト
+    media: ユニバーサル ミュージック
+    url: https://sp.universal-music.co.jp/mrsgreenapple/bestalbum5/interview05.html
     date: 2020-07-08

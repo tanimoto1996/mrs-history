@@ -4,8 +4,12 @@ phase: phase3
 works:
   - title: lulu.
     type: 配信
-tieups: []
-status: basic
+tieups:
+  - work: 葬送のフリーレン（第2期）
+    type: アニメ主題歌
+    sources: [joysound-2026-lulu]
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-uu1as-02762
 sources:
@@ -14,3 +18,39 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02762/
     date: 2026-01-12
+  - id: joysound-2026-lulu
+    title: Mrs. GREEN APPLE、"フェーズ3"第1弾楽曲「lulu.」は「葬送のフリーレン」オープニングテーマ
+    media: JOYSOUND 音楽ニュース
+    url: https://news.joysound.com/article/655793
+    date: 2026-01-12
+  - id: mdpr-2026-lulu-vol2
+    title: 【ミセス大森元貴 独占インタビュー】フェーズ3幕開けの楽曲「lulu.」へ込めた思い「とびきり面白い贅沢をしたい」藤澤涼架＆若井滉斗とのやり取り・制作裏話＜Vol.2＞
+    media: モデルプレス
+    url: https://mdpr.jp/interview/detail/4708208
+    date: 2026-01-10
+mv: https://youtu.be/MjeiIal1ZR0
+background:
+  - kind: official
+    text: 大森元貴は「lulu.」について、TOGETHERの力ではなく1人で立って一歩一歩踏みしめる強さや、誰にでも訪れる踏ん張るべき瞬間・自愛のようなものを、壮大かつミクロに描こうとした曲だと説明している。
+    sources: [mdpr-2026-lulu-vol2]
+    evidence: "TOGETHERの力じゃなくて、1人で立って1歩1歩踏みしめている強さ"
+  - kind: official
+    text: 「GOOD DAY」が奮い立たせてくれる曲だとすれば、「lulu.」はもっとノスタルジーな世界観の曲であり、過去を振り返ることで力をもらい、それが前を向くことと同義になる感覚を込めたと語っている。
+    sources: [mdpr-2026-lulu-vol2]
+    evidence: "「lulu.」はもっとノスタルジーな世界観の曲です"
+  - kind: official
+    text: サウンド面では、スタジオ利用やアンプでのギター演奏が贅沢になってきた時代の中で、あえてとびきり面白い贅沢をしたいと考え、冒頭はデスクトップミュージック的に始まり、サビで壮大になる構成にしたと述べている。
+    sources: [mdpr-2026-lulu-vol2]
+    evidence: "せっかく贅沢をするならとびきり面白い贅沢をしたいと思って"
+  - kind: official
+    text: 藤澤涼架と若井滉斗には「故郷」「ノスタルジー」「懐かしさ」というテーマとともに、個としての自分やこの惑星に生きていることの偉大さ、脈々とつながる歴史や命というイメージを共有したという。
+    sources: [mdpr-2026-lulu-vol2]
+    evidence: "この惑星に生きていることの偉大さみたいなものや、脈々とつながっている歴史や命"
+  - kind: official
+    text: アニメ「葬送のフリーレン」第2期主題歌としては、制作サイドから「大森さんが描く本作のイメージを書いてください」と依頼され、原作ファンだった大森が自由な発想で書き下ろしたと説明している。
+    sources: [mdpr-2026-lulu-vol2]
+    evidence: "大森さんが描く本作のイメージを書いてください"
+  - kind: official
+    text: 大森元貴は、この曲を「誰かから誰かへ、命や宝物、思い出、意思が受け継がれ、脈々と今日に繋がって、またその明日へ。そして故郷を胸に秘めて前に進む強さを描いた楽曲」だとコメントしている。
+    sources: [joysound-2026-lulu]
+    evidence: "命や宝物、思い出、意思が受け継がれ"

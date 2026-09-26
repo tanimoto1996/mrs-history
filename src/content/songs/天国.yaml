@@ -9,7 +9,24 @@ tieups:
     work: 映画『#真相をお話しします』
     sources:
       - profile
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、映画『#真相をお話しします』の主題歌について映画チームからソロでの制作という提案もあったが、主演に加えて主題歌もソロだと「独壇場みたいに見えちゃう」と考え、ミセスでやるべきだと判断したと語っている。
+    sources:
+      - billboard-2025-tengoku
+    evidence: 独壇場みたいに見えちゃう
+  - kind: official
+    text: 大森元貴は「天国」というタイトルについて、「意味をつけよう」という気持ちから名付けたと語り、それが「引き受ける」覚悟ではないかという問いにも同意している。
+    sources:
+      - billboard-2025-tengoku
+    evidence: これを『天国』と呼ぼう、呼ぶしかないっていう
+  - kind: official
+    text: 大森元貴は曲のアウトロについて、制作中に「もう飽きたな」と思ってやめた瞬間に完成した、と直感的な判断だったことを明かしている。
+    sources:
+      - billboard-2025-tengoku
+    evidence: 『もう飽きたな』と思ってやめた瞬間に『できた』
 basicSources:
   - off-1024
 sources:
@@ -22,3 +39,8 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
+  - id: billboard-2025-tengoku
+    title: Mrs. GREEN APPLE、映画『#真相をお話しします』の主題歌として書き下ろした「天国」――大森元貴が語るタイトルに込めた覚悟とは
+    media: Billboard JAPAN
+    url: https://www.billboard-japan.com/special/detail/4829
+    date: 2025-05-02

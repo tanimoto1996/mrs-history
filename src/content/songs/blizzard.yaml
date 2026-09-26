@@ -5,7 +5,13 @@ works:
   - title: ANTENNA
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴はラジオ番組で、この曲の歌詞をわずか5分で書き上げたと明かし、歌詞は直しておらず自分でも何を書いているかわからないと笑いながら語っている。
+    sources: [tokyofmplus-2023-blizzard]
+    evidence: "直してないし、自分でも何書いてるかわかんない"
 basicSources:
   - um-pron-1061
 sources:
@@ -14,3 +20,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/pron-1061/
     date: 2023-07-05
+  - id: tokyofmplus-2023-blizzard
+    title: Mrs. GREEN APPLE大森元貴 新曲「Blizzard」の歌詞制作は5分！ニューアルバム『ANTENNA』紹介
+    media: TOKYO FM+（SCHOOL OF LOCK! ミセスLOCKS!）
+    url: https://news.audee.jp/news/meem0g60du.html
+    date: 2023-07-18
