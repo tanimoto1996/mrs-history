@@ -52,6 +52,14 @@ for (const e of events) {
   for (const id of e.data.relatedSongs ?? []) if (!songIds.has(id)) errors.push(`${e.file}: 存在しない曲 "${id}"`);
 }
 
+// メンバーページ: 出典IDの参照と evidence
+const m = parse(readFileSync('src/data/members.yaml', 'utf8'));
+const mSrc = new Set(m.sources.map((x) => x.id));
+for (const f of [...m.band.facts, ...m.members.flatMap((x) => x.facts)]) {
+  if (!f.sources?.length || !f.evidence) errors.push(`members.yaml: 「${f.text}」に出典と evidence が必要`);
+  checkRefs('members.yaml', f.sources, mSrc, `「${f.text}」`);
+}
+
 if (errors.length) {
   console.error(errors.join('\n'));
   console.error(`\n${errors.length} 件の問題`);
