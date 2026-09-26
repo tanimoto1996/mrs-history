@@ -47,7 +47,10 @@ const works = [...new Set(songs.flatMap((s) => s.data.works.map((w) => w.title))
     }
     document.getElementById('count')!.textContent = String(n);
   }
-  for (const id of ['q', 'phase', 'work', 'bg']) $(id).addEventListener('input', apply);
+  for (const id of ['q', 'phase', 'work', 'bg']) {
+    $(id).addEventListener('input', apply);
+    $(id).addEventListener('change', apply);
+  }
 </script>
 <style>
   .filters { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
@@ -55,6 +58,7 @@ const works = [...new Set(songs.flatMap((s) => s.data.works.map((w) => w.title))
   .filters select { padding: .4rem; border-radius: 6px; border: 1px solid var(--line); max-width: 100%; }
   .list { list-style: none; padding: 0; }
   .list li { display: flex; flex-wrap: wrap; gap: .1rem .6rem; align-items: baseline; padding: .6rem 0; border-bottom: 1px solid var(--line); }
+  .list li[hidden] { display: none; }
   .list li a { font-weight: 600; }
   .tie { flex-basis: 100%; font-size: .8rem; }
   .tag.ok { color: var(--accent); border-color: var(--accent); }
