@@ -9,7 +9,31 @@ tieups:
     work: キリングッドエール
     sources:
       - profile
-status: basic
+      - mga-news-21893
+background:
+  - kind: official
+    text: 大森元貴は、キリンビールから「日本を丸ごと明るくしたい」という依頼を受け、音楽を通じて楽しさやワクワクを届けたいという思いで全力で応えようと考えた。
+    sources:
+      - realsound-2025-goodday
+    evidence: 『日本を丸ごと明るくしたい』と
+  - kind: official
+    text: 大森は、この楽曲の制作が作家としてのターニングポイントになったと語り、多くの人に届くことを意識するきっかけになったと述べている。
+    sources:
+      - realsound-2025-goodday
+    evidence: 届いているということを意識させていただくきっかけ
+  - kind: official
+    text: 若井は、「GOOD DAY」を流しながらCM撮影をした際の雰囲気がそのままCMになったと振り返っている。
+    sources:
+      - realsound-2025-goodday
+    evidence: 本当に楽しくて。その時の最高の雰囲気がそのままCMになりました
+  - kind: official
+    text: 「GOOD
+      DAY」はキリンビールの新ブランド「キリングッドエール」のために書き下ろされた楽曲で、大森元貴は同ブランドの2番目のブランドリーダーに就任した。同曲を使用した新CMは2025年10月6日より全国で順次放映予定と発表された。
+    sources:
+      - mga-news-21893
+    evidence: 新曲「GOOD DAY」がキリンビール新ブランド「キリングッドエール」CMソングに起用決定
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-uu1as-02613
 sources:
@@ -22,3 +46,13 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
+  - id: mga-news-21893
+    title: 新曲『GOOD DAY』がキリンビール新ブランド「キリングッドエール」CMソングに起用決定！
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/news/detail/21893?lang=en
+    date: 2025-09-29
+  - id: realsound-2025-goodday
+    title: Mrs. GREEN APPLE 大森元貴、「GOOD DAY」は作家としてのターニングポイントに？ CM撮影の裏側も語る
+    media: Real Sound
+    url: https://realsound.jp/2025/10/post-2181288.html
+    date: 2025-10-07

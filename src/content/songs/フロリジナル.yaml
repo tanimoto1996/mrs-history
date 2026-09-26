@@ -5,10 +5,27 @@ works:
   - title: Soranji
     type: シングル
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: この曲をもとに作られた香水は、ブラックティーを基調にジャスミンやラベンダーなどの花々の香りをまとわせたものだと紹介されている。
+    sources:
+      - fashionpress-2022-florizinal
+    evidence: ブラックティーを基調に、ジャスミンやラベンダーなどの可憐な花々
 basicSources:
   - um-upch-80580
 sources:
+  - id: prtimes-2022-parfatune
+    title: 香り×音楽=「パルファチューン」プロジェクト第一弾。Mrs. GREEN APPLEとコラボ
+    media: PR TIMES（株式会社フィッツコーポレーション）
+    url: https://prtimes.jp/main/html/rd/p/000000044.000015815.html
+    date: 2022-09-22
+  - id: fashionpress-2022-florizinal
+    title: Mrs. GREEN APPLE新曲「フロリジナル」表現した香水、ブラックティー×花々の可憐な香り
+    media: ファッションプレス
+    url: https://www.fashion-press.net/news/93810
+    date: 2022-11-07
   - id: um-upch-80580
     title: Soranji（シングル）
     media: ユニバーサル ミュージック

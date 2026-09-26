@@ -9,7 +9,17 @@ tieups:
     work: 映画『聖☆おにいさん THE MOVIE～ホーリーメンVS悪魔軍団～』
     sources:
       - profile
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は「聖☆おにいさん」の原作の大ファンで、中学生の頃から新刊が出るたびに買って読んでいたと明かし、主題歌の話をもらったことに運命的なものを感じたと語っている。
+    sources: [barks-2024-bittervacance]
+    evidence: "『聖☆おにいさん』は原作からの大ファンでして、中学生の頃に書店で新刊が出るたびに買って読んでいました。"
+  - kind: official
+    text: 大森元貴は、ブッダとイエスの癒やされた日常から学べるものがあるとし、根を詰めがちな人々が少しでも肩の力を抜ける瞬間があればという思いから、この曲を作ったと説明している。
+    sources: [barks-2024-bittervacance]
+    evidence: "そういう1番大切なバカらしさみたいなものを曲にしてみました。"
 basicSources:
   - um-uu1as-02230
 sources:
@@ -22,3 +32,8 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
+  - id: barks-2024-bittervacance
+    title: Mrs. GREEN APPLE、新曲「ビターバカンス」が『聖☆おにいさん THE MOVIE』主題歌に決定「運命的な何かを勝手に感じております」
+    media: BARKS
+    url: https://www.barks.jp/news/?id=1000251597
+    date: 2024-10-23

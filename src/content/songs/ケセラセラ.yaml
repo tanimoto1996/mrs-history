@@ -6,8 +6,18 @@ works:
     type: 配信
   - title: ANTENNA
     type: アルバム
-tieups: []
-status: basic
+tieups:
+  - type: 主題歌
+    work: ABCテレビ・テレビ朝日系ドラマ『日曜の夜ぐらいは…』
+    sources:
+      - um-pron-1061
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 「ケセラセラ」は、ABCテレビ・テレビ朝日系ドラマ『日曜の夜ぐらいは…』の主題歌として2023年4月25日に配信リリースされた。
+    sources: [um-pron-1061]
+    evidence: "ABCテレビ・テレビ朝日系ドラマ「日曜の夜ぐらいは...」主題歌(2023.4.25 Release Digital Single)"
 basicSources:
   - off-157
   - um-pron-1061

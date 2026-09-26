@@ -4,8 +4,22 @@ phase: phase1
 works:
   - title: 青と夏
     type: シングル
-tieups: []
-status: basic
+tieups:
+  - type: 挿入歌
+    work: 映画『青夏 きみに恋した30日』
+    sources:
+      - natalie-2018-aotonatsu
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、映画の台本で「ここまでは台詞が流れるが、曲の歌詞で必要なことを言えていれば台詞がなくなっても大丈夫」という難しい注文を受けて詞を書いたと明かしている。
+    sources: [spice-2018-aotonatsu]
+    evidence: "『でも曲の歌詞で（必要なことを）言えていたら、この台詞がなくなっても大丈夫です』っていう、ものすごいオーダーをいただいて。"
+  - kind: official
+    text: 映画制作チームが曲を活かす形で使ってくれたことについて、大森元貴は「自分たちも映画に参加できた」という気持ちにさせてもらえて嬉しかったと語っている。
+    sources: [spice-2018-aotonatsu]
+    evidence: "『僕らも参加できた』っていう気持ちにさせてもらえるような曲の使い方をしてくださっていたので、すごく嬉しかったですね。"
 basicSources:
   - um-upch-80493
 sources:
@@ -14,3 +28,13 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80493/
     date: 2018-08-01
+  - id: natalie-2018-aotonatsu
+    title: Mrs. GREEN APPLEが映画「青夏」主題歌＆挿入歌書き下ろし、8月にシングルリリース
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/286188
+    date: 2018-06-12
+  - id: spice-2018-aotonatsu
+    title: Mrs. GREEN APPLEインタビュー 新譜「青と夏」を紐解いたら見えてきた、原点と核心
+    media: SPICE
+    url: https://spice.eplus.jp/articles/198912
+    date: 2018-07-27

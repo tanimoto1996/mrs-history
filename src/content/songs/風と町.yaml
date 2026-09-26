@@ -9,9 +9,35 @@ tieups:
     work: NHK連続テレビ小説「風、薫る」
     sources:
       - profile
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-uu1as-02902
+background:
+  - kind: official
+    text: 大森元貴は、明治という激動の時代を生きる2人の主人公を中心に、登場するすべての人への人生讃歌として、愛情を込めてこの曲をつくったとコメントしている。
+    sources: [realsound-2026-0210]
+    evidence: "激動の時代の中、2人の主人公を中心に、登場するすべての人への人生讃歌としてささやかながら愛情を目一杯注いでこの「風と町」をつくりました。"
+  - kind: official
+    text: 大森元貴は、命と寄り添い力強く生きようとする主人公たちの姿が、今を生きる私たちに大切なことを伝えてくれる気がすると語っている。
+    sources: [realsound-2026-0210]
+    evidence: "命と寄り添い、生きるために力強く在ろうとする主人公たちの姿はきっと今を生きる私たちにとても大切なことを伝えてくれている気がしています。"
+  - kind: official
+    text: 大森元貴は、朝ドラ「風、薫る」を見る人たちにこの曲がそっと寄り添ってくれることを祈っていると述べている。
+    sources: [realsound-2026-0210]
+    evidence: "「風と町」が「風、薫る」をご覧になられる方々にもそっと寄り添ってくれる事を祈っております。"
+  - kind: official
+    text: 大森元貴は、朝ドラ「あんぱん」に俳優として出演しながら本曲を制作しており、その経験はとても刺激的だったと振り返っている。
+    sources: [realsound-2026-0210]
+    evidence: "個人的に「あんぱん」に出演しながら「風、薫る」の主題歌を制作していたこと、とても刺激的な経験でした。"
+  - kind: official
+    text: 大森元貴は、朝ドラの主題歌として毎日聴けること、耳心地のいい音楽であることをまず目指したと語っている。
+    sources: [yahoo-tokyofm-2026-0424]
+    evidence: "毎日聴ける音楽、耳心地のいい音楽をまず目指した"
+  - kind: official
+    text: 大森元貴は、通常のミセスの楽曲は情報量が多く派手になりがちだが、この曲では意識的にそれを削っていったと述べている。
+    sources: [yahoo-tokyofm-2026-0424]
+    evidence: "ミセスの音楽って、良くも悪くも派手だったりするというか、1つの情報量がとてもあるから、それを削っていく"
 sources:
   - id: um-uu1as-02902
     title: 風と町（配信）
@@ -22,3 +48,13 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
+  - id: realsound-2026-0210
+    title: Mrs. GREEN APPLE、新曲が連続テレビ小説『風、薫る』主題歌に　大森元貴「愛情を目一杯注いでつくりました」
+    media: Real Sound
+    url: https://realsound.jp/2026/02/post-2302303.html
+    date: 2026-02-10
+  - id: yahoo-tokyofm-2026-0424
+    title: Mrs. GREEN APPLE大森元貴「毎日聴ける音楽、耳心地のいい音楽をまず目指した」NHK朝ドラ『風、薫る』を彩る主題歌『風と町』での挑戦（TOKYO FM＋）
+    media: Yahoo!ニュース（TOKYO FM＋）
+    url: https://news.yahoo.co.jp/articles/4f186b4714334b5770791126cb7fa723c1870528
+    date: 2026-04-24

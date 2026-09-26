@@ -9,7 +9,21 @@ works:
   - title: "5"
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、劇場用映画のスタッフから「この夏を自分のものにするぞ」という気持ちを観客に持ち帰ってほしいと聞き、シングルの3曲とも「自分事」であることが大事なキーワードになったと語っている。
+    sources: [spice-2018-aotonatsu]
+    evidence: "今回は3曲とも“自分事”っていうのがとても大事なキーワードになっています"
+  - kind: official
+    text: 歌詞の「いつか忘れられてしまうんだろうか」の後に「それでもね」という言葉が出てきたとき、当時の自分にはまだ言えなかった表現だと感じ、自身の成長に感激したと明かしている。
+    sources: [spice-2018-aotonatsu]
+    evidence: "自分の成長に感激した"
+  - kind: official
+    text: 主題歌でありながら「＜映画じゃない＞」という歌詞を書いたが、修正なく一発で通ったと述べ、映画制作チームが曲の意図を理解してくれたことに感謝している。
+    sources: [spice-2018-aotonatsu]
+    evidence: "修正も一切なく一発で通った"
 basicSources:
   - um-upch-80493
   - um-upch-20531
@@ -30,3 +44,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
     date: 2020-07-08
+  - id: spice-2018-aotonatsu
+    title: Mrs. GREEN APPLEインタビュー 新譜「青と夏」を紐解いたら見えてきた、原点と核心
+    media: SPICE
+    url: https://spice.eplus.jp/articles/198912
+    date: 2018-07-27

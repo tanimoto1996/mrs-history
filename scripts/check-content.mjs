@@ -23,7 +23,10 @@ for (const s of songs) {
   const srcIds = new Set((d.sources ?? []).map((x) => x.id));
   if (!phaseIds.has(d.phase)) errors.push(`${s.file}: 不明な phase "${d.phase}"`);
   checkRefs(s.file, d.basicSources, srcIds, 'basicSources');
-  for (const t of d.tieups ?? []) checkRefs(s.file, t.sources, srcIds, `タイアップ「${t.work}」`);
+  for (const t of d.tieups ?? []) {
+    if (!t.type || !t.work) errors.push(`${s.file}: タイアップに type と work が必要`);
+    checkRefs(s.file, t.sources, srcIds, `タイアップ「${t.work}」`);
+  }
   (d.background ?? []).forEach((b, i) => {
     const where = `background[${i}]`;
     checkRefs(s.file, b.sources, srcIds, where);

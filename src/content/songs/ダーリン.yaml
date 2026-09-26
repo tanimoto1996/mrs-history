@@ -9,7 +9,14 @@ tieups:
     work: NHK総合『Mrs. GREEN APPLE 18祭』
     sources:
       - profile
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+mv: https://www.youtube.com/watch?v=L262NKlSl4s
+background:
+  - kind: official
+    text: 「ダーリン」のMusic Videoは、大森元貴自身がプランニングディレクターとしてクレジットされている。
+    sources: [mv-darling]
+    evidence: "Planning Director : Motoki Ohmori"
 basicSources:
   - um-uu1as-02283
 sources:
@@ -22,3 +29,8 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
+  - id: mv-darling
+    title: Mrs. GREEN APPLE「ダーリン」Official Music Video
+    media: Mrs. GREEN APPLE Official YouTube
+    url: https://www.youtube.com/watch?v=L262NKlSl4s
+    date: 2025-01-20

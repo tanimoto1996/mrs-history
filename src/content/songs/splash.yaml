@@ -4,11 +4,30 @@ phase: phase1
 works:
   - title: ENSEMBLE
     type: アルバム
-tieups: []
-status: basic
+tieups:
+  - type: 主題歌
+    work: スマートフォン向けRPG『ワンダーグラビティ ～ピノと重力使い～』オープニングテーマ
+    sources:
+      - famitsu-2018-splash
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は「SPLASH!!!」について、新作ゲームにあるワクワク感を楽曲にも落とし込みたかったと語っている。
+    sources: [famitsu-2018-splash]
+    evidence: "やはり新しいゲームにあるワクワク感を楽曲にも落とし込みたいな"
+  - kind: official
+    text: バンドを知らずにゲームからこの曲を聴く人も多いだろうと考え、ゲームをプレイすると改めて歌詞の意味がわかるような形を目指したと語っている。
+    sources: [famitsu-2018-splash]
+    evidence: "ゲームをプレイすると、改めて歌詞の意味がわかるような形を目指しました"
 basicSources:
   - um-upch-20483
 sources:
+  - id: famitsu-2018-splash
+    title: 『ワンダーグラビティ ～ピノと重力使い～』書き下ろし楽曲を提供したMrs. GREEN APPLE（ミセス）にインタビュー！
+    media: ファミ通App
+    url: https://app.famitsu.com/20180420_1282023/
+    date: 2018-04-20
   - id: um-upch-20483
     title: ENSEMBLE（アルバム）
     media: ユニバーサル ミュージック

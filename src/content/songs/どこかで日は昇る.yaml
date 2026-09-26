@@ -11,10 +11,20 @@ tieups:
     work: 劇場用映画「笑う招き猫」主題歌 ＆ MBS/TBS ドラマ「笑う招き猫」エンディングテーマ
     sources:
       - um-upch-80467
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-80467
   - um-upch-20549
+background:
+  - kind: official
+    text: 大森元貴は、それまでのMrs. GREEN APPLEのキラキラしたポップな作品と真逆になるくらいの気持ちで、泥臭く人間味あふれる歌として取り組んだと語っている。
+    sources: [billboard-japan-2017-sunrise]
+    evidence: "凄く泥臭い歌だし、人間味溢れる歌。"
+  - kind: official
+    text: 楽曲は「どこかで日が昇れば、どこかで日は落ちている」という自然の摂理を軸に、喜びも悲しみもある何気ない日常をテーマにした作品として特設サイトで紹介されている。
+    sources: [um-upch-80467-sunrise-site]
+    evidence: "“どこかで日が昇れば、どこかで日は落ちている”という大きな自然の摂理"
 sources:
   - id: um-upch-80467
     title: どこかで日は昇る（シングル）
@@ -26,3 +36,12 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
     date: 2020-07-08
+  - id: billboard-japan-2017-sunrise
+    title: Mrs. GREEN APPLE、映画『笑う招き猫』主題歌の新曲「どこかで日は昇る」MV公開
+    media: Billboard JAPAN
+    url: https://www.billboard-japan.com/d_news/detail/49777/2
+    date: 2017-04-11
+  - id: um-upch-80467-sunrise-site
+    title: Mrs. GREEN APPLE『どこかで日は昇る』特設サイト
+    media: ユニバーサル ミュージック
+    url: https://sp.universal-music.co.jp/mrsgreenapple/sunrise/

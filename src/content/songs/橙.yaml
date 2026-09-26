@@ -4,13 +4,28 @@ phase: phase2
 works:
   - title: ANTENNA
     type: アルバム
-tieups: []
-status: basic
+tieups:
+  - type: CMソング
+    work: 旭化成不動産レジデンス「旭化成の都市型マンションATLAS」ブランドCM
+    sources:
+      - natalie-2024-daidai-cm
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-pron-1061
+background:
+  - kind: official
+    text: 「橙」は、旭化成不動産レジデンスの都市型マンション「ATLAS」のブランドCMソングに起用された。
+    sources: [natalie-2024-daidai-cm]
+    evidence: "旭化成不動産レジデンス「旭化成の都市型マンションATLAS」のブランドCMに使用される。"
 sources:
   - id: um-pron-1061
     title: ANTENNA（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/pron-1061/
     date: 2023-07-05
+  - id: natalie-2024-daidai-cm
+    title: Mrs. GREEN APPLE「橙」が旭化成不動産レジデンスのCMソングに
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/586855
+    date: 2024-08-16

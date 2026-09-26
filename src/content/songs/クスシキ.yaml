@@ -9,7 +9,25 @@ tieups:
     work: TVアニメ『薬屋のひとりごと』第2期 第2クール
     sources:
       - profile
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、薬の語源とされる古語「奇し（くすし）」からタイトルを決めたと説明している。
+    sources: [thefirsttimes-2025-kusushiki]
+    evidence: "“薬”の語源になっている“奇し（くすし）”という古語から「クスシキ」というタイトルを決めました"
+  - kind: official
+    text: 「奇し」がもともと持つ“神秘的な”“摩訶不思議な”という意味からヒントを得て、メロディーと歌詞の世界観を広げたという。
+    sources: [thefirsttimes-2025-kusushiki]
+    evidence: "もともとは“神秘的な” “摩訶不思議な”という意味を持つということからヒントを得て"
+  - kind: official
+    text: 大森は、バンドサウンドに『薬屋のひとりごと』らしいオリエンタルな雰囲気をメロディーや楽器に取り入れたと述べ、新たな挑戦だとしている。
+    sources: [thefirsttimes-2025-kusushiki]
+    evidence: "『薬屋』らしいオリエンタルな雰囲気をメロディーや楽器にも取り入れ"
+  - kind: official
+    text: 大森は、この曲を“今世を超え来世でも変わらない愛”をテーマとして書いたと明かしている。
+    sources: [thefirsttimes-2025-kusushiki]
+    evidence: "“今世を超え来世でも変わらない愛”をテーマとして書いた"
 basicSources:
   - off-1017
 sources:
@@ -22,3 +40,8 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
+  - id: thefirsttimes-2025-kusushiki
+    title: Mrs. GREEN APPLE、新曲「クスシキ」がTVアニメ『薬屋のひとりごと』第2期 第2クールOPテーマに決定
+    media: THE FIRST TIMES
+    url: https://www.thefirsttimes.jp/news/0000592204/
+    date: 2025-03-29

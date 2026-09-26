@@ -5,7 +5,8 @@ works:
   - title: Unity
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20620
 sources:
@@ -14,3 +15,24 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20620/
     date: 2022-07-08
+  - id: barks-2022-unity-p4
+    title: 【インタビュー】Mrs. GREEN APPLE、約2年ぶり『Unity』完成「嘘がないように、今のありのままを届けたい」（4ページ目）
+    media: BARKS
+    url: https://www.barks.jp/news/?id=1000221800&page=4
+    date: 2022-07-08
+background:
+  - kind: official
+    text: 大森元貴は「君を知らない」について、「ニュー・マイ・ノーマル」より前になんとなくの形で作っていた曲で、「歪んだ愛情」という題材に惹かれてどうしても『Unity』に入れたく、本腰を入れてアレンジしたと語っている。
+    sources: [barks-2022-unity-p4]
+    evidence: "歪んだ愛情だったり、そういう題材がすごく面白いと思った"
+  - kind: official
+    text: 1番のサビ後の間奏は若井滉斗のギターリフだが、2番では同じフレーズをキーボードが担うようにアレンジを変えたといい、ギターからキーボードへとモチーフを受け渡す構成は「聴いたことがない」と考えて取り入れたと説明している。
+    sources: [barks-2022-unity-p4]
+    evidence: "まずギターが担って、次にキーボードが担うっていう曲は聴いたことないな"
+  - kind: official
+    text: レコーディングでは当初、大森不在のスタジオでサポートメンバーを含めて抑えたアンサンブルを固めていたが、それを聴いた大森が「頭で考えるな」と伝え、各メンバーが歌詞に感じた感情を演奏にぶつける方向へ作り直したという。
+    sources: [barks-2022-unity-p4]
+    evidence: "「頭で考えるな」という話をして"
+  - kind: interpretation
+    text: 3人それぞれの楽器（ボーカル・ギター・キーボード）がフレーズを歌うように鳴らし合う構成は、歪んだ愛情という一人称的な題材に対して、バンドのアンサンブルの強さで拮抗させようとした結果とも読める。
+    basis: 大森元貴が「曲の題材が、一人のこじんまりとしたものでしたから、その分、バンドのアンサンブルに求めるものは大きくて」と述べていること（barks-2022-unity-p4）

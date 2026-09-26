@@ -4,13 +4,28 @@ phase: phase1
 works:
   - title: ENSEMBLE
     type: アルバム
-tieups: []
-status: basic
+tieups:
+  - type: タイアップ
+    work: TOKYO FM系「SCHOOL OF LOCK！」とアクエリアスのコラボ企画「AQUARIUS presents 2018 FIFAワールドカップロシア Dream Passport」テーマソング
+    sources:
+      - natalie-2018-party-mv
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20483
+background:
+  - kind: official
+    text: 大森元貴は「PARTY」について、人生観を歌ったリードトラックで、バラード・ポップ・ロックなど各セクションで全く違う雰囲気になる“組曲”のような曲だと説明している。
+    sources: [natalie-2018-party-mv]
+    evidence: "人生観を歌っている今作のリードソング。“組曲”のように各セクションによってまったく違う雰囲気になっており"
 sources:
   - id: um-upch-20483
     title: ENSEMBLE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20483/
     date: 2018-04-18
+  - id: natalie-2018-party-mv
+    title: Mrs. GREEN APPLE、森を舞台にした「PARTY」MVで音楽隊に扮装
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/274718
+    date: 2018-03-22

@@ -5,7 +5,13 @@ works:
   - title: Attitude
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、当初はアルバムタイトルだけで全てを言えると思っていたが、難しいアルバムになったと感じて「Attitude」を書き始めたと語り、このアルバムの「説明書」のような曲だとしている。
+    sources: [skream-2019-attitude]
+    evidence: "I think it's a song that serves as an instruction manual for this album."
 basicSources:
   - um-upch-20531
 sources:
@@ -14,3 +20,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
     date: 2019-10-02
+  - id: skream-2019-attitude
+    title: Mrs. GREEN APPLE Interview
+    media: Skream! (en.skream.jp)
+    url: https://en.skream.jp/interview/2019/10/mrs_green_apple.php
+    date: 2019-10-01

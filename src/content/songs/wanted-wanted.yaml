@@ -13,12 +13,27 @@ tieups:
     work: カンテレ・フジテレビ系ドラマ「僕たちがやりました」オープニング曲
     sources:
       - um-upch-80477
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、若さゆえの自覚のある弱さから目を背けつつも完全には無視できず心のどこかで戦っている「汚れながらも美しいもの」を書き下ろしたとコメントしている。
+    sources: [um-news-20170617]
+    evidence: "若者の自覚はあるのに目を背けてしまう自分の弱さ、それでも完全に無視することは出来ずに心のどこかで戦っている。"
+  - kind: official
+    text: 大森は、20歳という今の自分にしか描けないものになったと語っている。
+    sources: [um-news-20170617]
+    evidence: "20歳という時間を生きる今の僕にしか描けないものになったと思います"
 basicSources:
   - um-upch-80477
   - um-upch-20483
   - um-upch-20549
 sources:
+  - id: um-news-20170617
+    title: Mrs. GREEN APPLE、話題のドラマ「僕たちがやりました」のオープニングテーマを書き下ろし！
+    media: ユニバーサル ミュージック（Mrs. GREEN APPLE公式）
+    url: https://www.universal-music.co.jp/mrsgreenapple/news/2017-06-17/
+    date: 2017-06-17
   - id: um-upch-80477
     title: WanteD! WanteD!（シングル）
     media: ユニバーサル ミュージック

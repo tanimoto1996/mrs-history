@@ -7,7 +7,13 @@ works:
   - title: Attitude
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、「Folktale（民話）」という言葉の通り、皆で歌って楽しい気持ちになれる安らぎの曲を目指して作ったと説明している。
+    sources: [softbanknews-2019-folktale]
+    evidence: "『Folktale』が『民話』という意味なので、その言葉通りに皆で歌って楽しい気持ちになれる安らぎの曲になれば"
 basicSources:
   - um-upch-80509
   - um-upch-20531
@@ -21,4 +27,9 @@ sources:
     title: Attitude（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
+    date: 2019-10-02
+  - id: softbanknews-2019-folktale
+    title: Mrs. GREEN APPLE（ミセス・グリーンアップル）インタビュー「民話のように、皆で歌って楽しい気持ちになれる曲を作った」
+    media: ソフトバンクニュース
+    url: https://www.softbank.jp/sbnews/entry/20191002_01
     date: 2019-10-02

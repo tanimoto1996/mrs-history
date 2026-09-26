@@ -9,11 +9,37 @@ works:
   - title: "5"
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-d2cn-1510
   - um-upch-20531
   - um-upch-20549
+background:
+  - kind: official
+    text: 大森元貴は、この曲が資生堂SEA BREEZEのCMのために書き下ろされたものだと明かしている。
+    sources: [usen-2019-romanticism]
+    evidence: "書き下ろしです"
+  - kind: official
+    text: CMでは曲の一部（「イマドキドキドキが高ぶって」のセクション）しか流れないようにし、本当のサビである「愛を愛し」以降を聴いて初めて曲の意図が伝わるよう狙ったと説明している。
+    sources: [usen-2019-romanticism]
+    evidence: "続きが気になるな っていう焦らすような曲にしたかった"
+  - kind: official
+    text: 歌詞は「人類愛」のようなものをコンセプトに書いたとし、愛や恋に対して肯定も否定もしない視点で書いたと述べている。
+    sources: [usen-2019-romanticism]
+    evidence: "人類愛みたいなものをコンセプトにして"
+  - kind: official
+    text: 「ロマンチシズム」という言葉自体がロマンとシニカルさという両極端な意味を含む言葉であり、曲の受け取り方は聴き手に委ねていると語っている。
+    sources: [usen-2019-romanticism]
+    evidence: "ロマンチシズムって言葉がそもそも両極端な意味を含む言葉"
+  - kind: official
+    text: 前作アルバム『ENSEMBLE』を経て、ギター（若井滉斗）は今回の曲でギターリフを通じた他パートとの音の掛け合いができるようになったと振り返っている。
+    sources: [usen-2019-romanticism]
+    evidence: "周りとの駆け引きというか、いろんな音の会話っていうのができるようになってる"
+  - kind: official
+    text: 鍵盤（藤澤涼架）は、この曲でのオルガンの役割について、曲に可愛らしさやキャラクター感を与えていると述べている。
+    sources: [usen-2019-romanticism]
+    evidence: "ちょっと可愛らしさやキャラクター感が出て"
 sources:
   - id: um-d2cn-1510
     title: ロマンチシズム（シングル）
@@ -30,3 +56,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
     date: 2020-07-08
+  - id: usen-2019-romanticism
+    title: Mrs. GREEN APPLE「ロマンチシズム」インタビュー――“それも全て人間さ”っていう視点
+    media: encore（USEN）
+    url: https://e.usen.com/archive/sub-archive/24522.html
+    date: 2019-04-03

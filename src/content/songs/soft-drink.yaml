@@ -9,12 +9,32 @@ tieups:
     work: 2017年5月公開予定 映画『ポエトリーエンジェル』主題歌
     sources:
       - um-upch-20443
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20443
+background:
+  - kind: official
+    text: 大森元貴が17歳の最後に書いた曲で、泡のように儚くも美しい青春と、人と人が交わっていくほろ苦くも温かい歌だと本人は説明している。
+    sources: [rockinon-2016-softdrink]
+    evidence: "17歳の最後に描いた曲、soFt-dRink。泡の様に儚くも美しい青春と人間同士の交わっていくほろ苦くも温かい唄。"
+  - kind: official
+    text: 映画『ポエトリーエンジェル』を観た大森は、自分の曲が主題歌であることを忘れて作品に引き込まれ、この映画そのものが大好きだと語っている。
+    sources: [barks-2017-softdrink-mv]
+    evidence: "『携われている』とかではなく、この映画『ポエトリーエンジェル』が大好き"
 sources:
   - id: um-upch-20443
     title: Mrs. GREEN APPLE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20443/
     date: 2017-01-11
+  - id: rockinon-2016-softdrink
+    title: Mrs. GREEN APPLE、大森が17歳最後に描いた未発表曲が映画主題歌に
+    media: rockinon.com
+    url: https://rockinon.com/news/detail/151374
+    date: 2016-11-11
+  - id: barks-2017-softdrink-mv
+    title: Mrs. GREEN APPLE、映画『ポエトリーエンジェル』コラボMV公開
+    media: BARKS
+    url: https://www.barks.jp/news/?id=1000137854
+    date: 2017-02-03

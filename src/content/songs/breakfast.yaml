@@ -10,6 +10,7 @@ tieups:
     sources:
       - profile
 status: basic
+background: []
 basicSources:
   - um-uu1as-02436
 sources:
@@ -22,3 +23,9 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
+  - id: oricon-2025-breakfast
+    title: Mrs. GREEN
+      APPLE、フジ『サン！シャイン』のテーマソングに新曲「breakfast」描き下ろし「皆さまの朝を少しでも彩れるよう」【コメントあり】
+    media: ORICON NEWS
+    url: https://www.oricon.co.jp/news/2376684/full/
+    date: 2025-03-30

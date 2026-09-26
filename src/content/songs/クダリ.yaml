@@ -5,10 +5,27 @@ works:
   - title: Attitude
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴はラジオ番組で、「クダリ」は4〜5年前に1番のワンコーラスだけ作られていたが、当時は演奏力や表現力が足りずお蔵入りしていた曲だと説明している。
+    sources:
+      - schoolofrock-2019-kudari
+    evidence: まだ演奏力や表現力含めて、なんかピンと来ないなっていうのでお蔵入りしてたんです
+  - kind: official
+    text: 続きの歌詞を書く際、10代の多感な頃の気持ちは今と違うと思っていたが、書き始めると当時のことを思い出し、結局書いていることは変わらないと感じたと語っている。
+    sources:
+      - schoolofrock-2019-kudari
+    evidence: 書き始めたら当時のことをいろいろ思い出してくるわけですよ
 basicSources:
   - um-upch-20531
 sources:
+  - id: schoolofrock-2019-kudari
+    title: SCHOOL OF LOCK! ミセスLOCKS!（大森元貴によるクダリの解説）
+    media: TOKYO FM
+    url: https://news.livedoor.com/article/detail/17223166/
+    date: 2019-10-09
   - id: um-upch-20531
     title: Attitude（アルバム）
     media: ユニバーサル ミュージック

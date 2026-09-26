@@ -8,13 +8,41 @@ works:
     type: アルバム
   - title: "5"
     type: アルバム
-tieups: []
-status: basic
+tieups:
+  - type: 応援歌
+    work: 第97回全国高校サッカー選手権大会
+    sources:
+      - um-news-2018-bokunokoto
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: バンドは、全国高校サッカー選手権大会の応援歌に選ばれたことを純粋に嬉しく思う一方、大きな責任も感じたとコメントしている。
+    sources: [um-news-2018-bokunokoto]
+    evidence: "純粋にとても嬉しく思いましたが、それと同時に大きな責任を感じました"
+  - kind: official
+    text: 大森元貴は、優勝できるのは1校で負けてしまうチームが何千校もある大会のために、綺麗事だけではなくその現実をしっかり肯定できるような曲を目指したと語っている。
+    sources: [soccerking-2019-bokunokoto]
+    evidence: "全て綺麗事としてではなく、しっかり肯定できるような"
+  - kind: official
+    text: 若井滉斗は初めて曲を聴いたとき、すごくリアルについて歌っている曲だと感じ、「努力も孤独も報われないことがある」といったフレーズはヒリヒリするが、それが現実でもあると述べている。
+    sources: [soccerking-2019-bokunokoto]
+    evidence: "努力も孤独も報われないことがある"
 basicSources:
   - um-upch-80509
   - um-upch-20531
   - um-upch-20549
 sources:
+  - id: um-news-2018-bokunokoto
+    title: Mrs. GREEN APPLE、第97回全国高校サッカー選手権大会の応援歌を担当!!
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/news/2018-10-16/
+    date: 2018-10-16
+  - id: soccerking-2019-bokunokoto
+    title: 【選手権インタビュー】Mrs. GREEN APPLE ～高校生を支える人生賛歌に～
+    media: サッカーキング
+    url: https://www.soccer-king.jp/news/japan/highschool/20190109/888183.html
+    date: 2019-01-09
   - id: um-upch-80509
     title: 僕のこと（シングル）
     media: ユニバーサル ミュージック

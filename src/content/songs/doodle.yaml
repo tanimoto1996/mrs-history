@@ -5,7 +5,17 @@ works:
   - title: ANTENNA
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 藤澤涼架は「Doodle」について、ポップでありながら一歩踏み出す勇気をくれる歌詞が好きで、結成10年目のミセスが歌うからこそ伝えられる想いがあると語っている。
+    sources: [mdpr-2023-antenna]
+    evidence: "一歩踏み出す勇気をくれる深い歌詞が好きで"
+  - kind: official
+    text: 大森元貴は、この曲のデモがフェーズ1の頃からあり、世に出すタイミングを計っていた楽曲だとし、フェーズ2のミセスらしさを加えてレコーディングしたと説明している。
+    sources: [mdpr-2023-antenna]
+    evidence: "どのタイミングで世に出そうか計っていた楽曲"
 basicSources:
   - um-pron-1061
 sources:
@@ -13,4 +23,9 @@ sources:
     title: ANTENNA（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/pron-1061/
+    date: 2023-07-05
+  - id: mdpr-2023-antenna
+    title: Mrs. GREEN APPLE、バンド結成10年で叶えた夢＆フェーズ2での変化語る＜5thアルバム「ANTENNA」インタビュー＞
+    media: モデルプレス
+    url: https://mdpr.jp/interview/detail/3795088
     date: 2023-07-05
