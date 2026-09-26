@@ -77,14 +77,15 @@ const yt = youtubeId(d.mv);
   .small { font-size: .8rem; }
   .ref { font-size: .75rem; text-decoration: none; margin-left: .1rem; }
   .video { position: relative; aspect-ratio: 16 / 9; margin: 1.25rem 0; }
-  .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; border-radius: 10px; }
+  .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; border-radius: 18px; box-shadow: 0 20px 60px -20px rgba(226, 255, 145, .3); }
   .bg { list-style: none; padding: 0; display: grid; gap: .75rem; }
-  .bg li { border-left: 4px solid; padding: .25rem .75rem; background: var(--card); border-radius: 0 8px 8px 0; }
+  .bg li { border-left: 4px solid; padding: .75rem 1rem; background: var(--card); border-radius: 0 14px 14px 0; transition: transform .4s var(--ease); }
+  .bg li:hover { transform: translateX(4px); }
   .bg li p { margin: .25rem 0; }
   .bg .official { border-color: var(--official); }
   .bg .interpretation { border-color: var(--interp); }
   .bg .secondary { border-color: var(--secondary); }
-  .k { font-size: .75rem; padding: 0 .5rem; border-radius: 4px; color: #fff; }
+  .k { font-size: .75rem; padding: 0 .5rem; border-radius: 4px; color: #002928; font-weight: 700; }
   .official .k { background: var(--official); }
   .interpretation .k { background: var(--interp); }
   .secondary .k { background: var(--secondary); }

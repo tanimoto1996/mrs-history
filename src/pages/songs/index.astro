@@ -57,9 +57,12 @@ const works = [...new Set(songs.flatMap((s) => s.data.works.map((w) => w.title))
   .filters input[type=search] { flex: 1 1 100%; padding: .6rem; font-size: 1rem; border: 1px solid var(--line); border-radius: 8px; }
   .filters select { padding: .4rem; border-radius: 6px; border: 1px solid var(--line); max-width: 100%; }
   .list { list-style: none; padding: 0; }
-  .list li { display: flex; flex-wrap: wrap; gap: .1rem .6rem; align-items: baseline; padding: .6rem 0; border-bottom: 1px solid var(--line); }
+  .list li { display: flex; flex-wrap: wrap; gap: .1rem .6rem; align-items: baseline; padding: .75rem .75rem; border-bottom: 1px solid var(--line); border-radius: 10px; transition: background .3s, padding-left .4s var(--ease); }
+  .list li:hover { background: rgba(226, 255, 145, .06); padding-left: 1.25rem; }
+  .list li a { color: var(--fg); text-decoration: none; }
+  .list li:hover a { color: var(--accent); }
   .list li[hidden] { display: none; }
   .list li a { font-weight: 600; }
   .tie { flex-basis: 100%; font-size: .8rem; }
-  .tag.ok { color: var(--accent); border-color: var(--accent); }
+  .tag.ok { color: #002928; background: var(--accent); border-color: var(--accent); font-weight: 700; }
 </style>
