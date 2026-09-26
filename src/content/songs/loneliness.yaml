@@ -4,6 +4,7 @@ phase: phase2
 works:
   - title: ANTENNA
     type: アルバム
+    date: 2023-07-05
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -16,7 +17,7 @@ sources:
     url: https://www.universal-music.co.jp/mrsgreenapple/products/pron-1061/
     date: 2023-07-05
   - id: sec-note-loneliness
-    title: "\"Loneliness\" 歌詞考察｜⌇"
+    title: '"Loneliness" 歌詞考察｜⌇'
     media: note（個人ブログ）
     url: https://note.com/tuzuri_/n/n6a48f273a982
     date: 2023-07-05

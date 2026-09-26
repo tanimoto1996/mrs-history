@@ -4,14 +4,16 @@ phase: phase1
 works:
   - title: ロマンチシズム
     type: シングル
+    date: 2019-04-03
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、「月とアネモネ」は曲も歌詞ももともと全部でき上がっていた曲で、メンバーの藤澤涼架と「いつか出せたらいいよね」と話していたと語っている。
-    sources: [usen-2019-romanticism]
-    evidence: "もともと曲も歌詞も全部あったんです。"
+    sources:
+      - usen-2019-romanticism
+    evidence: もともと曲も歌詞も全部あったんです。
 basicSources:
   - um-d2cn-1510
 sources:

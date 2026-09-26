@@ -4,6 +4,7 @@ phase: phase3
 works:
   - title: POPS
     type: アルバム
+    date: 2026-09-30
 tieups:
   - type: 主題歌
     work: 映画『MGA MAGICAL 10 YEARS DOCUMENTARY FILM ～THE ORIGIN～』
@@ -13,21 +14,26 @@ status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
-    text: ドキュメンタリー映画「THE ORIGIN」は、主題歌「Variety」を書き下ろして観客に届けるまでの300日間に密着した内容で、予告映像には制作にまつわるメンバーの発言が使われている。
-    sources: [natalie-2025-variety]
-    evidence: "映画の主題歌「Variety」を書き下ろして観客に届けるまでの300日間に密着"
+    text: ドキュメンタリー映画「THE
+      ORIGIN」は、主題歌「Variety」を書き下ろして観客に届けるまでの300日間に密着した内容で、予告映像には制作にまつわるメンバーの発言が使われている。
+    sources:
+      - natalie-2025-variety
+    evidence: 映画の主題歌「Variety」を書き下ろして観客に届けるまでの300日間に密着
   - kind: official
     text: 若井滉斗は予告映像で、3人の関係性について「強みも弱みも全然違うからこそ、綺麗なバランスが成り立っている」と語っている。
-    sources: [natalie-2025-variety]
-    evidence: "強みも弱みも全然違うからこそ、綺麗なバランスが成り立っている"
+    sources:
+      - natalie-2025-variety
+    evidence: 強みも弱みも全然違うからこそ、綺麗なバランスが成り立っている
   - kind: official
     text: 藤澤涼架は予告映像で、バンドへの思いを「自分がどれだけ貢献できるか」と語っている。
-    sources: [natalie-2025-variety]
-    evidence: "自分がどれだけ貢献できるか"
+    sources:
+      - natalie-2025-variety
+    evidence: 自分がどれだけ貢献できるか
   - kind: official
     text: 大森元貴は予告映像で、自身の孤独について「何万人の前でライブをしていても孤独なんですよ。“わかる”なんて言ってほしくない。わかんないじゃん」と語っている。
-    sources: [natalie-2025-variety]
-    evidence: "何万人の前でライブをしていても孤独なんですよ。“わかる”なんて言ってほしくない。わかんないじゃん"
+    sources:
+      - natalie-2025-variety
+    evidence: 何万人の前でライブをしていても孤独なんですよ。“わかる”なんて言ってほしくない。わかんないじゃん
 basicSources:
   - um-dsku-16186
   - am-6808172946

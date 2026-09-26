@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: TWELVE
     type: アルバム
+    date: 2016-01-13
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -12,8 +13,9 @@ basicSources:
 background:
   - kind: secondary
     text: ファンブログでは、「藍」の花言葉が「美しい装い」であることに触れ、歌詞に一度だけ登場する「藍」の一節には、明るく見える表現の裏に切なさが込められていると解釈されている。
-    sources: [darumano-kuni-twelve-part1]
-    evidence: "泣いて　去って　逃げてほらまた笑顔な藍"
+    sources:
+      - darumano-kuni-twelve-part1
+    evidence: 泣いて　去って　逃げてほらまた笑顔な藍
 sources:
   - id: um-upch-20411
     title: TWELVE（アルバム）

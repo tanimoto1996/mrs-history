@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: Attitude
     type: アルバム
+    date: 2019-10-02
 tieups:
   - type: CMソング
     work: 森永製菓「受験に inゼリー」テレビCM
@@ -14,8 +15,9 @@ reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、小さい頃から当たり前のように飲んでいたinゼリーのCMソングに「CHEERS」が使われたことを喜び、自身もキンキンに冷やして飲むのが好きだと話している。
-    sources: [natalie-2020-cheers-cm]
-    evidence: "当たり前のように小さい頃から飲んでいたinゼリー"
+    sources:
+      - natalie-2020-cheers-cm
+    evidence: 当たり前のように小さい頃から飲んでいたinゼリー
 basicSources:
   - um-upch-20531
 sources:

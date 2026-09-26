@@ -4,24 +4,29 @@ phase: phase1
 works:
   - title: WHOO WHOO WHOO
     type: 配信
+    date: 2017-12-04
   - title: ENSEMBLE
     type: アルバム
+    date: 2018-04-18
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、前作「WanteD! WanteD!」に比べてEDM色が強く、歌詞の内容よりも音楽のノリだけで楽しんでほしい曲だと語っている。
-    sources: [tfm-2017-whoowhoowhoo]
-    evidence: "サビがずっと「ウーフーフー」しか言ってなく、歌詞とかじゃなく、音楽のノリだけで楽しむような楽曲になっておりますね"
+    sources:
+      - tfm-2017-whoowhoowhoo
+    evidence: サビがずっと「ウーフーフー」しか言ってなく、歌詞とかじゃなく、音楽のノリだけで楽しむような楽曲になっておりますね
   - kind: official
     text: 若井滉斗は、デジタルな中にも生っぽさが感じられる仕上がりだと述べている。
-    sources: [tfm-2017-whoowhoowhoo]
-    evidence: "デジタルチックな中にも、生感みたいなのが入ってかっこいいかなと思いますね"
+    sources:
+      - tfm-2017-whoowhoowhoo
+    evidence: デジタルチックな中にも、生感みたいなのが入ってかっこいいかなと思いますね
   - kind: official
     text: 藤澤涼架は、ライブでみんなが踊れて開放的になれる楽曲だと話している。
-    sources: [tfm-2017-whoowhoowhoo]
-    evidence: "間違いなく、僕らも来てくれてるみんなも踊れる瞬間というか、開放的になれる楽曲だなと思っていて"
+    sources:
+      - tfm-2017-whoowhoowhoo
+    evidence: 間違いなく、僕らも来てくれてるみんなも踊れる瞬間というか、開放的になれる楽曲だなと思っていて
 basicSources:
   - um-uu1as-00451
   - um-upch-20483

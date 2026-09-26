@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: Attitude
     type: アルバム
+    date: 2019-10-02
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -16,18 +17,18 @@ sources:
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
     date: 2019-10-02
   - id: utaten-usojanaiyo
-    title: "Mrs. GREEN APPLE「嘘じゃないよ」歌詞の意味を考察！温度差が大きすぎた「貴方」と「私」"
+    title: Mrs. GREEN APPLE「嘘じゃないよ」歌詞の意味を考察！温度差が大きすぎた「貴方」と「私」
     media: UtaTen
     url: https://utaten.com/specialArticle/index/8201
     date: 2023-07-10
 background:
   - kind: secondary
-    text: "本当は好きな気持ちを言葉にできない女性の視点で、距離の近さゆえの別れが綴られた曲として考察されている。"
+    text: 本当は好きな気持ちを言葉にできない女性の視点で、距離の近さゆえの別れが綴られた曲として考察されている。
     sources:
       - utaten-usojanaiyo
-    evidence: "本音を言い出せずに恋が終わった女性"
+    evidence: 本音を言い出せずに恋が終わった女性
   - kind: secondary
-    text: "繰り返される「嘘じゃないよ」は実は本心を隠す言葉で、ラストの「嘘じゃなくないよ」こそが主人公の本当の気持ちだったのではという解釈が紹介されている。"
+    text: 繰り返される「嘘じゃないよ」は実は本心を隠す言葉で、ラストの「嘘じゃなくないよ」こそが主人公の本当の気持ちだったのではという解釈が紹介されている。
     sources:
       - utaten-usojanaiyo
-    evidence: "これまでに繰り返してきた「嘘じゃないよ」は"
+    evidence: これまでに繰り返してきた「嘘じゃないよ」は

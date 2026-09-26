@@ -4,8 +4,10 @@ phase: phase1
 works:
   - title: Love me, Love you
     type: シングル
+    date: 2018-02-14
   - title: "5"
     type: アルバム
+    date: 2020-07-08
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -14,13 +16,16 @@ basicSources:
   - um-upch-20549
 background:
   - kind: official
-    text: 大森元貴は、アルバム『ENSEMBLE』収録版の「Love me, Love you」がこの曲の完成形であり、シングル・カットのためにはむしろ編集を加えたくらいの感覚だったと語っている。
-    sources: [skream-2018-04-mga]
-    evidence: "アルバムに入った「Love me, Love you」は、これが完成形みたいな感じで、むしろシングル・カットするために編集を加えたぐらいの感じなんです"
+    text: 大森元貴は、アルバム『ENSEMBLE』収録版の「Love me, Love
+      you」がこの曲の完成形であり、シングル・カットのためにはむしろ編集を加えたくらいの感覚だったと語っている。
+    sources:
+      - skream-2018-04-mga
+    evidence: アルバムに入った「Love me, Love you」は、これが完成形みたいな感じで、むしろシングル・カットするために編集を加えたぐらいの感じなんです
   - kind: interpretation
     text: 公式サイトのライナーノーツでは、この曲は演奏の「アンサンブル」に正面から向き合っていた時期に生まれ、ブラスセクションを用いたビッグバンド編成やミュージカル的な展開に、当時のバンドが目指した「普遍的なエンターテイメントとしての音楽」が表れていると評されている。
     basis: 公式サイト『5』ライナーノーツ（um-liner-lovemeloveyou）での楽曲解説
-    sources: [um-liner-lovemeloveyou]
+    sources:
+      - um-liner-lovemeloveyou
 sources:
   - id: um-upch-80487
     title: Love me, Love you（シングル）

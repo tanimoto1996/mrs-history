@@ -30,7 +30,7 @@ const songs = defineCollection({
     title: z.string(),
     releaseDate: dateStr(ymd),
     phase: z.string(),
-    works: z.array(z.object({ title: z.string(), type: z.string() })).default([]),
+    works: z.array(z.object({ title: z.string(), type: z.string(), date: dateStr(ymd).optional() })).default([]),
     credits: z.object({ lyrics: z.string().optional(), music: z.string().optional() }).default({}),
     mv: z.string().url().optional(),
     tieups: z.array(z.object({ type: z.string(), work: z.string(), sources: z.array(z.string()).min(1) })).default([]),

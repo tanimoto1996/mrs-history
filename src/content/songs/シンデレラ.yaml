@@ -4,6 +4,7 @@ phase: phase3
 works:
   - title: POPS
     type: アルバム
+    date: 2026-09-30
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -13,8 +14,9 @@ basicSources:
 background:
   - kind: secondary
     text: 音楽メディアの記事では、「シンデレラ」はアルバム『POPS』に収録される9曲の書き下ろし新曲の一つとして紹介されている（2026年9月30日発売時点で楽曲の内容は未確認）。
-    sources: [tower-pops-title]
-    evidence: "“共犯”、“シンデレラ”、“本と彗星”、“ア・ポステリオリ”"
+    sources:
+      - tower-pops-title
+    evidence: “共犯”、“シンデレラ”、“本と彗星”、“ア・ポステリオリ”
 sources:
   - id: um-dsku-16186
     title: POPS（アルバム）

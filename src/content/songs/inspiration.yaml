@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: Attitude
     type: アルバム
+    date: 2019-10-02
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -12,8 +13,9 @@ basicSources:
 background:
   - kind: official
     text: 大森元貴は、タイトルが示す通り、曲が生まれる瞬間を誇張して音に翻訳したのがこの曲だと説明している。冒頭の弦楽器のチューニング音は多くのことの比喩だという。
-    sources: [skream-2019-mga-interview]
-    evidence: "we've exaggerated the moment of creating a song"
+    sources:
+      - skream-2019-mga-interview
+    evidence: we've exaggerated the moment of creating a song
 sources:
   - id: um-upch-20531
     title: Attitude（アルバム）
@@ -21,7 +23,7 @@ sources:
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
     date: 2019-10-02
   - id: skream-2019-mga-interview
-    title: "Mrs. GREEN APPLE | Interview"
+    title: Mrs. GREEN APPLE | Interview
     media: Skream! (en.skream.jp)
     url: https://en.skream.jp/interview/2019/10/mrs_green_apple.php
     date: 2019-10-01

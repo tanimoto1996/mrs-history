@@ -4,12 +4,14 @@ phase: phase2
 works:
   - title: "10"
     type: アルバム
+    date: 2025-07-07
 tieups: []
 background:
   - kind: official
     text: 「慶びの種」はもともと2014年7月5日にライブ会場限定で販売された1stミニアルバム「Introduction」のシークレットトラックで、現在では入手困難だった。アニバーサリーベストアルバム「10」には新録バージョンとして収録された。
-    sources: [natalie-2025-ten-tracklist]
-    evidence: "2014年7月5日にライブ会場限定で販売され、現在では入手困難な1stミニアルバム「Introduction」のシークレットトラック「慶びの種」の新録バージョン"
+    sources:
+      - natalie-2025-ten-tracklist
+    evidence: 2014年7月5日にライブ会場限定で販売され、現在では入手困難な1stミニアルバム「Introduction」のシークレットトラック「慶びの種」の新録バージョン
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:

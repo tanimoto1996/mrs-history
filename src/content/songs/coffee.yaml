@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: ENSEMBLE
     type: アルバム
+    date: 2018-04-18
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -11,9 +12,11 @@ basicSources:
   - um-upch-20483
 background:
   - kind: official
-    text: アルバム『ENSEMBLE』の公式特設サイトでは、この曲は恋とは違う愛をテーマにした歌であり、Mrs. GREEN APPLE自身初めての小編成での制作による、どこか大人っぽくほろ苦い楽曲だと紹介されている。
-    sources: [um-ensemble-site]
-    evidence: "Mrs. GREEN APPLE自身初となる小編成で、どこか大人っぽく、ほろ苦いコーヒーのような楽曲。"
+    text: アルバム『ENSEMBLE』の公式特設サイトでは、この曲は恋とは違う愛をテーマにした歌であり、Mrs. GREEN
+      APPLE自身初めての小編成での制作による、どこか大人っぽくほろ苦い楽曲だと紹介されている。
+    sources:
+      - um-ensemble-site
+    evidence: Mrs. GREEN APPLE自身初となる小編成で、どこか大人っぽく、ほろ苦いコーヒーのような楽曲。
 sources:
   - id: um-upch-20483
     title: ENSEMBLE（アルバム）

@@ -4,8 +4,10 @@ phase: phase1
 works:
   - title: ENSEMBLE
     type: アルバム
+    date: 2018-04-18
   - title: "5"
     type: アルバム
+    date: 2020-07-08
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -15,12 +17,14 @@ basicSources:
 background:
   - kind: secondary
     text: 歌詞考察サイトでは、高校2年生の冬に大森元貴が書いた楽曲とされ、対立する物事の間でより高次の答えを探る「アウフヘーベン」という言葉の意味を通じて、不条理な世界での生き方を問う曲と紹介されている。
-    sources: [arai-hikidashi-aufheben]
-    evidence: "この曲は、作詞作曲を手掛けたボーカルの大森が高校２年生の冬に書いた楽曲です。"
+    sources:
+      - arai-hikidashi-aufheben
+    evidence: この曲は、作詞作曲を手掛けたボーカルの大森が高校２年生の冬に書いた楽曲です。
   - kind: secondary
     text: 「歪んでいて綺麗なもの」という歌詞が、白か黒かで単純に割り切れない世界の複雑さを象徴しているとする解釈がある。
-    sources: [arai-hikidashi-aufheben]
-    evidence: "「歪んでいて綺麗なもの」でした"
+    sources:
+      - arai-hikidashi-aufheben
+    evidence: 「歪んでいて綺麗なもの」でした
 sources:
   - id: um-upch-20483
     title: ENSEMBLE（アルバム）

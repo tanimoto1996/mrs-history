@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: サママ・フェスティバル！
     type: シングル
+    date: 2016-06-15
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -12,8 +13,9 @@ basicSources:
 background:
   - kind: secondary
     text: 冒頭の「不幸の雨が降り続き　傘も無い僕は　佇む毎日」という一節から、主人公が想いを伝えられず葛藤する様子が描かれていると紹介されている。
-    sources: [ameblo-loveryubi-umbrella]
-    evidence: "まず、主人公が自分の想いを伝えることができず、葛藤する様子が描かれます。"
+    sources:
+      - ameblo-loveryubi-umbrella
+    evidence: まず、主人公が自分の想いを伝えることができず、葛藤する様子が描かれます。
 sources:
   - id: am-1445294670
     title: サママ・フェスティバル！（シングル）

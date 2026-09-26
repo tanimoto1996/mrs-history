@@ -4,14 +4,18 @@ phase: phase1
 works:
   - title: Speaking
     type: シングル
+    date: 2015-12-16
   - title: TWELVE
     type: アルバム
+    date: 2016-01-13
   - title: "5"
     type: アルバム
+    date: 2020-07-08
 tieups:
   - type: アニメ エンディングテーマ
     work: 遊☆戯☆王ARC-V
-    sources: [livedoor-2020-speaking]
+    sources:
+      - livedoor-2020-speaking
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
@@ -21,16 +25,19 @@ basicSources:
 background:
   - kind: official
     text: 大森元貴は、18〜19歳の頃に作った曲だとふり返り、20代半ばを迎えた今も自分にとって思い入れの強い曲だと語っている。
-    sources: [livedoor-2020-speaking]
-    evidence: "当時の自分も思い出させてくれるし、ライブでやってもとても盛り上がる曲ですし"
+    sources:
+      - livedoor-2020-speaking
+    evidence: 当時の自分も思い出させてくれるし、ライブでやってもとても盛り上がる曲ですし
   - kind: official
     text: ドラマー山中綾華は、TWELVE収録曲と合宿でまとめてレコーディングした際、学生時代の焦燥感を思い出しながら録音したと話している。
-    sources: [livedoor-2020-speaking]
-    evidence: "学生のころってこういう悩みあったよねーとか、すごいモヤモヤっとした気持ちとか焦燥感をすごい思い出したり"
+    sources:
+      - livedoor-2020-speaking
+    evidence: 学生のころってこういう悩みあったよねーとか、すごいモヤモヤっとした気持ちとか焦燥感をすごい思い出したり
   - kind: official
     text: ベースの郄野清宗は、メジャーデビュー後すぐにリリースされたこの曲がきっかけでバンドを知ったというファンが多いと述べている。
-    sources: [livedoor-2020-speaking]
-    evidence: "この曲をきっかけにしてくれた人っていうのがすごくたくさんいてくれて"
+    sources:
+      - livedoor-2020-speaking
+    evidence: この曲をきっかけにしてくれた人っていうのがすごくたくさんいてくれて
 sources:
   - id: livedoor-2020-speaking
     title: Mrs. GREEN APPLE「Speaking」レコーディング時の思い出

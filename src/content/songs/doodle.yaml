@@ -4,18 +4,21 @@ phase: phase2
 works:
   - title: ANTENNA
     type: アルバム
+    date: 2023-07-05
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 藤澤涼架は「Doodle」について、ポップでありながら一歩踏み出す勇気をくれる歌詞が好きで、結成10年目のミセスが歌うからこそ伝えられる想いがあると語っている。
-    sources: [mdpr-2023-antenna]
-    evidence: "一歩踏み出す勇気をくれる深い歌詞が好きで"
+    sources:
+      - mdpr-2023-antenna
+    evidence: 一歩踏み出す勇気をくれる深い歌詞が好きで
   - kind: official
     text: 大森元貴は、この曲のデモがフェーズ1の頃からあり、世に出すタイミングを計っていた楽曲だとし、フェーズ2のミセスらしさを加えてレコーディングしたと説明している。
-    sources: [mdpr-2023-antenna]
-    evidence: "どのタイミングで世に出そうか計っていた楽曲"
+    sources:
+      - mdpr-2023-antenna
+    evidence: どのタイミングで世に出そうか計っていた楽曲
 basicSources:
   - um-pron-1061
 sources:

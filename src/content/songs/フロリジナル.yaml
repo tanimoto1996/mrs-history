@@ -4,6 +4,7 @@ phase: phase2
 works:
   - title: Soranji
     type: シングル
+    date: 2022-11-09
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27

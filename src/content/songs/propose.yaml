@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: Attitude
     type: アルバム
+    date: 2019-10-02
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -16,18 +17,18 @@ sources:
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
     date: 2019-10-02
   - id: arai-hikidashi-propose
-    title: "Mrs. GREEN APPLE『ProPose』歌詞【意味＆解釈】｜君は僕のことを必要としているの？（ミセス）"
+    title: Mrs. GREEN APPLE『ProPose』歌詞【意味＆解釈】｜君は僕のことを必要としているの？（ミセス）
     media: arai no HIKIDASHI
     url: https://takahiroarai.me/mrsgreenapple-propose/
     date: 2025-08-13
 background:
   - kind: secondary
-    text: "魅力を感じていなかったはずの相手に恋をしてしまい、その理由が分からないまま思いを告げられずにいる主人公の戸惑いを描いた曲だと紹介されている。"
+    text: 魅力を感じていなかったはずの相手に恋をしてしまい、その理由が分からないまま思いを告げられずにいる主人公の戸惑いを描いた曲だと紹介されている。
     sources:
       - arai-hikidashi-propose
-    evidence: "華がないと感じていた君に恋する自分がいることに気が付きます。"
+    evidence: 華がないと感じていた君に恋する自分がいることに気が付きます。
   - kind: secondary
-    text: "自分が相手を必要としていても、相手も自分を必要としているのか確信が持てず、最後には孤独だけが残る心情が歌われていると解釈されている。"
+    text: 自分が相手を必要としていても、相手も自分を必要としているのか確信が持てず、最後には孤独だけが残る心情が歌われていると解釈されている。
     sources:
       - arai-hikidashi-propose
-    evidence: "結局独りで寂しい自分が居るという事実だけなのです"
+    evidence: 結局独りで寂しい自分が居るという事実だけなのです

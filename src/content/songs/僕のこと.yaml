@@ -4,10 +4,13 @@ phase: phase1
 works:
   - title: 僕のこと
     type: シングル
+    date: 2019-01-09
   - title: Attitude
     type: アルバム
+    date: 2019-10-02
   - title: "5"
     type: アルバム
+    date: 2020-07-08
 tieups:
   - type: 応援歌
     work: 第97回全国高校サッカー選手権大会
@@ -18,16 +21,19 @@ reviewedAt: 2026-09-27
 background:
   - kind: official
     text: バンドは、全国高校サッカー選手権大会の応援歌に選ばれたことを純粋に嬉しく思う一方、大きな責任も感じたとコメントしている。
-    sources: [um-news-2018-bokunokoto]
-    evidence: "純粋にとても嬉しく思いましたが、それと同時に大きな責任を感じました"
+    sources:
+      - um-news-2018-bokunokoto
+    evidence: 純粋にとても嬉しく思いましたが、それと同時に大きな責任を感じました
   - kind: official
     text: 大森元貴は、優勝できるのは1校で負けてしまうチームが何千校もある大会のために、綺麗事だけではなくその現実をしっかり肯定できるような曲を目指したと語っている。
-    sources: [soccerking-2019-bokunokoto]
-    evidence: "全て綺麗事としてではなく、しっかり肯定できるような"
+    sources:
+      - soccerking-2019-bokunokoto
+    evidence: 全て綺麗事としてではなく、しっかり肯定できるような
   - kind: official
     text: 若井滉斗は初めて曲を聴いたとき、すごくリアルについて歌っている曲だと感じ、「努力も孤独も報われないことがある」といったフレーズはヒリヒリするが、それが現実でもあると述べている。
-    sources: [soccerking-2019-bokunokoto]
-    evidence: "努力も孤独も報われないことがある"
+    sources:
+      - soccerking-2019-bokunokoto
+    evidence: 努力も孤独も報われないことがある
 basicSources:
   - um-upch-80509
   - um-upch-20531

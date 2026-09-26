@@ -4,6 +4,7 @@ phase: phase3
 works:
   - title: POPS
     type: アルバム
+    date: 2026-09-30
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -13,8 +14,9 @@ basicSources:
 background:
   - kind: official
     text: 大森元貴は、MAJ（2年連続でアーティスト賞を受賞）の日に「2曲書きたい」と思い立ち、帰宅後にこの「共犯」と「禁じた遊び」の2曲を同じ夜に書き上げたと語っている。
-    sources: [mdpr-kyouhan]
-    evidence: "MAJの日に『やばい。2曲書きたい書かなきゃ』って思って、あの日帰った後に2曲作りました。その2曲っていうのが『共犯』という曲と『禁じた遊び』という曲なんですね"
+    sources:
+      - mdpr-kyouhan
+    evidence: MAJの日に『やばい。2曲書きたい書かなきゃ』って思って、あの日帰った後に2曲作りました。その2曲っていうのが『共犯』という曲と『禁じた遊び』という曲なんですね
 sources:
   - id: um-dsku-16186
     title: POPS（アルバム）

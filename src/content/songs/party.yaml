@@ -4,9 +4,11 @@ phase: phase1
 works:
   - title: ENSEMBLE
     type: アルバム
+    date: 2018-04-18
 tieups:
   - type: タイアップ
-    work: TOKYO FM系「SCHOOL OF LOCK！」とアクエリアスのコラボ企画「AQUARIUS presents 2018 FIFAワールドカップロシア Dream Passport」テーマソング
+    work: TOKYO FM系「SCHOOL OF LOCK！」とアクエリアスのコラボ企画「AQUARIUS presents 2018
+      FIFAワールドカップロシア Dream Passport」テーマソング
     sources:
       - natalie-2018-party-mv
 status: reviewed
@@ -16,8 +18,9 @@ basicSources:
 background:
   - kind: official
     text: 大森元貴は「PARTY」について、人生観を歌ったリードトラックで、バラード・ポップ・ロックなど各セクションで全く違う雰囲気になる“組曲”のような曲だと説明している。
-    sources: [natalie-2018-party-mv]
-    evidence: "人生観を歌っている今作のリードソング。“組曲”のように各セクションによってまったく違う雰囲気になっており"
+    sources:
+      - natalie-2018-party-mv
+    evidence: 人生観を歌っている今作のリードソング。“組曲”のように各セクションによってまったく違う雰囲気になっており
 sources:
   - id: um-upch-20483
     title: ENSEMBLE（アルバム）

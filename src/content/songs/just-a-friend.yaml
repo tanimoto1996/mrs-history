@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: Mrs. GREEN APPLE
     type: アルバム
+    date: 2017-01-11
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -11,9 +12,11 @@ basicSources:
   - um-upch-20443
 background:
   - kind: official
-    text: 大森元貴は「Just a Friend」について、ティーンポップを目指して作った曲だと語り、後年のツアーでミュージカル・テイストにリアレンジされたことを新鮮に感じたと述べている。
-    sources: [billboard-japan-2024-vision]
-    evidence: "ティーンポップを目指して作った曲で、あそこまでミュージカル・テイストになるというのは新鮮でした"
+    text: 大森元貴は「Just a
+      Friend」について、ティーンポップを目指して作った曲だと語り、後年のツアーでミュージカル・テイストにリアレンジされたことを新鮮に感じたと述べている。
+    sources:
+      - billboard-japan-2024-vision
+    evidence: ティーンポップを目指して作った曲で、あそこまでミュージカル・テイストになるというのは新鮮でした
 sources:
   - id: um-upch-20443
     title: Mrs. GREEN APPLE（アルバム）

@@ -3,7 +3,8 @@ releaseDate: 2015-07-08
 phase: phase1
 works:
   - title: Variety
-    type: アルバム
+    type: ミニアルバム
+    date: 2015-07-08
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -11,7 +12,8 @@ basicSources:
   - um-upch-20396
 background:
   - kind: secondary
-    text: タイトルの「L.P」は"Love Person"の頭文字からとされ、攻撃的でロックな曲調の中に愛する人を失うことへの寂しさや恐怖が描かれていると紹介されている。
+    text: タイトルの「L.P」は"Love
+      Person"の頭文字からとされ、攻撃的でロックな曲調の中に愛する人を失うことへの寂しさや恐怖が描かれていると紹介されている。
     sources:
       - arai-lp
     evidence: 攻撃的でロックな楽曲ですが、歌われるのはどこか寂しさを感じる

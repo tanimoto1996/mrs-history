@@ -4,14 +4,16 @@ phase: phase2
 works:
   - title: ANTENNA
     type: アルバム
+    date: 2023-07-05
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴はラジオ番組で、この曲の歌詞をわずか5分で書き上げたと明かし、歌詞は直しておらず自分でも何を書いているかわからないと笑いながら語っている。
-    sources: [tokyofmplus-2023-blizzard]
-    evidence: "直してないし、自分でも何書いてるかわかんない"
+    sources:
+      - tokyofmplus-2023-blizzard
+    evidence: 直してないし、自分でも何書いてるかわかんない
 basicSources:
   - um-pron-1061
 sources:

@@ -4,6 +4,10 @@ phase: phase2
 works:
   - title: ライラック
     type: 配信
+    date: 2024-04-12
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: オープニング・テーマ
     work: TVアニメ『忘却バッテリー』
@@ -30,6 +34,7 @@ background:
     evidence: 僕らがワクワクしながらギターを持って、かき鳴らすというのをやろうよ、みたいなところが「ライラック」の始まりだった
 basicSources:
   - um-uu1as-01979
+  - am-1823814178
 sources:
   - id: um-uu1as-01979
     title: ライラック（配信）
@@ -51,3 +56,8 @@ sources:
     media: Billboard JAPAN
     url: https://www.billboard-japan.com/special/detail/4296
     date: 2024-01-17
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

@@ -4,6 +4,7 @@ phase: phase3
 works:
   - title: POPS
     type: アルバム
+    date: 2026-09-30
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -12,9 +13,11 @@ basicSources:
   - am-6808172946
 background:
   - kind: official
-    text: 大森元貴は、アルバム『POPS』は当初14曲の予定だったが、2年連続でMusic Awards Japanのアーティスト賞を受賞した夜に「2曲書きたい」と思い立ち、その日のうちに「共犯」とこの「禁じた遊び」の2曲を作ったと明かしている。
-    sources: [mdpr-2026-pops-maj]
-    evidence: "MAJの日に『やばい。2曲書きたい書かなきゃ』って思って、あの日帰った後に2曲作りました"
+    text: 大森元貴は、アルバム『POPS』は当初14曲の予定だったが、2年連続でMusic Awards
+      Japanのアーティスト賞を受賞した夜に「2曲書きたい」と思い立ち、その日のうちに「共犯」とこの「禁じた遊び」の2曲を作ったと明かしている。
+    sources:
+      - mdpr-2026-pops-maj
+    evidence: MAJの日に『やばい。2曲書きたい書かなきゃ』って思って、あの日帰った後に2曲作りました
 sources:
   - id: um-dsku-16186
     title: POPS（アルバム）

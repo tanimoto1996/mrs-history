@@ -4,8 +4,10 @@ phase: phase1
 works:
   - title: どこかで日は昇る
     type: シングル
+    date: 2017-05-03
   - title: "5"
     type: アルバム
+    date: 2020-07-08
 tieups:
   - type: タイアップ
     work: 劇場用映画「笑う招き猫」主題歌 ＆ MBS/TBS ドラマ「笑う招き猫」エンディングテーマ
@@ -18,13 +20,16 @@ basicSources:
   - um-upch-20549
 background:
   - kind: official
-    text: 大森元貴は、それまでのMrs. GREEN APPLEのキラキラしたポップな作品と真逆になるくらいの気持ちで、泥臭く人間味あふれる歌として取り組んだと語っている。
-    sources: [billboard-japan-2017-sunrise]
-    evidence: "凄く泥臭い歌だし、人間味溢れる歌。"
+    text: 大森元貴は、それまでのMrs. GREEN
+      APPLEのキラキラしたポップな作品と真逆になるくらいの気持ちで、泥臭く人間味あふれる歌として取り組んだと語っている。
+    sources:
+      - billboard-japan-2017-sunrise
+    evidence: 凄く泥臭い歌だし、人間味溢れる歌。
   - kind: official
     text: 楽曲は「どこかで日が昇れば、どこかで日は落ちている」という自然の摂理を軸に、喜びも悲しみもある何気ない日常をテーマにした作品として特設サイトで紹介されている。
-    sources: [um-upch-80467-sunrise-site]
-    evidence: "“どこかで日が昇れば、どこかで日は落ちている”という大きな自然の摂理"
+    sources:
+      - um-upch-80467-sunrise-site
+    evidence: “どこかで日が昇れば、どこかで日は落ちている”という大きな自然の摂理
 sources:
   - id: um-upch-80467
     title: どこかで日は昇る（シングル）

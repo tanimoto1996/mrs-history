@@ -4,6 +4,7 @@ phase: phase2
 works:
   - title: 夏の影
     type: 配信
+    date: 2025-08-11
 tieups:
   - type: CMソング
     work: 「キリン 午後の紅茶」

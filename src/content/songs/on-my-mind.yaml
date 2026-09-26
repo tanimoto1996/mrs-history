@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: WanteD! WanteD!
     type: シングル
+    date: 2017-08-30
 tieups:
   - type: タイアップ
     work: 日本テレビほかアニメ「ナナマル サンバツ」オープニングテーマ
@@ -13,17 +14,21 @@ status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
-    text: メンバーは『ナナマル サンバツ』の原作漫画を読んだうえでこの曲を書き下ろしたと述べており、原作のキャラクター同士のかけ合いにファンになったとコメントしている。
-    sources: [lisani-2017-onmymind]
-    evidence: "原作マンガを読ませていただきましたが競技クイズって奥が深いですね"
+    text: メンバーは『ナナマル
+      サンバツ』の原作漫画を読んだうえでこの曲を書き下ろしたと述べており、原作のキャラクター同士のかけ合いにファンになったとコメントしている。
+    sources:
+      - lisani-2017-onmymind
+    evidence: 原作マンガを読ませていただきましたが競技クイズって奥が深いですね
   - kind: official
     text: メンバーは、アニメのオープニングテーマを手がけるのはこの曲が初めてだとコメントしている。
-    sources: [lisani-2017-onmymind]
-    evidence: "アニメのオープニングテーマを手がけさせて頂けるのも初めてなのでとても光栄です"
+    sources:
+      - lisani-2017-onmymind
+    evidence: アニメのオープニングテーマを手がけさせて頂けるのも初めてなのでとても光栄です
   - kind: official
     text: メンバーは、「若さという新鮮なパワーを存分に詰め込みました」とこの曲について語っている。
-    sources: [lisani-2017-onmymind]
-    evidence: "若さという新鮮なパワーを存分に詰め込みました"
+    sources:
+      - lisani-2017-onmymind
+    evidence: 若さという新鮮なパワーを存分に詰め込みました
 basicSources:
   - um-upch-80477
 sources:

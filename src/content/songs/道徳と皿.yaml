@@ -3,17 +3,23 @@ releaseDate: 2015-07-08
 phase: phase1
 works:
   - title: Variety
+    type: ミニアルバム
+    date: 2015-07-08
+  - title: "10"
     type: アルバム
+    date: 2025-07-07
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20396
+  - am-1823814178
 background:
   - kind: secondary
     text: 曲名の「道徳」は個人の信条ではなく、世論や民衆の声から成る社会的な規範を指していると考察されており、それをどう受け止めるかが曲のテーマとされている。
-    sources: [note-aoringo-doutoku]
-    evidence: "やはり世論の、民衆の声が成ったものが道徳であってそれを受け入れることができる器量であったり"
+    sources:
+      - note-aoringo-doutoku
+    evidence: やはり世論の、民衆の声が成ったものが道徳であってそれを受け入れることができる器量であったり
 sources:
   - id: um-upch-20396
     title: Variety（アルバム）
@@ -24,3 +30,8 @@ sources:
     title: Mrs.GREEN APPLE『道徳と皿』を読み解く
     media: note（あおりんごの部屋）
     url: https://note.com/aoringo_jam/n/n0180ac004960
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

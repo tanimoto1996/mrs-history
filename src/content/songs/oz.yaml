@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: In the Morning
     type: シングル
+    date: 2016-11-02
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -12,8 +13,9 @@ basicSources:
 background:
   - kind: secondary
     text: この曲は、1900年に出版された児童文学『オズの魔法使い』からインスピレーションを得た寓話的な一曲として紹介されており、歌詞全体が一つの寓話として成立していると考察されている。
-    sources: [arai-oz]
-    evidence: "この曲『Oz』は、1900年にアメリカで出版された児童文学『オズの魔法使い』からインスピレーションを得て書かれた一曲"
+    sources:
+      - arai-oz
+    evidence: この曲『Oz』は、1900年にアメリカで出版された児童文学『オズの魔法使い』からインスピレーションを得て書かれた一曲
 sources:
   - id: um-upch-80451
     title: In the Morning（シングル）

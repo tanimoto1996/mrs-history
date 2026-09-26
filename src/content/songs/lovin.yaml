@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: Attitude
     type: アルバム
+    date: 2019-10-02
 tieups:
   - type: タイアップ
     work: フジテレビ系「めざましどようび」テーマソング
@@ -16,8 +17,9 @@ basicSources:
 background:
   - kind: official
     text: 「lovin'」はフジテレビ系「めざましどようび」のテーマソングとして書き下ろされ、大森元貴が“どようびの朝”“ワクワクする週末”といった番組のイメージを反映させた楽曲だと紹介されている。
-    sources: [natalie-2019-lovin]
-    evidence: "大森元貴（Vo, G）が“どようびの朝”“ワクワクする週末”といった番組のイメージを反映させた楽曲"
+    sources:
+      - natalie-2019-lovin
+    evidence: 大森元貴（Vo, G）が“どようびの朝”“ワクワクする週末”といった番組のイメージを反映させた楽曲
 sources:
   - id: um-upch-20531
     title: Attitude（アルバム）

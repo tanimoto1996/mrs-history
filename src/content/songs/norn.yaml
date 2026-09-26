@@ -4,6 +4,7 @@ phase: phase2
 works:
   - title: ANTENNA
     type: アルバム
+    date: 2023-07-05
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -13,7 +14,8 @@ background:
   - kind: interpretation
     text: 「norn」というタイトルは北欧神話に登場する運命の女神の名前とされ、アルバム「ANTENNA」の中でも珍しくスウェーデン語で歌われている楽曲だと紹介されている。
     basis: realsound-2023-antenna-reviewでの「大半のリスナーにとって馴染みがないであろうスウェーデン語で歌われる『norn』（ちなみにこれは北欧神話の『運命の女神』の名前だ）」という評
-    sources: [realsound-2023-antenna-review]
+    sources:
+      - realsound-2023-antenna-review
 sources:
   - id: um-pron-1061
     title: ANTENNA（アルバム）

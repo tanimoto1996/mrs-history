@@ -4,6 +4,7 @@ phase: phase2
 works:
   - title: あなたに
     type: 配信
+    date: 2023-10-25
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -16,18 +17,18 @@ sources:
     url: https://music.apple.com/jp/album/1710693261
     date: 2023-10-25
   - id: darumano-kuni-anatani
-    title: "ミセスグリーンアップル（Mrs. GREEN APPLE）の元気が出る曲３選　モンゴル８００「あなたに」のカバー含む"
+    title: ミセスグリーンアップル（Mrs. GREEN APPLE）の元気が出る曲３選　モンゴル８００「あなたに」のカバー含む
     media: ダルマブログ
     url: https://darumano-kuni.com/mrs-green-apple-anatani/
     date: 2023-11-23
 background:
   - kind: secondary
-    text: "この曲はもっくん（大森元貴）がギターボーカルを始めるきっかけになったというMONGOL800の楽曲のカバーで、ベースをもっくんが担当し3人でコーラスしている点が特徴として紹介されている。"
+    text: この曲はもっくん（大森元貴）がギターボーカルを始めるきっかけになったというMONGOL800の楽曲のカバーで、ベースをもっくんが担当し3人でコーラスしている点が特徴として紹介されている。
     sources:
       - darumano-kuni-anatani
-    evidence: "もっくんがギターボーカルを始めたきっかけであり憧れのモンパチさんの楽曲"
+    evidence: もっくんがギターボーカルを始めたきっかけであり憧れのモンパチさんの楽曲
   - kind: secondary
-    text: "「こんな世の中　誰を信じて」という歌詞について、もっくんが他の楽曲でも見せる、世の中への皮肉と温もりを同時に伝えたいという作風と重なる点があるとファンブログで指摘されている。"
+    text: 「こんな世の中　誰を信じて」という歌詞について、もっくんが他の楽曲でも見せる、世の中への皮肉と温もりを同時に伝えたいという作風と重なる点があるとファンブログで指摘されている。
     sources:
       - darumano-kuni-anatani
-    evidence: "もっくんはこの世の中への皮肉を歌いながら私に温もりを与えて欲しい"
+    evidence: もっくんはこの世の中への皮肉を歌いながら私に温もりを与えて欲しい

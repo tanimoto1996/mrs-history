@@ -4,14 +4,16 @@ phase: phase1
 works:
   - title: TWELVE
     type: アルバム
+    date: 2016-01-13
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、TWELVE収録曲の中で意見交換が難航した曲として「私」を挙げ、キーボードの藤澤涼架がそれまでメロディを弾くことが多かったのに対し、この曲では重心となる基盤の音を取り入れたため戸惑っていたと語っている。
-    sources: [gakushin-2016-twelve]
-    evidence: "うーん、6曲目の「私」ですかね。Key.の藤澤がテンパってました。"
+    sources:
+      - gakushin-2016-twelve
+    evidence: うーん、6曲目の「私」ですかね。Key.の藤澤がテンパってました。
 basicSources:
   - um-upch-20411
 sources:

@@ -4,14 +4,16 @@ phase: phase1
 works:
   - title: WanteD! WanteD!
     type: シングル
+    date: 2017-08-30
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 「光のうた」は前年末のツアー会場で弾き語りとして披露され、ファンから大きな反響を呼んだことから、バンドアレンジ版としてシングルに収録された。
-    sources: [um-upch-80477]
-    evidence: "昨年末のツアー会場で弾き語りで披露されファンから大きな反響を呼んだ「光のうた」のバンドアレンジも収録"
+    sources:
+      - um-upch-80477
+    evidence: 昨年末のツアー会場で弾き語りで披露されファンから大きな反響を呼んだ「光のうた」のバンドアレンジも収録
 basicSources:
   - um-upch-80477
 sources:

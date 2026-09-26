@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: ENSEMBLE
     type: アルバム
+    date: 2018-04-18
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -12,12 +13,14 @@ basicSources:
 background:
   - kind: secondary
     text: 大森元貴はENSEMBLE TOURの中で、この曲が自身の実体験に基づく、一番思い入れのある楽曲だと明かしたと紹介されている。
-    sources: [utaten-theyare]
-    evidence: "『They are』が自身の実体験に基づくものであり、一番思い入れのある楽曲"
+    sources:
+      - utaten-theyare
+    evidence: 『They are』が自身の実体験に基づくものであり、一番思い入れのある楽曲
   - kind: secondary
     text: 恋人との別れの中で、自分は相手を本当に愛せていたのかを問い続ける失恋ソングとして考察されている。
-    sources: [utaten-theyare]
-    evidence: "君を愛せていたか解らない"
+    sources:
+      - utaten-theyare
+    evidence: 君を愛せていたか解らない
 sources:
   - id: um-upch-20483
     title: ENSEMBLE（アルバム）

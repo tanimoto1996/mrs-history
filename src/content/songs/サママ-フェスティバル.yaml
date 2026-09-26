@@ -4,10 +4,13 @@ phase: phase1
 works:
   - title: サママ・フェスティバル！
     type: シングル
+    date: 2016-06-15
   - title: Mrs. GREEN APPLE
     type: アルバム
+    date: 2017-01-11
   - title: "5"
     type: アルバム
+    date: 2020-07-08
 tieups:
   - type: タイアップ
     work: 日本工学院2016CMソング＆テレビ朝日系『musicるTV』6月度OPテーマ
@@ -18,16 +21,19 @@ reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、1stアルバム『TWELVE』の前後に制作を始め、夏にリリースする曲だからと夏らしい曲を作ろうとしたと明かしている。当初は「清涼飲料水みたいな曲」という仮タイトルで、そこからAメロの雰囲気ができてフェスティバルのような曲に仕上がったという。
-    sources: [skream-2016-samama]
-    evidence: '最初は「清涼飲料水みたいな曲」というタイトルだったんです'
+    sources:
+      - skream-2016-samama
+    evidence: 最初は「清涼飲料水みたいな曲」というタイトルだったんです
   - kind: official
     text: 大森は、自分の思いを発散するだけでなく、今後バンドがもっと楽しむためにわかりやすい曲も書きたかったと語っている。
-    sources: [skream-2016-samama]
-    evidence: "今後のMrs. GREEN APPLEがもっともっと楽しむためには、いろんなものに手を出さないといけない"
+    sources:
+      - skream-2016-samama
+    evidence: 今後のMrs. GREEN APPLEがもっともっと楽しむためには、いろんなものに手を出さないといけない
   - kind: official
     text: 藤澤涼架は、聴く人の景色と曲が一緒に記憶されることを望んでいたと語っている。
-    sources: [skream-2016-samama]
-    evidence: "聴いてくださる方の景色と曲が一緒に記憶されるのが一番いいんじゃないかな"
+    sources:
+      - skream-2016-samama
+    evidence: 聴いてくださる方の景色と曲が一緒に記憶されるのが一番いいんじゃないかな
 basicSources:
   - um-upch-80434
   - um-upch-20443

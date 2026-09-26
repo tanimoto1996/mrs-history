@@ -3,7 +3,11 @@ releaseDate: 2022-07-08
 phase: phase2
 works:
   - title: Unity
+    type: ミニアルバム
+    date: 2022-07-08
+  - title: "10"
     type: アルバム
+    date: 2025-07-07
 tieups:
   - type: タイアップ
     work: フジテレビ系全国28局ネット「めざまし8」テーマ曲
@@ -12,29 +16,36 @@ tieups:
       - barks-2022-mezamashi8
 background:
   - kind: official
-    text: 「ダンスホール」はフジテレビ系『めざまし8』のために書き下ろされた曲で、番組側からは「朝だから爽やかに」という指示とともに過去曲「Love me, Love you」がリファレンスとして提示された。
-    sources: [barks-2022-unity-interview]
-    evidence: "「朝だから爽やかに」"
+    text: 「ダンスホール」はフジテレビ系『めざまし8』のために書き下ろされた曲で、番組側からは「朝だから爽やかに」という指示とともに過去曲「Love me,
+      Love you」がリファレンスとして提示された。
+    sources:
+      - barks-2022-unity-interview
+    evidence: 「朝だから爽やかに」
   - kind: official
     text: 大森元貴は、戦争やコロナ禍など世界情勢が大丈夫ではない日々の中で「無責任なポップではダメだと思った」とし、「大丈夫って言ってみようよ」という内容を歌おうと決めたと語っている。
-    sources: [barks-2022-unity-interview]
-    evidence: "無責任なポップではダメだと思ったんです"
+    sources:
+      - barks-2022-unity-interview
+    evidence: 無責任なポップではダメだと思ったんです
   - kind: official
     text: 大森は、"世界はダンスホールだから踊っていようよ"という内容にし、ファンクのサウンドで、今のデスクトップミュージックと融合したような音像を目指したと説明している。
-    sources: [barks-2022-unity-interview]
-    evidence: "\"世界はダンスホールだから踊っていようよ\"という内容にして"
+    sources:
+      - barks-2022-unity-interview
+    evidence: '"世界はダンスホールだから踊っていようよ"という内容にして'
   - kind: official
     text: バンドは楽曲発表時のコメントで、悲しいことの多い世の中でも温かく楽しいことがまだあると信じて曲にしたとし、聴く人の1日のはじまりに届くことを願っていると述べている。
-    sources: [barks-2022-mezamashi8]
-    evidence: "色んな悲しいことが溢れるこのご時世で、温かいもの楽しいこともまだ確かにあると信じて曲にしました"
+    sources:
+      - barks-2022-mezamashi8
+    evidence: 色んな悲しいことが溢れるこのご時世で、温かいもの楽しいこともまだ確かにあると信じて曲にしました
   - kind: official
     text: ミュージックビデオで披露したキレのあるダンスパフォーマンスについて、大森元貴は「僕ら、どこにも行ってない」とし、ステージマンとして、表現の一環として凝り固まって進むつもりはないという考えを述べている。
-    sources: [barks-2022-mv-column]
-    evidence: "表現の一環として、僕らは凝り固まって進んでいくつもりはないんだよ"
+    sources:
+      - barks-2022-mv-column
+    evidence: 表現の一環として、僕らは凝り固まって進んでいくつもりはないんだよ
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20620
+  - am-1823814178
 sources:
   - id: um-upch-20620
     title: Unity（アルバム）
@@ -56,3 +67,8 @@ sources:
     media: BARKS
     url: https://barks.jp/news/946732/
     date: 2022-07-01
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

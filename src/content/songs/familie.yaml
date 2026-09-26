@@ -4,6 +4,10 @@ phase: phase2
 works:
   - title: familie
     type: 配信
+    date: 2024-08-09
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: CMソング
     work: Honda新型FREED
@@ -13,23 +17,28 @@ status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
   - um-uu1as-02130
+  - am-1823814178
 background:
   - kind: official
     text: 大森元貴は、「familie」はドイツ語で「家族」を意味するが、家族の形にこだわらず、人と人とのつながりや温かさから着想を得たと語っている。
-    sources: [natalie-2024-familie]
-    evidence: "家族がどうというよりは、人と人とのつながり、温かいものみたいなところから着想を得ました"
+    sources:
+      - natalie-2024-familie
+    evidence: 家族がどうというよりは、人と人とのつながり、温かいものみたいなところから着想を得ました
   - kind: official
     text: 車という空間について、運転する人だけでなく後部座席の子どもや恋人など、いろいろな人と共有する場所であり、自分だけの時間を過ごす場所でもあると説明している。
-    sources: [natalie-2024-familie]
-    evidence: "後部座席に乗られるお子さんだったり、恋人だったり、いろんな方と共有する場所"
+    sources:
+      - natalie-2024-familie
+    evidence: 後部座席に乗られるお子さんだったり、恋人だったり、いろんな方と共有する場所
   - kind: official
     text: 歌詞の「僕に運ばれる街」について、「僕が運ばれてる」のではなく「僕が運んでるんだ」という感覚から生まれたと明かしている。
-    sources: [natalie-2024-familie]
-    evidence: "『僕が運ばれてる』のではなく、『僕が運んでるんだ』という感覚があって"
+    sources:
+      - natalie-2024-familie
+    evidence: 『僕が運ばれてる』のではなく、『僕が運んでるんだ』という感覚があって
   - kind: official
     text: 窓の外を見る子どもにとって移り変わる景色が絵画のように見えるイメージから、温かく鮮やかな楽曲として描きたかったと述べている。
-    sources: [natalie-2024-familie]
-    evidence: "景色が変わっていく様子とかって、僕は絵画のようだなって思って"
+    sources:
+      - natalie-2024-familie
+    evidence: 景色が変わっていく様子とかって、僕は絵画のようだなって思って
 sources:
   - id: um-uu1as-02130
     title: familie（配信）
@@ -45,3 +54,8 @@ sources:
     media: 音楽ナタリー
     url: https://natalie.mu/music/news/579650
     date: 2024-06-27
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

@@ -4,6 +4,10 @@ phase: phase2
 works:
   - title: Dear
     type: 配信
+    date: 2024-05-20
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: 主題歌
     work: 映画『ディア・ファミリー』
@@ -13,11 +17,13 @@ status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
   - um-uu1as-02032
+  - am-1823814178
 background:
   - kind: official
     text: 大森元貴は、実話に基づく本作について、全ての出来事の先にバルーンカテーテルが生まれたことへの感慨や、家族の絆の強さに胸を打たれたことを語っている。
-    sources: [fashion-press-2024-dear]
-    evidence: "本作は全て実話ということで、すべての出来事の先にバルーンカテーテルが生まれたと考えるととても感慨深いです。"
+    sources:
+      - fashion-press-2024-dear
+    evidence: 本作は全て実話ということで、すべての出来事の先にバルーンカテーテルが生まれたと考えるととても感慨深いです。
 sources:
   - id: um-uu1as-02032
     title: Dear（配信）
@@ -33,3 +39,8 @@ sources:
     media: ファッションプレス
     url: https://www.fashion-press.net/news/117678
     date: 2024-05-13
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

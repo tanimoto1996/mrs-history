@@ -4,6 +4,7 @@ phase: phase3
 works:
   - title: Brand New
     type: 配信
+    date: 2026-07-13
 tieups:
   - type: 主題歌
     work: 映画「スパイダーマン：ブランド・ニュー・デイ」（日本語吹き替え版）
@@ -13,17 +14,21 @@ status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
-    text: 大森元貴は書き下ろし楽曲「Brand New」について、映画ファン・MCUファンとして日本版主題歌の意義と愛を伝えたいという思いで参加したと述べている。
-    sources: [tower-2026-brand-new]
-    evidence: "日本版主題歌の存在意義を、愛を、しっかりと伝えたい"
+    text: 大森元貴は書き下ろし楽曲「Brand
+      New」について、映画ファン・MCUファンとして日本版主題歌の意義と愛を伝えたいという思いで参加したと述べている。
+    sources:
+      - tower-2026-brand-new
+    evidence: 日本版主題歌の存在意義を、愛を、しっかりと伝えたい
   - kind: official
     text: 大森元貴は、LAでケヴィン・ファイギらと対面で打ち合わせをし、制作中にはファイギと直接メールでやり取りしたことを「本当に贅沢でしたね」と振り返っている。
-    sources: [thetv-2026-brand-new-meeting]
-    evidence: "どういう世界線なんだろう？"
+    sources:
+      - thetv-2026-brand-new-meeting
+    evidence: どういう世界線なんだろう？
   - kind: official
     text: 大森元貴は、この曲を「120％気持ちを込めて作った」と振り返っている。
-    sources: [thetv-2026-brand-new-meeting]
-    evidence: "120％気持ちを込めて作りました"
+    sources:
+      - thetv-2026-brand-new-meeting
+    evidence: 120％気持ちを込めて作りました
 basicSources:
   - off-1034
 sources:

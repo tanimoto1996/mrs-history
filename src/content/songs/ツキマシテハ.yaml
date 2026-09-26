@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: In the Morning
     type: シングル
+    date: 2016-11-02
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -12,12 +13,14 @@ basicSources:
 background:
   - kind: secondary
     text: 歌詞には「僕」と「君」の二人が登場し、1番では言葉を発する「僕」、2番ではそれを受け取る「君」が描かれる構造になっていると考察されている。
-    sources: [utaten-tsukimashiteha]
-    evidence: "1番では、ある言葉を発する僕。2番では、その言葉を受け取る君。"
+    sources:
+      - utaten-tsukimashiteha
+    evidence: 1番では、ある言葉を発する僕。2番では、その言葉を受け取る君。
   - kind: secondary
     text: 終盤で繰り返される「だからか」という言葉には、諦めと理解、静かな怒りが入り混じっていると歌詞考察記事で解釈されている。
-    sources: [utaten-tsukimashiteha]
-    evidence: "だからか、という言葉には、諦めと理解、そして静かな怒りが入り混じっているように思えます"
+    sources:
+      - utaten-tsukimashiteha
+    evidence: だからか、という言葉には、諦めと理解、そして静かな怒りが入り混じっているように思えます
 sources:
   - id: um-upch-80451
     title: In the Morning（シングル）
