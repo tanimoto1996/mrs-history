@@ -4,16 +4,19 @@ phase: phase1
 works:
   - title: 僕のこと
     type: シングル
+    date: 2019-01-09
   - title: Attitude
     type: アルバム
+    date: 2019-10-02
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、「Folktale（民話）」という言葉の通り、皆で歌って楽しい気持ちになれる安らぎの曲を目指して作ったと説明している。
-    sources: [softbanknews-2019-folktale]
-    evidence: "『Folktale』が『民話』という意味なので、その言葉通りに皆で歌って楽しい気持ちになれる安らぎの曲になれば"
+    sources:
+      - softbanknews-2019-folktale
+    evidence: 『Folktale』が『民話』という意味なので、その言葉通りに皆で歌って楽しい気持ちになれる安らぎの曲になれば
 basicSources:
   - um-upch-80509
   - um-upch-20531

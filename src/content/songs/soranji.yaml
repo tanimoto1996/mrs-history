@@ -4,8 +4,13 @@ phase: phase2
 works:
   - title: Soranji
     type: シングル
+    date: 2022-11-09
   - title: ANTENNA
     type: アルバム
+    date: 2023-07-05
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: 主題歌
     work: 映画「ラーゲリより愛を込めて」
@@ -16,19 +21,23 @@ reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、映画の「極限状態」というテーマに向き合うため、食事や水分を断ち部屋を真っ暗にして作曲に取り組み、5キロほど体重が落ちたと語っている。
-    sources: [mdpr-2022-soranji-5kg]
-    evidence: "極限状態になんなきゃって思ったんですよね"
+    sources:
+      - mdpr-2022-soranji-5kg
+    evidence: 極限状態になんなきゃって思ったんですよね
   - kind: official
     text: 大森元貴は「Soranji」について、喪失感だけでなく大きな愛をテーマにした曲だと説明している。
-    sources: [ongakutohito-2022-soranji]
-    evidence: "僕の中では大きな愛がテーマなんですよ"
+    sources:
+      - ongakutohito-2022-soranji
+    evidence: 僕の中では大きな愛がテーマなんですよ
   - kind: official
     text: 曲の手書きの歌詞によるリリックビデオは、大森元貴自身が筆をとって制作したもの。
-    sources: [skream-2022-soranji-lyric-video]
-    evidence: "手書きの歌詞はすべて作者 大森元貴（Vo/Gt）自身が筆をとり"
+    sources:
+      - skream-2022-soranji-lyric-video
+    evidence: 手書きの歌詞はすべて作者 大森元貴（Vo/Gt）自身が筆をとり
 basicSources:
   - um-upch-80580
   - um-pron-1061
+  - am-1823814178
 sources:
   - id: um-upch-80580
     title: Soranji（シングル）
@@ -59,3 +68,8 @@ sources:
     media: Skream!
     url: https://skream.jp/news/2022/12/mrs_green_apple_soranji_lyric_video.php
     date: 2022-12
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

@@ -4,6 +4,7 @@ phase: phase2
 works:
   - title: ANTENNA
     type: アルバム
+    date: 2023-07-05
 tieups:
   - type: CMソング
     work: 旭化成不動産レジデンス「旭化成の都市型マンションATLAS」ブランドCM
@@ -16,8 +17,9 @@ basicSources:
 background:
   - kind: official
     text: 「橙」は、旭化成不動産レジデンスの都市型マンション「ATLAS」のブランドCMソングに起用された。
-    sources: [natalie-2024-daidai-cm]
-    evidence: "旭化成不動産レジデンス「旭化成の都市型マンションATLAS」のブランドCMに使用される。"
+    sources:
+      - natalie-2024-daidai-cm
+    evidence: 旭化成不動産レジデンス「旭化成の都市型マンションATLAS」のブランドCMに使用される。
 sources:
   - id: um-pron-1061
     title: ANTENNA（アルバム）

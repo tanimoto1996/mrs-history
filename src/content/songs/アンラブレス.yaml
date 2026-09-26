@@ -4,6 +4,7 @@ phase: phase2
 works:
   - title: ANTENNA
     type: アルバム
+    date: 2023-07-05
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27

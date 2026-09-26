@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: Love me, Love you
     type: シングル
+    date: 2018-02-14
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -12,8 +13,9 @@ basicSources:
 background:
   - kind: secondary
     text: タイトルの「春愁」は、春という明るい季節の中でなぜか感じてしまう寂しさや物憂さを意味する言葉だと紹介されている。
-    sources: [note-apt-crow-shunshuu]
-    evidence: "春という明るい季節の中で、なぜか感じてしまう寂しさや物憂さ"
+    sources:
+      - note-apt-crow-shunshuu
+    evidence: 春という明るい季節の中で、なぜか感じてしまう寂しさや物憂さ
 sources:
   - id: um-upch-80487
     title: Love me, Love you（シングル）

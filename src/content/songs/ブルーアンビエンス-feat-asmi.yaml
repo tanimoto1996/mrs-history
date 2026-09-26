@@ -3,7 +3,8 @@ releaseDate: 2022-07-08
 phase: phase2
 works:
   - title: Unity
-    type: アルバム
+    type: ミニアルバム
+    date: 2022-07-08
 tieups:
   - type: タイアップ
     work: ABEMA「今日、好きになりました。」主題歌
@@ -12,9 +13,11 @@ tieups:
       - natalie-2022-blueambience
 background:
   - kind: official
-    text: この曲はMrs. GREEN APPLEが活動再開後3曲目として書き下ろした新曲で、シンガーソングライターのasmiをフィーチャリングしている。ABEMAオリジナル恋愛番組「今日、好きになりました。初虹編」の主題歌として発表された。
-    sources: [natalie-2022-blueambience]
-    evidence: "ABEMAオリジナル恋愛番組「今日、好きになりました。初虹編」の主題歌として新曲「ブルーアンビエンス（feat. asmi）」を書き下ろした。"
+    text: この曲はMrs. GREEN
+      APPLEが活動再開後3曲目として書き下ろした新曲で、シンガーソングライターのasmiをフィーチャリングしている。ABEMAオリジナル恋愛番組「今日、好きになりました。初虹編」の主題歌として発表された。
+    sources:
+      - natalie-2022-blueambience
+    evidence: ABEMAオリジナル恋愛番組「今日、好きになりました。初虹編」の主題歌として新曲「ブルーアンビエンス（feat. asmi）」を書き下ろした。
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:

@@ -4,6 +4,7 @@ phase: phase2
 works:
   - title: GOOD DAY
     type: 配信
+    date: 2025-09-28
 tieups:
   - type: CMソング
     work: キリングッドエール

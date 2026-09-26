@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: Attitude
     type: アルバム
+    date: 2019-10-02
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -11,9 +12,11 @@ basicSources:
   - um-upch-20531
 background:
   - kind: official
-    text: 大森元貴は、Mrs. GREEN APPLEにはもともと2ビートの曲がなく、この曲の制作は大変だったと振り返っている。ドラムの山中綾華は、当初はなぜこれほど速いのかわからないところから始まり、リズム自体を好きになることでその格好良さを発見していったと語っている。
-    sources: [skream-2019-attitude]
-    evidence: "はい。大変だったよね？ そもそも自分らに2ビートの曲がないので。"
+    text: 大森元貴は、Mrs. GREEN
+      APPLEにはもともと2ビートの曲がなく、この曲の制作は大変だったと振り返っている。ドラムの山中綾華は、当初はなぜこれほど速いのかわからないところから始まり、リズム自体を好きになることでその格好良さを発見していったと語っている。
+    sources:
+      - skream-2019-attitude
+    evidence: はい。大変だったよね？ そもそも自分らに2ビートの曲がないので。
 sources:
   - id: um-upch-20531
     title: Attitude（アルバム）

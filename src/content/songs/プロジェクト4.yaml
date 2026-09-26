@@ -4,6 +4,7 @@ phase: phase3
 works:
   - title: POPS
     type: アルバム
+    date: 2026-09-30
 tieups: []
 status: basic
 basicSources:

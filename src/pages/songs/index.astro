@@ -3,15 +3,25 @@ import Base from '../../layouts/Base.astro';
 import { getSongs, getPhases, hasBackground, url, formatDate } from '../../lib/data';
 const songs = await getSongs();
 const phases = await getPhases();
-const works = [...new Set(songs.flatMap((s) => s.data.works.map((w) => w.title)))];
+// 配信の1曲だけの作品は絞り込みに出さず、アルバム・シングルを発売順に並べる
+const works = [
+  ...new Map(
+    songs
+      .flatMap((s) => s.data.works)
+      .filter((w) => w.type !== '配信')
+      .sort((a, b) => (a.date ?? '').localeCompare(b.date ?? ''))
+      .map((w) => [w.title, w]),
+  ).values(),
+];
 ---
 <Base title="曲一覧">
   <h1>曲一覧</h1>
   <form class="filters" onsubmit="return false">
     <input id="q" type="search" placeholder="曲名・タイアップ作品名で検索" />
     <select id="phase"><option value="">すべての時期</option>{phases.map((p) => <option value={p.id}>{p.data.name}</option>)}</select>
-    <select id="work"><option value="">すべての収録作品</option>{works.map((w) => <option value={w}>{w}</option>)}</select>
+    <select id="work"><option value="">すべての収録作品</option>{works.map((w) => <option value={w.title}>{w.title}（{w.type}{w.date && `・${w.date.slice(0, 4)}年`}）</option>)}</select>
     <label><input id="bg" type="checkbox" /> 解説ありのみ</label>
+    <label><input id="tie" type="checkbox" /> タイアップありのみ</label>
   </form>
   <p class="muted"><span id="count">{songs.length}</span>曲</p>
   <ul class="list">
@@ -21,6 +31,7 @@ const works = [...new Set(songs.flatMap((s) => s.data.works.map((w) => w.title))
         data-phase={s.data.phase}
         data-works={JSON.stringify(s.data.works.map((w) => w.title))}
         data-bg={hasBackground(s) ? '1' : ''}
+        data-tie={s.data.tieups.length > 0 ? '1' : ''}
       >
         <a href={url(`/songs/${s.id}/`)}>{s.data.title}</a>
         <span class="muted">{formatDate(s.data.releaseDate)}</span>
@@ -38,16 +49,17 @@ const works = [...new Set(songs.flatMap((s) => s.data.works.map((w) => w.title))
     const phase = $('phase').value;
     const work = $('work').value;
     const bg = $('bg').checked;
+    const tie = $('tie').checked;
     let n = 0;
     for (const li of items) {
       const d = li.dataset;
-      const show = (!q || d.search!.includes(q)) && (!phase || d.phase === phase) && (!work || JSON.parse(d.works!).includes(work)) && (!bg || d.bg === '1');
+      const show = (!q || d.search!.includes(q)) && (!phase || d.phase === phase) && (!work || JSON.parse(d.works!).includes(work)) && (!bg || d.bg === '1') && (!tie || d.tie === '1');
       li.hidden = !show;
       if (show) n++;
     }
     document.getElementById('count')!.textContent = String(n);
   }
-  for (const id of ['q', 'phase', 'work', 'bg']) {
+  for (const id of ['q', 'phase', 'work', 'bg', 'tie']) {
     $(id).addEventListener('input', apply);
     $(id).addEventListener('change', apply);
   }

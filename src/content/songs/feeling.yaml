@@ -4,18 +4,21 @@ phase: phase2
 works:
   - title: ANTENNA
     type: アルバム
+    date: 2023-07-05
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、アルバム「ANTENNA」を1曲目の「ANTENNA」で始まり「Feeling」で終わるという構成のビジョンを持って制作したと語っている。
-    sources: [mdpr-2023-antenna-interview]
-    evidence: "今作は『ANTENNA』で始まり、『Feeling』で終わるというビジョンを持ちながら制作していました"
+    sources:
+      - mdpr-2023-antenna-interview
+    evidence: 今作は『ANTENNA』で始まり、『Feeling』で終わるというビジョンを持ちながら制作していました
   - kind: official
     text: 大森は、「Feeling」の内容は1曲目「ANTENNA」とほぼ同じで、良いことも悪いことも自分のアンテナに突き動かされているというビターな内容だと説明している。
-    sources: [mdpr-2023-antenna-interview]
-    evidence: "良いことも悪いことも全て自分のアンテナによって突き動かされている"
+    sources:
+      - mdpr-2023-antenna-interview
+    evidence: 良いことも悪いことも全て自分のアンテナによって突き動かされている
 basicSources:
   - um-pron-1061
 sources:

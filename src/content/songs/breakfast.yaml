@@ -4,6 +4,10 @@ phase: phase2
 works:
   - title: breakfast
     type: 配信
+    date: 2025-06-04
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: テーマソング
     work: フジテレビ系『サン！シャイン』
@@ -14,10 +18,12 @@ reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、フジテレビ「サン！シャイン」のテーマソングとして「breakfast」を書き下ろし、日々さまざまな思いを抱える人の朝を少しでも彩りたいという思いを込めて制作したとコメントしている。
-    sources: [natalie-2025-breakfast]
-    evidence: "「よし、今日も一丁やりますか！」と思ってもらえるように、皆さまの朝を少しでも彩れるように、そんな思いのもと制作しました。"
+    sources:
+      - natalie-2025-breakfast
+    evidence: 「よし、今日も一丁やりますか！」と思ってもらえるように、皆さまの朝を少しでも彩れるように、そんな思いのもと制作しました。
 basicSources:
   - um-uu1as-02436
+  - am-1823814178
 sources:
   - id: um-uu1as-02436
     title: breakfast（配信）
@@ -33,3 +39,8 @@ sources:
     media: 音楽ナタリー
     url: https://natalie.mu/music/news/617952
     date: 2025-03-30
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

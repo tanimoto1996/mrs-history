@@ -4,28 +4,37 @@ phase: phase2
 works:
   - title: ANTENNA
     type: アルバム
+    date: 2023-07-05
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: 応援ソング
     work: フジテレビ系「FIVB パリ五輪予選／ワールドカップバレー2023」日本代表応援ソング
-    sources: [natalie-2023-antenna-volleyball]
+    sources:
+      - natalie-2023-antenna-volleyball
 mv: https://www.youtube.com/watch?v=XiSa_VIrGKE
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
   - um-pron-1061
+  - am-1823814178
 background:
   - kind: official
     text: 藤澤涼架は、「ANTENNA（アンテナ）」という言葉はバンド結成当時からメンバーやスタッフの間で使っていた共通言語で、「気を張っていこう・集中していこう」という意味合いで使っていたと説明している。
-    sources: [natalie-2023-antenna-volleyball]
-    evidence: "“アンテナ張っていこう”とか、“アンテナを立てていこう”という捉え方をしていたんですけど"
+    sources:
+      - natalie-2023-antenna-volleyball
+    evidence: “アンテナ張っていこう”とか、“アンテナを立てていこう”という捉え方をしていたんですけど
   - kind: official
     text: 大森元貴は、この曲がバレーボール日本代表応援ソングに選ばれたことについて、自身がバレーボール好きであることに触れ、思い入れがあるためうれしいとコメントしている。
-    sources: [natalie-2023-antenna-volleyball]
-    evidence: "実は僕、バレーボールが本当に大好きで。母がバレーボールをやっていたこともあり"
+    sources:
+      - natalie-2023-antenna-volleyball
+    evidence: 実は僕、バレーボールが本当に大好きで。母がバレーボールをやっていたこともあり
   - kind: official
     text: 大森元貴は、オリンピック出場をかけた大会に向けて選手たちの後押しができればと述べ、応援する思いを語っている。
-    sources: [natalie-2023-antenna-volleyball]
-    evidence: "オリンピック出場へ、僕らもアンテナを立てて全力で応援したいと思います"
+    sources:
+      - natalie-2023-antenna-volleyball
+    evidence: オリンピック出場へ、僕らもアンテナを立てて全力で応援したいと思います
 sources:
   - id: um-pron-1061
     title: ANTENNA（アルバム）
@@ -37,3 +46,8 @@ sources:
     media: 音楽ナタリー
     url: https://natalie.mu/music/news/534695
     date: 2023-07-28
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

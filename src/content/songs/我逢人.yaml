@@ -4,16 +4,19 @@ phase: phase1
 works:
   - title: Progressive
     type: ミニアルバム
+    date: 2015-02-18
   - title: "5"
     type: アルバム
+    date: 2020-07-08
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、初の全国流通盤の1曲目として、顔も知らない人たちと音だけで繋がることを強く意識して書いた曲だと語っている。
-    sources: [um-5-liner-gahoujin]
-    evidence: "初の全国流通盤の1曲目、つまり顔も知らない人達と出会う最初の曲だから、人と人が音だけで繋がることを強く意識して書いた曲だと思う"
+    sources:
+      - um-5-liner-gahoujin
+    evidence: 初の全国流通盤の1曲目、つまり顔も知らない人達と出会う最初の曲だから、人と人が音だけで繋がることを強く意識して書いた曲だと思う
 basicSources:
   - am-1440794725
   - um-upch-20549

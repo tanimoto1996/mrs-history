@@ -4,6 +4,10 @@ phase: phase2
 works:
   - title: ビターバカンス
     type: 配信
+    date: 2024-11-29
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: 主題歌
     work: 映画『聖☆おにいさん THE MOVIE～ホーリーメンVS悪魔軍団～』
@@ -14,14 +18,17 @@ reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は「聖☆おにいさん」の原作の大ファンで、中学生の頃から新刊が出るたびに買って読んでいたと明かし、主題歌の話をもらったことに運命的なものを感じたと語っている。
-    sources: [barks-2024-bittervacance]
-    evidence: "『聖☆おにいさん』は原作からの大ファンでして、中学生の頃に書店で新刊が出るたびに買って読んでいました。"
+    sources:
+      - barks-2024-bittervacance
+    evidence: 『聖☆おにいさん』は原作からの大ファンでして、中学生の頃に書店で新刊が出るたびに買って読んでいました。
   - kind: official
     text: 大森元貴は、ブッダとイエスの癒やされた日常から学べるものがあるとし、根を詰めがちな人々が少しでも肩の力を抜ける瞬間があればという思いから、この曲を作ったと説明している。
-    sources: [barks-2024-bittervacance]
-    evidence: "そういう1番大切なバカらしさみたいなものを曲にしてみました。"
+    sources:
+      - barks-2024-bittervacance
+    evidence: そういう1番大切なバカらしさみたいなものを曲にしてみました。
 basicSources:
   - um-uu1as-02230
+  - am-1823814178
 sources:
   - id: um-uu1as-02230
     title: ビターバカンス（配信）
@@ -37,3 +44,8 @@ sources:
     media: BARKS
     url: https://www.barks.jp/news/?id=1000251597
     date: 2024-10-23
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

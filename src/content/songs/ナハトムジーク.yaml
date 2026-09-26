@@ -4,6 +4,10 @@ phase: phase2
 works:
   - title: ナハトムジーク
     type: 配信
+    date: 2024-01-17
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: 主題歌
     work: 映画『サイレントラブ』
@@ -13,11 +17,14 @@ status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
-    text: 映画「サイレントラブ」の主題歌決定にあたり、Mrs. GREEN APPLEは「人を思うとは、過去を背負うとは、幸せを描くとは、とても普遍的な綺麗事ではない題材を抱えた作品だ」とコメントしている。
-    sources: [otocoto-2023-silentlove]
-    evidence: "人を思うとは、過去を背負うとは、幸せを描くとは、とても普遍的な綺麗事ではない題材を抱えた作品だ"
+    text: 映画「サイレントラブ」の主題歌決定にあたり、Mrs. GREEN
+      APPLEは「人を思うとは、過去を背負うとは、幸せを描くとは、とても普遍的な綺麗事ではない題材を抱えた作品だ」とコメントしている。
+    sources:
+      - otocoto-2023-silentlove
+    evidence: 人を思うとは、過去を背負うとは、幸せを描くとは、とても普遍的な綺麗事ではない題材を抱えた作品だ
 basicSources:
   - off-167
+  - am-1823814178
 sources:
   - id: off-167
     title: ナハトムジーク（配信）
@@ -33,3 +40,8 @@ sources:
     media: otocoto
     url: https://otocoto.jp/news/silentlove1110/
     date: 2023-11-10
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

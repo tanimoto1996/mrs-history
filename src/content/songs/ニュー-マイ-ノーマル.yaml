@@ -4,23 +4,31 @@ phase: phase2
 works:
   - title: ニュー・マイ・ノーマル
     type: 配信
+    date: 2022-03-18
   - title: Unity
+    type: ミニアルバム
+    date: 2022-07-08
+  - title: "10"
     type: アルバム
+    date: 2025-07-07
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
   - off-147
   - um-upch-20620
+  - am-1823814178
 background:
   - kind: official
     text: 大森元貴は、約2年の活動休止を経てフェーズ2最初の新曲を作るにあたり、闘志や期待よりも今までへの感謝を込め、地に足がついた曲でなければ届かないと考えてこの曲を作ったと説明している。誰に聴かせても恥ずかしくない曲にしたいという思いから「ニュー・マイ・ノーマル」というタイトルを付けたという。
-    sources: [skream-2022-unity]
-    evidence: "地に足がついた楽曲を作らないと、きっと届かないものになっちゃうなと思ったんです"
+    sources:
+      - skream-2022-unity
+    evidence: 地に足がついた楽曲を作らないと、きっと届かないものになっちゃうなと思ったんです
   - kind: official
     text: タイトルについて大森元貴は、"ニュー・ノーマル"という言葉に"マイ"を付けたものだと述べ、変わらなければならないことは多くても、変わらない部分もあることを伝えるためにこの曲が必要だったと語っている。
-    sources: [skream-2022-unity]
-    evidence: "変わんなきゃいけないことも、順応しなきゃいけないことも疲弊するぐらいたくさんあるけど、変わらないところもちゃんとあるんだよ"
+    sources:
+      - skream-2022-unity
+    evidence: 変わんなきゃいけないことも、順応しなきゃいけないことも疲弊するぐらいたくさんあるけど、変わらないところもちゃんとあるんだよ
 sources:
   - id: off-147
     title: ニュー・マイ・ノーマル（配信）
@@ -37,3 +45,8 @@ sources:
     media: Skream!
     url: https://skream.jp/interview/2022/07/mrsgreenapple.php
     date: 2022-07-05
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

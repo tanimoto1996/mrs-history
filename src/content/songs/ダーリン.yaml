@@ -4,6 +4,10 @@ phase: phase2
 works:
   - title: ダーリン
     type: 配信
+    date: 2025-01-20
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: テーマソング
     work: NHK総合『Mrs. GREEN APPLE 18祭』
@@ -15,10 +19,12 @@ mv: https://www.youtube.com/watch?v=L262NKlSl4s
 background:
   - kind: official
     text: 「ダーリン」のMusic Videoは、大森元貴自身がプランニングディレクターとしてクレジットされている。
-    sources: [mv-darling]
+    sources:
+      - mv-darling
     evidence: "Planning Director : Motoki Ohmori"
 basicSources:
   - um-uu1as-02283
+  - am-1823814178
 sources:
   - id: um-uu1as-02283
     title: ダーリン（配信）
@@ -34,3 +40,8 @@ sources:
     media: Mrs. GREEN APPLE Official YouTube
     url: https://www.youtube.com/watch?v=L262NKlSl4s
     date: 2025-01-20
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

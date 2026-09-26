@@ -4,8 +4,10 @@ phase: phase1
 works:
   - title: Mrs. GREEN APPLE
     type: アルバム
+    date: 2017-01-11
   - title: "5"
     type: アルバム
+    date: 2020-07-08
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -13,7 +15,8 @@ background:
   - kind: interpretation
     text: 公式サイトのライナーノーツでは、「孤独でありながらも独りじゃない、誰かと確かに繋がっていること」を信じる歌として、当時のバンドの姿勢が反映された曲だと評されている。
     basis: 歌詞の「貴方は貴方の／生命だけを輝かせて」という一節と、公式サイト『5』ライナーノーツ（um-liner-kujira）での楽曲解説
-    sources: [um-liner-kujira]
+    sources:
+      - um-liner-kujira
 basicSources:
   - um-upch-20443
   - um-upch-20549

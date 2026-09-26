@@ -4,8 +4,13 @@ phase: phase2
 works:
   - title: Soranji
     type: シングル
+    date: 2022-11-09
   - title: ANTENNA
     type: アルバム
+    date: 2023-07-05
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: 劇中歌（楽曲提供）
     work: 映画「ONE PIECE FILM RED」
@@ -16,31 +21,39 @@ reviewedAt: 2026-09-27
 basicSources:
   - um-upch-80580
   - um-pron-1061
+  - am-1823814178
 background:
   - kind: official
-    text: 大森元貴は、映画「ONE PIECE FILM RED」の劇中でAdoが演じるウタが歌う楽曲としてオファーを受けて制作したと語っている。当時バンドは活動休止中だったという。
-    sources: [natalie-2022-mga03]
-    evidence: "ボーカルはAdoさんで、作中のウタちゃんという子が歌う楽曲だということでお話をいただいて"
+    text: 大森元貴は、映画「ONE PIECE FILM
+      RED」の劇中でAdoが演じるウタが歌う楽曲としてオファーを受けて制作したと語っている。当時バンドは活動休止中だったという。
+    sources:
+      - natalie-2022-mga03
+    evidence: ボーカルはAdoさんで、作中のウタちゃんという子が歌う楽曲だということでお話をいただいて
   - kind: official
     text: 台本では「私が最強」という仮タイトルが付けられていたが、大森元貴は「このタイトルは僕だったら絶対付けないな」と考え、「私は最強」に変えたと明かしている。
-    sources: [natalie-2022-mga03]
-    evidence: "このタイトルは僕だったら絶対付けないな"
+    sources:
+      - natalie-2022-mga03
+    evidence: このタイトルは僕だったら絶対付けないな
   - kind: official
     text: 大森元貴は、ウタの強さと弱さが表裏一体になっている心情を、誰もが抱く感情として書いたと述べている。
-    sources: [natalie-2022-mga03]
-    evidence: "自分の強さと弱さが表裏一体になっているウタちゃんの心情を書いているんですが、それは誰しもが抱く感情だと思った"
+    sources:
+      - natalie-2022-mga03
+    evidence: 自分の強さと弱さが表裏一体になっているウタちゃんの心情を書いているんですが、それは誰しもが抱く感情だと思った
   - kind: official
     text: 若井滉斗は、この曲について大森元貴自身が「ミセスを意識して作れた」と語っていたと述べている。
-    sources: [natalie-2022-mga03]
-    evidence: "元貴自身、「ミセスを意識して作れた」と言っていたので"
+    sources:
+      - natalie-2022-mga03
+    evidence: 元貴自身、「ミセスを意識して作れた」と言っていたので
   - kind: official
     text: 大森元貴は、原曲をレコーディングした際、セルフカバーのリリースを見越して同じ日にオケも録っており、当初から自分たちでもリリースしたいと考えていたと語っている。
-    sources: [natalie-2022-mga03]
-    evidence: "提供しているようで自分らの持ち曲という2つの感情が織り交ざった感覚ですね"
+    sources:
+      - natalie-2022-mga03
+    evidence: 提供しているようで自分らの持ち曲という2つの感情が織り交ざった感覚ですね
   - kind: interpretation
     text: 歌詞の「いつかの夢が 私の心臓」という一節について、藤澤涼架は活動休止期間中に感じていた、自分を突き動かすものへの思いと重なると語っている。
     basis: natalie-2022-mga03 での藤澤涼架の発言（歌詞「いつかの夢が　私の心臓」への言及）
-    sources: [natalie-2022-mga03]
+    sources:
+      - natalie-2022-mga03
 sources:
   - id: um-upch-80580
     title: Soranji（シングル）
@@ -61,3 +74,8 @@ sources:
     media: 音楽ナタリー
     url: https://natalie.mu/music/pp/mrsgreenapple03/page/2
     date: 2022-11-10
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: Speaking
     type: シングル
+    date: 2015-12-16
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27

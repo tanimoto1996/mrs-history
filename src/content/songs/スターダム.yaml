@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: "5"
     type: アルバム
+    date: 2020-07-08
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -12,12 +13,14 @@ basicSources:
 background:
   - kind: official
     text: 「スターダム」は2014年に自主盤としてリリースされたファーストミニアルバム『Introduction』収録曲を、ベストアルバム「5」に際して改めて録音し直した楽曲。メンバーは、当時聴き直した原曲について「荒削りながらも初期衝動に満ちていた」と語っている。
-    sources: [um-bestalbum5-liner01]
-    evidence: "荒削りながらも初期衝動に満ちていた"
+    sources:
+      - um-bestalbum5-liner01
+    evidence: 荒削りながらも初期衝動に満ちていた
   - kind: interpretation
     text: 歌詞の「失くしたくないから／僕はずっとこうやってるの」という一節は、『Introduction』のコンセプトである「形あるものはいつか必ずなくなる」という無常観と重なり、生と喪失の中で意味を掴み取ろうとする歌として読める。
     basis: 歌詞の該当箇所と、um-bestalbum5-liner01に記された『Introduction』のコンセプト説明
-    sources: [um-bestalbum5-liner01]
+    sources:
+      - um-bestalbum5-liner01
 sources:
   - id: um-upch-20549
     title: 5（アルバム）

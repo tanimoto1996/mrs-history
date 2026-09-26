@@ -4,6 +4,10 @@ phase: phase2
 works:
   - title: 天国
     type: 配信
+    date: 2025-05-02
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: 主題歌
     work: 映画『#真相をお話しします』
@@ -29,6 +33,7 @@ background:
     evidence: 『もう飽きたな』と思ってやめた瞬間に『できた』
 basicSources:
   - off-1024
+  - am-1823814178
 sources:
   - id: off-1024
     title: 天国（配信）
@@ -44,3 +49,8 @@ sources:
     media: Billboard JAPAN
     url: https://www.billboard-japan.com/special/detail/4829
     date: 2025-05-02
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

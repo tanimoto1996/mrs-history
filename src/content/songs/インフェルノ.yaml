@@ -4,18 +4,22 @@ phase: phase1
 works:
   - title: インフェルノ
     type: 配信
+    date: 2019-07-18
   - title: Attitude
     type: アルバム
+    date: 2019-10-02
   - title: "5"
     type: アルバム
+    date: 2020-07-08
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、歌詞の「永遠は無いんだと」というフレーズが自身の音楽活動の出発点にある考えだと語っている。すべてがいつか終わるという事実の苦しさに向き合いながらも、そこで「でもね」と言う強さを持たなければ生きていけないと述べている。
-    sources: [um-5-liner-16]
-    evidence: "そもそもの僕の音楽の起源がそこなんです"
+    sources:
+      - um-5-liner-16
+    evidence: そもそもの僕の音楽の起源がそこなんです
 basicSources:
   - um-uu1as-00765
   - um-upch-20531

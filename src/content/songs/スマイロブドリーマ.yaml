@@ -4,8 +4,10 @@ phase: phase1
 works:
   - title: どこかで日は昇る
     type: シングル
+    date: 2017-05-03
   - title: ENSEMBLE
     type: アルバム
+    date: 2018-04-18
 tieups:
   - type: タイアップ
     work: MBS/TBS ドラマ「笑う招き猫」オープニングテーマ
@@ -16,8 +18,9 @@ reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、シングル『どこかで日は昇る』収録の3曲（表題曲・本曲・「SwitCh」）はすべて書き下ろしで、お題（タイアップ）がある楽曲制作は違和感なく取り組めたと述べている。
-    sources: [skream-2017-04-mga]
-    evidence: "シングルで全部書き下ろしっていうのは今回初めてだったので、わりと新鮮な気持ちで書けたなぁと思う"
+    sources:
+      - skream-2017-04-mga
+    evidence: シングルで全部書き下ろしっていうのは今回初めてだったので、わりと新鮮な気持ちで書けたなぁと思う
 basicSources:
   - um-upch-80467
   - um-upch-20483

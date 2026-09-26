@@ -4,12 +4,14 @@ phase: phase1
 works:
   - title: Progressive
     type: ミニアルバム
+    date: 2015-02-18
 tieups: []
 background:
   - kind: official
     text: 若井滉斗は、この曲についてサビなどで激しさを出しつつ、その反面繊細さという曲の大切な部分も表す必要があり、演奏が大変だったと語っている。また、ドラムの山中綾華はラジオでかけたい一曲として本曲を挙げた。大森元貴はアルバムの曲順にこだわったとした上で、頭の「我逢人」から最後の本曲まで1つの映画を観ているような感覚になると語っている。
-    sources: [hmv-2015-progressive]
-    evidence: "サビとかでガツンと激しさを出す曲なんだけど、その反面繊細さという曲の大切な部分も表さないといけないので、演奏は大変でしたねぇ～。"
+    sources:
+      - hmv-2015-progressive
+    evidence: サビとかでガツンと激しさを出す曲なんだけど、その反面繊細さという曲の大切な部分も表さないといけないので、演奏は大変でしたねぇ～。
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:

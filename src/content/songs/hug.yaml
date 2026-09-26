@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: TWELVE
     type: アルバム
+    date: 2016-01-13
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -12,12 +13,14 @@ basicSources:
 background:
   - kind: secondary
     text: 歌詞考察サイトでは、「寂しさ」と「疲弊」を抱えた語り手が"ハグ"という最小の温もりに救いを求める楽曲と紹介されている。
-    sources: [arai-hikidashi-hug]
-    evidence: "この曲『hug』は、日々の始まりと終わりに押し寄せる孤独と不安を"
+    sources:
+      - arai-hikidashi-hug
+    evidence: この曲『hug』は、日々の始まりと終わりに押し寄せる孤独と不安を
   - kind: secondary
     text: 1番・2番では「アナタと私だけのハグ」だった歌詞が、ラストで「私と私だけのハグ」に変化する点に注目した解釈がある。
-    sources: [arai-hikidashi-hug]
-    evidence: "私と私だけのハグをしよう"
+    sources:
+      - arai-hikidashi-hug
+    evidence: 私と私だけのハグをしよう
 sources:
   - id: um-upch-20411
     title: TWELVE（アルバム）

@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: Progressive
     type: ミニアルバム
+    date: 2015-02-18
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -16,18 +17,18 @@ sources:
     url: https://music.apple.com/jp/album/1440794725
     date: 2015-02-18
   - id: arai-hikidashi-naniwonaniwo
-    title: "Mrs. GREEN APPLE『ナニヲナニヲ』歌詞【意味＆考察】浅すぎる思考はいつか破滅を生む（ミセス）"
+    title: Mrs. GREEN APPLE『ナニヲナニヲ』歌詞【意味＆考察】浅すぎる思考はいつか破滅を生む（ミセス）
     media: arai no HIKIDASHI
     url: https://takahiroarai.me/mrsgreenapple-naniwonaniwo/
     date: 2022-06-24
 background:
   - kind: secondary
-    text: "哲学者ソクラテスの問答法を原点に、聴き手へ鋭い問いを繰り返し投げかけることで、何も考えず流されて生きることの愚かさを伝える曲だと紹介されている。"
+    text: 哲学者ソクラテスの問答法を原点に、聴き手へ鋭い問いを繰り返し投げかけることで、何も考えず流されて生きることの愚かさを伝える曲だと紹介されている。
     sources:
       - arai-hikidashi-naniwonaniwo
-    evidence: "何も考えず流されるままに生きることなのだ"
+    evidence: 何も考えず流されるままに生きることなのだ
   - kind: secondary
-    text: "「何が欲しくて何が要らないか」という浅い判断だけで人間関係を築く危うさを問いかけ、自分自身と真剣に向き合うよう促す楽曲だと解釈されている。"
+    text: 「何が欲しくて何が要らないか」という浅い判断だけで人間関係を築く危うさを問いかけ、自分自身と真剣に向き合うよう促す楽曲だと解釈されている。
     sources:
       - arai-hikidashi-naniwonaniwo
-    evidence: "所詮それくらいしか考えていないのでしょう"
+    evidence: 所詮それくらいしか考えていないのでしょう

@@ -4,6 +4,10 @@ phase: phase2
 works:
   - title: アポロドロス
     type: 配信
+    date: 2024-07-03
+  - title: "10"
+    type: アルバム
+    date: 2025-07-07
 tieups:
   - type: スポーツ応援ソング
     work: テレビ朝日系列2024スポーツ応援ソング
@@ -14,26 +18,33 @@ reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は、この曲がパリ五輪の中継のための書き下ろしであることを、光栄に思うと語っている。
-    sources: [mantan-2024-apollodoros]
-    evidence: "壮大に、かつ繊細にエネルギーを描きたいと率直に思いました"
+    sources:
+      - mantan-2024-apollodoros
+    evidence: 壮大に、かつ繊細にエネルギーを描きたいと率直に思いました
   - kind: official
     text: 楽曲は約10年前にオリンピックを意識して書いた曲との2部構成（組曲）になっていると、大森元貴が明かしている。
-    sources: [mantan-2024-apollodoros]
-    evidence: "10年ほど前に、当時オリンピックを意識して描いた曲との2部構成になっていて、組曲になっています"
+    sources:
+      - mantan-2024-apollodoros
+    evidence: 10年ほど前に、当時オリンピックを意識して描いた曲との2部構成になっていて、組曲になっています
   - kind: official
     text: 曲のテーマについて、大森元貴は「静と動」だと説明している。
-    sources: [mantan-2024-apollodoros]
-    evidence: "闘争心、激動な思いと、安らぐリラックスした壮大なゾーンみたいなもの、静と動がテーマだったりします"
+    sources:
+      - mantan-2024-apollodoros
+    evidence: 闘争心、激動な思いと、安らぐリラックスした壮大なゾーンみたいなもの、静と動がテーマだったりします
   - kind: official
     text: 楽曲の後半部分には、大森元貴が2015年にオリンピックをテーマにして書いた「命の花」という曲が用いられている。
-    sources: [natalie-2026-apollodoros-bts]
-    evidence: "後半部は2015年に大森元貴（Vo, G）がオリンピックをテーマにして書いた楽曲「命の花」が用いられた"
+    sources:
+      - natalie-2026-apollodoros-bts
+    evidence: 後半部は2015年に大森元貴（Vo, G）がオリンピックをテーマにして書いた楽曲「命の花」が用いられた
   - kind: official
-    text: 「アポロドロス ～2026 winter version～」は、パリ2024オリンピックに続き、ミラノ・コルティナ2026冬季オリンピックのテレビ朝日系列スポーツ応援ソングにも選ばれ、冬季五輪向けに新たなアレンジが施された。
-    sources: [natalie-2026-apollodoros-bts]
-    evidence: "冬季五輪のために新たなアレンジを施された「アポロドロス ～2026 winter version～」"
+    text: 「アポロドロス ～2026 winter
+      version～」は、パリ2024オリンピックに続き、ミラノ・コルティナ2026冬季オリンピックのテレビ朝日系列スポーツ応援ソングにも選ばれ、冬季五輪向けに新たなアレンジが施された。
+    sources:
+      - natalie-2026-apollodoros-bts
+    evidence: 冬季五輪のために新たなアレンジを施された「アポロドロス ～2026 winter version～」
 basicSources:
   - um-uu1as-02077
+  - am-1823814178
 sources:
   - id: um-uu1as-02077
     title: アポロドロス（配信）
@@ -45,7 +56,7 @@ sources:
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
   - id: mantan-2024-apollodoros
-    title: "Mrs. GREEN APPLE：新曲「アポロドロス」　テレビ朝日系パリ五輪中継の応援ソングに　大森元貴「静と動がテーマ」"
+    title: Mrs. GREEN APPLE：新曲「アポロドロス」　テレビ朝日系パリ五輪中継の応援ソングに　大森元貴「静と動がテーマ」
     media: MANTANWEB
     url: https://mantan-web.jp/article/20240702dog00m200036000c.html
     date: 2024-07-02
@@ -54,3 +65,8 @@ sources:
     media: 音楽ナタリー
     url: https://natalie.mu/music/news/659139
     date: 2026-02-06
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07

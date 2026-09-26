@@ -3,15 +3,17 @@ releaseDate: 2015-07-08
 phase: phase1
 works:
   - title: Variety
-    type: アルバム
+    type: ミニアルバム
+    date: 2015-07-08
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は1stフルアルバム『TWELVE』のインタビューで、前作『Variety』収録の「VIP」は作った当時周囲が心配するほど歌詞が刺々しかったと語っている。
-    sources: [gakushin-2016-twelve]
-    evidence: "前作「Variety」収録の「VIP」という曲は、作った時に周りが心配するくらい歌詞が刺々していましたよね（笑）。"
+    sources:
+      - gakushin-2016-twelve
+    evidence: 前作「Variety」収録の「VIP」という曲は、作った時に周りが心配するくらい歌詞が刺々していましたよね（笑）。
 basicSources:
   - um-upch-20396
 sources:

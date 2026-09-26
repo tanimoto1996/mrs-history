@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: ENSEMBLE
     type: アルバム
+    date: 2018-04-18
 tieups:
   - type: 主題歌
     work: スマートフォン向けRPG『ワンダーグラビティ ～ピノと重力使い～』オープニングテーマ
@@ -14,12 +15,14 @@ reviewedAt: 2026-09-27
 background:
   - kind: official
     text: 大森元貴は「SPLASH!!!」について、新作ゲームにあるワクワク感を楽曲にも落とし込みたかったと語っている。
-    sources: [famitsu-2018-splash]
-    evidence: "やはり新しいゲームにあるワクワク感を楽曲にも落とし込みたいな"
+    sources:
+      - famitsu-2018-splash
+    evidence: やはり新しいゲームにあるワクワク感を楽曲にも落とし込みたいな
   - kind: official
     text: バンドを知らずにゲームからこの曲を聴く人も多いだろうと考え、ゲームをプレイすると改めて歌詞の意味がわかるような形を目指したと語っている。
-    sources: [famitsu-2018-splash]
-    evidence: "ゲームをプレイすると、改めて歌詞の意味がわかるような形を目指しました"
+    sources:
+      - famitsu-2018-splash
+    evidence: ゲームをプレイすると、改めて歌詞の意味がわかるような形を目指しました
 basicSources:
   - um-upch-20483
 sources:

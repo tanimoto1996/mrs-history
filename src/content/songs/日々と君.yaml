@@ -4,6 +4,7 @@ phase: phase1
 works:
   - title: Progressive
     type: ミニアルバム
+    date: 2015-02-18
 tieups: []
 status: reviewed
 reviewedAt: 2026-09-27
@@ -12,12 +13,14 @@ basicSources:
 background:
   - kind: official
     text: ベースの髙野は、「日々と君」について、日々の辛い部分を思いながらメッセージを伝えていく曲だと紹介している。
-    sources: [eggman-2015-progressive]
-    evidence: "日々の辛い部分も考えながらメッセージを伝えていく楽曲なので"
+    sources:
+      - eggman-2015-progressive
+    evidence: 日々の辛い部分も考えながらメッセージを伝えていく楽曲なので
   - kind: official
     text: 若井滉斗は、ラジオでかけたい1曲を聞かれた際に「日々と君」を挙げている。
-    sources: [hmv-2015-progressive]
-    evidence: "あと僕、「日々と君」！！"
+    sources:
+      - hmv-2015-progressive
+    evidence: あと僕、「日々と君」！！
 sources:
   - id: eggman-2015-progressive
     title: Mrs. GREEN APPLE interview
