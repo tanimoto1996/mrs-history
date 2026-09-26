@@ -185,7 +185,7 @@ sources:
 main に push すると GitHub Actions（[.github/workflows/deploy.yml](.github/workflows/deploy.yml)）が `npm ci` → `npm run check` → `npm run build` を実行し、`dist/` を GitHub Pages に公開します。
 
 - `site`: `https://tanimoto1996.github.io`
-- `base`: `/mrs-history`（リンクには `import.meta.env.BASE_URL` を使う）
+- `base`: `/mrs-history`（ページ内リンクは `src/lib/data.ts` の `url()` で base を付ける）
 - `trailingSlash: 'always'`
 
 ## 誤りを見つけたら
