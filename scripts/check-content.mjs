@@ -21,6 +21,7 @@ const checkRefs = (file, ids, defined, where) => {
 for (const s of songs) {
   const d = s.data;
   const srcIds = new Set((d.sources ?? []).map((x) => x.id));
+  if (!d.basicSources?.length) errors.push(`${s.file}: basicSources がない`);
   if (!phaseIds.has(d.phase)) errors.push(`${s.file}: 不明な phase "${d.phase}"`);
   checkRefs(s.file, d.basicSources, srcIds, 'basicSources');
   for (const t of d.tieups ?? []) {

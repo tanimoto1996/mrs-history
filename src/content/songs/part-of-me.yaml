@@ -5,7 +5,17 @@ works:
   - title: Unity
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は「Part of me」について、言い回しや表現が正しいか自問自答を繰り返し、歌詞をかなり熟考して書いたと語っている。バンド結成10年目前にして初めて、曲が書けずレコーディングスケジュールを飛ばした曲でもあるという。
+    sources: [fashionpress-2022-mga]
+    evidence: 自問自答を繰り返して、歌詞を書くのもかなり熟考しました
+  - kind: official
+    text: 大森元貴は同曲の制作について、自分自身を削って曲にしていく作業だと振り返っている。
+    sources: [realsound-2022-soranji]
+    evidence: 僕を削って曲にしていく作業でしかないから、僕がやられるのが先か、曲ができるのが先かというバトル
 basicSources:
   - um-upch-20620
 sources:
@@ -14,3 +24,13 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20620/
     date: 2022-07-08
+  - id: fashionpress-2022-mga
+    title: Mrs. GREEN APPLEにインタビュー、音楽を通してミセスが伝えたいメッセージとは？
+    media: Fashion Press
+    url: https://www.fashion-press.net/news/90017/2
+    date: 2022-07-21
+  - id: realsound-2022-soranji
+    title: Mrs. GREEN APPLE、主題歌を務める映画『ラーゲリより愛を込めて』が上映中。新曲「Soranji」について大森元貴が語る
+    media: Real Sound
+    url: https://realsound.jp/2022/12/post-1204572_2.html
+    date: 2022-12-09

@@ -5,12 +5,23 @@ works:
   - title: Attitude
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20531
+background:
+  - kind: official
+    text: 大森元貴は、デモの段階から日本語に聴こえないヴァース部分をそのまま歌っており、アルバムのために書いた曲ではなく自然にできたものだと説明している。レコーディングでは「荒々しく録ってくれ」と要望し、ドラムの山中綾華には「野蛮に叩いてくれ」と伝えたという。
+    sources: [skream-2019-attitude]
+    evidence: "デモのときからそういうふうに歌ってたんですよね。別にアルバムに入れるために書いた曲とかじゃなくて"
 sources:
   - id: um-upch-20531
     title: Attitude（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
     date: 2019-10-02
+  - id: skream-2019-attitude
+    title: Mrs. GREEN APPLE | インタビュー（アルバム『Attitude』特集）
+    media: Skream!
+    url: https://skream.jp/interview/2019/10/mrs_green_apple.php
+    date: 2019-10-01

@@ -1,0 +1,27 @@
+title: CONFLICT
+releaseDate: 2015-02-18
+phase: phase1
+works:
+  - title: Progressive
+    type: ミニアルバム
+tieups: []
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、目標にしているアーティストを問われたインタビューで、「CONFLICT」の歌詞にあるように"未だ成されて無い事"を成していくバンドになりたいと語っている。
+    sources: [skream-2015-02-mga]
+    evidence: "僕たちは「CONFLICT」の歌詞の中にあるように、\"未だ成されて無い事\"を成していくバンドになりたいと思っています！"
+basicSources:
+  - am-1440794725
+sources:
+  - id: am-1440794725
+    title: Progressive（ミニアルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1440794725
+    date: 2015-02-18
+  - id: skream-2015-02-mga
+    title: Mrs. GREEN APPLE インタビュー
+    media: Skream!
+    url: https://skream.jp/interview/2015/02/mrs_green_apple.php
+    date: 2015-02-03

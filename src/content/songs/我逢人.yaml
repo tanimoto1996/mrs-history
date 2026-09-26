@@ -1,16 +1,34 @@
 title: 我逢人
-releaseDate: 2020-07-08
+releaseDate: 2015-02-18
 phase: phase1
 works:
+  - title: Progressive
+    type: ミニアルバム
   - title: "5"
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、初の全国流通盤の1曲目として、顔も知らない人たちと音だけで繋がることを強く意識して書いた曲だと語っている。
+    sources: [um-5-liner-gahoujin]
+    evidence: "初の全国流通盤の1曲目、つまり顔も知らない人達と出会う最初の曲だから、人と人が音だけで繋がることを強く意識して書いた曲だと思う"
 basicSources:
+  - am-1440794725
   - um-upch-20549
 sources:
+  - id: am-1440794725
+    title: Progressive（ミニアルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1440794725
+    date: 2015-02-18
   - id: um-upch-20549
     title: 5（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
     date: 2020-07-08
+  - id: um-5-liner-gahoujin
+    title: 02.我逢人（がほうじん）オフィシャル・ライナーノーツ｜Mrs. GREEN APPLE『5』スペシャルサイト
+    media: ユニバーサル ミュージック
+    url: https://sp.universal-music.co.jp/mrsgreenapple/bestalbum5/interview02.html

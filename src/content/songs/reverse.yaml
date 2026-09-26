@@ -5,7 +5,13 @@ works:
   - title: ENSEMBLE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: ギターの若井滉斗は、『ENSEMBLE』制作で音楽的な経験になった曲として「REVERSE」を挙げ、デジタルなループミュージックに生の音をどう乗せるか、レコーディング中にメンバーとアイコンタクトを取りながら息の合ったグルーヴを意識したと語っている。
+    sources: [fanplus-2018-ensemble]
+    evidence: "これはHIOHOPテイストで、サウンドもデジタルで、ループミュージックなんですけど、そこに自分達がどう生の音を乗せるか……"
 basicSources:
   - um-upch-20483
 sources:
@@ -13,4 +19,9 @@ sources:
     title: ENSEMBLE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20483/
+    date: 2018-04-18
+  - id: fanplus-2018-ensemble
+    title: 大きく成長を遂げたMrs. GREEN APPLE、3作目のフルアルバム『ENSEMBLE』
+    media: Fanplus Music
+    url: https://music.fanplus.co.jp/news/2018041168301390c
     date: 2018-04-18

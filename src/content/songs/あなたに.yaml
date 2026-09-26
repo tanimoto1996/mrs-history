@@ -1,0 +1,16 @@
+title: あなたに
+releaseDate: 2023-10-25
+phase: phase2
+works:
+  - title: あなたに
+    type: 配信
+tieups: []
+status: basic
+basicSources:
+  - am-1710693261
+sources:
+  - id: am-1710693261
+    title: あなたに（配信）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1710693261
+    date: 2023-10-25

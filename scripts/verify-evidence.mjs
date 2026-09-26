@@ -10,7 +10,14 @@ const cache = new Map();
 async function page(url) {
   if (!cache.has(url)) {
     cache.set(url, fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' } })
-      .then((r) => (r.ok ? r.text() : null))
+      .then(async (r) => {
+        if (!r.ok) return null;
+        // Shift_JIS などのページもあるので、宣言された文字コードで読む
+        const buf = Buffer.from(await r.arrayBuffer());
+        const head = buf.subarray(0, 2048).toString('latin1');
+        const cs = (r.headers.get('content-type')?.match(/charset=([\w-]+)/i) ?? head.match(/charset=["']?([\w-]+)/i))?.[1] ?? 'utf-8';
+        return new TextDecoder(cs.toLowerCase().replace('x-sjis', 'shift_jis')).decode(buf);
+      })
       .then((t) => (t ? norm(t) : null))
       .catch(() => null));
   }

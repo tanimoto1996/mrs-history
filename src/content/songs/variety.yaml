@@ -1,0 +1,49 @@
+title: Variety
+releaseDate: 2026-09-30
+phase: phase3
+works:
+  - title: POPS
+    type: アルバム
+tieups:
+  - type: 主題歌
+    work: 映画『MGA MAGICAL 10 YEARS DOCUMENTARY FILM ～THE ORIGIN～』
+    sources:
+      - natalie-2025-variety
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: ドキュメンタリー映画「THE ORIGIN」は、主題歌「Variety」を書き下ろして観客に届けるまでの300日間に密着した内容で、予告映像には制作にまつわるメンバーの発言が使われている。
+    sources: [natalie-2025-variety]
+    evidence: "映画の主題歌「Variety」を書き下ろして観客に届けるまでの300日間に密着"
+  - kind: official
+    text: 若井滉斗は予告映像で、3人の関係性について「強みも弱みも全然違うからこそ、綺麗なバランスが成り立っている」と語っている。
+    sources: [natalie-2025-variety]
+    evidence: "強みも弱みも全然違うからこそ、綺麗なバランスが成り立っている"
+  - kind: official
+    text: 藤澤涼架は予告映像で、バンドへの思いを「自分がどれだけ貢献できるか」と語っている。
+    sources: [natalie-2025-variety]
+    evidence: "自分がどれだけ貢献できるか"
+  - kind: official
+    text: 大森元貴は予告映像で、自身の孤独について「何万人の前でライブをしていても孤独なんですよ。“わかる”なんて言ってほしくない。わかんないじゃん」と語っている。
+    sources: [natalie-2025-variety]
+    evidence: "何万人の前でライブをしていても孤独なんですよ。“わかる”なんて言ってほしくない。わかんないじゃん"
+basicSources:
+  - um-dsku-16186
+  - am-6808172946
+sources:
+  - id: um-dsku-16186
+    title: POPS（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/dsku-16186/
+    date: 2026-09-30
+  - id: am-6808172946
+    title: POPS（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/6808172946
+    date: 2026-09-30
+  - id: natalie-2025-variety
+    title: Mrs. GREEN APPLE、ドキュメンタリー映画の主題歌「Variety」が流れる予告映像公開
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/643566
+    date: 2025-10-09

@@ -9,8 +9,13 @@ tieups:
     work: 映画『サイレントラブ』
     sources:
       - profile
-status: basic
-background: []
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 映画「サイレントラブ」の主題歌決定にあたり、Mrs. GREEN APPLEは「人を思うとは、過去を背負うとは、幸せを描くとは、とても普遍的な綺麗事ではない題材を抱えた作品だ」とコメントしている。
+    sources: [otocoto-2023-silentlove]
+    evidence: "人を思うとは、過去を背負うとは、幸せを描くとは、とても普遍的な綺麗事ではない題材を抱えた作品だ"
 basicSources:
   - off-167
 sources:
@@ -23,3 +28,8 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
+  - id: otocoto-2023-silentlove
+    title: 山田涼介＆浜辺美波も喜びのコメント！Mrs. GREEN APPLEによる書き下ろし主題歌「ナハトムジーク」が主題歌に決定 映画『サイレントラブ』
+    media: otocoto
+    url: https://otocoto.jp/news/silentlove1110/
+    date: 2023-11-10
