@@ -4,15 +4,23 @@ phase: phase1
 works:
   - title: "5"
     type: アルバム
-tieups:
-  - type: タイアップ
-    work: 新曲
+tieups: []
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: interpretation
+    text: 公式サイトのライナーノーツでは、「Theater」はアリーナツアーを回りながら制作された、フェーズ1のフィナーレを飾る楽曲と紹介されている。終盤の合唱のようなコーラスにはメンバーだけでなく活動を支えるスタッフも参加しており、それはミセスが出会ってきた人々への感謝を表しているようでもあると評されている。
+    basis: 公式『5』スペシャルサイトのオフィシャル・ライナーノーツ（MUSICA編集長・有泉智子による解説）の「フェーズ1のフィナーレを飾るにふさわしい晴れやかな祝福に満ちた雄大な楽曲だ」という記述
     sources:
-      - um-upch-20549
-status: basic
+      - um-5-theater-liner
 basicSources:
   - um-upch-20549
 sources:
+  - id: um-5-theater-liner
+    title: 19. Theater オフィシャル・ライナーノーツ｜Mrs. GREEN APPLE『5』スペシャルサイト
+    media: ユニバーサル ミュージック
+    url: https://sp.universal-music.co.jp/mrsgreenapple/bestalbum5/interview19.html
+    date: 2020-07-08
   - id: um-upch-20549
     title: 5（アルバム）
     media: ユニバーサル ミュージック

@@ -1,0 +1,27 @@
+title: WaLL FloWeR
+releaseDate: 2015-02-18
+phase: phase1
+works:
+  - title: Progressive
+    type: ミニアルバム
+tieups: []
+background:
+  - kind: official
+    text: 若井滉斗は、この曲についてサビなどで激しさを出しつつ、その反面繊細さという曲の大切な部分も表す必要があり、演奏が大変だったと語っている。また、ドラムの山中綾華はラジオでかけたい一曲として本曲を挙げた。大森元貴はアルバムの曲順にこだわったとした上で、頭の「我逢人」から最後の本曲まで1つの映画を観ているような感覚になると語っている。
+    sources: [hmv-2015-progressive]
+    evidence: "サビとかでガツンと激しさを出す曲なんだけど、その反面繊細さという曲の大切な部分も表さないといけないので、演奏は大変でしたねぇ～。"
+status: reviewed
+reviewedAt: 2026-09-27
+basicSources:
+  - am-1440794725
+sources:
+  - id: am-1440794725
+    title: Progressive（ミニアルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1440794725
+    date: 2015-02-18
+  - id: hmv-2015-progressive
+    title: 【HMVインタビュー】Mrs. GREEN APPLE 『Progressive』 2月18日発売
+    media: HMV ONLINE
+    url: https://www.hmv.co.jp/news/article/1502130058/
+    date: 2015-02-17

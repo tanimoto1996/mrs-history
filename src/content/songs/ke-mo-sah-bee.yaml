@@ -5,12 +5,23 @@ works:
   - title: Attitude
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20531
+background:
+  - kind: official
+    text: 大森元貴は、Mrs. GREEN APPLEにはもともと2ビートの曲がなく、この曲の制作は大変だったと振り返っている。ドラムの山中綾華は、当初はなぜこれほど速いのかわからないところから始まり、リズム自体を好きになることでその格好良さを発見していったと語っている。
+    sources: [skream-2019-attitude]
+    evidence: "はい。大変だったよね？ そもそも自分らに2ビートの曲がないので。"
 sources:
   - id: um-upch-20531
     title: Attitude（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
     date: 2019-10-02
+  - id: skream-2019-attitude
+    title: Mrs. GREEN APPLE | インタビュー（アルバム『Attitude』特集）
+    media: Skream!
+    url: https://skream.jp/interview/2019/10/mrs_green_apple.php
+    date: 2019-10-01

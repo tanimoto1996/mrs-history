@@ -9,7 +9,14 @@ tieups:
     work: ABEMA「今日、好きになりました。」主題歌
     sources:
       - um-upch-20620
-status: basic
+      - natalie-2022-blueambience
+background:
+  - kind: official
+    text: この曲はMrs. GREEN APPLEが活動再開後3曲目として書き下ろした新曲で、シンガーソングライターのasmiをフィーチャリングしている。ABEMAオリジナル恋愛番組「今日、好きになりました。初虹編」の主題歌として発表された。
+    sources: [natalie-2022-blueambience]
+    evidence: "ABEMAオリジナル恋愛番組「今日、好きになりました。初虹編」の主題歌として新曲「ブルーアンビエンス（feat. asmi）」を書き下ろした。"
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20620
 sources:
@@ -18,3 +25,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20620/
     date: 2022-07-08
+  - id: natalie-2022-blueambience
+    title: Mrs. GREEN APPLE「今日、好きになりました。」新シリーズの主題歌を書き下ろし
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/471654
+    date: 2022-03-29

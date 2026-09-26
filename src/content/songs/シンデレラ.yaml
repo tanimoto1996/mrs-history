@@ -1,0 +1,22 @@
+title: シンデレラ
+releaseDate: 2026-09-30
+phase: phase3
+works:
+  - title: POPS
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - um-dsku-16186
+  - am-6808172946
+sources:
+  - id: um-dsku-16186
+    title: POPS（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/dsku-16186/
+    date: 2026-09-30
+  - id: am-6808172946
+    title: POPS（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/6808172946
+    date: 2026-09-30

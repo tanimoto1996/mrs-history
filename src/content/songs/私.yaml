@@ -5,7 +5,13 @@ works:
   - title: TWELVE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、TWELVE収録曲の中で意見交換が難航した曲として「私」を挙げ、キーボードの藤澤涼架がそれまでメロディを弾くことが多かったのに対し、この曲では重心となる基盤の音を取り入れたため戸惑っていたと語っている。
+    sources: [gakushin-2016-twelve]
+    evidence: "うーん、6曲目の「私」ですかね。Key.の藤澤がテンパってました。"
 basicSources:
   - um-upch-20411
 sources:
@@ -14,3 +20,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20411/
     date: 2016-01-13
+  - id: gakushin-2016-twelve
+    title: Mrs. GREEN APPLE インタビュー
+    media: ガクシンFind
+    url: https://gakushin-kyoto.com/music-interview/160224.html
+    date: 2016-02-24

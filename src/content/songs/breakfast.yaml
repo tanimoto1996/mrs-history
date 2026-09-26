@@ -9,8 +9,13 @@ tieups:
     work: フジテレビ系『サン！シャイン』
     sources:
       - profile
-status: basic
-background: []
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、フジテレビ「サン！シャイン」のテーマソングとして「breakfast」を書き下ろし、日々さまざまな思いを抱える人の朝を少しでも彩りたいという思いを込めて制作したとコメントしている。
+    sources: [natalie-2025-breakfast]
+    evidence: "「よし、今日も一丁やりますか！」と思ってもらえるように、皆さまの朝を少しでも彩れるように、そんな思いのもと制作しました。"
 basicSources:
   - um-uu1as-02436
 sources:
@@ -23,9 +28,8 @@ sources:
     title: PROFILE
     media: Mrs. GREEN APPLE OFFICIAL SITE
     url: https://mrsgreenapple.com/feature/profile
-  - id: oricon-2025-breakfast
-    title: Mrs. GREEN
-      APPLE、フジ『サン！シャイン』のテーマソングに新曲「breakfast」描き下ろし「皆さまの朝を少しでも彩れるよう」【コメントあり】
-    media: ORICON NEWS
-    url: https://www.oricon.co.jp/news/2376684/full/
+  - id: natalie-2025-breakfast
+    title: Mrs. GREEN APPLE、フジテレビ朝番組「サン！シャイン」のテーマソング担当（コメントあり）
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/617952
     date: 2025-03-30

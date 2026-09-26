@@ -1,0 +1,27 @@
+title: 慶びの種
+releaseDate: 2025-07-07
+phase: phase2
+works:
+  - title: "10"
+    type: アルバム
+tieups: []
+background:
+  - kind: official
+    text: 「慶びの種」はもともと2014年7月5日にライブ会場限定で販売された1stミニアルバム「Introduction」のシークレットトラックで、現在では入手困難だった。アニバーサリーベストアルバム「10」には新録バージョンとして収録された。
+    sources: [natalie-2025-ten-tracklist]
+    evidence: "2014年7月5日にライブ会場限定で販売され、現在では入手困難な1stミニアルバム「Introduction」のシークレットトラック「慶びの種」の新録バージョン"
+status: reviewed
+reviewedAt: 2026-09-27
+basicSources:
+  - am-1823814178
+sources:
+  - id: am-1823814178
+    title: 10（アルバム）
+    media: Apple Music
+    url: https://music.apple.com/jp/album/1823814178
+    date: 2025-07-07
+  - id: natalie-2025-ten-tracklist
+    title: Mrs. GREEN APPLE「10」に収録される19曲は？ なんと「慶びの種」新録Ver.も
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/622965
+    date: 2025-05-08

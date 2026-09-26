@@ -5,10 +5,24 @@ works:
   - title: Variety
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、16歳くらいの時に作った「ゼンマイ」は長く触れていなかった曲で、当時は曲の温かい雰囲気を表現できなかったが、19歳を迎える今になってちょうど良くなったと語っている。
+    sources: [jungle-mga-zenmai]
+    evidence: "16歳くらいの時に作った曲なんですけど、19歳を迎える今になってちょうど良くなったというか。"
+  - kind: official
+    text: サビのコーラスは大森元貴がデモの段階で女の子っぽい雰囲気のコーラスを入れていたことから、ドラムの山中綾華が歌唱を担当した。山中は、1曲を通して歌うのは初めてで、依頼されたときは嬉しかったと述べている。
+    sources: [jungle-mga-zenmai]
+    evidence: "1曲通して歌うのは初めてだったんですけど、「歌ってくれ」と言われた時はすごく嬉しかったです。"
 basicSources:
   - um-upch-20396
 sources:
+  - id: jungle-mga-zenmai
+    title: Mrs. GREEN APPLE
+    media: JUNGLE☆LIFE
+    url: https://www.jungle.ne.jp/sp_post/mrs-green-apple/
   - id: um-upch-20396
     title: Variety（アルバム）
     media: ユニバーサル ミュージック

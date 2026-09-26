@@ -7,11 +7,26 @@ works:
   - title: Attitude
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-d2cn-1510
   - um-upch-20531
+background:
+  - kind: official
+    text: 大森元貴は、2年前のシングル「WanteD! WanteD!」の音像から派生した曲だと語っており、制作は難航せず完成したという。
+    sources: [usen-2019-romanticism]
+    evidence: "音像としては2年前の「WanteD! WanteD!」あたりからの派生だと思うんです"
+  - kind: official
+    text: ベースの髙野清宗は、大森が打ち込んだシンセベースに自身のエレキベースを重ね、生音と打ち込みのコントラストを効かせたアレンジになったと説明している。
+    sources: [usen-2019-romanticism]
+    evidence: "ここは生のベース、ここはシンセベースっていうコントラストが効いたアレンジになった"
 sources:
+  - id: usen-2019-romanticism
+    title: Mrs. GREEN APPLE「ロマンチシズム」インタビュー――"それも全て人間さ"っていう視点
+    media: encore（USEN）
+    url: https://e.usen.com/archive/sub-archive/24522.html
+    date: 2019-04-03
   - id: um-d2cn-1510
     title: ロマンチシズム（シングル）
     media: ユニバーサル ミュージック

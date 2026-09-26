@@ -7,7 +7,21 @@ works:
   - title: ENSEMBLE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: official
+    text: 大森元貴は、前作「WanteD! WanteD!」に比べてEDM色が強く、歌詞の内容よりも音楽のノリだけで楽しんでほしい曲だと語っている。
+    sources: [tfm-2017-whoowhoowhoo]
+    evidence: "サビがずっと「ウーフーフー」しか言ってなく、歌詞とかじゃなく、音楽のノリだけで楽しむような楽曲になっておりますね"
+  - kind: official
+    text: 若井滉斗は、デジタルな中にも生っぽさが感じられる仕上がりだと述べている。
+    sources: [tfm-2017-whoowhoowhoo]
+    evidence: "デジタルチックな中にも、生感みたいなのが入ってかっこいいかなと思いますね"
+  - kind: official
+    text: 藤澤涼架は、ライブでみんなが踊れて開放的になれる楽曲だと話している。
+    sources: [tfm-2017-whoowhoowhoo]
+    evidence: "間違いなく、僕らも来てくれてるみんなも踊れる瞬間というか、開放的になれる楽曲だなと思っていて"
 basicSources:
   - um-uu1as-00451
   - um-upch-20483
@@ -22,3 +36,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20483/
     date: 2018-04-18
+  - id: tfm-2017-whoowhoowhoo
+    title: 全員集合！新曲『WHOO WHOO WHOO』初オンエア！
+    media: SCHOOL OF LOCK!（TOKYO FM）
+    url: https://www.tfm.co.jp/lock/mrsgreenapple/38104
+    date: 2017-11-29

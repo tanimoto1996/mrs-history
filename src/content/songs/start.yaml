@@ -7,7 +7,13 @@ works:
   - title: "5"
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
+background:
+  - kind: interpretation
+    text: 公式サイトのライナーノーツでは、「始まりの歌だから」という理由でサビにドレミファソラシドの音階そのままのメロディを入れるなど、遊び心が込められていると解説されている。
+    basis: 歌詞の「ここは遊び心で満ちよう！」という一節と、公式サイト『5』ライナーノーツ（um-liner-start）での楽曲解説
+    sources: [um-liner-start]
 basicSources:
   - um-upch-20396
   - um-upch-20549
@@ -21,4 +27,9 @@ sources:
     title: 5（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08
+  - id: um-liner-start
+    title: 03.StaRt オフィシャル・ライナーノーツ｜Mrs. GREEN APPLE『5』スペシャルサイト
+    media: ユニバーサル ミュージック
+    url: https://sp.universal-music.co.jp/mrsgreenapple/bestalbum5/interview03.html
     date: 2020-07-08
