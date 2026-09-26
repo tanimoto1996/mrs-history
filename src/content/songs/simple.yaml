@@ -5,12 +5,28 @@ works:
   - title: TWELVE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20411
+background:
+  - kind: secondary
+    text: 曲のテーマは、身の回りの悩みや人間関係など、自分が思っている以上に物事はシンプルに出来ているということだと歌詞考察サイトで紹介されている。
+    sources:
+      - arai-simple
+    evidence: 身の回りにある全てのモノは、自分が思っている以上にシンプルに出来ているのだということ
+  - kind: secondary
+    text: 曲中の「シンプル」とは素直さや真っ直ぐさのことであり、それを大切にできればこの世界も悪くないと思えるという解釈が書かれている。
+    sources:
+      - arai-simple
+    evidence: ここで歌われる＜シンプル＞とは、『素直さ』や『真っ直ぐさ』のこと
 sources:
   - id: um-upch-20411
     title: TWELVE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20411/
     date: 2016-01-13
+  - id: arai-simple
+    title: Mrs. GREEN APPLE『SimPle』歌詞【意味＆考察】
+    media: arai no HIKIDASHI
+    url: https://takahiroarai.me/mrsgreenapple-simple/

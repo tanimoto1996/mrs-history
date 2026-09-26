@@ -5,12 +5,28 @@ works:
   - title: TWELVE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20411
+background:
+  - kind: secondary
+    text: 「後悔を食べられたらいい」という歌詞には、感情を噛み砕いて理解し、自分の中で昇華して最後は手放すまでの意味が込められていると考察されている。
+    sources:
+      - arai-shokinouta
+    evidence: 「後悔を食べられたらいい」という言葉には、感情を噛み砕いて理解し、自分の中で昇華し、最後は手放すまで
+  - kind: secondary
+    text: 「言えなかった2文字」という表現から、ミニマムな言葉が人生の大きな分かれ道を決めるという感覚が読み取れ、サビの短い言葉にもつながっていると考察されている。
+    sources:
+      - arai-shokinouta
+    evidence: 「ミニマムな言葉が人生の大きな分かれ道を決める」という感覚
 sources:
   - id: um-upch-20411
     title: TWELVE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20411/
     date: 2016-01-13
+  - id: arai-shokinouta
+    title: Mrs. GREEN APPLE『庶幾の唄』歌詞【意味＆考察】
+    media: arai no HIKIDASHI
+    url: https://takahiroarai.me/mrsgreenapple-shokinouta/

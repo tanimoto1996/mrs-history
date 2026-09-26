@@ -7,10 +7,20 @@ works:
   - title: "5"
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20483
   - um-upch-20549
+background:
+  - kind: secondary
+    text: 歌詞考察サイトでは、高校2年生の冬に大森元貴が書いた楽曲とされ、対立する物事の間でより高次の答えを探る「アウフヘーベン」という言葉の意味を通じて、不条理な世界での生き方を問う曲と紹介されている。
+    sources: [arai-hikidashi-aufheben]
+    evidence: "この曲は、作詞作曲を手掛けたボーカルの大森が高校２年生の冬に書いた楽曲です。"
+  - kind: secondary
+    text: 「歪んでいて綺麗なもの」という歌詞が、白か黒かで単純に割り切れない世界の複雑さを象徴しているとする解釈がある。
+    sources: [arai-hikidashi-aufheben]
+    evidence: "「歪んでいて綺麗なもの」でした"
 sources:
   - id: um-upch-20483
     title: ENSEMBLE（アルバム）
@@ -22,3 +32,8 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
     date: 2020-07-08
+  - id: arai-hikidashi-aufheben
+    title: Mrs. GREEN APPLE『アウフヘーベン』歌詞【意味＆考察】歪んだ世界で人はどう生きるのか（ミセス）
+    media: arai no HIKIDASHI
+    url: https://takahiroarai.me/mrsgreenapple-aufheben/
+    date: 2022-06-05

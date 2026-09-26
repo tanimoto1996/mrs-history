@@ -5,7 +5,8 @@ works:
   - title: TWELVE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20411
 sources:
@@ -14,3 +15,19 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20411/
     date: 2016-01-13
+  - id: sec-arai-kikoridokei
+    title: Mrs. GREEN APPLE『キコリ時計』歌詞【意味考察】｜過去にも未来にも興味はない理由とは？
+    media: arai no HIKIDASHI（個人ブログ）
+    url: https://takahiroarai.me/mrsgreenapple-kikoridokei/
+    date: 2016-01-13
+background:
+  - kind: secondary
+    text: 作詞を手掛けた大森が中学3年生〜高校1年生の頃に書いた曲で、アルバム収録にあたり新たにリアレンジされたと紹介されている。
+    sources:
+      - sec-arai-kikoridokei
+    evidence: 作詞を手掛けた大森くんが中学3年生〜高校1年生の頃に書いた曲とのこと
+  - kind: secondary
+    text: タイトルは「木こりのジレンマ」という説話にちなむのではとされ、目の前のことに囚われず少し先を見て生きることを提案する曲だとファンブログで考察されている。
+    sources:
+      - sec-arai-kikoridokei
+    evidence: 目の前にあるものはもちろん大事だけれども、もう少し先をみて生きてみてもいいんじゃない？

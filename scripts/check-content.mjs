@@ -35,6 +35,7 @@ for (const s of songs) {
       if (!b.sources?.length) errors.push(`${s.file}: ${where} 公式の記述に出典がない`);
       if (!b.evidence) errors.push(`${s.file}: ${where} 公式の記述に根拠の一文(evidence)がない`);
     }
+    if (b.kind === 'secondary' && (!b.sources?.length || !b.evidence)) errors.push(`${s.file}: ${where} 二次情報に出典と evidence が必要`);
     if (b.kind === 'interpretation' && !b.basis) errors.push(`${s.file}: ${where} 考察に根拠(basis)がない`);
   });
   if (d.status === 'reviewed' && !(d.background ?? []).length) errors.push(`${s.file}: reviewed なのに解説がない`);

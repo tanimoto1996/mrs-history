@@ -5,13 +5,23 @@ works:
   - title: TWELVE
     type: アルバム
 tieups: []
-status: basic
-background: []
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20411
+background:
+  - kind: secondary
+    text: ファンブログでは、「藍」の花言葉が「美しい装い」であることに触れ、歌詞に一度だけ登場する「藍」の一節には、明るく見える表現の裏に切なさが込められていると解釈されている。
+    sources: [darumano-kuni-twelve-part1]
+    evidence: "泣いて　去って　逃げてほらまた笑顔な藍"
 sources:
   - id: um-upch-20411
     title: TWELVE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20411/
     date: 2016-01-13
+  - id: darumano-kuni-twelve-part1
+    title: 【曲の見方が180度変わる】Mrs. GREEN APPLE 1stフルアルバム "TWELVE" Part1
+    media: ダルマブログ
+    url: https://darumano-kuni.com/mrs-green-apple-1st-twelve-part1/
+    date: 2024-04-08

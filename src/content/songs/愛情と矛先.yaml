@@ -5,12 +5,27 @@ works:
   - title: TWELVE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20411
+background:
+  - kind: secondary
+    text: 歌詞考察サイトでは、生き辛さを抱えながらも戦い続ける人へ向けたエールの楽曲とされ、"愛"という武器を持てば何も恐れることはないと歌われていると紹介されている。
+    sources: [arai-hikidashi-aijou]
+    evidence: "戦いを避けて生き抜くことはもはや不可能な世の中だからこそ"
+  - kind: secondary
+    text: 「その君の矛先を愛と呼ぼう」という歌詞について、傷ついても戦い続ける強さそのものを愛と呼んで肯定する内容と解釈されている。
+    sources: [arai-hikidashi-aijou]
+    evidence: "その君の矛先を愛と呼ぼう"
 sources:
   - id: um-upch-20411
     title: TWELVE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20411/
     date: 2016-01-13
+  - id: arai-hikidashi-aijou
+    title: Mrs. GREEN APPLE『愛情と矛先』歌詞【意味＆解釈】｜戦い続ける君のその矛先を愛と呼ぼう（ミセス）
+    media: arai no HIKIDASHI
+    url: https://takahiroarai.me/mrsgreenapple-aijyoutohokosaki/
+    date: 2021-07-13

@@ -5,12 +5,28 @@ works:
   - title: サママ・フェスティバル！
     type: シングル
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - am-1445294670
+background:
+  - kind: secondary
+    text: なんてことない毎日の中にある見逃してしまいがちな優しさを拾い上げてくれる曲だと、ファンブログで紹介されている。
+    sources:
+      - ameblo-nonisakuuta
+    evidence: なんてことない毎日、でもその中に既にある、見逃してしまいがちな優しさを、この曲は拾い上げてくれて
+  - kind: secondary
+    text: 頑張りすぎて疲れた日に、優しい手で背中を撫でてもらっているような温かさを感じる曲だと紹介されている。
+    sources:
+      - ameblo-nonisakuuta
+    evidence: まるで優しい手で背中を撫でてもらっているような、温かい曲
 sources:
   - id: am-1445294670
     title: サママ・フェスティバル！（シングル）
     media: Apple Music
     url: https://music.apple.com/jp/album/1445294670
     date: 2016-06-15
+  - id: ameblo-nonisakuuta
+    title: 『ノニサクウタ』歌詞からの気づき
+    media: Mrs.GREEN APPLEファンの大人JAM'S（アメブロ）
+    url: https://ameblo.jp/mrsfanmiko/entry-12891658887.html

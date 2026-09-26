@@ -5,7 +5,8 @@ works:
   - title: Speaking
     type: シングル
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-80419
 sources:
@@ -14,3 +15,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80419/
     date: 2015-12-16
+  - id: sec-ameblo-koitouta
+    title: 20.恋と吟(うた) Mrs. GREEN APPLEを学ぶ生涯学習のすすめ Vol.20
+    media: one-thoughtのブログ（アメブロ）
+    url: https://ameblo.jp/one-thought/entry-12963515290.html
+    date: 2026-04-27
+background:
+  - kind: secondary
+    text: 好きな相手が自分以外の誰かと幸せになることを素直に喜べない身勝手な心情が歌われており、それでも相手を大事にする曲だとファンブログで紹介されている。
+    sources:
+      - sec-ameblo-koitouta
+    evidence: 相手を深く思って相手を大事にする為の我慢でしょ

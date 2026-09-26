@@ -5,12 +5,28 @@ works:
   - title: 僕のこと
     type: シングル
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-80509
+background:
+  - kind: secondary
+    text: 亡くなった愛する人が、残された者を励ますために戻ってくるという霊的な愛の物語として解釈されている。
+    sources:
+      - ameblo-touka
+    evidence: おじさんが『灯火』になって、泣いているおばさんのところに、おばさんを笑顔にするために来ていたのかなぁ
+  - kind: secondary
+    text: 愛する人を失った寂しさに気持ちがついていけない中で、その存在がずっと自分の中で生き続けているという解釈が紹介されている。
+    sources:
+      - ameblo-touka
+    evidence: 愛する貴方を失ったことに、気持ちがついて行けてなかったけれど。
 sources:
   - id: um-upch-80509
     title: 僕のこと（シングル）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80509/
     date: 2019-01-09
+  - id: ameblo-touka
+    title: 『灯火』詞の意味ー最愛のキミに捧げる最後のラブレター
+    media: Mrs.GREEN APPLEファンの大人JAM'S（アメブロ）
+    url: https://ameblo.jp/mrsfanmiko/entry-12893358047.html

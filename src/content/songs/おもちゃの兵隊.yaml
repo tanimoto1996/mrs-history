@@ -5,12 +5,28 @@ works:
   - title: Mrs. GREEN APPLE
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20443
+background:
+  - kind: secondary
+    text: この曲は、今を生きるすべての人へ向けた「どうか自分を見失わないでほしい」という願いが歌われていると歌詞考察サイトで紹介されている。
+    sources:
+      - arai-omocha
+    evidence: どうか自分を見失わないでほしい
+  - kind: secondary
+    text: 世界が腐ってしまっているという現実を突きつけたうえで、上辺だけの繋がりをやめ、自らの信念や願いを堂々と貫く必要があるというメッセージだと解釈されている。
+    sources:
+      - arai-omocha
+    evidence: そして上辺だけの繋がりを辞め、自らの信念や願いを堂々と貫く必要がある
 sources:
   - id: um-upch-20443
     title: Mrs. GREEN APPLE（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20443/
     date: 2017-01-11
+  - id: arai-omocha
+    title: Mrs. GREEN APPLE『おもちゃの兵隊』歌詞【意味＆解釈】
+    media: arai no HIKIDASHI
+    url: https://takahiroarai.me/mrsgreenapple-omotyanoheitai/

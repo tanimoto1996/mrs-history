@@ -5,12 +5,28 @@ works:
   - title: ANTENNA
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-pron-1061
+background:
+  - kind: secondary
+    text: タイトルの「アンラブレス」は"Loveless（愛がない）"にさらに否定の接頭辞"Un-"を重ねた造語で、愛の欠乏を出発点にしながら実践としての愛へ反転させていく曲だとファンサイトで紹介されている。
+    sources:
+      - arai-unloveless
+    evidence: タイトルの『アンラブレス』とは、Loveless（愛がない）に、さらに否定の接頭「Un-」が重なった言葉
+  - kind: secondary
+    text: 落ち込んでも立ち止まらず、小さくても「愛想よく」ふるまってみることから始めるメッセージソングだと解釈されている。
+    sources:
+      - arai-unloveless
+    evidence: 落ち込んだまま立ち止まるのではなく、まずは小さくてもいいから「愛想よく」ふるまってみる
 sources:
   - id: um-pron-1061
     title: ANTENNA（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/pron-1061/
     date: 2023-07-05
+  - id: arai-unloveless
+    title: Mrs. GREEN APPLE『アンラブレス』歌詞【意味＆考察】
+    media: arai no HIKIDASHI
+    url: https://takahiroarai.me/mrsgreenapple-unloveless/

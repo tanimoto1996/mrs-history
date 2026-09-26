@@ -5,12 +5,27 @@ works:
   - title: Variety
     type: アルバム
 tieups: []
-status: basic
+status: reviewed
+reviewedAt: 2026-09-27
 basicSources:
   - um-upch-20396
+background:
+  - kind: secondary
+    text: 歌詞考察サイトでは、人生を勝ち負けで測らずに「その日暮らし」で今この瞬間を生きる姿勢を描いた楽曲と紹介されている。
+    sources: [arai-hikidashi-riskygame]
+    evidence: "人生を勝ち負けで測らずに楽しむというテーマを土台にしつつ"
+  - kind: secondary
+    text: 冒頭の「勝ち負けではない　でもこだわるの」という歌詞に、結果への執着ではなく自分のやり方への信念を読み取る解釈がある。
+    sources: [arai-hikidashi-riskygame]
+    evidence: "結果への執着ではなく「自分のやり方」への信念ではないでしょうか"
 sources:
   - id: um-upch-20396
     title: Variety（アルバム）
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20396/
     date: 2015-07-08
+  - id: arai-hikidashi-riskygame
+    title: Mrs. GREEN APPLE『リスキーゲーム』歌詞【意味＆考察】今この瞬間の立ち方を教えてくれる曲（ミセス）
+    media: arai no HIKIDASHI
+    url: https://takahiroarai.me/mrsgreenapple-riskygame/
+    date: 2025-08-13
