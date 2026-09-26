@@ -1,11 +1,33 @@
-date: 2024-07
-title: スタジアムツアー『ゼンジン未到とヴェルトラウム～銘銘編～』
-description: 日本のバンド史上最年少でのスタジアムツアーを、ノエビアスタジアム神戸と横浜スタジアムで開催した。
+date: '2024-07-06'
+title: 初のスタジアムツアー『ゼンジン未到とヴェルトラウム～銘銘編～』
+kind: live
+description: 2024年3月3日に発表され、チケットは5月に完売。7月6日・7日にノエビアスタジアム神戸、7月20日・21日に横浜スタジアムで計4公演を行い、計15万人を動員した。公式プロフィールでは日本のバンド史上最年少でのスタジアムツアーとしている。7月21日のツアーファイナルで、映画『The White Lounge in CINEMA』の9月13日公開を発表した。
 phase: phase2
-relatedSongs: []
-evidence: 日本のバンド史上最年少でのスタジアムツアー『ゼンジン未到とヴェルトラウム～銘銘編～』を開催した。
+relatedSongs:
+- 我逢人
+evidence: ノエビアスタジアム神戸と横浜スタジアム、各2日間、4公演で計15万人を動員したMrs. GREEN APPLE初のスタジアムツアー
 sources:
-  - id: profile
-    title: PROFILE
-    media: Mrs. GREEN APPLE OFFICIAL SITE
-    url: https://mrsgreenapple.com/feature/profile
+- id: stadiumreport
+  title: ゼンジン未到とヴェルトラウム～銘銘編～ OFFICIAL LIVE REPORT
+  media: Universal Music Japan（公式特設サイト）
+  url: https://sp.universal-music.co.jp/mrsgreenapple/stadiumtour2024/report/
+  date: '2024-07-26'
+- id: news20033
+  title: ≪ゼンジン未到とヴェルトラウム〜銘銘編〜≫開催決定!!
+  media: Mrs. GREEN APPLE OFFICIAL SITE
+  url: https://mrsgreenapple.com/news/detail/20033
+  date: '2024-03-03'
+- id: news20273
+  title: ≪ゼンジン未到とヴェルトラウム〜銘銘編〜≫ THANK YOU SOLD OUT!!
+  media: Mrs. GREEN APPLE OFFICIAL SITE
+  url: https://mrsgreenapple.com/news/detail/20273
+  date: '2024-05-20'
+- id: news20468
+  title: 「Mrs. GREEN APPLE // The White Lounge in CINEMA」全国公開決定！
+  media: Mrs. GREEN APPLE OFFICIAL SITE
+  url: https://mrsgreenapple.com/news/detail/20468
+  date: '2024-07-21'
+- id: profile
+  title: PROFILE
+  media: Mrs. GREEN APPLE OFFICIAL SITE
+  url: https://mrsgreenapple.com/feature/profile

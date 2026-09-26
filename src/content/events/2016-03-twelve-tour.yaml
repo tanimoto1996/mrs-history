@@ -1,0 +1,11 @@
+date: "2016-03-01"
+title: 初の全国ワンマンツアー『TWELVE TOUR ～春宵一刻とモノテトラ～』
+kind: live
+description: 1stフルアルバム『TWELVE』を携え、2016年3月1日の千葉LOOKから4月10日の赤坂BLITZまで14か所を回った初の全国ワンマンツアー。ファイナルの赤坂BLITZ公演でシングル『サママ・フェスティバル！』（6月15日発売）が発表された。
+phase: phase1
+relatedSongs: [サママ-フェスティバル]
+evidence: 3月1日（火）千葉LOOK公演を皮切りに、ファイナルの4月10日（日）赤坂BLITZ公演まで14ヶ所にて行われる。
+sources:
+  - { id: skream-twelve, title: Mrs. GREEN APPLE、来年1/13に1stフル・アルバム『TWELVE』リリース決定, media: Skream!, url: "https://skream.jp/news/2015/11/mrs-green-apple_twelve_release.php", date: "2015-11" }
+  - { id: rockinon-141594, title: Mrs. GREEN APPLE、新Sg『サママ・フェスティバル！』リリース決定！ ツアーファイナルで初披露, media: rockinon.com, url: "https://rockinon.com/news/detail/141594", date: "2016-04-11" }
+  - { id: rockinon-142641, title: Mrs. GREEN APPLE、初の全国ツアーファイナル公演に完全密着！, media: rockinon.com, url: "https://rockinon.com/news/detail/142641", date: "2016-05-05" }

@@ -1,0 +1,10 @@
+date: "2017-03-01"
+title: 自身最大規模の全国ツアー『MGA MEET YOU TOUR』
+kind: live
+description: 2ndアルバム『Mrs. GREEN APPLE』を携えた全20公演のツアー。3月から前半はライブハウス、後半は会館・ホールを回り、5月19日の東京国際フォーラム ホールAで終えた。ファイナルでは「Lion」「おもちゃの兵隊」「鯨の唄」などを演奏し、その映像の一部はシングル『WanteD! WanteD!』初回盤に収録された。
+phase: phase1
+relatedSongs: [lion, おもちゃの兵隊, 鯨の唄, サママ-フェスティバル, start]
+evidence: 前半はライヴハウス、後半は会館・ホールを回った
+sources:
+  - { id: rockinon-152684, title: Mrs. GREEN APPLE、新アルバムのジャケ公開。ツアーはライブハウス＆ホール全20公演, media: rockinon.com, url: "https://rockinon.com/news/detail/152684", date: "2016-12-08" }
+  - { id: skream-2017-06-live, title: Mrs. GREEN APPLEのライヴ・レポート公開。自身最大規模となる全国ツアー・ファイナル, media: Skream!, url: "https://skream.jp/news/2017/06/mrs_green_apple.php", date: "2017-06" }

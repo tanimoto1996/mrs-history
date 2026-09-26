@@ -1,0 +1,20 @@
+date: '2023-11-22'
+title: 「MTV VMAJ 2023」で史上初の4冠
+kind: award
+description: 「MTV VMAJ 2023」で、Artist of the Year、「Magic」のBest Alternative Video、「ケセラセラ」のBest Visual Effectsの三冠が10月に発表され、11月22日の授賞式では「ケセラセラ」MVが最優秀ビデオ賞「Video of the Year」も受賞し、開催史上初の4冠になった。授賞式ではライブも披露した。
+phase: phase2
+relatedSongs:
+- magic
+- ケセラセラ
+evidence: これまで発表されていた受賞作品「Artist of the Year」「Best Alternative Video」「Best Visual Effects」とあわせて、開催史上初の4冠受賞となります。
+sources:
+- id: news1113
+  title: Mrs. GREEN APPLE、VMAJ史上初の4冠を受賞しました！
+  media: Mrs. GREEN APPLE OFFICIAL SITE
+  url: https://mrsgreenapple.com/news/detail/1113
+  date: '2023-11-22'
+- id: news1097
+  title: 「MTV VMAJ 2023」三冠受賞！
+  media: Mrs. GREEN APPLE OFFICIAL SITE
+  url: https://mrsgreenapple.com/news/detail/1097
+  date: '2023-10-27'

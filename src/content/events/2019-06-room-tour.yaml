@@ -1,0 +1,11 @@
+date: "2019-06-28"
+title: 音楽劇のようなホールツアー「The ROOM TOUR」
+kind: live
+description: 6月28日のよこすか芸術劇場から、全国12カ所16公演のホールツアーを行った。「家」をモチーフにした大きなセットで、MCをほとんど挟まない音楽劇のような内容だった。台風10号の影響で中止になった8月15日の大阪公演の振替を9月17日に大阪・フェスティバルホールで行い、完結した。7月4日の東京・NHKホール公演から9曲が『Attitude』初回限定盤DVDに収められた。
+phase: phase1
+relatedSongs: [hug, 絶世生物, ノニサクウタ, in-the-morning, wanted-wanted, 僕のこと, ロマンチシズム, 青と夏, how-to]
+evidence: 大阪・フェスティバルホールで全国ホールツアー『The ROOM TOUR』（12ヶ所16公演）のファイナルを迎えた。
+sources:
+  - { id: natalie-316371, title: Mrs. GREEN APPLE、全16公演のホールツアー開催（動画あり）, media: 音楽ナタリー, url: "https://natalie.mu/music/news/316371", date: "2019-01-17" }
+  - { id: oricon-2144660, title: Mrs. GREEN APPLE“音楽劇風”ホールツアー完遂 新アルバムにライブ映像9曲収録, media: ORICON NEWS, url: "https://www.oricon.co.jp/news/2144660/full/", date: "2019-09-18" }
+  - { id: natalie-347977, title: Mrs. GREEN APPLE「Attitude」ライブ映像の楽曲公開、「The ROOM TOUR」完結（写真11枚）, media: 音楽ナタリー, url: "https://natalie.mu/music/news/347977", date: "2019-09-18" }

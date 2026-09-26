@@ -1,0 +1,9 @@
+date: "2025-02-15"
+title: 初の韓国単独公演『MGA LIVE in SEOUL, KOREA 2025』
+kind: live
+description: 2月15日・16日、ソウルの高麗大学TIGER DOMEで自身初の韓国単独公演を開いた。2日分のチケットは5分で売り切れ、16日の記者懇談会には30社以上のメディアが集まった。初日は「ANTENNA」で始まり、「ビターバカンス」をライブで初めて演奏した。
+phase: phase2
+relatedSongs: [antenna, ビターバカンス]
+evidence: 本公演2日分のチケットはわずか5分で完売しており、韓国のJAM’S(=ファン)の期待感の高さを表すものと言える。
+sources:
+  - { id: barks-544530, title: 【ライブレポート】Mrs. GREEN APPLE、初の韓国単独公演に強い絆「また会いましょう！」, media: BARKS, url: "https://barks.jp/news/544530/", date: "2025-02-16" }
