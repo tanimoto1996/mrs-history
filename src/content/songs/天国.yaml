@@ -1,0 +1,24 @@
+title: 天国
+releaseDate: 2025-05-02
+phase: phase2
+works:
+  - title: 天国
+    type: 配信
+tieups:
+  - type: 主題歌
+    work: 映画『#真相をお話しします』
+    sources:
+      - profile
+status: basic
+basicSources:
+  - off-1024
+sources:
+  - id: off-1024
+    title: 天国（配信）
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/discography/detail/1024/
+    date: 2025-05-02
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

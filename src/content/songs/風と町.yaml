@@ -1,0 +1,24 @@
+title: 風と町
+releaseDate: 2026-04-13
+phase: phase3
+works:
+  - title: 風と町
+    type: 配信
+tieups:
+  - type: 主題歌
+    work: NHK連続テレビ小説「風、薫る」
+    sources:
+      - profile
+status: basic
+basicSources:
+  - um-uu1as-02902
+sources:
+  - id: um-uu1as-02902
+    title: 風と町（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02902/
+    date: 2026-04-13
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

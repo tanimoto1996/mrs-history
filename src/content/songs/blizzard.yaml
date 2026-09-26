@@ -1,0 +1,16 @@
+title: Blizzard
+releaseDate: 2023-07-05
+phase: phase2
+works:
+  - title: ANTENNA
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - um-pron-1061
+sources:
+  - id: um-pron-1061
+    title: ANTENNA（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/pron-1061/
+    date: 2023-07-05

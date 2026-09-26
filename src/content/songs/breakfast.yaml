@@ -1,0 +1,24 @@
+title: breakfast
+releaseDate: 2025-06-04
+phase: phase2
+works:
+  - title: breakfast
+    type: 配信
+tieups:
+  - type: テーマソング
+    work: フジテレビ系『サン！シャイン』
+    sources:
+      - profile
+status: basic
+basicSources:
+  - um-uu1as-02436
+sources:
+  - id: um-uu1as-02436
+    title: breakfast（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02436/
+    date: 2025-06-04
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

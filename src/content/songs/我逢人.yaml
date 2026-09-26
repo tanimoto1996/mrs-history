@@ -1,0 +1,16 @@
+title: 我逢人
+releaseDate: 2020-07-08
+phase: phase1
+works:
+  - title: "5"
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - um-upch-20549
+sources:
+  - id: um-upch-20549
+    title: 5（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08

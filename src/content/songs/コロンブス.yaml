@@ -1,0 +1,16 @@
+title: コロンブス
+releaseDate: 2024-06-12
+phase: phase2
+works:
+  - title: コロンブス
+    type: 配信
+tieups: []
+status: basic
+basicSources:
+  - um-uu1as-02056
+sources:
+  - id: um-uu1as-02056
+    title: コロンブス（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02056/
+    date: 2024-06-12

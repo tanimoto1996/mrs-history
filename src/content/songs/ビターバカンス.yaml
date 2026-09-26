@@ -1,0 +1,24 @@
+title: ビターバカンス
+releaseDate: 2024-11-29
+phase: phase2
+works:
+  - title: ビターバカンス
+    type: 配信
+tieups:
+  - type: 主題歌
+    work: 映画『聖☆おにいさん THE MOVIE～ホーリーメンVS悪魔軍団～』
+    sources:
+      - profile
+status: basic
+basicSources:
+  - um-uu1as-02230
+sources:
+  - id: um-uu1as-02230
+    title: ビターバカンス（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02230/
+    date: 2024-11-29
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

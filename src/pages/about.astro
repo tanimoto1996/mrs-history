@@ -1,0 +1,29 @@
+---
+import Base from '../layouts/Base.astro';
+import { buildDate, formatDate } from '../lib/data';
+---
+<Base title="このサイトについて">
+  <h1>このサイトについて</h1>
+  <p>Mrs. GREEN APPLEの歴史と曲の背景をまとめた<strong>非公式</strong>のファンサイトです。公式とは関係ありません。</p>
+  <h2>作り方</h2>
+  <ul>
+    <li>文章はAIが作成しています。<strong>人による確認はしていません。</strong></li>
+    <li>書いてあることにはすべて出典（公式サイト、公式SNS、インタビュー記事など）を付けています。</li>
+    <li>下書きしたAIとは別のAIが出典を開いて内容を照合し、合っていたものだけを載せています。</li>
+    <li>確認できなかったことは載せていません。そのため、解説がない曲や情報が少ない曲があります。</li>
+    <li>それでも間違いが残る可能性があります。正確な情報は出典や公式発表でご確認ください。</li>
+  </ul>
+  <h2>表示の見方</h2>
+  <ul>
+    <li><span class="k official">公式</span> 本人たちの発言や公式発表にもとづく情報</li>
+    <li><span class="k interp">考察</span> 歌詞や発言をもとにした解釈。根拠をあわせて書いています</li>
+  </ul>
+  <h2>著作権について</h2>
+  <p>歌詞は解説に必要な範囲の短い引用にとどめ、画像は掲載していません。映像は公式YouTubeの埋め込みを使っています。</p>
+  <p class="muted">最終更新: {formatDate(buildDate)}</p>
+</Base>
+<style>
+  .k { font-size: .75rem; padding: 0 .5rem; border-radius: 4px; color: #fff; margin-right: .4rem; }
+  .official { background: var(--official); }
+  .interp { background: var(--interp); }
+</style>

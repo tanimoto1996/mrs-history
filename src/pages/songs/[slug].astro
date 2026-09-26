@@ -1,0 +1,91 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getSongs, getPhases, hasBackground, url, formatDate, youtubeId, type Song } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const songs = await getSongs();
+  return songs.map((song, i) => ({
+    params: { slug: song.id },
+    props: { song, prev: songs[i - 1], next: songs[i + 1] },
+  }));
+}
+
+interface Props { song: Song; prev?: Song; next?: Song }
+const { song, prev, next } = Astro.props;
+const d = song.data;
+const phase = (await getPhases()).find((p) => p.id === d.phase);
+const showBg = hasBackground(song);
+const bg = showBg ? d.background : [];
+// 表示する記述・基本情報で使う出典だけに番号を振る
+const usedIds = [...new Set([...d.basicSources, ...d.tieups.flatMap((t) => t.sources), ...bg.flatMap((b) => b.sources)])];
+const sources = usedIds.map((id) => d.sources.find((s) => s.id === id)!).filter(Boolean);
+const num = (id: string) => usedIds.indexOf(id) + 1;
+const yt = youtubeId(d.mv);
+---
+<Base title={d.title}>
+  <p class="muted"><a href={url('/songs/')}>曲一覧</a> ／ <a href={url(`/timeline/#${d.phase}`)}>{phase?.data.name}</a></p>
+  <h1>{d.title}</h1>
+
+  <dl class="card info">
+    <dt>初収録作品の発売日</dt><dd>{formatDate(d.releaseDate)}</dd>
+    {d.works.length > 0 && <><dt>収録作品</dt><dd>{d.works.map((w) => `${w.title}（${w.type}）`).join('、')}</dd></>}
+    {d.credits.lyrics && <><dt>作詞</dt><dd>{d.credits.lyrics}</dd></>}
+    {d.credits.music && <><dt>作曲</dt><dd>{d.credits.music}</dd></>}
+    {d.tieups.length > 0 && (
+      <><dt>タイアップ</dt><dd><ul class="plain">{d.tieups.map((t) => <li>{t.work}（{t.type}） {t.sources.map((id) => <a class="ref" href={`#src-${num(id)}`}>[{num(id)}]</a>)}</li>)}</ul></dd></>
+    )}
+    <dt>時期</dt><dd><a href={url(`/timeline/#${d.phase}`)}>{phase?.data.name}</a></dd>
+  </dl>
+  <p class="muted small">基本情報の出典: {d.basicSources.map((id) => <a class="ref" href={`#src-${num(id)}`}>[{num(id)}]</a>)}</p>
+
+  {yt && (
+    <div class="video"><iframe src={`https://www.youtube-nocookie.com/embed/${yt}`} title={`${d.title} MV`} loading="lazy" allowfullscreen></iframe></div>
+  )}
+
+  <h2>解説</h2>
+  {showBg ? (
+    <ul class="bg">
+      {bg.map((b) => (
+        <li class={b.kind}>
+          <span class="k">{b.kind === 'official' ? '公式' : '考察'}</span>
+          <p>{b.text} {b.sources.map((id) => <a class="ref" href={`#src-${num(id)}`}>[{num(id)}]</a>)}</p>
+          {b.basis && <p class="muted small">根拠: {b.basis}</p>}
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p class="card muted">解説準備中です。出典で確認できた内容から順に追加します。</p>
+  )}
+
+  <h2>出典</h2>
+  <ol class="sources">
+    {sources.map((s, i) => (
+      <li id={`src-${i + 1}`}><a href={s.url} rel="noopener" target="_blank">{s.title}</a> <span class="muted">{s.media}{s.date && `（${formatDate(s.date)}）`}</span></li>
+    ))}
+  </ol>
+
+  <nav class="pager">
+    {prev ? <a href={url(`/songs/${prev.id}/`)}>← {prev.data.title}</a> : <span />}
+    {next ? <a href={url(`/songs/${next.id}/`)}>{next.data.title} →</a> : <span />}
+  </nav>
+</Base>
+<style>
+  .info { display: grid; grid-template-columns: 7.5em 1fr; gap: .3rem .75rem; margin: 0; }
+  .info dt { color: var(--muted); font-size: .9rem; }
+  .info dd { margin: 0; }
+  .plain { list-style: none; padding: 0; margin: 0; }
+  .small { font-size: .8rem; }
+  .ref { font-size: .75rem; text-decoration: none; margin-left: .1rem; }
+  .video { position: relative; aspect-ratio: 16 / 9; margin: 1.25rem 0; }
+  .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; border-radius: 10px; }
+  .bg { list-style: none; padding: 0; display: grid; gap: .75rem; }
+  .bg li { border-left: 4px solid; padding: .25rem .75rem; background: var(--card); border-radius: 0 8px 8px 0; }
+  .bg li p { margin: .25rem 0; }
+  .bg .official { border-color: var(--official); }
+  .bg .interpretation { border-color: var(--interp); }
+  .k { font-size: .75rem; padding: 0 .5rem; border-radius: 4px; color: #fff; }
+  .official .k { background: var(--official); }
+  .interpretation .k { background: var(--interp); }
+  .sources { font-size: .85rem; word-break: break-all; }
+  .pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; font-size: .9rem; }
+</style>

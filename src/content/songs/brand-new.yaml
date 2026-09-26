@@ -1,0 +1,16 @@
+title: Brand New
+releaseDate: 2026-07-13
+phase: phase3
+works:
+  - title: Brand New
+    type: 配信
+tieups: []
+status: basic
+basicSources:
+  - off-1034
+sources:
+  - id: off-1034
+    title: Brand New（配信）
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/discography/detail/1034/
+    date: 2026-07-13

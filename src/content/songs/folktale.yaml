@@ -1,0 +1,24 @@
+title: Folktale
+releaseDate: 2019-01-09
+phase: phase1
+works:
+  - title: 僕のこと
+    type: シングル
+  - title: Attitude
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - um-upch-80509
+  - um-upch-20531
+sources:
+  - id: um-upch-80509
+    title: 僕のこと（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80509/
+    date: 2019-01-09
+  - id: um-upch-20531
+    title: Attitude（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
+    date: 2019-10-02

@@ -1,0 +1,31 @@
+{
+  "name": "mrs-history",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "node scripts/check-content.mjs && astro sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanimoto1996/mrs-history.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanimoto1996/mrs-history/issues"
+  },
+  "homepage": "https://github.com/tanimoto1996/mrs-history#readme",
+  "dependencies": {
+    "astro": "^7.3.5",
+    "yaml": "^2.9.1"
+  },
+  "type": "module",
+  "private": true
+}

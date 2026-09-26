@@ -1,0 +1,20 @@
+title: SwitCh
+releaseDate: 2017-05-03
+phase: phase1
+works:
+  - title: どこかで日は昇る
+    type: シングル
+tieups:
+  - type: タイアップ
+    work: NHK「ニュース シブ5時」「4時も！ シブ5時」テーマソング
+    sources:
+      - um-upch-80467
+status: basic
+basicSources:
+  - um-upch-80467
+sources:
+  - id: um-upch-80467
+    title: どこかで日は昇る（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80467/
+    date: 2017-05-03

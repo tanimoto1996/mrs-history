@@ -1,0 +1,28 @@
+title: スマイロブドリーマ
+releaseDate: 2017-05-03
+phase: phase1
+works:
+  - title: どこかで日は昇る
+    type: シングル
+  - title: ENSEMBLE
+    type: アルバム
+tieups:
+  - type: タイアップ
+    work: MBS/TBS ドラマ「笑う招き猫」オープニングテーマ
+    sources:
+      - um-upch-80467
+status: basic
+basicSources:
+  - um-upch-80467
+  - um-upch-20483
+sources:
+  - id: um-upch-80467
+    title: どこかで日は昇る（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80467/
+    date: 2017-05-03
+  - id: um-upch-20483
+    title: ENSEMBLE（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20483/
+    date: 2018-04-18

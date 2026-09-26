@@ -1,0 +1,36 @@
+title: In the Morning
+releaseDate: 2016-11-02
+phase: phase1
+works:
+  - title: In the Morning
+    type: シングル
+  - title: Mrs. GREEN APPLE
+    type: アルバム
+  - title: "5"
+    type: アルバム
+tieups:
+  - type: タイアップ
+    work: 関西テレビ・フジテレビ系『#naked Eve』10月クールEDテーマ
+    sources:
+      - um-upch-20443
+status: basic
+basicSources:
+  - um-upch-80451
+  - um-upch-20443
+  - um-upch-20549
+sources:
+  - id: um-upch-80451
+    title: In the Morning（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80451/
+    date: 2016-11-02
+  - id: um-upch-20443
+    title: Mrs. GREEN APPLE（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20443/
+    date: 2017-01-11
+  - id: um-upch-20549
+    title: 5（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08

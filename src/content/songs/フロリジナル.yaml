@@ -1,0 +1,16 @@
+title: フロリジナル
+releaseDate: 2022-11-09
+phase: phase2
+works:
+  - title: Soranji
+    type: シングル
+tieups: []
+status: basic
+basicSources:
+  - um-upch-80580
+sources:
+  - id: um-upch-80580
+    title: Soranji（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80580/
+    date: 2022-11-09

@@ -1,0 +1,24 @@
+title: ナハトムジーク
+releaseDate: 2024-01-17
+phase: phase2
+works:
+  - title: ナハトムジーク
+    type: 配信
+tieups:
+  - type: 主題歌
+    work: 映画『サイレントラブ』
+    sources:
+      - profile
+status: basic
+basicSources:
+  - off-167
+sources:
+  - id: off-167
+    title: ナハトムジーク（配信）
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/discography/detail/167/
+    date: 2024-01-17
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

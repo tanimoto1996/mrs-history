@@ -1,0 +1,30 @@
+- id: phase1
+  name: フェーズ1
+  start: "2013"
+  end: "2020-07-08"
+  summary: 2013年に結成し、2015年にミニアルバム『Variety』でメジャーデビュー。毎年オリジナルアルバムを出しながらライブ活動を続け、メジャーデビュー5周年の2020年7月8日に「フェーズ1完結」を宣言した。
+  sources:
+    - { id: profile, title: PROFILE, media: Mrs. GREEN APPLE OFFICIAL SITE, url: "https://mrsgreenapple.com/feature/profile" }
+- id: hiatus
+  name: 活動休止
+  start: "2020-07-08"
+  end: "2022-03-18"
+  summary: フェーズ1完結の宣言とともに活動を休止。前所属事務所から独立し、新プロジェクト「Project-MGA」を立ち上げた。約1年8ヶ月の休止期間を経て、現在のメンバー編成となった。
+  sources:
+    - { id: rockinon-194733, title: "Mrs. GREEN APPLE、フェーズ1完結につき活動休止。事務所独立＆新プロジェクト始動も", media: rockinon.com, url: "https://rockinon.com/news/detail/194733", date: "2020-07-09" }
+    - { id: profile, title: PROFILE, media: Mrs. GREEN APPLE OFFICIAL SITE, url: "https://mrsgreenapple.com/feature/profile" }
+- id: phase2
+  name: フェーズ2
+  start: "2022-03-18"
+  end: "2025-12-31"
+  summary: 大森元貴・若井滉斗・藤澤涼架の3人で活動を再開。2022年3月18日の活動再開から2025年12月31日までが「フェーズ2」とされる。
+  sources:
+    - { id: official-21964, title: "2026年1月1日から「フェーズ3」開幕！バンドデザインとバンドイメージカラーも発表！", media: Mrs. GREEN APPLE OFFICIAL SITE, url: "https://mrsgreenapple.com/news/detail/21964", date: "2025-10-16" }
+    - { id: fashionpress-75480, title: "Mrs. GREEN APPLEが22年春に活動再開＆フェーズ2へ、山中綾華と髙野清宗は脱退", media: ファッションプレス, url: "https://www.fashion-press.net/news/75480" }
+- id: phase3
+  name: フェーズ3
+  start: "2026-01-01"
+  summary: 2026年1月1日に開幕。最初のシングルとして「lulu.」をリリースした。
+  sources:
+    - { id: official-21964, title: "2026年1月1日から「フェーズ3」開幕！バンドデザインとバンドイメージカラーも発表！", media: Mrs. GREEN APPLE OFFICIAL SITE, url: "https://mrsgreenapple.com/news/detail/21964", date: "2025-10-16" }
+    - { id: profile, title: PROFILE, media: Mrs. GREEN APPLE OFFICIAL SITE, url: "https://mrsgreenapple.com/feature/profile" }

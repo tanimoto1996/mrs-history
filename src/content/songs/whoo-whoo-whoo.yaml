@@ -1,0 +1,24 @@
+title: WHOO WHOO WHOO
+releaseDate: 2017-12-04
+phase: phase1
+works:
+  - title: WHOO WHOO WHOO
+    type: 配信
+  - title: ENSEMBLE
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - um-uu1as-00451
+  - um-upch-20483
+sources:
+  - id: um-uu1as-00451
+    title: WHOO WHOO WHOO（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-00451/
+    date: 2017-12-04
+  - id: um-upch-20483
+    title: ENSEMBLE（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20483/
+    date: 2018-04-18
