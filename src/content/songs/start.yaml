@@ -9,6 +9,7 @@ works:
     type: アルバム
     date: 2020-07-08
 tieups: []
+mv: https://www.youtube.com/watch?v=OTUtF7ZxRN8
 status: reviewed
 reviewedAt: 2026-09-27
 background:
@@ -36,3 +37,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://sp.universal-music.co.jp/mrsgreenapple/bestalbum5/interview03.html
     date: 2020-07-08
+  - id: am-song-1440745441
+    title: StaRt - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440745441
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1440745441
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

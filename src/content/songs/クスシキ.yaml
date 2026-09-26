@@ -13,6 +13,7 @@ tieups:
     work: TVアニメ『薬屋のひとりごと』第2期 第2クール
     sources:
       - profile
+mv: https://www.youtube.com/watch?v=RCaTLn4qoz4
 status: reviewed
 reviewedAt: 2026-09-27
 background:
@@ -59,3 +60,14 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1823814178
     date: 2025-07-07
+  - id: am-song-1804230388
+    title: クスシキ - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1804230388
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、久保田 真悟
+  sources:
+    - am-song-1804230388
+  evidence: "作詞 作曲: 大森元貴（作曲者、アレンジャー、歌詞） / 久保田 真悟（アレンジャー）"

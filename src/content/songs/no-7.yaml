@@ -32,3 +32,13 @@ sources:
     media: jam03.com
     url: https://www.jam03.com/mrs-green-apple-no-7/
     date: 2025-11-19
+  - id: am-song-1440788297
+    title: No.7 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440788297
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  sources:
+    - am-song-1440788297
+  evidence: "作詞 作曲: 大森元貴（ソングライター）"

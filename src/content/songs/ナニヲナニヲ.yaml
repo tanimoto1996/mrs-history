@@ -6,6 +6,7 @@ works:
     type: ミニアルバム
     date: 2015-02-18
 tieups: []
+mv: https://www.youtube.com/watch?v=uzyAw7ajW_s
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
@@ -21,6 +22,10 @@ sources:
     media: arai no HIKIDASHI
     url: https://takahiroarai.me/mrsgreenapple-naniwonaniwo/
     date: 2022-06-24
+  - id: am-song-1440794967
+    title: ナニヲナニヲ - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440794967
 background:
   - kind: secondary
     text: 哲学者ソクラテスの問答法を原点に、聴き手へ鋭い問いを繰り返し投げかけることで、何も考えず流されて生きることの愚かさを伝える曲だと紹介されている。
@@ -32,3 +37,9 @@ background:
     sources:
       - arai-hikidashi-naniwonaniwo
     evidence: 所詮それくらいしか考えていないのでしょう
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  sources:
+    - am-song-1440794967
+  evidence: "作詞 作曲: 大森元貴（ソングライター）"

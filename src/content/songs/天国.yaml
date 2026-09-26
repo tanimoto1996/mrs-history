@@ -13,6 +13,7 @@ tieups:
     work: 映画『#真相をお話しします』
     sources:
       - profile
+mv: https://www.youtube.com/watch?v=CO0Eoj9aPcs
 status: reviewed
 reviewedAt: 2026-09-27
 background:
@@ -54,3 +55,14 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1823814178
     date: 2025-07-07
+  - id: am-song-1810410952
+    title: 天国 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1810410952
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、伊藤 賢
+  sources:
+    - am-song-1810410952
+  evidence: "作詞 作曲: 大森元貴（作曲者、アレンジャー、歌詞） / 伊藤 賢（アレンジャー）"

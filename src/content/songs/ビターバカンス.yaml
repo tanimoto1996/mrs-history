@@ -13,6 +13,7 @@ tieups:
     work: 映画『聖☆おにいさん THE MOVIE～ホーリーメンVS悪魔軍団～』
     sources:
       - profile
+mv: https://www.youtube.com/watch?v=-6YeAmmRdoA
 status: reviewed
 reviewedAt: 2026-09-27
 background:
@@ -49,3 +50,14 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1823814178
     date: 2025-07-07
+  - id: am-song-1823814204
+    title: ビターバカンス - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1823814204
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、花井諒
+  sources:
+    - am-song-1823814204
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 花井諒（アレンジャー）"

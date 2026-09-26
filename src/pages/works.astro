@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import { getWorks, workAnchor, hasBackground, url, formatDate } from '../lib/data';
+const works = await getWorks();
+const order = ['アルバム', 'ミニアルバム', 'シングル', '配信'];
+const label: Record<string, string> = { 配信: '配信シングル' };
+const types = order.filter((t) => works.some((w) => w.type === t));
+---
+<Base title="作品">
+  <h1>作品</h1>
+  <p class="muted">アルバム・シングルごとに、このサイトにある曲をまとめています。曲は発売順で、実際の収録順ではありません。</p>
+  <nav class="toc">{types.map((t) => <a href={`#t-${t}`}>{label[t] ?? t}（{works.filter((w) => w.type === t).length}）</a>)}</nav>
+  {types.map((t) => (
+    <section id={`t-${t}`}>
+      <h2>{label[t] ?? t}</h2>
+      <div class="grid">
+        {works.filter((w) => w.type === t).map((w) => (
+          <article class="card work" id={workAnchor(works, w)}>
+            <p class="date">{w.date ? formatDate(w.date) : '発売日不明'}</p>
+            <h3>{t === '配信' ? `「${w.title}」` : `『${w.title}』`}</h3>
+            <ul>
+              {w.songs.map((s) => <li><a href={url(`/songs/${s.id}/`)}>{s.data.title}</a>{hasBackground(s) && <span class="dot" title="解説あり" />}</li>)}
+            </ul>
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>
+<style>
+  .toc { display: flex; flex-wrap: wrap; gap: .5rem 1rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: .9rem; }
+  .work { scroll-margin-top: 5rem; }
+  .work:target { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+  .work h3 { margin: 0 0 .4rem; font-size: 1.05rem; line-height: 1.5; }
+  .date { margin: 0; font-family: var(--en); font-size: .8rem; color: var(--accent); }
+  .work ul { margin: 0; padding-left: 1.1rem; font-size: .9rem; }
+  .dot { display: inline-block; width: .45rem; height: .45rem; border-radius: 50%; background: var(--accent); margin-left: .35rem; vertical-align: middle; }
+</style>

@@ -16,6 +16,7 @@ tieups:
     work: 第97回全国高校サッカー選手権大会
     sources:
       - um-news-2018-bokunokoto
+mv: https://www.youtube.com/watch?v=xefpHEg5UIA
 status: reviewed
 reviewedAt: 2026-09-27
 background:
@@ -64,3 +65,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
     date: 2020-07-08
+  - id: am-song-1445145789
+    title: 僕のこと - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1445145789
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1445145789
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

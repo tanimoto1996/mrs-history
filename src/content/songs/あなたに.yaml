@@ -21,6 +21,10 @@ sources:
     media: ダルマブログ
     url: https://darumano-kuni.com/mrs-green-apple-anatani/
     date: 2023-11-23
+  - id: am-song-1710693262
+    title: あなたに - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1710693262
 background:
   - kind: secondary
     text: この曲はもっくん（大森元貴）がギターボーカルを始めるきっかけになったというMONGOL800の楽曲のカバーで、ベースをもっくんが担当し3人でコーラスしている点が特徴として紹介されている。
@@ -32,3 +36,10 @@ background:
     sources:
       - darumano-kuni-anatani
     evidence: もっくんはこの世の中への皮肉を歌いながら私に温もりを与えて欲しい
+credits:
+  lyrics: 上江洌清作
+  music: 上江洌清作、MONGOL800
+  arrangement: 花井諒
+  sources:
+    - am-song-1710693262
+  evidence: "作詞 作曲: 上江洌清作（歌詞、ソングライター、作曲者） / MONGOL800（作曲者） / 花井諒（アレンジャー）"

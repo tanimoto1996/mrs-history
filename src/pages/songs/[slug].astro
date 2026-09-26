@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getSongs, getPhases, hasBackground, url, formatDate, youtubeId, type Song } from '../../lib/data';
+import { getSongs, getPhases, getEvents, getWorks, workAnchor, hasBackground, url, formatDate, youtubeId, type Song } from '../../lib/data';
 
 export async function getStaticPaths() {
   const songs = await getSongs();
@@ -15,9 +15,17 @@ const { song, prev, next } = Astro.props;
 const d = song.data;
 const phase = (await getPhases()).find((p) => p.id === d.phase);
 const showBg = hasBackground(song);
+const works = await getWorks();
+const events = (await getEvents()).filter((e) => e.data.relatedSongs.includes(song.id));
+const kindLabel: Record<string, string> = { live: 'ライブ', milestone: '節目', award: '受賞', media: 'メディア', release: '作品' };
+// 同じ作品（配信シングル以外）に入っている他の曲
+const siblings = works
+  .filter((w) => w.type !== '配信' && w.songs.some((s) => s.id === song.id))
+  .map((w) => ({ w, others: w.songs.filter((s) => s.id !== song.id) }))
+  .filter((x) => x.others.length > 0);
 const bg = showBg ? d.background : [];
 // 表示する記述・基本情報で使う出典だけに番号を振る
-const usedIds = [...new Set([...d.basicSources, ...d.tieups.flatMap((t) => t.sources), ...bg.flatMap((b) => b.sources)])];
+const usedIds = [...new Set([...d.basicSources, ...d.credits.sources, ...d.tieups.flatMap((t) => t.sources), ...bg.flatMap((b) => b.sources)])];
 const sources = usedIds.map((id) => d.sources.find((s) => s.id === id)!).filter(Boolean);
 const num = (id: string) => usedIds.indexOf(id) + 1;
 const yt = youtubeId(d.mv);
@@ -28,9 +36,11 @@ const yt = youtubeId(d.mv);
 
   <dl class="card info">
     <dt>初収録作品の発売日</dt><dd>{formatDate(d.releaseDate)}</dd>
-    {d.works.length > 0 && <><dt>収録作品</dt><dd>{d.works.map((w) => `${w.title}（${w.type}）`).join('、')}</dd></>}
+    {d.works.length > 0 && <><dt>収録作品</dt><dd>{d.works.map((w, i) => <>{i > 0 && '、'}<a href={url(`/works/#${workAnchor(works, w)}`)}>{w.title}</a>（{w.type}）</>)}</dd></>}
     {d.credits.lyrics && <><dt>作詞</dt><dd>{d.credits.lyrics}</dd></>}
     {d.credits.music && <><dt>作曲</dt><dd>{d.credits.music}</dd></>}
+    {d.credits.arrangement && <><dt>編曲</dt><dd>{d.credits.arrangement}</dd></>}
+    {d.credits.sources.length > 0 && <><dt></dt><dd class="muted small">クレジットの出典: {d.credits.sources.map((id) => <a class="ref" href={`#src-${num(id)}`}>[{num(id)}]</a>)}</dd></>}
     {d.tieups.length > 0 && (
       <><dt>タイアップ</dt><dd><ul class="plain">{d.tieups.map((t) => <li>{t.work}（{t.type}） {t.sources.map((id) => <a class="ref" href={`#src-${num(id)}`}>[{num(id)}]</a>)}</li>)}</ul></dd></>
     )}
@@ -55,6 +65,26 @@ const yt = youtubeId(d.mv);
     </ul>
   ) : (
     <p class="card muted">解説準備中です。出典で確認できた内容から順に追加します。</p>
+  )}
+
+  {events.length > 0 && (
+    <>
+      <h2>この曲に関わる出来事</h2>
+      <ul class="events">
+        {events.map((e) => (
+          <li><a href={url(`/timeline/#y${e.data.date.slice(0, 4)}`)}><time>{formatDate(e.data.date)}</time></a> <span class="tag">{kindLabel[e.data.kind]}</span> {e.data.title}</li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {siblings.length > 0 && (
+    <>
+      <h2>同じ作品の曲</h2>
+      {siblings.map(({ w, others }) => (
+        <p class="sib"><a href={url(`/works/#${workAnchor(works, w)}`)}>『{w.title}』</a>: {others.map((s, i) => <>{i > 0 && '、'}<a href={url(`/songs/${s.id}/`)}>{s.data.title}</a></>)}</p>
+      ))}
+    </>
   )}
 
   <h2>出典</h2>
@@ -90,5 +120,9 @@ const yt = youtubeId(d.mv);
   .interpretation .k { background: var(--interp); }
   .secondary .k { background: var(--secondary); }
   .sources { font-size: .85rem; word-break: break-all; }
+  .events { list-style: none; padding: 0; }
+  .events li { padding: .3rem 0; border-bottom: 1px solid var(--line); }
+  .events time { font-family: var(--en); font-size: .85rem; }
+  .sib { font-size: .9rem; }
   .pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; font-size: .9rem; }
 </style>

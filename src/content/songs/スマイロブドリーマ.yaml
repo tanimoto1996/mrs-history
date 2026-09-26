@@ -40,3 +40,14 @@ sources:
     media: Skream!
     url: https://skream.jp/interview/2017/04/mrs_green_apple.php
     date: 2017-04
+  - id: am-song-1444321745
+    title: スマイロブドリーマ - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1444321745
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1444321745
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

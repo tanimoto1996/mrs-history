@@ -16,6 +16,7 @@ tieups:
     work: 映画「ラーゲリより愛を込めて」
     sources:
       - profile
+mv: https://www.youtube.com/watch?v=44cICMd3jW4
 status: reviewed
 reviewedAt: 2026-09-27
 background:
@@ -73,3 +74,14 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1823814178
     date: 2025-07-07
+  - id: am-song-1648865575
+    title: Soranji - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1648865575
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1648865575
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / EFFY（ストリングアレンジャー）"

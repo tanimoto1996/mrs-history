@@ -33,3 +33,23 @@ export function youtubeId(u?: string) {
 }
 
 export const buildDate = new Date().toISOString().slice(0, 10);
+
+export type Work = { key: string; title: string; type: string; date?: string; songs: Song[] };
+
+// 曲データの収録作品を作品ごとにまとめる（同じ作品名・種類・日付を1つに）
+export async function getWorks() {
+  const map = new Map<string, Work>();
+  for (const s of await getSongs()) {
+    for (const w of s.data.works) {
+      const key = `${w.type}|${w.title}|${w.date ?? ''}`;
+      const work = map.get(key) ?? { key, title: w.title, type: w.type, date: w.date, songs: [] };
+      work.songs.push(s);
+      map.set(key, work);
+    }
+  }
+  return [...map.values()].sort((a, b) => (a.date ?? '').localeCompare(b.date ?? '') || a.title.localeCompare(b.title, 'ja'));
+}
+
+// 作品ページのアンカー用（日本語をそのまま使うと壊れやすいので番号にする）
+export const workAnchor = (works: Work[], w: { title: string; type: string; date?: string }) =>
+  `w${works.findIndex((x) => x.key === `${w.type}|${w.title}|${w.date ?? ''}`) + 1}`;

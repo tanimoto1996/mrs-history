@@ -16,6 +16,7 @@ tieups:
     work: 資生堂 SEA BREEZE
     sources:
       - um-d2cn-1510
+mv: https://www.youtube.com/watch?v=RiDCIqF0-6Y
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
@@ -74,3 +75,14 @@ sources:
     media: encore（USEN）
     url: https://e.usen.com/archive/sub-archive/24522.html
     date: 2019-04-03
+  - id: am-song-1454643219
+    title: ロマンチシズム - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1454643219
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1454643219
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

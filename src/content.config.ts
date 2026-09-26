@@ -31,7 +31,7 @@ const songs = defineCollection({
     releaseDate: dateStr(ymd),
     phase: z.string(),
     works: z.array(z.object({ title: z.string(), type: z.string(), date: dateStr(ymd).optional() })).default([]),
-    credits: z.object({ lyrics: z.string().optional(), music: z.string().optional() }).default({}),
+    credits: z.object({ lyrics: z.string().optional(), music: z.string().optional(), arrangement: z.string().optional(), sources: z.array(z.string()).default([]), evidence: z.string().optional() }).default({ sources: [] }),
     mv: z.string().url().optional(),
     tieups: z.array(z.object({ type: z.string(), work: z.string(), sources: z.array(z.string()).min(1) })).default([]),
     status: z.enum(['basic', 'draft', 'reviewed']),

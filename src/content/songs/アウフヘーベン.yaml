@@ -41,3 +41,13 @@ sources:
     media: arai no HIKIDASHI
     url: https://takahiroarai.me/mrsgreenapple-aufheben/
     date: 2022-06-05
+  - id: am-song-1360524260
+    title: アウフヘーベン - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1360524260
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  sources:
+    - am-song-1360524260
+  evidence: "作詞 作曲: 大森元貴（ソングライター） / 伊藤 賢（ホルンアレンジャー、ストリングアレンジャー）"

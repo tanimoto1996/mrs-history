@@ -28,6 +28,12 @@ for (const s of songs) {
     if (!t.type || !t.work) errors.push(`${s.file}: タイアップに type と work が必要`);
     checkRefs(s.file, t.sources, srcIds, `タイアップ「${t.work}」`);
   }
+  const c = d.credits ?? {};
+  if (c.lyrics || c.music || c.arrangement) {
+    if (!c.sources?.length || !c.evidence) errors.push(`${s.file}: クレジットに出典と evidence が必要`);
+    checkRefs(s.file, c.sources, srcIds, 'credits');
+  }
+  if (d.mv && !/^https:\/\/www\.youtube\.com\/watch\?v=[\w-]{11}$/.test(d.mv)) errors.push(`${s.file}: mv は公式YouTubeの watch URL にする`);
   (d.background ?? []).forEach((b, i) => {
     const where = `background[${i}]`;
     checkRefs(s.file, b.sources, srcIds, where);
@@ -44,6 +50,14 @@ for (const s of songs) {
 for (const e of events) {
   if (!phaseIds.has(e.data.phase)) errors.push(`${e.file}: 不明な phase "${e.data.phase}"`);
   for (const id of e.data.relatedSongs ?? []) if (!songIds.has(id)) errors.push(`${e.file}: 存在しない曲 "${id}"`);
+}
+
+// メンバーページ: 出典IDの参照と evidence
+const m = parse(readFileSync('src/data/members.yaml', 'utf8'));
+const mSrc = new Set(m.sources.map((x) => x.id));
+for (const f of [...m.band.facts, ...m.members.flatMap((x) => x.facts)]) {
+  if (!f.sources?.length || !f.evidence) errors.push(`members.yaml: 「${f.text}」に出典と evidence が必要`);
+  checkRefs('members.yaml', f.sources, mSrc, `「${f.text}」`);
 }
 
 if (errors.length) {

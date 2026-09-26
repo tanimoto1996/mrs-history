@@ -21,6 +21,10 @@ sources:
     media: UtaTen
     url: https://utaten.com/specialArticle/index/8201
     date: 2023-07-10
+  - id: am-song-1606369967
+    title: 嘘じゃないよ - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1606369967
 background:
   - kind: secondary
     text: 本当は好きな気持ちを言葉にできない女性の視点で、距離の近さゆえの別れが綴られた曲として考察されている。
@@ -32,3 +36,10 @@ background:
     sources:
       - utaten-usojanaiyo
     evidence: これまでに繰り返してきた「嘘じゃないよ」は
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1606369967
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

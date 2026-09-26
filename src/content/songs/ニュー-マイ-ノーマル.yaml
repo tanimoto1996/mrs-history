@@ -12,6 +12,7 @@ works:
     type: アルバム
     date: 2025-07-07
 tieups: []
+mv: https://www.youtube.com/watch?v=E7YAf0O02Ms
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
@@ -50,3 +51,14 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1823814178
     date: 2025-07-07
+  - id: am-song-1675598984
+    title: ニュー・マイ・ノーマル - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1675598984
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: Mrs. GREEN APPLE、山下洋介
+  sources:
+    - am-song-1675598984
+  evidence: "作詞 作曲: 大森元貴（ソングライター） / Mrs. GREEN APPLE（アレンジャー） / 山下洋介（アレンジャー、ストリングアレンジャー）"

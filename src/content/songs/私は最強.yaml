@@ -24,8 +24,7 @@ basicSources:
   - am-1823814178
 background:
   - kind: official
-    text: 大森元貴は、映画「ONE PIECE FILM
-      RED」の劇中でAdoが演じるウタが歌う楽曲としてオファーを受けて制作したと語っている。当時バンドは活動休止中だったという。
+    text: 大森元貴は、映画「ONE PIECE FILM RED」の劇中でAdoが演じるウタが歌う楽曲としてオファーを受けて制作したと語っている。当時バンドは活動休止中だったという。
     sources:
       - natalie-2022-mga03
     evidence: ボーカルはAdoさんで、作中のウタちゃんという子が歌う楽曲だということでお話をいただいて
@@ -79,3 +78,14 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1823814178
     date: 2025-07-07
+  - id: am-song-1691229807
+    title: 私は最強 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1691229807
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: Mrs. GREEN APPLE、伊藤 賢
+  sources:
+    - am-song-1691229807
+  evidence: "作詞 作曲: 大森元貴（ソングライター） / Mrs. GREEN APPLE（アレンジャー） / 伊藤 賢（アレンジャー、ストリングアレンジャー、ホルンアレンジャー）"

@@ -41,3 +41,14 @@ sources:
     media: SPICE
     url: https://spice.eplus.jp/articles/198912
     date: 2018-07-27
+  - id: am-song-1408505419
+    title: 点描の唄 (feat. 井上苑子) - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1408505419
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1408505419
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

@@ -7,8 +7,7 @@ works:
     date: 2018-04-18
 tieups:
   - type: タイアップ
-    work: TOKYO FM系「SCHOOL OF LOCK！」とアクエリアスのコラボ企画「AQUARIUS presents 2018
-      FIFAワールドカップロシア Dream Passport」テーマソング
+    work: TOKYO FM系「SCHOOL OF LOCK！」とアクエリアスのコラボ企画「AQUARIUS presents 2018 FIFAワールドカップロシア Dream Passport」テーマソング
     sources:
       - natalie-2018-party-mv
 status: reviewed
@@ -32,3 +31,14 @@ sources:
     media: 音楽ナタリー
     url: https://natalie.mu/music/news/274718
     date: 2018-03-22
+  - id: am-song-1360524254
+    title: PARTY - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1360524254
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、山下洋輔
+  sources:
+    - am-song-1360524254
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 山下洋輔（アレンジャー）"

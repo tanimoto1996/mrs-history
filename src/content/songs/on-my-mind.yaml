@@ -14,8 +14,7 @@ status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
-    text: メンバーは『ナナマル
-      サンバツ』の原作漫画を読んだうえでこの曲を書き下ろしたと述べており、原作のキャラクター同士のかけ合いにファンになったとコメントしている。
+    text: メンバーは『ナナマル サンバツ』の原作漫画を読んだうえでこの曲を書き下ろしたと述べており、原作のキャラクター同士のかけ合いにファンになったとコメントしている。
     sources:
       - lisani-2017-onmymind
     evidence: 原作マンガを読ませていただきましたが競技クイズって奥が深いですね
@@ -42,3 +41,14 @@ sources:
     media: リスアニ！
     url: https://www.lisani.jp/0000053512/
     date: 2017-06-04
+  - id: am-song-1440885554
+    title: On My MiND - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440885554
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1440885554
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

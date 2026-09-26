@@ -22,3 +22,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80477/
     date: 2017-08-30
+  - id: am-song-1440885555
+    title: 光のうた - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440885555
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: Mrs. GREEN APPLE、山下洋輔
+  sources:
+    - am-song-1440885555
+  evidence: "作詞 作曲: 大森元貴（作曲者、ソングライター） / Mrs. GREEN APPLE（アレンジャー） / 山下洋輔（アレンジャー）"

@@ -10,6 +10,7 @@ tieups:
     work: NHK連続テレビ小説「風、薫る」
     sources:
       - profile
+mv: https://www.youtube.com/watch?v=9NJI7cLZ2Qg
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
@@ -61,8 +62,18 @@ sources:
     url: https://realsound.jp/2026/02/post-2302303.html
     date: 2026-02-10
   - id: yahoo-tokyofm-2026-0424
-    title: Mrs. GREEN
-      APPLE大森元貴「毎日聴ける音楽、耳心地のいい音楽をまず目指した」NHK朝ドラ『風、薫る』を彩る主題歌『風と町』での挑戦（TOKYO FM＋）
+    title: Mrs. GREEN APPLE大森元貴「毎日聴ける音楽、耳心地のいい音楽をまず目指した」NHK朝ドラ『風、薫る』を彩る主題歌『風と町』での挑戦（TOKYO FM＋）
     media: Yahoo!ニュース（TOKYO FM＋）
     url: https://news.yahoo.co.jp/articles/4f186b4714334b5770791126cb7fa723c1870528
     date: 2026-04-24
+  - id: am-song-1891943326
+    title: 風と町 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1891943326
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、兼松 衆
+  sources:
+    - am-song-1891943326
+  evidence: "作詞 作曲: 大森元貴（作曲者、アレンジャー、歌詞） / 兼松 衆（アレンジャー、ストリングアレンジャー）"

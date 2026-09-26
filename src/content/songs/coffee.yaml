@@ -12,8 +12,7 @@ basicSources:
   - um-upch-20483
 background:
   - kind: official
-    text: アルバム『ENSEMBLE』の公式特設サイトでは、この曲は恋とは違う愛をテーマにした歌であり、Mrs. GREEN
-      APPLE自身初めての小編成での制作による、どこか大人っぽくほろ苦い楽曲だと紹介されている。
+    text: アルバム『ENSEMBLE』の公式特設サイトでは、この曲は恋とは違う愛をテーマにした歌であり、Mrs. GREEN APPLE自身初めての小編成での制作による、どこか大人っぽくほろ苦い楽曲だと紹介されている。
     sources:
       - um-ensemble-site
     evidence: Mrs. GREEN APPLE自身初となる小編成で、どこか大人っぽく、ほろ苦いコーヒーのような楽曲。
@@ -28,3 +27,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://sp.universal-music.co.jp/mrsgreenapple/ensemble/
     date: 2018-04-18
+  - id: am-song-1360524272
+    title: Coffee - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1360524272
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、山下洋輔
+  sources:
+    - am-song-1360524272
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 山下洋輔（アレンジャー）"

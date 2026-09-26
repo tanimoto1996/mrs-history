@@ -27,3 +27,13 @@ sources:
     media: ガクシンFind
     url: https://gakushin-kyoto.com/music-interview/160224.html
     date: 2016-02-24
+  - id: am-song-1440788138
+    title: 私 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440788138
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  sources:
+    - am-song-1440788138
+  evidence: "作詞 作曲: 大森元貴（ソングライター）"

@@ -10,8 +10,7 @@ status: reviewed
 reviewedAt: 2026-09-27
 background:
   - kind: official
-    text: 坂口有望は自身の公式サイトで、シングル「Love me, Love you」のカップリング曲「Log (feat.坂口有望)」でMrs. GREEN
-      APPLEとコラボしたことを発表している。
+    text: 坂口有望は自身の公式サイトで、シングル「Love me, Love you」のカップリング曲「Log (feat.坂口有望)」でMrs. GREEN APPLEとコラボしたことを発表している。
     sources:
       - sony-2017-sakaguchi-log
     evidence: そこに収録されるカップリング曲で坂口有望がコラボさせていただきました！タイトルは「Log (feat.坂口有望)」です。
@@ -28,3 +27,14 @@ sources:
     media: 坂口有望 ソニーミュージックオフィシャルサイト
     url: https://www.sonymusic.co.jp/artist/sakaguchiami/info/489440
     date: 2017-12-12
+  - id: am-song-1441018142
+    title: Log (feat. 坂口有望) - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1441018142
+credits:
+  lyrics: サカグチアミ
+  music: Kan Sano、大森元貴
+  arrangement: Kan Sano
+  sources:
+    - am-song-1441018142
+  evidence: "作詞 作曲: サカグチアミ（ソングライター） / Kan Sano（作曲者、アレンジャー） / 大森元貴（作曲者）"

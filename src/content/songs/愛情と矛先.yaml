@@ -32,3 +32,14 @@ sources:
     media: arai no HIKIDASHI
     url: https://takahiroarai.me/mrsgreenapple-aijyoutohokosaki/
     date: 2021-07-13
+  - id: am-song-1440787907
+    title: 愛情と矛先 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440787907
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1440787907
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

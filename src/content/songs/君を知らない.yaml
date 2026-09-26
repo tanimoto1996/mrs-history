@@ -21,6 +21,10 @@ sources:
     media: BARKS
     url: https://www.barks.jp/news/?id=1000221800&page=4
     date: 2022-07-08
+  - id: am-song-1675599094
+    title: 君を知らない - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1675599094
 background:
   - kind: official
     text: 大森元貴は「君を知らない」について、「ニュー・マイ・ノーマル」より前になんとなくの形で作っていた曲で、「歪んだ愛情」という題材に惹かれてどうしても『Unity』に入れたく、本腰を入れてアレンジしたと語っている。
@@ -40,3 +44,10 @@ background:
   - kind: interpretation
     text: 3人それぞれの楽器（ボーカル・ギター・キーボード）がフレーズを歌うように鳴らし合う構成は、歪んだ愛情という一人称的な題材に対して、バンドのアンサンブルの強さで拮抗させようとした結果とも読める。
     basis: 大森元貴が「曲の題材が、一人のこじんまりとしたものでしたから、その分、バンドのアンサンブルに求めるものは大きくて」と述べていること（barks-2022-unity-p4）
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、花井諒
+  sources:
+    - am-song-1675599094
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 花井諒（アレンジャー）"

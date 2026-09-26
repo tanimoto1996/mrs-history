@@ -32,3 +32,14 @@ sources:
     media: モデルプレス
     url: https://mdpr.jp/interview/detail/3795088
     date: 2023-07-05
+  - id: am-song-1691230114
+    title: Doodle - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1691230114
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、山下洋輔
+  sources:
+    - am-song-1691230114
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 山下洋輔（アレンジャー）"

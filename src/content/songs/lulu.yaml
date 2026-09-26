@@ -26,12 +26,15 @@ sources:
     url: https://news.joysound.com/article/655793
     date: 2026-01-12
   - id: mdpr-2026-lulu-vol2
-    title: 【ミセス大森元貴
-      独占インタビュー】フェーズ3幕開けの楽曲「lulu.」へ込めた思い「とびきり面白い贅沢をしたい」藤澤涼架＆若井滉斗とのやり取り・制作裏話＜Vol.2＞
+    title: 【ミセス大森元貴 独占インタビュー】フェーズ3幕開けの楽曲「lulu.」へ込めた思い「とびきり面白い贅沢をしたい」藤澤涼架＆若井滉斗とのやり取り・制作裏話＜Vol.2＞
     media: モデルプレス
     url: https://mdpr.jp/interview/detail/4708208
     date: 2026-01-10
-mv: https://youtu.be/MjeiIal1ZR0
+  - id: am-song-1867354081
+    title: lulu. - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1867354081
+mv: https://www.youtube.com/watch?v=MjeiIal1ZR0
 background:
   - kind: official
     text: 大森元貴は「lulu.」について、TOGETHERの力ではなく1人で立って一歩一歩踏みしめる強さや、誰にでも訪れる踏ん張るべき瞬間・自愛のようなものを、壮大かつミクロに描こうとした曲だと説明している。
@@ -39,8 +42,7 @@ background:
       - mdpr-2026-lulu-vol2
     evidence: TOGETHERの力じゃなくて、1人で立って1歩1歩踏みしめている強さ
   - kind: official
-    text: 「GOOD
-      DAY」が奮い立たせてくれる曲だとすれば、「lulu.」はもっとノスタルジーな世界観の曲であり、過去を振り返ることで力をもらい、それが前を向くことと同義になる感覚を込めたと語っている。
+    text: 「GOOD DAY」が奮い立たせてくれる曲だとすれば、「lulu.」はもっとノスタルジーな世界観の曲であり、過去を振り返ることで力をもらい、それが前を向くことと同義になる感覚を込めたと語っている。
     sources:
       - mdpr-2026-lulu-vol2
     evidence: 「lulu.」はもっとノスタルジーな世界観の曲です
@@ -64,3 +66,10 @@ background:
     sources:
       - joysound-2026-lulu
     evidence: 命や宝物、思い出、意思が受け継がれ
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1867354081
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 兼松 衆（ストリングアレンジャー、ホルンアレンジャー）"

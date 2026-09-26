@@ -46,3 +46,14 @@ sources:
     media: SCHOOL OF LOCK!（TOKYO FM）
     url: https://www.tfm.co.jp/lock/mrsgreenapple/38104
     date: 2017-11-29
+  - id: am-song-1445041716
+    title: WHOO WHOO WHOO - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1445041716
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1445041716
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

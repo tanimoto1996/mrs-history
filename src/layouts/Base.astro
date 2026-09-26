@@ -2,6 +2,7 @@
 import { url, buildDate, formatDate } from '../lib/data';
 interface Props { title?: string }
 const { title } = Astro.props;
+const here = (path: string) => (Astro.url.pathname.startsWith(url(path)) ? 'page' : undefined);
 const fullTitle = title ? `${title} | ミセスの歴史と曲の背景` : 'ミセスの歴史と曲の背景';
 ---
 <!doctype html>
@@ -20,10 +21,12 @@ const fullTitle = title ? `${title} | ミセスの歴史と曲の背景` : 'ミ�
     <div class="progress" aria-hidden="true"></div>
     <header class="site-header">
       <a class="logo" href={url('/')}><span class="logo-en">Mrs. HISTORY</span><span class="logo-ja">ミセスの歴史と曲の背景</span></a>
-      <nav>
-        <a href={url('/timeline/')}>年表</a>
-        <a href={url('/songs/')}>曲</a>
-        <a href={url('/about/')}>このサイトについて</a>
+      <nav aria-label="メイン">
+        <a href={url('/timeline/')} aria-current={here('/timeline/')}>年表</a>
+        <a href={url('/songs/')} aria-current={here('/songs/')}>曲</a>
+        <a href={url('/works/')} aria-current={here('/works/')}>作品</a>
+        <a href={url('/members/')} aria-current={here('/members/')}>メンバー</a>
+        <a href={url('/about/')} aria-current={here('/about/')}>サイトについて</a>
       </nav>
     </header>
     <main><slot /></main>
@@ -93,10 +96,11 @@ const fullTitle = title ? `${title} | ミセスの歴史と曲の背景` : 'ミ�
   .logo { display: flex; flex-direction: column; line-height: 1.2; color: var(--fg); text-decoration: none; }
   .logo-en { font-family: var(--en); font-weight: 800; font-size: 1.15rem; letter-spacing: .06em; color: var(--accent); }
   .logo-ja { font-size: .7rem; color: var(--muted); }
-  nav { display: flex; gap: 1.25rem; font-size: .9rem; }
+  nav { display: flex; flex-wrap: wrap; gap: .4rem 1.1rem; font-size: .9rem; }
   .site-header nav a { position: relative; color: var(--fg); text-decoration: none; font-weight: 700; }
   .site-header nav a::after { content: ''; position: absolute; left: 0; right: 0; bottom: -4px; height: 2px; background: var(--accent); transform: scaleX(0); transform-origin: right; transition: transform .4s var(--ease); }
-  .site-header nav a:hover { color: var(--accent); }
+  .site-header nav a:hover, .site-header nav a[aria-current] { color: var(--accent); }
+  .site-header nav a[aria-current]::after { transform: scaleX(1); }
   .site-header nav a:hover::after { transform: scaleX(1); transform-origin: left; }
 
   .site-footer { max-width: 820px; margin: 0 auto; padding: 1.5rem 1.25rem 2.5rem; color: var(--muted); font-size: .8rem; border-top: 1px solid var(--line); }

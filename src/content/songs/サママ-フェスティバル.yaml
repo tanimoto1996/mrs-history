@@ -16,6 +16,7 @@ tieups:
     work: 日本工学院2016CMソング＆テレビ朝日系『musicるTV』6月度OPテーマ
     sources:
       - um-upch-20443
+mv: https://www.youtube.com/watch?v=25kQyBF6mz4
 status: reviewed
 reviewedAt: 2026-09-27
 background:
@@ -59,3 +60,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
     date: 2020-07-08
+  - id: am-song-1445294671
+    title: サママ・フェスティバル! - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1445294671
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1445294671
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

@@ -21,6 +21,10 @@ sources:
     media: note（個人ブログ）
     url: https://note.com/tuzuri_/n/n6a48f273a982
     date: 2023-07-05
+  - id: am-song-1691229816
+    title: Loneliness - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1691229816
 background:
   - kind: secondary
     text: 「孤独」を単なる寂しさではなく、愛の形を誤解したまま彷徨う人間の本質として描いた曲だとファンブログで考察されている。
@@ -32,3 +36,10 @@ background:
     sources:
       - sec-note-loneliness
     evidence: 愛せば愛すほど孤独を増幅させるという点から、自己保存本能の落とし穴
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、D & H
+  sources:
+    - am-song-1691229816
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / D & H（アレンジャー）"

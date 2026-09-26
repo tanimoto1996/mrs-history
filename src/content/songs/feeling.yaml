@@ -32,3 +32,14 @@ sources:
     media: モデルプレス
     url: https://mdpr.jp/interview/detail/3795088
     date: 2023-07-05
+  - id: am-song-1691230123
+    title: Feeling - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1691230123
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、久保田 真悟
+  sources:
+    - am-song-1691230123
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 久保田 真悟（アレンジャー） / 呉服隆一（共同アレンジャー）"

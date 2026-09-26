@@ -27,3 +27,14 @@ sources:
     media: SPICE
     url: https://spice.eplus.jp/articles/198912
     date: 2018-08-01
+  - id: am-song-1408505420
+    title: ア・プリオリ - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1408505420
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1408505420
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

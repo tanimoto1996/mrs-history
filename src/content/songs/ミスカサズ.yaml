@@ -26,6 +26,10 @@ sources:
     media: 脳MUSIC 脳LIFE（個人ブログ）
     url: https://saluteproject.com/2018/09/09/post-1291/
     date: 2018-09-09
+  - id: am-song-1440788311
+    title: ミスカサズ - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1440788311
 background:
   - kind: secondary
     text: 大森が当時のインタビューで「全てに対して気持ち悪いロックを作りたかった」と語ったと紹介されており、収録アルバム『TWELVE』全8曲の中で最もダークな楽曲として話題になったとされる。
@@ -42,3 +46,10 @@ background:
     sources:
       - sec-salute-misukasazu
     evidence: やりきれない思いの中にほのかな希望が滲み出る楽曲の世界観
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1440788311
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

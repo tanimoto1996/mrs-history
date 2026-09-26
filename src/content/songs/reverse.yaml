@@ -27,3 +27,14 @@ sources:
     media: Fanplus Music
     url: https://music.fanplus.co.jp/news/2018041168301390c
     date: 2018-04-18
+  - id: am-song-1360524271
+    title: REVERSE - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1360524271
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1360524271
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

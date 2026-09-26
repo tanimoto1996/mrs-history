@@ -27,3 +27,14 @@ sources:
     media: 音楽ナタリー
     url: https://natalie.mu/music/news/622965
     date: 2025-05-08
+  - id: am-song-1823814363
+    title: 慶びの種 - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1823814363
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 兼松 衆
+  sources:
+    - am-song-1823814363
+  evidence: "作詞 作曲: 大森元貴（作曲者、歌詞） / 兼松 衆（アレンジャー）"

@@ -1,0 +1,67 @@
+---
+import { readFileSync } from 'node:fs';
+import { parse } from 'yaml';
+import Base from '../layouts/Base.astro';
+import { formatDate } from '../lib/data';
+
+type Fact = { kind: 'official' | 'secondary'; text: string; sources: string[]; evidence?: string };
+type Member = { id: string; name: string; part: string; current: boolean; facts: Fact[] };
+type Data = { members: Member[]; band: { facts: Fact[] }; sources: { id: string; title: string; media: string; url: string; date?: string }[] };
+const data: Data = parse(readFileSync('src/data/members.yaml', 'utf8'));
+// ページ全体で出典に通し番号を振る（出てきた順）
+const used = [...new Set([...data.band.facts, ...data.members.flatMap((m) => m.facts)].flatMap((f) => f.sources))];
+const num = (id: string) => used.indexOf(id) + 1;
+const sources = used.map((id) => data.sources.find((s) => s.id === id)!).filter(Boolean);
+const current = data.members.filter((m) => m.current);
+const former = data.members.filter((m) => !m.current);
+---
+<Base title="メンバー">
+  <h1>メンバー</h1>
+  <p class="muted">すべて出典で確認できた内容だけを載せています。番号は下の出典です。</p>
+
+  <h2>バンドについて</h2>
+  <ul class="facts">
+    {data.band.facts.map((f) => <li class={f.kind}>{f.text} {f.sources.map((id) => <a class="ref" href={`#src-${num(id)}`}>[{num(id)}]</a>)}</li>)}
+  </ul>
+
+  <h2>現在のメンバー</h2>
+  <div class="grid">
+    {current.map((m) => (
+      <article class="card member" id={m.id}>
+        <p class="part">{m.part}</p>
+        <h3>{m.name}</h3>
+        <ul class="facts">{m.facts.map((f) => <li class={f.kind}>{f.text} {f.sources.map((id) => <a class="ref" href={`#src-${num(id)}`}>[{num(id)}]</a>)}</li>)}</ul>
+      </article>
+    ))}
+  </div>
+
+  {former.length > 0 && (
+    <>
+      <h2>かつてのメンバー</h2>
+      <div class="grid">
+        {former.map((m) => (
+          <article class="card member" id={m.id}>
+            <p class="part">{m.part}</p>
+            <h3>{m.name}</h3>
+            <ul class="facts">{m.facts.map((f) => <li class={f.kind}>{f.text} {f.sources.map((id) => <a class="ref" href={`#src-${num(id)}`}>[{num(id)}]</a>)}</li>)}</ul>
+          </article>
+        ))}
+      </div>
+    </>
+  )}
+
+  <h2>出典</h2>
+  <ol class="sources">
+    {sources.map((s, i) => <li id={`src-${i + 1}`}><a href={s.url} rel="noopener" target="_blank">{s.title}</a> <span class="muted">{s.media}{s.date && `（${formatDate(s.date)}）`}</span></li>)}
+  </ol>
+</Base>
+<style>
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+  .member h3 { margin: 0 0 .5rem; font-size: 1.3rem; }
+  .part { margin: 0; font-family: var(--en); font-weight: 800; color: var(--accent); letter-spacing: .1em; }
+  .facts { padding-left: 1.1rem; margin: 0; }
+  .facts li { margin: .3rem 0; }
+  .facts li.secondary::marker { color: var(--secondary); }
+  .ref { font-size: .75rem; text-decoration: none; margin-left: .1rem; }
+  .sources { font-size: .85rem; word-break: break-all; }
+</style>

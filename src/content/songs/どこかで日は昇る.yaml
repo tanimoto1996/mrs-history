@@ -13,6 +13,7 @@ tieups:
     work: 劇場用映画「笑う招き猫」主題歌 ＆ MBS/TBS ドラマ「笑う招き猫」エンディングテーマ
     sources:
       - um-upch-80467
+mv: https://www.youtube.com/watch?v=UHqkN5NIyro
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
@@ -20,8 +21,7 @@ basicSources:
   - um-upch-20549
 background:
   - kind: official
-    text: 大森元貴は、それまでのMrs. GREEN
-      APPLEのキラキラしたポップな作品と真逆になるくらいの気持ちで、泥臭く人間味あふれる歌として取り組んだと語っている。
+    text: 大森元貴は、それまでのMrs. GREEN APPLEのキラキラしたポップな作品と真逆になるくらいの気持ちで、泥臭く人間味あふれる歌として取り組んだと語っている。
     sources:
       - billboard-japan-2017-sunrise
     evidence: 凄く泥臭い歌だし、人間味溢れる歌。
@@ -50,3 +50,14 @@ sources:
     title: Mrs. GREEN APPLE『どこかで日は昇る』特設サイト
     media: ユニバーサル ミュージック
     url: https://sp.universal-music.co.jp/mrsgreenapple/sunrise/
+  - id: am-song-1444321743
+    title: どこかで日は昇る - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1444321743
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴
+  sources:
+    - am-song-1444321743
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター）"

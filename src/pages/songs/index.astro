@@ -22,6 +22,8 @@ const works = [
     <select id="work"><option value="">すべての収録作品</option>{works.map((w) => <option value={w.title}>{w.title}（{w.type}{w.date && `・${w.date.slice(0, 4)}年`}）</option>)}</select>
     <label><input id="bg" type="checkbox" /> 解説ありのみ</label>
     <label><input id="tie" type="checkbox" /> タイアップありのみ</label>
+    <label><input id="mv" type="checkbox" /> MVありのみ</label>
+    <select id="sort" aria-label="並び順"><option value="asc">古い順</option><option value="desc">新しい順</option><option value="title">曲名順</option></select>
   </form>
   <p class="muted"><span id="count">{songs.length}</span>曲</p>
   <ul class="list">
@@ -32,10 +34,13 @@ const works = [
         data-works={JSON.stringify(s.data.works.map((w) => w.title))}
         data-bg={hasBackground(s) ? '1' : ''}
         data-tie={s.data.tieups.length > 0 ? '1' : ''}
+        data-mv={s.data.mv ? '1' : ''}
+        data-title={s.data.title}
       >
         <a href={url(`/songs/${s.id}/`)}>{s.data.title}</a>
         <span class="muted">{formatDate(s.data.releaseDate)}</span>
         {s.data.tieups.length > 0 && <span class="muted tie">{s.data.tieups.map((t) => `${t.work}（${t.type}）`).join('、')}</span>}
+        {s.data.mv && <span class="tag">MV</span>}
         {hasBackground(s) ? <span class="tag ok">解説あり</span> : <span class="tag">解説準備中</span>}
       </li>
     ))}
@@ -43,26 +48,35 @@ const works = [
 </Base>
 <script>
   const $ = (id: string) => document.getElementById(id) as HTMLInputElement;
-  const items = [...document.querySelectorAll<HTMLLIElement>('.list li')];
+  const list = document.querySelector<HTMLUListElement>('.list')!;
+  const items = [...list.querySelectorAll<HTMLLIElement>('li')];
+  // URLの ?q= で検索語を受け取る（トップページの検索から来たとき）
+  const initial = new URLSearchParams(location.search).get('q');
+  if (initial) $('q').value = initial;
   function apply() {
     const q = $('q').value.trim().toLowerCase();
     const phase = $('phase').value;
     const work = $('work').value;
     const bg = $('bg').checked;
     const tie = $('tie').checked;
+    const mv = $('mv').checked;
+    const sort = $('sort').value;
+    const sorted = sort === 'asc' ? items : sort === 'desc' ? [...items].reverse() : [...items].sort((a, b) => a.dataset.title!.localeCompare(b.dataset.title!, 'ja'));
+    list.append(...sorted);
     let n = 0;
     for (const li of items) {
       const d = li.dataset;
-      const show = (!q || d.search!.includes(q)) && (!phase || d.phase === phase) && (!work || JSON.parse(d.works!).includes(work)) && (!bg || d.bg === '1') && (!tie || d.tie === '1');
+      const show = (!q || d.search!.includes(q)) && (!phase || d.phase === phase) && (!work || JSON.parse(d.works!).includes(work)) && (!bg || d.bg === '1') && (!tie || d.tie === '1') && (!mv || d.mv === '1');
       li.hidden = !show;
       if (show) n++;
     }
     document.getElementById('count')!.textContent = String(n);
   }
-  for (const id of ['q', 'phase', 'work', 'bg', 'tie']) {
+  for (const id of ['q', 'phase', 'work', 'bg', 'tie', 'mv', 'sort']) {
     $(id).addEventListener('input', apply);
     $(id).addEventListener('change', apply);
   }
+  apply();
 </script>
 <style>
   .filters { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }

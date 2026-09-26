@@ -14,6 +14,7 @@ tieups:
     sources:
       - profile
       - billboard-2024-lilac-tieup
+mv: https://www.youtube.com/watch?v=QjrkrVmC-8M
 status: reviewed
 reviewedAt: 2026-09-27
 background:
@@ -51,8 +52,7 @@ sources:
     url: https://www.billboard-japan.com/d_news/detail/135259/2
     date: 2024-03-04
   - id: billboard-2024-interview
-    title: ＜インタビュー＞進化と深化を重ねていくMrs. GREEN
-      APPLEの美学――大森元貴が語る曲作りの原点とバンド結成11年目以降のヴィジョン【MONTHLY FEATURE】
+    title: ＜インタビュー＞進化と深化を重ねていくMrs. GREEN APPLEの美学――大森元貴が語る曲作りの原点とバンド結成11年目以降のヴィジョン【MONTHLY FEATURE】
     media: Billboard JAPAN
     url: https://www.billboard-japan.com/special/detail/4296
     date: 2024-01-17
@@ -61,3 +61,14 @@ sources:
     media: Apple Music
     url: https://music.apple.com/jp/album/1823814178
     date: 2025-07-07
+  - id: am-song-1739088799
+    title: ライラック - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1739088799
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、久保田 真悟
+  sources:
+    - am-song-1739088799
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 久保田 真悟（アレンジャー）"

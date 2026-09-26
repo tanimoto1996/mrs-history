@@ -6,6 +6,7 @@ works:
     type: シングル
     date: 2022-11-09
 tieups: []
+mv: https://www.youtube.com/watch?v=By2_SOQH9PA
 status: reviewed
 reviewedAt: 2026-09-27
 background:
@@ -32,3 +33,14 @@ sources:
     media: ユニバーサル ミュージック
     url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80580/
     date: 2022-11-09
+  - id: am-song-1648865586
+    title: フロリジナル - Mrs. GREEN APPLE (Apple Music)
+    media: Apple Music
+    url: https://music.apple.com/jp/song/1648865586
+credits:
+  lyrics: 大森元貴
+  music: 大森元貴
+  arrangement: 大森元貴、花井諒
+  sources:
+    - am-song-1648865586
+  evidence: "作詞 作曲: 大森元貴（アレンジャー、ソングライター） / 花井諒（アレンジャー）"

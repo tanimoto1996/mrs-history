@@ -1,0 +1,109 @@
+members:
+  - id: omori-motoki
+    name: 大森元貴
+    part: Vo/Gt
+    current: true
+    facts:
+      - kind: official
+        text: ボーカルとギターを担当する。
+        sources: [official-profile]
+        evidence: "大森元貴 (Vo/Gt)、若井滉斗 (Gt)、藤澤涼架 (Key)による3人組バンド。"
+      - kind: official
+        text: 誕生日は9月14日。
+        sources: [fc-birthday-omori]
+        evidence: "2025年9月14日(日)、大森元貴が誕生日を迎えます！"
+      - kind: official
+        text: バンドの全曲の作詞・作曲・編曲を手がけ、アートワークやMVのアイデアまで楽曲に関わるすべてを担当している。
+        sources: [um-omori-bio]
+        evidence: "Mrs. GREEN APPLE では全楽曲の作詞／作曲／編曲、 さらに作品のアートワークおよびミュージックビデオのアイデアまで、楽曲に関するすべての要素を担当している。"
+      - kind: official
+        text: 2021年2月24日、ソロデビュー曲「French」を配信リリースした。
+        sources: [um-omori-french]
+        evidence: "大森元貴ソロデビュー曲「French」配信リリース決定 ／ ※本リンクは2月24日(水)AM0:00より有効となります"
+      - kind: official
+        text: 俳優として2025年のNHK連続テレビ小説『あんぱん』に出演し、映画『#真相をお話しします』で映画初出演・初主演を務めた。
+        sources: [um-omori-bio]
+        evidence: "NHK 連続テレビ小説『あんぱん』に出演、 4 月 25 日 ( 金 ) 全国公開の映画「 # 真相をお話しします」では映画初出演にして初主演を務め"
+  - id: wakai-hiroto
+    name: 若井滉斗
+    part: Gt
+    current: true
+    facts:
+      - kind: official
+        text: ギターを担当する。
+        sources: [official-profile]
+        evidence: "大森元貴 (Vo/Gt)、若井滉斗 (Gt)、藤澤涼架 (Key)による3人組バンド。"
+      - kind: official
+        text: 誕生日は10月8日。
+        sources: [fc-birthday-wakai]
+        evidence: "2025年10月8日(水)、若井滉斗が誕生日を迎えます！"
+  - id: fujisawa-ryoka
+    name: 藤澤涼架
+    part: Key
+    current: true
+    facts:
+      - kind: official
+        text: キーボードを担当する。
+        sources: [official-profile]
+        evidence: "大森元貴 (Vo/Gt)、若井滉斗 (Gt)、藤澤涼架 (Key)による3人組バンド。"
+      - kind: official
+        text: 誕生日は5月19日。
+        sources: [fc-birthday-fujisawa]
+        evidence: "2026年5月19日(火)、藤澤涼架が誕生日を迎えます！"
+  - id: yamanaka-ayaka
+    name: 山中綾華
+    part: Dr
+    current: false
+    facts:
+      - kind: official
+        text: ドラムを担当していた。2021年12月30日、この日をもって脱退することが公式サイトで発表された。
+        sources: [oricon-departure]
+        evidence: "山中綾華（Dr）と高野清宗（B）が、きょう30日をもって脱退すると同日、バンドの公式サイトで発表された。"
+      - kind: official
+        text: 脱退は本人からの申し出によるもので、メンバーとスタッフで話し合いを重ねたと発表された。
+        sources: [oricon-departure]
+        evidence: "「2人からそれぞれ申し出があり、メンバー、スタッフで話し合いを重ねました。"
+      - kind: official
+        text: 本人はコメントで、新しくやりたいことや夢に向かって進んでいると述べた。
+        sources: [oricon-departure]
+        evidence: "私はいま、新しくやりたいこと、その夢に向かって進んでいます。"
+  - id: takano-kiyokazu
+    name: 髙野清宗
+    part: B
+    current: false
+    facts:
+      - kind: official
+        text: ベースを担当していた。2021年12月30日、この日をもって脱退することが公式サイトで発表された。
+        sources: [oricon-departure]
+        evidence: "山中綾華（Dr）と高野清宗（B）が、きょう30日をもって脱退すると同日、バンドの公式サイトで発表された。"
+      - kind: official
+        text: 本人はコメントで、バンドで過ごした時間と出会いを宝物だと述べた。
+        sources: [oricon-departure]
+        evidence: "Mrs. GREEN APPLEとして過ごした全ての時間、全ての出逢いが大切な宝物です。"
+band:
+  facts:
+    - kind: official
+      text: 2013年に結成し、2015年にEMI Recordsからミニアルバム『Variety』でメジャーデビューした。
+      sources: [official-profile]
+      evidence: "2013年結成。2015年EMI Recordsからミニアルバム『Variety』でメジャーデビュー。"
+    - kind: official
+      text: 2人の脱退時点では5人組で、脱退発表の際、バンドは2022年の「フェーズ2」開幕に向けて準備を進めていると伝えた。
+      sources: [oricon-departure]
+      evidence: "「引き続きMrs. GREEN APPLEは2022年のフェーズ2開幕に向けて着々と準備を進めております」"
+    - kind: official
+      text: 残る3人はコメントで、歩む道は違っても2人とはこれからも家族だと述べた。
+      sources: [oricon-departure]
+      evidence: "間違いないのは、歩む道は違えど、僕らはこれからも家族です。"
+    - kind: official
+      text: 公式ファンクラブの名前は「Ringo Jam」。公式サイトの告知ではファンを「JAM'S」と呼んでいる。
+      sources: [official-fc-entry, fc-birthday-fujisawa]
+      evidence: "Mrs. GREEN APPLE OFFICIAL SITE｜OFFICIAL FAN CLUB 「Ringo Jam」 ／ JAM’Sの皆さまからBirthday Messageを大募集！"
+sources:
+  - {id: official-profile, title: "PROFILE", media: "Mrs. GREEN APPLE OFFICIAL SITE", url: "https://mrsgreenapple.com/feature/profile"}
+  - {id: official-fc-entry, title: "OFFICIAL FAN CLUB「Ringo Jam」入会案内", media: "Mrs. GREEN APPLE OFFICIAL SITE", url: "https://mrsgreenapple.com/feature/entry"}
+  - {id: fc-birthday-omori, title: "大森元貴 BIRTHDAY MESSAGE 募集スタート", media: "Mrs. GREEN APPLE OFFICIAL SITE", url: "https://mrsgreenapple.com/news/detail/21851"}
+  - {id: fc-birthday-wakai, title: "若井滉斗 BIRTHDAY MESSAGE 募集スタート！", media: "Mrs. GREEN APPLE OFFICIAL SITE", url: "https://mrsgreenapple.com/news/detail/21909"}
+  - {id: fc-birthday-fujisawa, title: "藤澤涼架 BIRTHDAY MESSAGE 募集スタート！", media: "Mrs. GREEN APPLE OFFICIAL SITE", url: "https://mrsgreenapple.com/news/detail/22572"}
+  - {id: um-omori-bio, title: "BIOGRAPHY - 大森元貴", media: "UNIVERSAL MUSIC JAPAN", url: "https://www.universal-music.co.jp/ohmori-motoki/biography/"}
+  - {id: um-omori-french, title: "ソロデビュー曲「French」配信リリース決定 & ジャケット写真を公開！", media: "UNIVERSAL MUSIC JAPAN", url: "https://www.universal-music.co.jp/ohmori-motoki/news/2021-02-21/", date: "2021-02-21"}
+  - {id: oricon-departure, title: "Mrs. GREEN APPLE、山中綾華＆高野清宗の脱退発表「全ての時間、全ての出逢いが大切な宝物」【コメント全文】", media: "ORICON NEWS", url: "https://www.oricon.co.jp/news/2219689/full/", date: "2021-12-30"}
