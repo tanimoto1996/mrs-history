@@ -29,6 +29,107 @@ members:
         sources:
           - um-omori-bio
         evidence: "NHK 連続テレビ小説『あんぱん』に出演、 4 月 25 日 ( 金 ) 全国公開の映画「 # 真相をお話しします」では映画初出演にして初主演を務め"
+      - kind: official
+        text: 1996年生まれ。
+        sources:
+          - um-omori-bio
+        evidence: 1996年生まれの音楽家。
+      - kind: official
+        text: 2024年の年間Billboard JAPAN作詞家チャートと作曲家チャートで、2年連続の1位を獲得した。
+        sources:
+          - um-omori-bio
+        evidence: 大森は、2024年年間Billboard JAPAN作詞家チャート、及び作曲家チャートで、2年連続となる１位を獲得している。
+      - kind: official
+        text: 2024年9月公開の映画「The White Lounge in CINEMA」で、プランナー兼ジェネラルプロデューサーを務めた。
+        sources:
+          - um-omori-bio
+        evidence: 大森は同作でプランナー＆ジェネラルプロデューサーを務めており
+      - kind: official
+        text: 2021年8月6日、ソロの2nd Digital EP「Midnight」をリリースした。
+        sources:
+          - um-omori-midnight
+        evidence: Motoki Ohmori 2nd Digital EP ‘Midnight’ 2021.08.06 Release！
+      - kind: official
+        text: ソロEP「French」収録曲「メメント・モリ」を絵本にし、2021年9月15日にKADOKAWAから発売した。初の著書にあたる。
+        sources:
+          - um-omori-ehon
+          - um-omori-ehon-tokuten
+        evidence: ソロデビューEP‘French’収録の名曲『メメント・モリ』の絵本としてのリリースが決定しました！2021年9月15日(水)発売 ／ 発行：株式会社KADOKAWA ／ 大森元貴の初の著書となる絵本『メメント・モリ』
+      - kind: official
+        text: 2025年5月28日、3rd Digital Single「絵画」を配信した。カップリングは「こたえあわせ」。
+        sources:
+          - um-omori-kaiga
+        evidence: 5月28日(水)に大森元貴3rd Digital Single「絵画」の配信が決定しました。
+      - kind: official
+        text: 「こたえあわせ」は、NHK Eテレ「天才てれびくん」に提供した曲。
+        sources:
+          - um-omori-kotaeawase
+        evidence: NHK Eテレ「天才てれびくん」へ楽曲提供した『こたえあわせ』
+      - kind: official
+        text: 2025年7月8日発売の「ニューズウィーク日本版」7/15号で表紙を飾った。
+        sources:
+          - um-omori-newsweek
+        evidence: 大森元貴が7月8日(火)発売「ニューズウィーク日本版 Newsweek Japan 7/15号」に表紙掲載されます。
+      - kind: official
+        text: 2026年8月26日配信の5th Digital Single「灰色」は、映画『白鳥とコウモリ』の主題歌。
+        sources:
+          - um-omori-haiiro
+        evidence: 8月26日(水)に5th Digital Single『灰色』の配信が決定しました。 映画『白鳥とコウモリ』主題歌
+      - kind: official
+        text: ソロ活動は、自分の心身の健康のためにやるべきことだと考えていたと話している。
+        sources:
+          - bb-omori-kaiga-2025
+        evidence: ソロ活動は、自分の心身の健康上、やるべきことだと思っていたんです。
+      - kind: official
+        text: 自分の中ではミセスが交感神経、ソロが副交感神経のようなものだと例えている。
+        sources:
+          - bb-omori-kaiga-2025
+        evidence: 僕の中でミセスは交感神経で、ソロは副交感神経だと思っているんですよ。
+      - kind: official
+        text: タイアップ曲を作るのも大好きだと話している。
+        sources:
+          - bb-omori-kaiga-2025
+        evidence: 僕はタイアップで楽曲を作るのも大好きなので
+      - kind: official
+        text: 歌詞は曲を作る時間の中で短時間に集中して書くことが多く、後で読み返して「こんなこと書いてんだ」と思うことが多いという。
+        sources:
+          - bb-omori-kaiga-2025
+        evidence: すごく短時間でグッと集中して作った歌詞を終わった後に読み返すと、「ああ、こんなこと書いてんだ」って思うことが多いです。
+      - kind: official
+        text: 「絵画」のダンスは一日で習得するしかなく、3時間で振りを覚えたという。
+        sources:
+          - bb-omori-kaiga-2025
+        evidence: 3時間で振りを覚えて、「はい終わり！」って言って帰りました（笑）。
+      - kind: official
+        text: 初めて曲を作ったのは12歳、小学6年生のころ。当時作った曲の中には、デビュー後にリリースしたものもあるという。
+        sources:
+          - mdpr-omori-12sai-2024
+        evidence: 「楽曲を初めて作ったのは12歳の小学6年生の頃」だという大森。「デビューしてからリリースする楽曲も当時作った楽曲も何曲かあったり…」
+      - kind: official
+        text: 小学校の卒業式でバンドを組み、自分で作詞作曲したオリジナル曲を披露したことが、音楽の道に進むきっかけになった。
+        sources:
+          - mdpr-shabekuri-2024
+        evidence: 音楽を始めたきっかけは小学校の卒業式で、バンドを結成し大森自ら作詞作曲したオリジナル曲も披露。これが大森の契機となり「『もうこれで行くんだ！』と音楽の道を決めた」
+      - kind: official
+        text: 若井とは中学校の同級生。最初は苦手に感じていたが、ギターを始めた若井とスタジオに入ったとき、「この人とバンドをやるかも」と思ったという。
+        sources:
+          - mdpr-omori-12sai-2024
+        evidence: ギターを始めた若井とスタジオに行ったことで「この人とやるかも、バンド」と思ったと当時を振り返った。
+      - kind: official
+        text: 藤澤をメンバーに誘ったのは、大森が藤澤の人柄にほれ込んだからだという。
+        sources:
+          - mdpr-shabekuri-2024
+        evidence: 藤澤の加入は、大森が人柄に惚れ込みメンバーに誘ったことからだという
+      - kind: official
+        text: 大森と若井は16歳でミセスを組み、18歳でメジャーデビューした。フェーズ1の終盤はどこか孤独だったので、活動休止した意味があったと話している。
+        sources:
+          - realsound-phase2-2022
+        evidence: 僕ら（大森、若井）は16歳でミセスを組んで、18歳でメジャーデビューしたんですけど ／ フェーズ1の終盤はどこか孤独だったので、活動休止した意味があるなと思います。
+      - kind: official
+        text: 2025年、キリンビール「キリングッドエール」のブランドリーダーに就任し、同年9月29日から出演CMが放送された。
+        sources:
+          - natalie-goodale-2025
+        evidence: ミセス大森元貴が「キリングッドエール」ブランドリーダー就任、本日より出演CMオンエア
   - id: wakai-hiroto
     name: 若井滉斗
     part: Gt
@@ -312,3 +413,58 @@ sources:
     media: 音楽ナタリー
     url: https://natalie.mu/music/news/691019
     date: 2026-09-25
+  - id: um-omori-midnight
+    title: Motoki Ohmori 2nd Digital EP ‘Midnight’ 2021.08.06 Release！
+    media: UNIVERSAL MUSIC JAPAN
+    url: https://www.universal-music.co.jp/ohmori-motoki/news/2021-08-01/
+    date: 2021-08-01
+  - id: um-omori-ehon
+    title: 『メメント・モリ』の絵本としてのリリースが決定
+    media: UNIVERSAL MUSIC JAPAN
+    url: https://www.universal-music.co.jp/ohmori-motoki/news/2021-07-02/
+    date: 2021-07-02
+  - id: um-omori-ehon-tokuten
+    title: 絵本『メメント・モリ』の予約特典発表
+    media: UNIVERSAL MUSIC JAPAN
+    url: https://www.universal-music.co.jp/ohmori-motoki/news/2021-07-30/
+    date: 2021-07-30
+  - id: um-omori-kaiga
+    title: 3rd Digital Single「絵画」配信決定
+    media: UNIVERSAL MUSIC JAPAN
+    url: https://www.universal-music.co.jp/ohmori-motoki/news/2025-05-16/
+    date: 2025-05-16
+  - id: um-omori-kotaeawase
+    title: 大森元貴が楽曲提供したNHK Eテレ「天才てれびくん」MTK『こたえあわせ』メイキング版公開
+    media: UNIVERSAL MUSIC JAPAN
+    url: https://www.universal-music.co.jp/ohmori-motoki/news/2025-06-04/
+    date: 2025-06-04
+  - id: um-omori-newsweek
+    title: 大森元貴「ニューズウィーク日本版 Newsweek Japan 7/15号」に表紙掲載
+    media: UNIVERSAL MUSIC JAPAN
+    url: https://www.universal-music.co.jp/ohmori-motoki/news/2025-06-24/
+    date: 2025-06-24
+  - id: um-omori-haiiro
+    title: 5th Digital Single『灰色』配信リリース決定
+    media: UNIVERSAL MUSIC JAPAN
+    url: https://www.universal-music.co.jp/ohmori-motoki/news/2026-08-19/
+    date: 2026-08-19
+  - id: bb-omori-kaiga-2025
+    title: ＜インタビュー＞大森元貴、3rdデジタルシングル『絵画』で “おでかけ” した場所から見た自分自身とMrs. GREEN APPLEの今
+    media: Billboard JAPAN
+    url: https://www.billboard-japan.com/special/detail/4868
+    date: 2025-06
+  - id: mdpr-omori-12sai-2024
+    title: Mrs. GREEN APPLE大森元貴、初の楽曲制作は小学6年生 “直感的”なメンバーとの出会い・結成秘話明かす
+    media: モデルプレス
+    url: https://mdpr.jp/news/detail/4377363
+    date: 2024-09-16
+  - id: realsound-phase2-2022
+    title: Mrs. GREEN APPLE、活動休止を経て自由になった音楽との向き合い方　フェーズ2開幕で実感しているバンドの核
+    media: Real Sound
+    url: https://realsound.jp/2022/07/post-1068820_2.html
+    date: 2022-07-04
+  - id: natalie-goodale-2025
+    title: ミセス大森元貴が「キリングッドエール」ブランドリーダー就任、本日より出演CMオンエア
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/642109
+    date: 2025-09-29
