@@ -5,55 +5,109 @@ const songs = await getSongs();
 const phases = await getPhases();
 const events = await getEvents();
 const songTitle = new Map(songs.map((s) => [s.id, s.data.title]));
+
+// 曲データの収録作品から発売エントリを作る（同じ作品名・種類・日付をまとめる）
+type Release = { date: string; title: string; type: string; songs: typeof songs; sources: { url: string; media: string; title: string }[] };
+const releaseMap = new Map<string, Release>();
+for (const s of songs) {
+  for (const w of s.data.works) {
+    if (!w.date) continue;
+    const key = `${w.type}|${w.title}|${w.date}`;
+    const r = releaseMap.get(key) ?? { date: w.date, title: w.title, type: w.type, songs: [], sources: [] };
+    r.songs.push(s);
+    for (const src of s.data.sources) {
+      if (src.date === w.date && !r.sources.some((x) => x.url === src.url)) r.sources.push(src);
+    }
+    releaseMap.set(key, r);
+  }
+}
+const releases = [...releaseMap.values()];
+const phaseOf = (d: string) => [...phases].reverse().find((p) => d >= p.data.start)?.id;
+
+const kindLabel: Record<string, string> = { live: 'ライブ', milestone: '節目', award: '受賞', media: 'メディア', release: '作品' };
+const typeLabel: Record<string, string> = { シングル: 'シングル', アルバム: 'アルバム', ミニアルバム: 'ミニアルバム', 配信: '配信シングル' };
+
+type Item = { date: string; ev?: (typeof events)[number]; rel?: Release };
 ---
 <Base title="年表">
   <h1>年表</h1>
-  <p class="muted">時期ごとの出来事と、その時期に出た曲です。出来事の下の番号は出典です。</p>
+  <p class="muted">結成から現在までの出来事・ライブ・作品の発売を、日付順に並べています。曲名から曲ページへ移れます。各項目の番号は出典です。</p>
+  <nav class="toc">
+    {phases.map((p) => <a href={`#${p.id}`}>{p.data.name}</a>)}
+  </nav>
+  <p class="legend">
+    {['release', 'live', 'milestone', 'award', 'media'].map((k) => <span class={`k k-${k}`}>{kindLabel[k]}</span>)}
+  </p>
   {phases.map((p) => {
-    const ev = events.filter((e) => e.data.phase === p.id);
-    const ps = songs.filter((s) => s.data.phase === p.id);
+    const items: Item[] = [
+      ...events.filter((e) => e.data.phase === p.id).map((e) => ({ date: e.data.date, ev: e })),
+      ...releases.filter((r) => phaseOf(r.date) === p.id).map((r) => ({ date: r.date, rel: r })),
+    ].sort((a, b) => a.date.localeCompare(b.date) || (a.rel ? 1 : 0) - (b.rel ? 1 : 0));
+    const years = [...new Set(items.map((i) => i.date.slice(0, 4)))];
     return (
       <section id={p.id}>
         <h2>{p.data.name}<span class="muted range">{formatDate(p.data.start)} 〜 {p.data.end ? formatDate(p.data.end) : '現在'}</span></h2>
         <p>{p.data.summary}</p>
         <p class="muted">出典: {p.data.sources.map((s, i) => <><a href={s.url} rel="noopener" target="_blank">{s.media}「{s.title}」</a>{i < p.data.sources.length - 1 && '、'}</>)}</p>
-        <ol class="events">
-          {ev.map((e) => (
-            <li>
-              <time>{formatDate(e.data.date)}</time>
-              <div>
-                <strong>{e.data.title}</strong>
-                <p>{e.data.description}</p>
-                {e.data.relatedSongs.length > 0 && (
-                  <p class="songs">関連曲: {e.data.relatedSongs.map((id, i) => <><a href={url(`/songs/${id}/`)}>{songTitle.get(id)}</a>{i < e.data.relatedSongs.length - 1 && '、'}</>)}</p>
-                )}
-                <p class="src">{e.data.sources.map((s, i) => <a href={s.url} rel="noopener" target="_blank">[{i + 1}] {s.media}</a>)}</p>
-              </div>
-            </li>
-          ))}
-        </ol>
-        {ps.length > 0 && (
-          <details>
-            <summary>この時期の曲（{ps.length}曲）</summary>
-            <ul class="songlist">{ps.map((s) => <li><a href={url(`/songs/${s.id}/`)}>{s.data.title}</a></li>)}</ul>
-          </details>
-        )}
+        {years.map((y) => (
+          <>
+            <h3 class="year" id={`y${y}`}>{y}</h3>
+            <ol class="events">
+              {items.filter((i) => i.date.startsWith(y)).map((i) => i.ev ? (
+                <li>
+                  <time>{formatDate(i.ev.data.date)}<span class={`k k-${i.ev.data.kind}`}>{kindLabel[i.ev.data.kind]}</span></time>
+                  <div>
+                    <strong>{i.ev.data.title}</strong>
+                    <p>{i.ev.data.description}</p>
+                    {i.ev.data.relatedSongs.length > 0 && (
+                      <p class="songs">関連曲: {i.ev.data.relatedSongs.map((id, n) => <><a href={url(`/songs/${id}/`)}>{songTitle.get(id)}</a>{n < i.ev!.data.relatedSongs.length - 1 && '、'}</>)}</p>
+                    )}
+                    <p class="src">{i.ev.data.sources.map((s, n) => <a href={s.url} rel="noopener" target="_blank">[{n + 1}] {s.media}</a>)}</p>
+                  </div>
+                </li>
+              ) : (
+                <li class="rel">
+                  <time>{formatDate(i.rel!.date)}<span class="k k-release">{typeLabel[i.rel!.type] ?? i.rel!.type}</span></time>
+                  <div>
+                    <strong>{i.rel!.type === '配信' ? `「${i.rel!.title}」` : `『${i.rel!.title}』`}発売</strong>
+                    <p class="songs">
+                      {i.rel!.songs.length > 1 ? `収録曲（このサイトにある${i.rel!.songs.length}曲）: ` : ''}
+                      {i.rel!.songs.map((s, n) => (
+                        <><a href={url(`/songs/${s.id}/`)}>{s.data.title}</a>{s.data.releaseDate === i.rel!.date && s.data.tieups.length > 0 && <span class="tie">（{s.data.tieups.map((t) => `${t.work} ${t.type}`).join('／')}）</span>}{n < i.rel!.songs.length - 1 && '、'}</>
+                      ))}
+                    </p>
+                    {i.rel!.sources.length > 0 && <p class="src">{i.rel!.sources.slice(0, 2).map((s, n) => <a href={s.url} rel="noopener" target="_blank">[{n + 1}] {s.media}</a>)}</p>}
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </>
+        ))}
       </section>
     );
   })}
 </Base>
 <style>
   .range { font-size: .85rem; font-weight: normal; margin-left: .75rem; }
-  .events { list-style: none; padding: 0; border-left: 3px solid var(--line); margin-left: .5rem; }
-  .events li { display: grid; gap: .1rem; padding: .25rem 0 .75rem 1rem; position: relative; }
-  .events { border-left-color: transparent; border-image: linear-gradient(var(--accent), var(--deep)) 1; }
+  .toc { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin: 1rem 0; }
+  .legend { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .year { font-family: var(--en); font-size: 1.6rem; color: var(--accent); margin: 2rem 0 .5rem; letter-spacing: .08em; }
+  .events { list-style: none; padding: 0; margin-left: .5rem; border-left: 3px solid transparent; border-image: linear-gradient(var(--accent), var(--deep)) 1; }
+  .events li { display: grid; gap: .1rem; padding: .25rem 0 .9rem 1rem; position: relative; }
   .events li::before { content: ''; position: absolute; left: -8px; top: .7rem; width: 13px; height: 13px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(226, 255, 145, .15), 0 0 16px var(--accent); animation: pulse 2.8s ease-in-out infinite; }
+  .events li.rel::before { width: 9px; height: 9px; left: -6px; background: var(--bg); border: 2px solid var(--accent); box-shadow: none; animation: none; }
   @keyframes pulse { 50% { box-shadow: 0 0 0 8px rgba(226, 255, 145, 0), 0 0 24px var(--accent); } }
   .events strong { font-size: 1.05rem; }
-  .events time { font-family: var(--en); font-weight: 600; color: var(--accent); font-size: .85rem; }
+  .events li.rel strong { font-size: .95rem; }
+  .events time { font-family: var(--en); font-weight: 600; color: var(--accent); font-size: .85rem; display: flex; align-items: center; gap: .5rem; }
   .events p { margin: .2rem 0; }
+  .k { display: inline-block; font-size: .7rem; line-height: 1.6; padding: 0 .55rem; border-radius: 999px; border: 1px solid currentColor; font-family: inherit; font-weight: 700; }
+  .k-release { color: #9fd8ff; }
+  .k-live { color: #ffb38a; }
+  .k-milestone { color: var(--accent); }
+  .k-award { color: #ffe27a; }
+  .k-media { color: #d7b8ff; }
   .src { display: flex; gap: .5rem; flex-wrap: wrap; font-size: .8rem; }
   .songs { font-size: .9rem; }
-  .songlist { columns: 2; }
-  summary { cursor: pointer; color: var(--accent); }
+  .tie { color: var(--muted); font-size: .8rem; }
 </style>
