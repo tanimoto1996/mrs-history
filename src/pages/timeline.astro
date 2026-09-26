@@ -35,9 +35,9 @@ type Item = { date: string; ev?: (typeof events)[number]; rel?: Release };
   <nav class="toc">
     {phases.map((p) => <a href={`#${p.id}`}>{p.data.name}</a>)}
   </nav>
-  <p class="legend">
-    {['release', 'live', 'milestone', 'award', 'media'].map((k) => <span class={`k k-${k}`}>{kindLabel[k]}</span>)}
-  </p>
+  <div class="legend" role="group" aria-label="種類で絞り込み">
+    {['release', 'live', 'milestone', 'award', 'media'].map((k) => <button type="button" class={`k k-${k}`} data-kind={k} aria-pressed="true">{kindLabel[k]}</button>)}
+  </div>
   {phases.map((p) => {
     const items: Item[] = [
       ...events.filter((e) => e.data.phase === p.id).map((e) => ({ date: e.data.date, ev: e })),
@@ -54,7 +54,7 @@ type Item = { date: string; ev?: (typeof events)[number]; rel?: Release };
             <h3 class="year" id={`y${y}`}>{y}</h3>
             <ol class="events">
               {items.filter((i) => i.date.startsWith(y)).map((i) => i.ev ? (
-                <li>
+                <li data-kind={i.ev.data.kind}>
                   <time>{formatDate(i.ev.data.date)}<span class={`k k-${i.ev.data.kind}`}>{kindLabel[i.ev.data.kind]}</span></time>
                   <div>
                     <strong>{i.ev.data.title}</strong>
@@ -66,7 +66,7 @@ type Item = { date: string; ev?: (typeof events)[number]; rel?: Release };
                   </div>
                 </li>
               ) : (
-                <li class="rel">
+                <li class="rel" data-kind="release">
                   <time>{formatDate(i.rel!.date)}<span class="k k-release">{typeLabel[i.rel!.type] ?? i.rel!.type}</span></time>
                   <div>
                     <strong>{i.rel!.type === '配信' ? `「${i.rel!.title}」` : `『${i.rel!.title}』`}発売</strong>
@@ -87,10 +87,30 @@ type Item = { date: string; ev?: (typeof events)[number]; rel?: Release };
     );
   })}
 </Base>
+<script>
+  // 種類ボタンで出来事の表示を切り替える。項目がなくなった年の見出しも隠す
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('.legend button')];
+  const apply = () => {
+    const on = new Set(buttons.filter((b) => b.getAttribute('aria-pressed') === 'true').map((b) => b.dataset.kind));
+    document.querySelectorAll<HTMLLIElement>('.events li').forEach((li) => { li.hidden = !on.has(li.dataset.kind); });
+    document.querySelectorAll<HTMLOListElement>('.events').forEach((ol) => {
+      const empty = ![...ol.children].some((li) => !(li as HTMLElement).hidden);
+      ol.hidden = empty;
+      (ol.previousElementSibling as HTMLElement).hidden = empty;
+    });
+  };
+  buttons.forEach((b) => b.addEventListener('click', () => {
+    b.setAttribute('aria-pressed', String(b.getAttribute('aria-pressed') !== 'true'));
+    apply();
+  }));
+</script>
 <style>
   .range { font-size: .85rem; font-weight: normal; margin-left: .75rem; }
   .toc { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin: 1rem 0; }
-  .legend { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .legend { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1rem 0; }
+  .legend button { background: none; cursor: pointer; font-size: .8rem; padding: .15rem .8rem; }
+  .legend button[aria-pressed=false] { opacity: .35; text-decoration: line-through; }
+  .events li[hidden], .events[hidden], .year[hidden] { display: none; }
   .year { font-family: var(--en); font-size: 1.6rem; color: var(--accent); margin: 2rem 0 .5rem; letter-spacing: .08em; }
   .events { list-style: none; padding: 0; margin-left: .5rem; border-left: 3px solid transparent; border-image: linear-gradient(var(--accent), var(--deep)) 1; }
   .events li { display: grid; gap: .1rem; padding: .25rem 0 .9rem 1rem; position: relative; }

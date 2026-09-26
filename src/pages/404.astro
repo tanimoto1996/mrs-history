@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/data';
+---
+<Base title="ページが見つかりません">
+  <h1>ページが見つかりません</h1>
+  <p>URLが変わったか、まだないページです。</p>
+  <p><a href={url('/')}>トップへ</a> ／ <a href={url('/songs/')}>曲一覧から探す</a></p>
+</Base>

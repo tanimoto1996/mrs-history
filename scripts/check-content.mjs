@@ -28,6 +28,12 @@ for (const s of songs) {
     if (!t.type || !t.work) errors.push(`${s.file}: タイアップに type と work が必要`);
     checkRefs(s.file, t.sources, srcIds, `タイアップ「${t.work}」`);
   }
+  const c = d.credits ?? {};
+  if (c.lyrics || c.music || c.arrangement) {
+    if (!c.sources?.length || !c.evidence) errors.push(`${s.file}: クレジットに出典と evidence が必要`);
+    checkRefs(s.file, c.sources, srcIds, 'credits');
+  }
+  if (d.mv && !/^https:\/\/www\.youtube\.com\/watch\?v=[\w-]{11}$/.test(d.mv)) errors.push(`${s.file}: mv は公式YouTubeの watch URL にする`);
   (d.background ?? []).forEach((b, i) => {
     const where = `background[${i}]`;
     checkRefs(s.file, b.sources, srcIds, where);

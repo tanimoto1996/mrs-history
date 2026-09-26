@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getSongs, getPhases, hasBackground, url, formatDate } from '../lib/data';
+import { getSongs, getPhases, getEvents, getWorks, hasBackground, url, formatDate } from '../lib/data';
 const songs = await getSongs();
 const phases = await getPhases();
 const recent = songs
@@ -8,6 +8,9 @@ const recent = songs
   .sort((a, b) => (b.data.reviewedAt ?? '').localeCompare(a.data.reviewedAt ?? ''))
   .slice(0, 6);
 const withBg = songs.filter(hasBackground).length;
+const events = await getEvents();
+const works = (await getWorks()).filter((w) => w.type !== '配信');
+const lives = events.filter((e) => e.data.kind === 'live').length;
 ---
 <Base>
   <section class="hero">
@@ -16,6 +19,10 @@ const withBg = songs.filter(hasBackground).length;
     <div class="marquee" aria-hidden="true"><div>{Array(2).fill(phases.map((p) => p.data.name).join(' ✦ ') + ' ✦ ').join('')}</div></div>
   </section>
   <p class="lead">結成から現在までの流れと、1曲ずつの背景をまとめた非公式サイトです。本人たちの発言や公式発表には出典を付け、考察とは分けて書いています。</p>
+  <form class="search" action={url('/songs/')} method="get" role="search">
+    <input name="q" type="search" placeholder="曲名・タイアップ作品名で探す" aria-label="曲を検索" />
+    <button type="submit">検索</button>
+  </form>
   <div class="entries">
     <a class="card entry" href={url('/timeline/')}>
       <span class="num">01</span><strong>年表から読む</strong>
@@ -25,6 +32,18 @@ const withBg = songs.filter(hasBackground).length;
       <span class="num">02</span><strong>曲から読む</strong>
       <span class="muted">全{songs.length}曲（解説あり {withBg}曲）</span>
     </a>
+    <a class="card entry" href={url('/works/')}>
+      <span class="num">03</span><strong>作品から読む</strong>
+      <span class="muted">アルバム・シングル {works.length}作品</span>
+    </a>
+    <a class="card entry" href={url('/members/')}>
+      <span class="num">04</span><strong>メンバーを知る</strong>
+      <span class="muted">メンバーのプロフィールと歩み</span>
+    </a>
+  </div>
+  <p class="stats muted">年表の出来事 {events.length}件（うちライブ {lives}件）</p>
+  <div class="random">
+    <button type="button" id="random" data-urls={JSON.stringify(songs.filter(hasBackground).map((s) => url(`/songs/${s.id}/`)))}>ランダムに1曲読む</button>
   </div>
   {recent.length > 0 && (
     <>
@@ -37,7 +56,18 @@ const withBg = songs.filter(hasBackground).length;
     </>
   )}
 </Base>
+<script>
+  const btn = document.getElementById('random')!;
+  const urls: string[] = JSON.parse(btn.dataset.urls!);
+  btn.addEventListener('click', () => { location.href = urls[Math.floor(Math.random() * urls.length)]; });
+</script>
 <style>
+  .search { display: flex; gap: .5rem; margin: 1.5rem 0 .5rem; }
+  .search input { flex: 1; padding: .7rem 1rem; border-radius: 999px; font-size: 1rem; }
+  button { font: inherit; font-weight: 700; cursor: pointer; color: var(--bg); background: var(--accent); border: 0; border-radius: 999px; padding: .6rem 1.3rem; transition: transform .3s var(--ease), box-shadow .3s; }
+  button:hover { transform: translateY(-2px); box-shadow: 0 10px 30px -10px var(--accent); }
+  .random { margin: 1rem 0 2rem; }
+  .stats { margin: 0; }
   .hero { padding: 3rem 0 1rem; }
   .eyebrow { font-family: var(--en); font-weight: 800; font-size: .75rem; letter-spacing: .3em; color: var(--accent); margin: 0; }
   .hero-title { display: flex; flex-direction: column; margin: .5rem 0 1.5rem; }
