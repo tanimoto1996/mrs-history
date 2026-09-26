@@ -1,0 +1,24 @@
+title: 夏の影
+releaseDate: 2025-08-11
+phase: phase2
+works:
+  - title: 夏の影
+    type: 配信
+tieups:
+  - type: CMソング
+    work: 「キリン 午後の紅茶」
+    sources:
+      - profile
+status: basic
+basicSources:
+  - um-uu1as-02502
+sources:
+  - id: um-uu1as-02502
+    title: 夏の影（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02502/
+    date: 2025-08-11
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

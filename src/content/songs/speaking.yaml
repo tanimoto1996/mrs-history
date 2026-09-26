@@ -1,0 +1,32 @@
+title: Speaking
+releaseDate: 2015-12-16
+phase: phase1
+works:
+  - title: Speaking
+    type: シングル
+  - title: TWELVE
+    type: アルバム
+  - title: "5"
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - um-upch-80419
+  - um-upch-20411
+  - um-upch-20549
+sources:
+  - id: um-upch-80419
+    title: Speaking（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80419/
+    date: 2015-12-16
+  - id: um-upch-20411
+    title: TWELVE（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20411/
+    date: 2016-01-13
+  - id: um-upch-20549
+    title: 5（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08

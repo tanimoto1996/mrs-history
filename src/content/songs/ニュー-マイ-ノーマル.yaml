@@ -1,0 +1,24 @@
+title: ニュー・マイ・ノーマル
+releaseDate: 2022-03-18
+phase: phase2
+works:
+  - title: ニュー・マイ・ノーマル
+    type: 配信
+  - title: Unity
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - off-147
+  - um-upch-20620
+sources:
+  - id: off-147
+    title: ニュー・マイ・ノーマル（配信）
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/discography/detail/147/
+    date: 2022-03-18
+  - id: um-upch-20620
+    title: Unity（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20620/
+    date: 2022-07-08

@@ -1,0 +1,32 @@
+title: 私は最強
+releaseDate: 2022-11-09
+phase: phase2
+works:
+  - title: Soranji
+    type: シングル
+  - title: ANTENNA
+    type: アルバム
+tieups:
+  - type: 劇中歌（楽曲提供）
+    work: 映画「ONE PIECE FILM RED」
+    sources:
+      - profile
+status: basic
+basicSources:
+  - um-upch-80580
+  - um-pron-1061
+sources:
+  - id: um-upch-80580
+    title: Soranji（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80580/
+    date: 2022-11-09
+  - id: um-pron-1061
+    title: ANTENNA（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/pron-1061/
+    date: 2023-07-05
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

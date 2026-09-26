@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import { getSongs, getPhases, hasBackground, url, formatDate } from '../lib/data';
+const songs = await getSongs();
+const phases = await getPhases();
+const recent = songs
+  .filter(hasBackground)
+  .sort((a, b) => (b.data.reviewedAt ?? '').localeCompare(a.data.reviewedAt ?? ''))
+  .slice(0, 6);
+const withBg = songs.filter(hasBackground).length;
+---
+<Base>
+  <h1>Mrs. GREEN APPLEの歴史と曲の背景</h1>
+  <p>結成から現在までの流れと、1曲ずつの背景をまとめた非公式サイトです。本人たちの発言や公式発表には出典を付け、考察とは分けて書いています。</p>
+  <div class="entries">
+    <a class="card entry" href={url('/timeline/')}>
+      <strong>年表から読む</strong>
+      <span class="muted">{phases.map((p) => p.data.name).join(' → ')}</span>
+    </a>
+    <a class="card entry" href={url('/songs/')}>
+      <strong>曲から読む</strong>
+      <span class="muted">全{songs.length}曲（解説あり {withBg}曲）</span>
+    </a>
+  </div>
+  {recent.length > 0 && (
+    <>
+      <h2>最近追加された解説</h2>
+      <ul>
+        {recent.map((s) => (
+          <li><a href={url(`/songs/${s.id}/`)}>{s.data.title}</a> <span class="muted">{formatDate(s.data.releaseDate)}</span></li>
+        ))}
+      </ul>
+    </>
+  )}
+</Base>
+<style>
+  .entries { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+  .entry { display: flex; flex-direction: column; gap: .25rem; text-decoration: none; color: inherit; }
+  .entry strong { font-size: 1.15rem; color: var(--accent); }
+</style>

@@ -1,0 +1,20 @@
+title: ブルーアンビエンス（feat. asmi）
+releaseDate: 2022-07-08
+phase: phase2
+works:
+  - title: Unity
+    type: アルバム
+tieups:
+  - type: タイアップ
+    work: ABEMA「今日、好きになりました。」主題歌
+    sources:
+      - um-upch-20620
+status: basic
+basicSources:
+  - um-upch-20620
+sources:
+  - id: um-upch-20620
+    title: Unity（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20620/
+    date: 2022-07-08

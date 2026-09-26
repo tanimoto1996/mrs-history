@@ -1,0 +1,61 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getSongs, getPhases, hasBackground, url, formatDate } from '../../lib/data';
+const songs = await getSongs();
+const phases = await getPhases();
+const works = [...new Set(songs.flatMap((s) => s.data.works.map((w) => w.title)))];
+---
+<Base title="曲一覧">
+  <h1>曲一覧</h1>
+  <form class="filters" onsubmit="return false">
+    <input id="q" type="search" placeholder="曲名・タイアップ作品名で検索" />
+    <select id="phase"><option value="">すべての時期</option>{phases.map((p) => <option value={p.id}>{p.data.name}</option>)}</select>
+    <select id="work"><option value="">すべての収録作品</option>{works.map((w) => <option value={w}>{w}</option>)}</select>
+    <label><input id="bg" type="checkbox" /> 解説ありのみ</label>
+  </form>
+  <p class="muted"><span id="count">{songs.length}</span>曲</p>
+  <ul class="list">
+    {songs.map((s) => (
+      <li
+        data-search={[s.data.title, ...s.data.tieups.map((t) => t.work)].join(' ').toLowerCase()}
+        data-phase={s.data.phase}
+        data-works={JSON.stringify(s.data.works.map((w) => w.title))}
+        data-bg={hasBackground(s) ? '1' : ''}
+      >
+        <a href={url(`/songs/${s.id}/`)}>{s.data.title}</a>
+        <span class="muted">{formatDate(s.data.releaseDate)}</span>
+        {s.data.tieups.length > 0 && <span class="muted tie">{s.data.tieups.map((t) => `${t.work}（${t.type}）`).join('、')}</span>}
+        {hasBackground(s) ? <span class="tag ok">解説あり</span> : <span class="tag">解説準備中</span>}
+      </li>
+    ))}
+  </ul>
+</Base>
+<script>
+  const $ = (id: string) => document.getElementById(id) as HTMLInputElement;
+  const items = [...document.querySelectorAll<HTMLLIElement>('.list li')];
+  function apply() {
+    const q = $('q').value.trim().toLowerCase();
+    const phase = $('phase').value;
+    const work = $('work').value;
+    const bg = $('bg').checked;
+    let n = 0;
+    for (const li of items) {
+      const d = li.dataset;
+      const show = (!q || d.search!.includes(q)) && (!phase || d.phase === phase) && (!work || JSON.parse(d.works!).includes(work)) && (!bg || d.bg === '1');
+      li.hidden = !show;
+      if (show) n++;
+    }
+    document.getElementById('count')!.textContent = String(n);
+  }
+  for (const id of ['q', 'phase', 'work', 'bg']) $(id).addEventListener('input', apply);
+</script>
+<style>
+  .filters { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+  .filters input[type=search] { flex: 1 1 100%; padding: .6rem; font-size: 1rem; border: 1px solid var(--line); border-radius: 8px; }
+  .filters select { padding: .4rem; border-radius: 6px; border: 1px solid var(--line); max-width: 100%; }
+  .list { list-style: none; padding: 0; }
+  .list li { display: flex; flex-wrap: wrap; gap: .1rem .6rem; align-items: baseline; padding: .6rem 0; border-bottom: 1px solid var(--line); }
+  .list li a { font-weight: 600; }
+  .tie { flex-basis: 100%; font-size: .8rem; }
+  .tag.ok { color: var(--accent); border-color: var(--accent); }
+</style>

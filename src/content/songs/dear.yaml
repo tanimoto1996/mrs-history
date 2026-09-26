@@ -1,0 +1,24 @@
+title: Dear
+releaseDate: 2024-05-20
+phase: phase2
+works:
+  - title: Dear
+    type: 配信
+tieups:
+  - type: 主題歌
+    work: 映画『ディア・ファミリー』
+    sources:
+      - profile
+status: basic
+basicSources:
+  - um-uu1as-02032
+sources:
+  - id: um-uu1as-02032
+    title: Dear（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02032/
+    date: 2024-05-20
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

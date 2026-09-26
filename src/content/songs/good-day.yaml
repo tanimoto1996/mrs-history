@@ -1,0 +1,24 @@
+title: GOOD DAY
+releaseDate: 2025-09-28
+phase: phase2
+works:
+  - title: GOOD DAY
+    type: 配信
+tieups:
+  - type: CMソング
+    work: キリングッドエール
+    sources:
+      - profile
+status: basic
+basicSources:
+  - um-uu1as-02613
+sources:
+  - id: um-uu1as-02613
+    title: GOOD DAY（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02613/
+    date: 2025-09-28
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

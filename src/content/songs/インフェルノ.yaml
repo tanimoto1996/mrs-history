@@ -1,0 +1,32 @@
+title: インフェルノ
+releaseDate: 2019-07-18
+phase: phase1
+works:
+  - title: インフェルノ
+    type: 配信
+  - title: Attitude
+    type: アルバム
+  - title: "5"
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - um-uu1as-00765
+  - um-upch-20531
+  - um-upch-20549
+sources:
+  - id: um-uu1as-00765
+    title: インフェルノ（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-00765/
+    date: 2019-07-18
+  - id: um-upch-20531
+    title: Attitude（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20531/
+    date: 2019-10-02
+  - id: um-upch-20549
+    title: 5（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08

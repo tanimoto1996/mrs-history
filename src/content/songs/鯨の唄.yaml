@@ -1,0 +1,24 @@
+title: 鯨の唄
+releaseDate: 2017-01-11
+phase: phase1
+works:
+  - title: Mrs. GREEN APPLE
+    type: アルバム
+  - title: "5"
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - um-upch-20443
+  - um-upch-20549
+sources:
+  - id: um-upch-20443
+    title: Mrs. GREEN APPLE（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20443/
+    date: 2017-01-11
+  - id: um-upch-20549
+    title: 5（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08

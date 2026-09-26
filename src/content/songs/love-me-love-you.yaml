@@ -1,0 +1,24 @@
+title: Love me, Love you
+releaseDate: 2018-02-14
+phase: phase1
+works:
+  - title: Love me, Love you
+    type: シングル
+  - title: "5"
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - um-upch-80487
+  - um-upch-20549
+sources:
+  - id: um-upch-80487
+    title: Love me, Love you（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80487/
+    date: 2018-02-14
+  - id: um-upch-20549
+    title: 5（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08

@@ -1,0 +1,16 @@
+title: 灯火
+releaseDate: 2019-01-09
+phase: phase1
+works:
+  - title: 僕のこと
+    type: シングル
+tieups: []
+status: basic
+basicSources:
+  - um-upch-80509
+sources:
+  - id: um-upch-80509
+    title: 僕のこと（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80509/
+    date: 2019-01-09

@@ -1,0 +1,24 @@
+title: ダーリン
+releaseDate: 2025-01-20
+phase: phase2
+works:
+  - title: ダーリン
+    type: 配信
+tieups:
+  - type: テーマソング
+    work: NHK総合『Mrs. GREEN APPLE 18祭』
+    sources:
+      - profile
+status: basic
+basicSources:
+  - um-uu1as-02283
+sources:
+  - id: um-uu1as-02283
+    title: ダーリン（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02283/
+    date: 2025-01-20
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

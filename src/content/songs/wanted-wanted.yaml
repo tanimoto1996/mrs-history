@@ -1,0 +1,36 @@
+title: WanteD! WanteD!
+releaseDate: 2017-08-30
+phase: phase1
+works:
+  - title: WanteD! WanteD!
+    type: シングル
+  - title: ENSEMBLE
+    type: アルバム
+  - title: "5"
+    type: アルバム
+tieups:
+  - type: タイアップ
+    work: カンテレ・フジテレビ系ドラマ「僕たちがやりました」オープニング曲
+    sources:
+      - um-upch-80477
+status: basic
+basicSources:
+  - um-upch-80477
+  - um-upch-20483
+  - um-upch-20549
+sources:
+  - id: um-upch-80477
+    title: WanteD! WanteD!（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80477/
+    date: 2017-08-30
+  - id: um-upch-20483
+    title: ENSEMBLE（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20483/
+    date: 2018-04-18
+  - id: um-upch-20549
+    title: 5（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08

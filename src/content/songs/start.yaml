@@ -1,0 +1,24 @@
+title: StaRt
+releaseDate: 2015-07-08
+phase: phase1
+works:
+  - title: Variety
+    type: アルバム
+  - title: "5"
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - um-upch-20396
+  - um-upch-20549
+sources:
+  - id: um-upch-20396
+    title: Variety（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20396/
+    date: 2015-07-08
+  - id: um-upch-20549
+    title: 5（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08

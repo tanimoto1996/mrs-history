@@ -1,0 +1,16 @@
+title: 恋と吟(うた)
+releaseDate: 2015-12-16
+phase: phase1
+works:
+  - title: Speaking
+    type: シングル
+tieups: []
+status: basic
+basicSources:
+  - um-upch-80419
+sources:
+  - id: um-upch-80419
+    title: Speaking（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80419/
+    date: 2015-12-16

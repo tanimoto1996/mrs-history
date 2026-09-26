@@ -1,0 +1,28 @@
+title: どこかで日は昇る
+releaseDate: 2017-05-03
+phase: phase1
+works:
+  - title: どこかで日は昇る
+    type: シングル
+  - title: "5"
+    type: アルバム
+tieups:
+  - type: タイアップ
+    work: 劇場用映画「笑う招き猫」主題歌 ＆ MBS/TBS ドラマ「笑う招き猫」エンディングテーマ
+    sources:
+      - um-upch-80467
+status: basic
+basicSources:
+  - um-upch-80467
+  - um-upch-20549
+sources:
+  - id: um-upch-80467
+    title: どこかで日は昇る（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80467/
+    date: 2017-05-03
+  - id: um-upch-20549
+    title: 5（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20549/
+    date: 2020-07-08

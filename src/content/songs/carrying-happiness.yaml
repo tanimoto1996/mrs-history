@@ -1,0 +1,24 @@
+title: Carrying Happiness
+releaseDate: 2025-07-19
+phase: phase2
+works:
+  - title: Carrying Happiness
+    type: 配信
+tieups:
+  - type: テーマソング
+    work: サマー・クールオフ at Tokyo Disney Resort
+    sources:
+      - profile
+status: basic
+basicSources:
+  - um-uu1as-02499
+sources:
+  - id: um-uu1as-02499
+    title: Carrying Happiness（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02499/
+    date: 2025-07-19
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

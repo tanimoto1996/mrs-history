@@ -1,0 +1,16 @@
+title: うブ
+releaseDate: 2017-01-11
+phase: phase1
+works:
+  - title: Mrs. GREEN APPLE
+    type: アルバム
+tieups: []
+status: basic
+basicSources:
+  - um-upch-20443
+sources:
+  - id: um-upch-20443
+    title: Mrs. GREEN APPLE（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20443/
+    date: 2017-01-11

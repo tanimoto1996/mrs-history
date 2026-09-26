@@ -1,0 +1,20 @@
+title: On My MiND
+releaseDate: 2017-08-30
+phase: phase1
+works:
+  - title: WanteD! WanteD!
+    type: シングル
+tieups:
+  - type: タイアップ
+    work: 日本テレビほかアニメ「ナナマル サンバツ」オープニングテーマ
+    sources:
+      - um-upch-80477
+status: basic
+basicSources:
+  - um-upch-80477
+sources:
+  - id: um-upch-80477
+    title: WanteD! WanteD!（シングル）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-80477/
+    date: 2017-08-30

@@ -1,0 +1,20 @@
+title: ダンスホール
+releaseDate: 2022-07-08
+phase: phase2
+works:
+  - title: Unity
+    type: アルバム
+tieups:
+  - type: タイアップ
+    work: フジテレビ系全国28局ネット「めざまし8」テーマ曲
+    sources:
+      - um-upch-20620
+status: basic
+basicSources:
+  - um-upch-20620
+sources:
+  - id: um-upch-20620
+    title: Unity（アルバム）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/upch-20620/
+    date: 2022-07-08

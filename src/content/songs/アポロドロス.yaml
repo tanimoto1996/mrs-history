@@ -1,0 +1,24 @@
+title: アポロドロス
+releaseDate: 2024-07-03
+phase: phase2
+works:
+  - title: アポロドロス
+    type: 配信
+tieups:
+  - type: スポーツ応援ソング
+    work: テレビ朝日系列2024スポーツ応援ソング
+    sources:
+      - profile
+status: basic
+basicSources:
+  - um-uu1as-02077
+sources:
+  - id: um-uu1as-02077
+    title: アポロドロス（配信）
+    media: ユニバーサル ミュージック
+    url: https://www.universal-music.co.jp/mrsgreenapple/products/uu1as-02077/
+    date: 2024-07-03
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile

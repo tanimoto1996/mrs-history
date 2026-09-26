@@ -1,0 +1,24 @@
+title: クスシキ
+releaseDate: 2025-04-05
+phase: phase2
+works:
+  - title: クスシキ
+    type: 配信
+tieups:
+  - type: オープニングテーマ
+    work: TVアニメ『薬屋のひとりごと』第2期 第2クール
+    sources:
+      - profile
+status: basic
+basicSources:
+  - off-1017
+sources:
+  - id: off-1017
+    title: クスシキ（配信）
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/discography/detail/1017/
+    date: 2025-04-05
+  - id: profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile
