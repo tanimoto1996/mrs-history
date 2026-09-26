@@ -6,23 +6,28 @@ members:
     facts:
       - kind: official
         text: ボーカルとギターを担当する。
-        sources: [official-profile]
-        evidence: "大森元貴 (Vo/Gt)、若井滉斗 (Gt)、藤澤涼架 (Key)による3人組バンド。"
+        sources:
+          - official-profile
+        evidence: 大森元貴 (Vo/Gt)、若井滉斗 (Gt)、藤澤涼架 (Key)による3人組バンド。
       - kind: official
         text: 誕生日は9月14日。
-        sources: [fc-birthday-omori]
-        evidence: "2025年9月14日(日)、大森元貴が誕生日を迎えます！"
+        sources:
+          - fc-birthday-omori
+        evidence: 2025年9月14日(日)、大森元貴が誕生日を迎えます！
       - kind: official
         text: バンドの全曲の作詞・作曲・編曲を手がけ、アートワークやMVのアイデアまで楽曲に関わるすべてを担当している。
-        sources: [um-omori-bio]
-        evidence: "Mrs. GREEN APPLE では全楽曲の作詞／作曲／編曲、 さらに作品のアートワークおよびミュージックビデオのアイデアまで、楽曲に関するすべての要素を担当している。"
+        sources:
+          - um-omori-bio
+        evidence: Mrs. GREEN APPLE では全楽曲の作詞／作曲／編曲、 さらに作品のアートワークおよびミュージックビデオのアイデアまで、楽曲に関するすべての要素を担当している。
       - kind: official
         text: 2021年2月24日、ソロデビュー曲「French」を配信リリースした。
-        sources: [um-omori-french]
-        evidence: "大森元貴ソロデビュー曲「French」配信リリース決定 ／ ※本リンクは2月24日(水)AM0:00より有効となります"
+        sources:
+          - um-omori-french
+        evidence: 大森元貴ソロデビュー曲「French」配信リリース決定 ／ ※本リンクは2月24日(水)AM0:00より有効となります
       - kind: official
         text: 俳優として2025年のNHK連続テレビ小説『あんぱん』に出演し、映画『#真相をお話しします』で映画初出演・初主演を務めた。
-        sources: [um-omori-bio]
+        sources:
+          - um-omori-bio
         evidence: "NHK 連続テレビ小説『あんぱん』に出演、 4 月 25 日 ( 金 ) 全国公開の映画「 # 真相をお話しします」では映画初出演にして初主演を務め"
   - id: wakai-hiroto
     name: 若井滉斗
@@ -31,12 +36,69 @@ members:
     facts:
       - kind: official
         text: ギターを担当する。
-        sources: [official-profile]
-        evidence: "大森元貴 (Vo/Gt)、若井滉斗 (Gt)、藤澤涼架 (Key)による3人組バンド。"
+        sources:
+          - official-profile
+        evidence: 大森元貴 (Vo/Gt)、若井滉斗 (Gt)、藤澤涼架 (Key)による3人組バンド。
       - kind: official
         text: 誕生日は10月8日。
-        sources: [fc-birthday-wakai]
-        evidence: "2025年10月8日(水)、若井滉斗が誕生日を迎えます！"
+        sources:
+          - fc-birthday-wakai
+        evidence: 2025年10月8日(水)、若井滉斗が誕生日を迎えます！
+      - kind: official
+        text: 中学2年生のとき、兄のストラトキャスターを借りてギターを弾き始めた。
+        sources:
+          - fender-wakai-2024
+        evidence: 中学2年生の時に兄のStratocasterを借りて弾くようになりました。
+      - kind: official
+        text: 当時はオフスプリングやグリーン・デイなど、パワーコードをかき鳴らすパンク系の曲をたくさんコピーしていた。
+        sources:
+          - fender-wakai-2024
+        evidence: 大音量でパワーコードをかき鳴らすようなパンク系の曲をたくさんコピーしました。オフスプリング、グリーン・デイとかを当時から好きで聴いていたんです。
+      - kind: official
+        text: 高校生のころ、兄の影響でTHEE MICHELLE GUN ELEPHANTも聴き始めた。
+        sources:
+          - fender-wakai-2024
+        evidence: 高校生になったあたりからは兄の影響でTHEE MICHELLE GUN ELEPHANTも聴き始めて
+      - kind: official
+        text: 自身のルーツはロックやパンクで、それを生かしつつ大森の曲に合う要素を取り入れて今のギタースタイルになったと話している。
+        sources:
+          - fender-wakai-2024
+        evidence: 僕はわりとロックやパンクがルーツで、そこを反映しつつも、最近のさまざまな音楽や大森が作る曲に合うような要素も取り入れながら今のギタースタイルに至っています。
+      - kind: official
+        text: 大森の曲は毎回想像以上で、レコーディングのたびに壁を感じるが、それを乗り越えるのが楽しいと語っている。
+        sources:
+          - fender-wakai-2024
+        evidence: 大森が作る曲は毎回想像以上なので、レコーディングで毎回壁のようなものを感じますね。
+      - kind: official
+        text: 中学時代、学校に来ていなかった大森の家まで、通学路が逆なのに毎朝迎えに行っていたとテレビ番組で振り返った。
+        sources:
+          - mdpr-shabekuri-2024
+        evidence: 「通学路真逆なんですけど、元貴の家まで行ってピンポン毎朝押して、『今日来る？』」と中学時代の2人の関係を回顧。
+      - kind: official
+        text: 行事にだけ登校していた大森と、修学旅行のときに意気投合した。
+        sources:
+          - mdpr-shabekuri-2024
+        evidence: 修学旅行の際に若井と意気投合し登校を再開。
+      - kind: official
+        text: 大森とバンドを組むと音楽に没頭し、才能ある大森に「なんとかして付いていかなきゃ」と努力したという。
+        sources:
+          - mdpr-shabekuri-2024
+        evidence: 大森とバンドを組むことになると、若井は音楽に没頭。才能ある大森に「なんとかして付いていかなきゃ」と努力したというが
+      - kind: official
+        text: 藤澤の加入当初は、年上で派手な見た目の藤澤を「チャラくてなんか嫌だな」と思っていたと明かした。大森によると、距離を縮めるために一緒に住んだことなどで、若井も藤澤の人柄の良さを理解していったという。
+        sources:
+          - mdpr-shabekuri-2024
+        evidence: 年上で派手な見た目の藤澤に「チャラくてなんか嫌だな」とかなり不本意だったと告白。
+      - kind: official
+        text: 2024年4月に始まったテレビ朝日の音楽バラエティ「M:ZINE」にMCとしてレギュラー出演した。1人でのバラエティ出演はこれが初めてだった。
+        sources:
+          - natalie-mzine-2024
+        evidence: このように、１人でバラエティー番組に出させていただくのは初めてなので、とても緊張しましたが
+      - kind: official
+        text: 2026年度のNHK Eテレ「ハングルッ！ナビ」に4月から生徒役として出演している。K-POPが好きで、ハングルを学んだ経験がある。
+        sources:
+          - radiko-hangul-2026
+        evidence: K-POPが好きでハングルも学んだ経験のある若井が、視聴者とともにハングルを学んでいきます。
   - id: fujisawa-ryoka
     name: 藤澤涼架
     part: Key
@@ -44,12 +106,69 @@ members:
     facts:
       - kind: official
         text: キーボードを担当する。
-        sources: [official-profile]
-        evidence: "大森元貴 (Vo/Gt)、若井滉斗 (Gt)、藤澤涼架 (Key)による3人組バンド。"
+        sources:
+          - official-profile
+        evidence: 大森元貴 (Vo/Gt)、若井滉斗 (Gt)、藤澤涼架 (Key)による3人組バンド。
       - kind: official
         text: 誕生日は5月19日。
-        sources: [fc-birthday-fujisawa]
-        evidence: "2026年5月19日(火)、藤澤涼架が誕生日を迎えます！"
+        sources:
+          - fc-birthday-fujisawa
+        evidence: 2026年5月19日(火)、藤澤涼架が誕生日を迎えます！
+      - kind: official
+        text: 中学の吹奏楽でフルートを始め、高校は音楽科にフルート専科・ピアノ副科として進んだ。
+        sources:
+          - entax-anothersky-2025
+        evidence: 「中学生から吹奏楽でフルートをやり始めて、高校も音楽科の学校で、フルート専科、ピアノが副科というかたちで入学しました」
+      - kind: official
+        text: 子どものころからステージで輝くポップスの世界に憧れがあり、18歳のとき「やらない後悔」より飛び込むことを選んだ。そのころ大森に誘われてバンドに入った。
+        sources:
+          - entax-anothersky-2025
+        evidence: 「やらない後悔がずっと残るよりも、一回、思いっきり飛び込んでみようかなと、18歳の頃に思いました」
+      - kind: official
+        text: バンドではキーボード担当だが、クラシカルな曲では長年続けてきたフルートも演奏する。愛用のフルートはドイツ・オッテンバッハの工房「メナート」製で、2025年の「アナザースカイ」でその工房を訪ねた。
+        sources:
+          - entax-anothersky-2025
+        evidence: 今回訪れたオッテンバッハは、そんな藤澤が愛用するフルートが作られた場所だった。
+      - kind: official
+        text: 加入は、大森が藤澤の人柄にほれ込んで誘ったことがきっかけだった。
+        sources:
+          - mdpr-shabekuri-2024
+        evidence: 藤澤の加入は、大森が人柄に惚れ込みメンバーに誘ったことからだという
+      - kind: official
+        text: 加入当初は演奏力の差から観客に「あのキーボードいる？」と言われたこともあり、「余計派手にしなきゃ」と考えていたと明かした。
+        sources:
+          - mdpr-shabekuri-2024
+        evidence: 演奏力の差がゆえに観客から「あのキーボードいる？」と指摘を受けたこともあり「余計派手にしなきゃ」と考えていたと明かされた。
+      - kind: official
+        text: 2026年1月からのTBS日曜劇場『リブート』で霧矢直斗を演じ、連続ドラマに初出演した。
+        sources:
+          - oricon-reboot-2026
+        evidence: 藤澤が演じる霧矢直斗は、永瀬が演じる冬橋とバディを組んでいる仲間。
+      - kind: official
+        text: 『リブート』の会見では、大森から「自分の生業を忘れるな」と言われていたと話し、「俳優ではないから妥協するという意味ではない」、俳優と一緒にやらせてもらうからこそ人一倍頑張らなければいけないと語った。
+        sources:
+          - oricon-reboot-2026
+        evidence: 「俳優ではないから妥協するという意味ではない。俳優と一緒にやらせてもらうからこそ、人一倍頑張らなきゃいけないポイントがある」
+      - kind: official
+        text: 『リブート』最終回の後、インスタグラムで「霧矢と向き合った時間は一生忘れられないものになりました」とつづった。
+        sources:
+          - oricon-reboot-final-2026
+        evidence: 「霧矢（役名）と向き合った時間は一生忘れられないものになりました」と藤澤。
+      - kind: official
+        text: TOKYO FM「SCHOOL OF LOCK!」内の「ミセスLOCKS!」は、2026年5月から藤澤が単独で担当している。
+        sources:
+          - mdpr-locks-2026
+        evidence: 「なんと！5月からの『ミセスLOCKS！』は…！！！私、藤澤涼架が単独で授業を受け持つことになりました！！」
+      - kind: official
+        text: 長野県出身。単独になった「ミセスLOCKS!」の初回で、長野県歌「信濃の国」は6番まで全部歌えると話した。
+        sources:
+          - tfm-nagano-2026
+        evidence: 私、藤澤も長野出身ですので。
+      - kind: official
+        text: 雪見だいふくが子どものころから大好きで、2026年9月には雪見だいふくのイベントにサプライズで登場した。
+        sources:
+          - natalie-yukimi-2026
+        evidence: 「子供の頃から大好きで家族でも食べていましたし、上京してからも食べていました。超大好きです！」
   - id: yamanaka-ayaka
     name: 山中綾華
     part: Dr
@@ -57,16 +176,19 @@ members:
     facts:
       - kind: official
         text: ドラムを担当していた。2021年12月30日、この日をもって脱退することが公式サイトで発表された。
-        sources: [oricon-departure]
-        evidence: "山中綾華（Dr）と高野清宗（B）が、きょう30日をもって脱退すると同日、バンドの公式サイトで発表された。"
+        sources:
+          - oricon-departure
+        evidence: 山中綾華（Dr）と高野清宗（B）が、きょう30日をもって脱退すると同日、バンドの公式サイトで発表された。
       - kind: official
         text: 脱退は本人からの申し出によるもので、メンバーとスタッフで話し合いを重ねたと発表された。
-        sources: [oricon-departure]
-        evidence: "「2人からそれぞれ申し出があり、メンバー、スタッフで話し合いを重ねました。"
+        sources:
+          - oricon-departure
+        evidence: 「2人からそれぞれ申し出があり、メンバー、スタッフで話し合いを重ねました。
       - kind: official
         text: 本人はコメントで、新しくやりたいことや夢に向かって進んでいると述べた。
-        sources: [oricon-departure]
-        evidence: "私はいま、新しくやりたいこと、その夢に向かって進んでいます。"
+        sources:
+          - oricon-departure
+        evidence: 私はいま、新しくやりたいこと、その夢に向かって進んでいます。
   - id: takano-kiyokazu
     name: 髙野清宗
     part: B
@@ -74,36 +196,119 @@ members:
     facts:
       - kind: official
         text: ベースを担当していた。2021年12月30日、この日をもって脱退することが公式サイトで発表された。
-        sources: [oricon-departure]
-        evidence: "山中綾華（Dr）と高野清宗（B）が、きょう30日をもって脱退すると同日、バンドの公式サイトで発表された。"
+        sources:
+          - oricon-departure
+        evidence: 山中綾華（Dr）と高野清宗（B）が、きょう30日をもって脱退すると同日、バンドの公式サイトで発表された。
       - kind: official
         text: 本人はコメントで、バンドで過ごした時間と出会いを宝物だと述べた。
-        sources: [oricon-departure]
-        evidence: "Mrs. GREEN APPLEとして過ごした全ての時間、全ての出逢いが大切な宝物です。"
+        sources:
+          - oricon-departure
+        evidence: Mrs. GREEN APPLEとして過ごした全ての時間、全ての出逢いが大切な宝物です。
 band:
   facts:
     - kind: official
       text: 2013年に結成し、2015年にEMI Recordsからミニアルバム『Variety』でメジャーデビューした。
-      sources: [official-profile]
-      evidence: "2013年結成。2015年EMI Recordsからミニアルバム『Variety』でメジャーデビュー。"
+      sources:
+        - official-profile
+      evidence: 2013年結成。2015年EMI Recordsからミニアルバム『Variety』でメジャーデビュー。
     - kind: official
       text: 2人の脱退時点では5人組で、脱退発表の際、バンドは2022年の「フェーズ2」開幕に向けて準備を進めていると伝えた。
-      sources: [oricon-departure]
-      evidence: "「引き続きMrs. GREEN APPLEは2022年のフェーズ2開幕に向けて着々と準備を進めております」"
+      sources:
+        - oricon-departure
+      evidence: 「引き続きMrs. GREEN APPLEは2022年のフェーズ2開幕に向けて着々と準備を進めております」
     - kind: official
       text: 残る3人はコメントで、歩む道は違っても2人とはこれからも家族だと述べた。
-      sources: [oricon-departure]
-      evidence: "間違いないのは、歩む道は違えど、僕らはこれからも家族です。"
+      sources:
+        - oricon-departure
+      evidence: 間違いないのは、歩む道は違えど、僕らはこれからも家族です。
     - kind: official
       text: 公式ファンクラブの名前は「Ringo Jam」。公式サイトの告知ではファンを「JAM'S」と呼んでいる。
-      sources: [official-fc-entry, fc-birthday-fujisawa]
-      evidence: "Mrs. GREEN APPLE OFFICIAL SITE｜OFFICIAL FAN CLUB 「Ringo Jam」 ／ JAM’Sの皆さまからBirthday Messageを大募集！"
+      sources:
+        - official-fc-entry
+        - fc-birthday-fujisawa
+      evidence: Mrs. GREEN APPLE OFFICIAL SITE｜OFFICIAL FAN CLUB 「Ringo Jam」 ／ JAM’Sの皆さまからBirthday Messageを大募集！
 sources:
-  - {id: official-profile, title: "PROFILE", media: "Mrs. GREEN APPLE OFFICIAL SITE", url: "https://mrsgreenapple.com/feature/profile"}
-  - {id: official-fc-entry, title: "OFFICIAL FAN CLUB「Ringo Jam」入会案内", media: "Mrs. GREEN APPLE OFFICIAL SITE", url: "https://mrsgreenapple.com/feature/entry"}
-  - {id: fc-birthday-omori, title: "大森元貴 BIRTHDAY MESSAGE 募集スタート", media: "Mrs. GREEN APPLE OFFICIAL SITE", url: "https://mrsgreenapple.com/news/detail/21851"}
-  - {id: fc-birthday-wakai, title: "若井滉斗 BIRTHDAY MESSAGE 募集スタート！", media: "Mrs. GREEN APPLE OFFICIAL SITE", url: "https://mrsgreenapple.com/news/detail/21909"}
-  - {id: fc-birthday-fujisawa, title: "藤澤涼架 BIRTHDAY MESSAGE 募集スタート！", media: "Mrs. GREEN APPLE OFFICIAL SITE", url: "https://mrsgreenapple.com/news/detail/22572"}
-  - {id: um-omori-bio, title: "BIOGRAPHY - 大森元貴", media: "UNIVERSAL MUSIC JAPAN", url: "https://www.universal-music.co.jp/ohmori-motoki/biography/"}
-  - {id: um-omori-french, title: "ソロデビュー曲「French」配信リリース決定 & ジャケット写真を公開！", media: "UNIVERSAL MUSIC JAPAN", url: "https://www.universal-music.co.jp/ohmori-motoki/news/2021-02-21/", date: "2021-02-21"}
-  - {id: oricon-departure, title: "Mrs. GREEN APPLE、山中綾華＆高野清宗の脱退発表「全ての時間、全ての出逢いが大切な宝物」【コメント全文】", media: "ORICON NEWS", url: "https://www.oricon.co.jp/news/2219689/full/", date: "2021-12-30"}
+  - id: official-profile
+    title: PROFILE
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/profile
+  - id: official-fc-entry
+    title: OFFICIAL FAN CLUB「Ringo Jam」入会案内
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/feature/entry
+  - id: fc-birthday-omori
+    title: 大森元貴 BIRTHDAY MESSAGE 募集スタート
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/news/detail/21851
+  - id: fc-birthday-wakai
+    title: 若井滉斗 BIRTHDAY MESSAGE 募集スタート！
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/news/detail/21909
+  - id: fc-birthday-fujisawa
+    title: 藤澤涼架 BIRTHDAY MESSAGE 募集スタート！
+    media: Mrs. GREEN APPLE OFFICIAL SITE
+    url: https://mrsgreenapple.com/news/detail/22572
+  - id: um-omori-bio
+    title: BIOGRAPHY - 大森元貴
+    media: UNIVERSAL MUSIC JAPAN
+    url: https://www.universal-music.co.jp/ohmori-motoki/biography/
+  - id: um-omori-french
+    title: ソロデビュー曲「French」配信リリース決定 & ジャケット写真を公開！
+    media: UNIVERSAL MUSIC JAPAN
+    url: https://www.universal-music.co.jp/ohmori-motoki/news/2021-02-21/
+    date: 2021-02-21
+  - id: oricon-departure
+    title: Mrs. GREEN APPLE、山中綾華＆高野清宗の脱退発表「全ての時間、全ての出逢いが大切な宝物」【コメント全文】
+    media: ORICON NEWS
+    url: https://www.oricon.co.jp/news/2219689/full/
+    date: 2021-12-30
+  - id: fender-wakai-2024
+    title: 動画＆インタビュー | Ultralist's Interview II | 若井滉斗（Mrs. GREEN APPLE）
+    media: FenderNews
+    url: https://fendernews.jp/ultralists-interview-ii-hilotowakai/
+    date: 2024-11-07
+  - id: mdpr-shabekuri-2024
+    title: Mrs. GREEN APPLE大森元貴、学生時代は不登校気味だった 2人を選んだ理由・バンド結成秘話語る
+    media: モデルプレス
+    url: https://mdpr.jp/news/detail/4447097
+    date: 2024-12-10
+  - id: natalie-mzine-2024
+    title: ミセス若井滉斗がテレ朝の新音楽バラエティにレギュラー出演、初回ゲストはRIIZE
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/563985
+    date: 2024-03-07
+  - id: radiko-hangul-2026
+    title: Mrs. GREEN APPLE若井滉斗「見たらめちゃくちゃ分かるようになります！ 絶対に！」NHK Eテレ『ハングルッ！ナビ』“生徒役”就任への熱い意気込みを語る
+    media: radiko news
+    url: https://news.radiko.jp/article/station/FMT/134146/
+    date: 2026-04-12
+  - id: entax-anothersky-2025
+    title: Mrs. GREEN APPLE・藤澤涼架 クラシックから転向しポップスの世界へ…捨てられなかったステージへの憧れを語る
+    media: entax
+    url: https://www.entax.news/entertainment/202512221115.html
+    date: 2025-12-22
+  - id: oricon-reboot-2026
+    title: ミセス藤澤涼架、慣れないドラマ現場に「緊張」 北村有起哉は「途中までMrs. GREEN APPLEの人だと知らなかった（笑）」
+    media: ORICON NEWS
+    url: https://www.oricon.co.jp/news/2430798/full/
+    date: 2026-01-16
+  - id: oricon-reboot-final-2026
+    title: ミセス藤澤涼架、連ドラ初出演『リブート』撮影回顧し思いつづる
+    media: ORICON NEWS
+    url: https://www.oricon.co.jp/news/2445813/full/
+    date: 2026-03-31
+  - id: mdpr-locks-2026
+    title: Mrs. GREEN APPLE冠ラジオ「ミセスLOCKS！」3人での出演終了・5月からは藤澤涼架単独で放送へ
+    media: モデルプレス
+    url: https://mdpr.jp/news/detail/4768414
+    date: 2026-04-21
+  - id: tfm-nagano-2026
+    title: Mrs. GREEN APPLE藤澤涼架 地元・長野への深い愛をラジオで告白「6番まで全部歌えますからね！」
+    media: TOKYO FM+
+    url: https://news.audee.jp/news/sxNk3ifLHc.html
+    date: 2026-05-14
+  - id: natalie-yukimi-2026
+    title: Mrs. GREEN APPLE藤澤涼架は「雪見だいふく」が大好き、休暇中も昨日も食べた
+    media: 音楽ナタリー
+    url: https://natalie.mu/music/news/691019
+    date: 2026-09-25
