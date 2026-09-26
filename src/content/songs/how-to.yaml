@@ -8,7 +8,11 @@ works:
   - title: Attitude
     type: アルバム
     date: 2019-10-02
-tieups: []
+tieups:
+  - type: CMソング
+    work: エアアジア
+    sources:
+      - um-d2cn-1510
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:

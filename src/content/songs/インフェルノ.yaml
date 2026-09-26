@@ -11,7 +11,11 @@ works:
   - title: "5"
     type: アルバム
     date: 2020-07-08
-tieups: []
+tieups:
+  - type: オープニング主題歌
+    work: MBS・TBS系全国28局ネット“スーパーアニメイズム” TVアニメ「炎炎ノ消防隊」
+    sources:
+      - um-upch-20531
 status: reviewed
 reviewedAt: 2026-09-27
 background:

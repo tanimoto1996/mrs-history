@@ -11,7 +11,11 @@ works:
   - title: "5"
     type: アルバム
     date: 2020-07-08
-tieups: []
+tieups:
+  - type: CMソング
+    work: 資生堂 SEA BREEZE
+    sources:
+      - um-d2cn-1510
 status: reviewed
 reviewedAt: 2026-09-27
 basicSources:
